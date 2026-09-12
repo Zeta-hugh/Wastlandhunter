@@ -1,5 +1,17 @@
 # Rustport visual vertical slice
 
+## v2 production-asset integration — 2026-09-12
+
+The repository now uses the production asset contract. The initial Rustport ground artwork was converted into an independent 512×512 RGB source master and a 32×32 RGB runtime tile:
+
+- `assets/source_master/tiles/ground/ground_dirt_oily_01.png`
+- `assets/runtime/tiles/ground/ground_dirt_oily_01.png`
+- `qa/seam_tests/ground_dirt_oily_01_4x4.png`
+
+`game/maps/rustport-visual.js` resolves the runtime tile by `asset_id` through `AssetRegistry`; it no longer contains the image path. The full-scene concept generated from the later target collages was rejected as a runtime asset because the contract forbids concept or promotional scenes from being used as production maps.
+
+This integration establishes the asset pipeline and a valid Rustport TMJ. It does not raise the visual milestone by itself: the remaining 220 planned image records stay `NEEDS_ART`, and the legacy character/vehicle atlases remain a compatibility layer until independent production files replace them.
+
 ## v1 street pass — 2026-09-12
 
 This is the first production-oriented visual pass after the Canon 0.23 migration baseline. It improves the playable Rustport town scene while keeping existing gameplay geometry and authored content intact.
@@ -7,7 +19,7 @@ This is the first production-oriented visual pass after the Canon 0.23 migration
 ### Implemented
 
 - Added a dedicated Rustport renderer in `game/maps/rustport-visual.js`; all other towns continue through the preserved renderer.
-- Added a game-bound ground asset at `assets/environments/rustport-ground-v1.png`.
+- Added the initial game-bound ground artwork; v2 subsequently imported it into the formal source-master/runtime paths above.
 - Rebuilt Rustport's visible street layer: seawater and seawall, road hierarchy, drains, building depth and roofs, distinct service-building facades, doors aligned to existing interaction coordinates, cargo, barrels, utility cables, lamps, smoke and foreground pipes.
 - Added different day and dusk treatment without changing the existing time state.
 - Preserved town collision, doors, NPC schedules, quests, player/tank rendering, save keys and balance.

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "connection_type": "road_4way",
+  "variant_order": [
+    "straight_ns",
+    "straight_ew",
+    "corner_ne",
+    "corner_nw",
+    "corner_se",
+    "corner_sw",
+    "t_n",
+    "t_e",
+    "t_s",
+    "t_w",
+    "cross"
+  ],
+  "families": {
+    "road_asphalt_clean": {"status": "NEEDS_ART"},
+    "road_asphalt_cracked": {"status": "NEEDS_ART"},
+    "road_asphalt_heavy_damage": {"status": "NEEDS_ART"}
+  }
+}

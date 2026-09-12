@@ -1,0 +1,8 @@
+{
+  "boss_id": "iron_hound",
+  "display_name_cn": "铁牙猎犬",
+  "status": "NEEDS_ART",
+  "preferred_runtime_size": [384, 256],
+  "states": ["idle", "move", "attack_01", "attack_02", "hurt", "enraged", "death"],
+  "frame_storage": "independent_files"
+}

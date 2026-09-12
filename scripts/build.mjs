@@ -15,12 +15,14 @@ export async function build() {
   await writeFile(resolve(out, 'game.js'), code);
   await cp(resolve(root, 'index.html'), resolve(out, 'index.html'));
   await cp(resolve(root, 'assets'), resolve(out, 'assets'), { recursive: true });
+  await cp(resolve(root, 'data'), resolve(out, 'data'), { recursive: true });
+  await cp(resolve(root, 'maps'), resolve(out, 'maps'), { recursive: true });
   return out;
 }
 
 export function serve(out, port = 5173) {
   out = resolve(out);
-  const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.png': 'image/png', '.webp': 'image/webp' };
+  const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.tmj': 'application/json; charset=utf-8', '.tsj': 'application/json; charset=utf-8', '.png': 'image/png', '.webp': 'image/webp' };
   const server = createServer(async (req, res) => {
     try {
       const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);

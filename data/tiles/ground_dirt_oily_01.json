@@ -1,0 +1,10 @@
+{
+  "asset_id": "ground_dirt_oily_01",
+  "tile_size": [32, 32],
+  "pivot": [16, 16],
+  "filtering": "nearest",
+  "mipmap": false,
+  "pixel_snap": true,
+  "seam_test": "qa/seam_tests/ground_dirt_oily_01_4x4.png",
+  "status": "QA_PASS"
+}

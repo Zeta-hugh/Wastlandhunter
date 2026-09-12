@@ -8,7 +8,11 @@
     "dev": "node scripts/build.mjs --serve",
     "test": "node --test tests/migration.test.mjs",
     "test:browser": "node tests/browser.mjs",
-    "test:visual": "node tests/visual-rustport.mjs"
+    "test:visual": "node tests/visual-rustport.mjs",
+    "assets:validate": "python3 scripts/assets/validate_assets.py",
+    "assets:maps": "python3 scripts/assets/validate_maps.py",
+    "assets:vehicle": "python3 scripts/assets/validate_vehicle_mounts.py",
+    "assets:release": "python3 scripts/assets/build_release_manifest.py"
   },
   "devDependencies": {
     "playwright": "1.62.1"

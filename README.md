@@ -4,6 +4,22 @@ Canonical engineering repository: `Zeta-hugh/Wastlandhunter`.
 
 This continues the existing game. Read [CODEX_INSTRUCTIONS.md](docs/CODEX_INSTRUCTIONS.md), then the remaining handoff documents before changing it. The next product milestone is the polished Rustport vertical slice: protagonist, Liu Yan, first tank, and Iron Hound.
 
+## Production asset pipeline
+
+The repository now follows [the production asset contract](docs/WastelandHunter_Codex_Production_Asset_Contract_CN.md). Formal source art lives under `assets/source_master/`, runtime PNGs under `assets/runtime/`, metadata under `data/`, Tiled maps under `maps/`, and generated checks under `qa/`. `data/asset_manifest.json` is the unique runtime asset index.
+
+The first compliant import is `ground_dirt_oily_01`: Rustport loads this QA-passed 32×32 tile through `AssetRegistry`. All missing road, building, character, portrait, Rust Runner, weapon and UI art is recorded as `NEEDS_ART`; legacy atlases remain a compatibility layer and never enter `release/assets/`.
+
+```sh
+python3 scripts/assets/validate_manifest.py
+python3 scripts/assets/validate_assets.py
+python3 scripts/assets/validate_maps.py
+python3 scripts/assets/validate_vehicle_mounts.py
+python3 scripts/assets/build_release_manifest.py
+```
+
+The vehicle validator currently returns `NEEDS_ART` until the required independent chassis, tracks, turret and cannon files exist. See [ASSET_INDEX.md](docs/ASSET_INDEX.md) for the current counts and import boundary.
+
 ## Rustport visual slice — work in progress / 锈港视觉切片开发中
 
 The first post-baseline visual pass replaces the flat town surface with a production ground asset and gives Rustport a dedicated renderer for its seawall, roads, service buildings, drainage, cables, cargo, lamps, smoke and foreground depth. Gameplay geometry, entrances, NPC schedules, quests and saves remain unchanged.

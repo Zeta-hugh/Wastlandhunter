@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "map": "maps/rustport/rustport.tmj",
+  "layers": [
+    "00_ground",
+    "01_roads",
+    "02_terrain",
+    "03_building_floor",
+    "04_walls",
+    "05_doors_windows",
+    "06_roof",
+    "07_props_back",
+    "08_props_front",
+    "09_vegetation",
+    "10_collision",
+    "11_npc_spawns",
+    "12_triggers",
+    "13_lighting"
+  ],
+  "errors": []
+}

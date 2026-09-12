@@ -1,0 +1,7 @@
+{
+  "logical_resolution": [1280, 720],
+  "status": "NEEDS_ART",
+  "panel": "panel_dark_9slice",
+  "buttons": ["button_normal", "button_hover", "button_pressed", "button_disabled"],
+  "icon_sizes": {"small": [32, 32], "large": [64, 64]}
+}

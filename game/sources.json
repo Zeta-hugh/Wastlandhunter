@@ -1,5 +1,6 @@
 [
   "game/core/setup.js",
+  "game/core/asset-registry.js",
   "game/data/characters.js",
   "game/data/towns.js",
   "game/story/chapter-data.js",

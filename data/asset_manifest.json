@@ -1,0 +1,5952 @@
+{
+  "schema_version": "1.0",
+  "contract_version": "1.0",
+  "contract": "docs/WastelandHunter_Codex_Production_Asset_Contract_CN.md",
+  "assets": [
+    {
+      "asset_id": "antenna_long",
+      "category": "vehicle.antenna",
+      "source_master": "assets/source_master/vehicles/rust_runner/antenna/antenna_long.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/antenna/antenna_long.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "antenna_short",
+      "category": "vehicle.antenna",
+      "source_master": "assets/source_master/vehicles/rust_runner/antenna/antenna_short.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/antenna/antenna_short.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "autocannon_20mm",
+      "category": "weapon.sub",
+      "source_master": "assets/source_master/weapons/sub/autocannon_20mm.png",
+      "runtime": "assets/runtime/weapons/sub/autocannon_20mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "sub"
+    },
+    {
+      "asset_id": "autocannon_30mm",
+      "category": "weapon.sub",
+      "source_master": "assets/source_master/weapons/sub/autocannon_30mm.png",
+      "runtime": "assets/runtime/weapons/sub/autocannon_30mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "sub"
+    },
+    {
+      "asset_id": "awning_canvas_beige",
+      "category": "building.awning",
+      "source_master": "assets/source_master/buildings/awnings/awning_canvas_beige.png",
+      "runtime": "assets/runtime/buildings/awnings/awning_canvas_beige.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "awning_green_military",
+      "category": "building.awning",
+      "source_master": "assets/source_master/buildings/awnings/awning_green_military.png",
+      "runtime": "assets/runtime/buildings/awnings/awning_green_military.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "awning_red_faded",
+      "category": "building.awning",
+      "source_master": "assets/source_master/buildings/awnings/awning_red_faded.png",
+      "runtime": "assets/runtime/buildings/awnings/awning_red_faded.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "barrel_blue",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/barrel_blue.png",
+      "runtime": "assets/runtime/props/small/barrel_blue.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "barrel_rust",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/barrel_rust.png",
+      "runtime": "assets/runtime/props/small/barrel_rust.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "button_disabled",
+      "category": "ui",
+      "source_master": "assets/source_master/ui/button_disabled.png",
+      "runtime": "assets/runtime/ui/button_disabled.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        160,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        0,
+        0
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "button_hover",
+      "category": "ui",
+      "source_master": "assets/source_master/ui/button_hover.png",
+      "runtime": "assets/runtime/ui/button_hover.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        160,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        0,
+        0
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "button_normal",
+      "category": "ui",
+      "source_master": "assets/source_master/ui/button_normal.png",
+      "runtime": "assets/runtime/ui/button_normal.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        160,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        0,
+        0
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "button_pressed",
+      "category": "ui",
+      "source_master": "assets/source_master/ui/button_pressed.png",
+      "runtime": "assets/runtime/ui/button_pressed.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        160,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        0,
+        0
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "cable_bundle",
+      "category": "building.cable",
+      "source_master": "assets/source_master/buildings/cables/cable_bundle.png",
+      "runtime": "assets/runtime/buildings/cables/cable_bundle.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "cable_hanging",
+      "category": "building.cable",
+      "source_master": "assets/source_master/buildings/cables/cable_hanging.png",
+      "runtime": "assets/runtime/buildings/cables/cable_hanging.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "cactus_large",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/cactus_large.png",
+      "runtime": "assets/runtime/vegetation/cactus_large.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        48,
+        80
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        80
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "cactus_small",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/cactus_small.png",
+      "runtime": "assets/runtime/vegetation/cactus_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "cannon_105mm",
+      "category": "weapon.main",
+      "source_master": "assets/source_master/weapons/main/cannon_105mm.png",
+      "runtime": "assets/runtime/weapons/main/cannon_105mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        28,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "main",
+      "muzzle_point": [
+        118,
+        64
+      ]
+    },
+    {
+      "asset_id": "cannon_120mm",
+      "category": "weapon.main",
+      "source_master": "assets/source_master/weapons/main/cannon_120mm.png",
+      "runtime": "assets/runtime/weapons/main/cannon_120mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        28,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "main",
+      "muzzle_point": [
+        124,
+        64
+      ]
+    },
+    {
+      "asset_id": "cannon_75mm",
+      "category": "weapon.main",
+      "source_master": "assets/source_master/weapons/main/cannon_75mm.png",
+      "runtime": "assets/runtime/weapons/main/cannon_75mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        28,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "main",
+      "muzzle_point": [
+        112,
+        64
+      ]
+    },
+    {
+      "asset_id": "concrete_clean",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/concrete_clean.png",
+      "runtime": "assets/runtime/tiles/roads/concrete_clean.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "concrete_cracked",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/concrete_cracked.png",
+      "runtime": "assets/runtime/tiles/roads/concrete_cracked.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "concrete_oily",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/concrete_oily.png",
+      "runtime": "assets/runtime/tiles/roads/concrete_oily.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "damage_armor_broken",
+      "category": "vehicle.damage_overlay",
+      "source_master": "assets/source_master/vehicles/rust_runner/damage_overlays/damage_armor_broken.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/damage_overlays/damage_armor_broken.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "damage_burn_medium",
+      "category": "vehicle.damage_overlay",
+      "source_master": "assets/source_master/vehicles/rust_runner/damage_overlays/damage_burn_medium.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/damage_overlays/damage_burn_medium.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "damage_scratches_light",
+      "category": "vehicle.damage_overlay",
+      "source_master": "assets/source_master/vehicles/rust_runner/damage_overlays/damage_scratches_light.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/damage_overlays/damage_scratches_light.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "damage_smoke_source",
+      "category": "vehicle.damage_overlay",
+      "source_master": "assets/source_master/vehicles/rust_runner/damage_overlays/damage_smoke_source.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/damage_overlays/damage_smoke_source.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "dead_bush_01",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/dead_bush_01.png",
+      "runtime": "assets/runtime/vegetation/dead_bush_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dead_bush_02",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/dead_bush_02.png",
+      "runtime": "assets/runtime/vegetation/dead_bush_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dirt_to_concrete_edge",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/dirt_to_concrete_edge.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/dirt_to_concrete_edge.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dirt_to_road_edge",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/dirt_to_road_edge.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/dirt_to_road_edge.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dirt_to_rubble_edge",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/dirt_to_rubble_edge.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/dirt_to_rubble_edge.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dirt_to_water_edge",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/dirt_to_water_edge.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/dirt_to_water_edge.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "door_bar",
+      "category": "building.door",
+      "source_master": "assets/source_master/buildings/doors/door_bar.png",
+      "runtime": "assets/runtime/buildings/doors/door_bar.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "door_metal_double",
+      "category": "building.door",
+      "source_master": "assets/source_master/buildings/doors/door_metal_double.png",
+      "runtime": "assets/runtime/buildings/doors/door_metal_double.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "door_metal_single",
+      "category": "building.door",
+      "source_master": "assets/source_master/buildings/doors/door_metal_single.png",
+      "runtime": "assets/runtime/buildings/doors/door_metal_single.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "door_warehouse_shutter",
+      "category": "building.door",
+      "source_master": "assets/source_master/buildings/doors/door_warehouse_shutter.png",
+      "runtime": "assets/runtime/buildings/doors/door_warehouse_shutter.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "door_workshop",
+      "category": "building.door",
+      "source_master": "assets/source_master/buildings/doors/door_workshop.png",
+      "runtime": "assets/runtime/buildings/doors/door_workshop.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dry_grass_01",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/dry_grass_01.png",
+      "runtime": "assets/runtime/vegetation/dry_grass_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "dry_grass_02",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/dry_grass_02.png",
+      "runtime": "assets/runtime/vegetation/dry_grass_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "electric_box",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/electric_box.png",
+      "runtime": "assets/runtime/props/industrial/electric_box.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_00",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_00.png",
+      "runtime": "assets/runtime/effects/explosion/frame_00.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_01",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_01.png",
+      "runtime": "assets/runtime/effects/explosion/frame_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_02",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_02.png",
+      "runtime": "assets/runtime/effects/explosion/frame_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_03",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_03.png",
+      "runtime": "assets/runtime/effects/explosion/frame_03.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_04",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_04.png",
+      "runtime": "assets/runtime/effects/explosion/frame_04.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_05",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_05.png",
+      "runtime": "assets/runtime/effects/explosion/frame_05.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_06",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_06.png",
+      "runtime": "assets/runtime/effects/explosion/frame_06.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "explosion_07",
+      "category": "effect.explosion",
+      "source_master": "assets/source_master/effects/explosion/explosion_07.png",
+      "runtime": "assets/runtime/effects/explosion/frame_07.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "flamethrower",
+      "category": "weapon.se",
+      "source_master": "assets/source_master/weapons/se/flamethrower.png",
+      "runtime": "assets/runtime/weapons/se/flamethrower.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "se"
+    },
+    {
+      "asset_id": "flower_red_wasteland",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/flower_red_wasteland.png",
+      "runtime": "assets/runtime/vegetation/flower_red_wasteland.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "front_armor_plate",
+      "category": "vehicle.armor",
+      "source_master": "assets/source_master/vehicles/rust_runner/armor/front_armor_plate.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/armor/front_armor_plate.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "fuel_drum",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/fuel_drum.png",
+      "runtime": "assets/runtime/props/small/fuel_drum.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "fuel_tank_external",
+      "category": "vehicle.fuel",
+      "source_master": "assets/source_master/vehicles/rust_runner/fuel/fuel_tank_external.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/fuel/fuel_tank_external.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "grass_sparse_to_dirt",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/grass_sparse_to_dirt.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/grass_sparse_to_dirt.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "ground_dirt_clean_01",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_clean_01.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_clean_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_clean_01_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_clean_02",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_clean_02.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_clean_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_clean_02_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_clean_03",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_clean_03.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_clean_03.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_clean_03_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_cracked_01",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_cracked_01.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_cracked_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_cracked_01_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_cracked_02",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_cracked_02.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_cracked_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_cracked_02_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_gravel_01",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_gravel_01.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_gravel_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_gravel_01_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_gravel_02",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_gravel_02.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_gravel_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_gravel_02_4x4.png"
+    },
+    {
+      "asset_id": "ground_dirt_oily_01",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_oily_01.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_oily_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "seam_test": "qa/seam_tests/ground_dirt_oily_01_4x4.png"
+    },
+    {
+      "asset_id": "industrial_lamp",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/industrial_lamp.png",
+      "runtime": "assets/runtime/props/industrial/industrial_lamp.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "junction_box",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/junction_box.png",
+      "runtime": "assets/runtime/props/industrial/junction_box.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "ladder_metal",
+      "category": "building.railing",
+      "source_master": "assets/source_master/buildings/railings/ladder_metal.png",
+      "runtime": "assets/runtime/buildings/railings/ladder_metal.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "lincheng_portrait",
+      "category": "portrait",
+      "source_master": "assets/source_master/portraits/lincheng.png",
+      "runtime": "assets/runtime/portraits/lincheng.png",
+      "master_size": [
+        1024,
+        1536
+      ],
+      "runtime_size": [
+        512,
+        768
+      ],
+      "alpha": true,
+      "pivot": [
+        256,
+        768
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "liuyan_portrait",
+      "category": "portrait",
+      "source_master": "assets/source_master/portraits/liuyan.png",
+      "runtime": "assets/runtime/portraits/liuyan.png",
+      "master_size": [
+        1024,
+        1536
+      ],
+      "runtime_size": [
+        512,
+        768
+      ],
+      "alpha": true,
+      "pivot": [
+        256,
+        768
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "machinegun_12mm",
+      "category": "weapon.sub",
+      "source_master": "assets/source_master/weapons/sub/machinegun_12mm.png",
+      "runtime": "assets/runtime/weapons/sub/machinegun_12mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "sub"
+    },
+    {
+      "asset_id": "metal_crate",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/metal_crate.png",
+      "runtime": "assets/runtime/props/small/metal_crate.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "metal_floor_plate",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/metal_floor_plate.png",
+      "runtime": "assets/runtime/tiles/roads/metal_floor_plate.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "metal_floor_rusted",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/metal_floor_rusted.png",
+      "runtime": "assets/runtime/tiles/roads/metal_floor_rusted.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "metal_grate",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/metal_grate.png",
+      "runtime": "assets/runtime/tiles/roads/metal_grate.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "missile_launcher_quad",
+      "category": "weapon.se",
+      "source_master": "assets/source_master/weapons/se/missile_launcher_quad.png",
+      "runtime": "assets/runtime/weapons/se/missile_launcher_quad.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        72
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "se"
+    },
+    {
+      "asset_id": "missile_launcher_small",
+      "category": "weapon.se",
+      "source_master": "assets/source_master/weapons/se/missile_launcher_small.png",
+      "runtime": "assets/runtime/weapons/se/missile_launcher_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        72
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "se"
+    },
+    {
+      "asset_id": "mud_overlay",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/mud_overlay.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/mud_overlay.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "muzzle_flash_00",
+      "category": "effect.muzzle_flash",
+      "source_master": "assets/source_master/effects/muzzle_flash/muzzle_flash_00.png",
+      "runtime": "assets/runtime/effects/muzzle_flash/frame_00.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "muzzle_flash_01",
+      "category": "effect.muzzle_flash",
+      "source_master": "assets/source_master/effects/muzzle_flash/muzzle_flash_01.png",
+      "runtime": "assets/runtime/effects/muzzle_flash/frame_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "muzzle_flash_02",
+      "category": "effect.muzzle_flash",
+      "source_master": "assets/source_master/effects/muzzle_flash/muzzle_flash_02.png",
+      "runtime": "assets/runtime/effects/muzzle_flash/frame_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "muzzle_flash_03",
+      "category": "effect.muzzle_flash",
+      "source_master": "assets/source_master/effects/muzzle_flash/muzzle_flash_03.png",
+      "runtime": "assets/runtime/effects/muzzle_flash/frame_03.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "muzzle_flash_04",
+      "category": "effect.muzzle_flash",
+      "source_master": "assets/source_master/effects/muzzle_flash/muzzle_flash_04.png",
+      "runtime": "assets/runtime/effects/muzzle_flash/frame_04.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "muzzle_flash_05",
+      "category": "effect.muzzle_flash",
+      "source_master": "assets/source_master/effects/muzzle_flash/muzzle_flash_05.png",
+      "runtime": "assets/runtime/effects/muzzle_flash/frame_05.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "oil_stain_overlay",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/oil_stain_overlay.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/oil_stain_overlay.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "old_tire",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/old_tire.png",
+      "runtime": "assets/runtime/props/small/old_tire.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "panel_dark_9slice",
+      "category": "ui",
+      "source_master": "assets/source_master/ui/panel_dark_9slice.png",
+      "runtime": "assets/runtime/ui/panel_dark_9slice.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        0,
+        0
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pillar_concrete",
+      "category": "building.pillar",
+      "source_master": "assets/source_master/buildings/pillars/pillar_concrete.png",
+      "runtime": "assets/runtime/buildings/pillars/pillar_concrete.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pillar_pipe_support",
+      "category": "building.pillar",
+      "source_master": "assets/source_master/buildings/pillars/pillar_pipe_support.png",
+      "runtime": "assets/runtime/buildings/pillars/pillar_pipe_support.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pillar_steel_01",
+      "category": "building.pillar",
+      "source_master": "assets/source_master/buildings/pillars/pillar_steel_01.png",
+      "runtime": "assets/runtime/buildings/pillars/pillar_steel_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pillar_steel_rusted",
+      "category": "building.pillar",
+      "source_master": "assets/source_master/buildings/pillars/pillar_steel_rusted.png",
+      "runtime": "assets/runtime/buildings/pillars/pillar_steel_rusted.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pipe_corner",
+      "category": "building.pipe",
+      "source_master": "assets/source_master/buildings/pipes/pipe_corner.png",
+      "runtime": "assets/runtime/buildings/pipes/pipe_corner.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pipe_horizontal",
+      "category": "building.pipe",
+      "source_master": "assets/source_master/buildings/pipes/pipe_horizontal.png",
+      "runtime": "assets/runtime/buildings/pipes/pipe_horizontal.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pipe_large",
+      "category": "building.pipe",
+      "source_master": "assets/source_master/buildings/pipes/pipe_large.png",
+      "runtime": "assets/runtime/buildings/pipes/pipe_large.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pipe_valve",
+      "category": "building.pipe",
+      "source_master": "assets/source_master/buildings/pipes/pipe_valve.png",
+      "runtime": "assets/runtime/buildings/pipes/pipe_valve.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "pipe_vertical",
+      "category": "building.pipe",
+      "source_master": "assets/source_master/buildings/pipes/pipe_vertical.png",
+      "runtime": "assets/runtime/buildings/pipes/pipe_vertical.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "platform_metal_large",
+      "category": "building.platform",
+      "source_master": "assets/source_master/buildings/platforms/platform_metal_large.png",
+      "runtime": "assets/runtime/buildings/platforms/platform_metal_large.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        192,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        96,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "platform_metal_small",
+      "category": "building.platform",
+      "source_master": "assets/source_master/buildings/platforms/platform_metal_small.png",
+      "runtime": "assets/runtime/buildings/platforms/platform_metal_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "platform_wood_small",
+      "category": "building.platform",
+      "source_master": "assets/source_master/buildings/platforms/platform_wood_small.png",
+      "runtime": "assets/runtime/buildings/platforms/platform_wood_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "protagonist_portrait",
+      "category": "portrait",
+      "source_master": "assets/source_master/portraits/protagonist.png",
+      "runtime": "assets/runtime/portraits/protagonist.png",
+      "master_size": [
+        1024,
+        1536
+      ],
+      "runtime_size": [
+        512,
+        768
+      ],
+      "alpha": true,
+      "pivot": [
+        256,
+        768
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "railing_metal_corner",
+      "category": "building.railing",
+      "source_master": "assets/source_master/buildings/railings/railing_metal_corner.png",
+      "runtime": "assets/runtime/buildings/railings/railing_metal_corner.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "railing_metal_straight",
+      "category": "building.railing",
+      "source_master": "assets/source_master/buildings/railings/railing_metal_straight.png",
+      "runtime": "assets/runtime/buildings/railings/railing_metal_straight.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "railing_pipe_straight",
+      "category": "building.railing",
+      "source_master": "assets/source_master/buildings/railings/railing_pipe_straight.png",
+      "runtime": "assets/runtime/buildings/railings/railing_pipe_straight.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rear_storage_rack",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/rear_storage_rack.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/rear_storage_rack.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "road_asphalt_clean_corner_ne",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_corner_ne.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_corner_ne.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "corner_ne"
+    },
+    {
+      "asset_id": "road_asphalt_clean_corner_nw",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_corner_nw.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_corner_nw.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "corner_nw"
+    },
+    {
+      "asset_id": "road_asphalt_clean_corner_se",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_corner_se.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_corner_se.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "corner_se"
+    },
+    {
+      "asset_id": "road_asphalt_clean_corner_sw",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_corner_sw.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_corner_sw.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "corner_sw"
+    },
+    {
+      "asset_id": "road_asphalt_clean_cross",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_cross.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_cross.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "cross"
+    },
+    {
+      "asset_id": "road_asphalt_clean_straight_ew",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_straight_ew.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_straight_ew.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "straight_ew"
+    },
+    {
+      "asset_id": "road_asphalt_clean_straight_ns",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_straight_ns.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_straight_ns.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "straight_ns"
+    },
+    {
+      "asset_id": "road_asphalt_clean_t_e",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_t_e.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_t_e.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "t_e"
+    },
+    {
+      "asset_id": "road_asphalt_clean_t_n",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_t_n.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_t_n.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "t_n"
+    },
+    {
+      "asset_id": "road_asphalt_clean_t_s",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_t_s.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_t_s.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "t_s"
+    },
+    {
+      "asset_id": "road_asphalt_clean_t_w",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_clean_t_w.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_clean_t_w.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_clean",
+      "variant": "t_w"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_corner_ne",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_corner_ne.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_corner_ne.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "corner_ne"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_corner_nw",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_corner_nw.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_corner_nw.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "corner_nw"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_corner_se",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_corner_se.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_corner_se.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "corner_se"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_corner_sw",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_corner_sw.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_corner_sw.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "corner_sw"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_cross",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_cross.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_cross.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "cross"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_straight_ew",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_straight_ew.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_straight_ew.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "straight_ew"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_straight_ns",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_straight_ns.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_straight_ns.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "straight_ns"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_t_e",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_t_e.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_t_e.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "t_e"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_t_n",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_t_n.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_t_n.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "t_n"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_t_s",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_t_s.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_t_s.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "t_s"
+    },
+    {
+      "asset_id": "road_asphalt_cracked_t_w",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_cracked_t_w.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_cracked_t_w.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_cracked",
+      "variant": "t_w"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_corner_ne",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_corner_ne.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_corner_ne.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "corner_ne"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_corner_nw",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_corner_nw.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_corner_nw.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "corner_nw"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_corner_se",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_corner_se.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_corner_se.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "corner_se"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_corner_sw",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_corner_sw.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_corner_sw.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "corner_sw"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_cross",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_cross.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_cross.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "cross"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_straight_ew",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_straight_ew.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_straight_ew.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "straight_ew"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_straight_ns",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_straight_ns.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_straight_ns.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "straight_ns"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_t_e",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_t_e.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_t_e.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "t_e"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_t_n",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_t_n.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_t_n.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "t_n"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_t_s",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_t_s.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_t_s.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "t_s"
+    },
+    {
+      "asset_id": "road_asphalt_heavy_damage_t_w",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_asphalt_heavy_damage_t_w.png",
+      "runtime": "assets/runtime/tiles/roads/road_asphalt_heavy_damage_t_w.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "connection_type": "road_4way",
+      "family": "road_asphalt_heavy_damage",
+      "variant": "t_w"
+    },
+    {
+      "asset_id": "road_center_marking",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_center_marking.png",
+      "runtime": "assets/runtime/tiles/roads/road_center_marking.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "road_edge_dirt",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_edge_dirt.png",
+      "runtime": "assets/runtime/tiles/roads/road_edge_dirt.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "road_edge_rubble",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/road_edge_rubble.png",
+      "runtime": "assets/runtime/tiles/roads/road_edge_rubble.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rock_cluster",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/rock_cluster.png",
+      "runtime": "assets/runtime/vegetation/rock_cluster.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rock_small_01",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/rock_small_01.png",
+      "runtime": "assets/runtime/vegetation/rock_small_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rock_small_02",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/rock_small_02.png",
+      "runtime": "assets/runtime/vegetation/rock_small_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rock_to_dirt",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/rock_to_dirt.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/rock_to_dirt.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rocket",
+      "category": "effect.projectile",
+      "source_master": "assets/source_master/effects/projectiles/rocket.png",
+      "runtime": "assets/runtime/effects/projectiles/rocket.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        16
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        8
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rocket_pod",
+      "category": "weapon.se",
+      "source_master": "assets/source_master/weapons/se/rocket_pod.png",
+      "runtime": "assets/runtime/weapons/se/rocket_pod.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        72
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "slot": "se"
+    },
+    {
+      "asset_id": "roof_corrugated_01",
+      "category": "building.roof",
+      "source_master": "assets/source_master/buildings/roofs/roof_corrugated_01.png",
+      "runtime": "assets/runtime/buildings/roofs/roof_corrugated_01.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "roof_corrugated_02",
+      "category": "building.roof",
+      "source_master": "assets/source_master/buildings/roofs/roof_corrugated_02.png",
+      "runtime": "assets/runtime/buildings/roofs/roof_corrugated_02.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "roof_patchwork",
+      "category": "building.roof",
+      "source_master": "assets/source_master/buildings/roofs/roof_patchwork.png",
+      "runtime": "assets/runtime/buildings/roofs/roof_patchwork.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "roof_tar_sheet",
+      "category": "building.roof",
+      "source_master": "assets/source_master/buildings/roofs/roof_tar_sheet.png",
+      "runtime": "assets/runtime/buildings/roofs/roof_tar_sheet.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "rust_runner_chassis_e",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_e.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_e.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "e"
+    },
+    {
+      "asset_id": "rust_runner_chassis_n",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_n.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_n.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "n"
+    },
+    {
+      "asset_id": "rust_runner_chassis_ne",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_ne.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_ne.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "ne"
+    },
+    {
+      "asset_id": "rust_runner_chassis_nw",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_nw.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_nw.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "nw"
+    },
+    {
+      "asset_id": "rust_runner_chassis_s",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_s.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_s.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "s"
+    },
+    {
+      "asset_id": "rust_runner_chassis_se",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_se.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_se.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "se"
+    },
+    {
+      "asset_id": "rust_runner_chassis_sw",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_sw.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_sw.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "sw"
+    },
+    {
+      "asset_id": "rust_runner_chassis_w",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_w.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_w.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "direction": "w"
+    },
+    {
+      "asset_id": "rust_runner_track_left",
+      "category": "vehicle.track",
+      "source_master": "assets/source_master/vehicles/rust_runner/tracks/rust_runner_track_left.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/tracks/rust_runner_track_left.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "side": "left"
+    },
+    {
+      "asset_id": "rust_runner_track_right",
+      "category": "vehicle.track",
+      "source_master": "assets/source_master/vehicles/rust_runner/tracks/rust_runner_track_right.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/tracks/rust_runner_track_right.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "side": "right"
+    },
+    {
+      "asset_id": "rust_runner_turret_00",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_00.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_00.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 0.0
+    },
+    {
+      "asset_id": "rust_runner_turret_01",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_01.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_01.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 22.5
+    },
+    {
+      "asset_id": "rust_runner_turret_02",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_02.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_02.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 45.0
+    },
+    {
+      "asset_id": "rust_runner_turret_03",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_03.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_03.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 67.5
+    },
+    {
+      "asset_id": "rust_runner_turret_04",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_04.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_04.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 90.0
+    },
+    {
+      "asset_id": "rust_runner_turret_05",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_05.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_05.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 112.5
+    },
+    {
+      "asset_id": "rust_runner_turret_06",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_06.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_06.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 135.0
+    },
+    {
+      "asset_id": "rust_runner_turret_07",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_07.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_07.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 157.5
+    },
+    {
+      "asset_id": "rust_runner_turret_08",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_08.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_08.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 180.0
+    },
+    {
+      "asset_id": "rust_runner_turret_09",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_09.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_09.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 202.5
+    },
+    {
+      "asset_id": "rust_runner_turret_10",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_10.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_10.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 225.0
+    },
+    {
+      "asset_id": "rust_runner_turret_11",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_11.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_11.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 247.5
+    },
+    {
+      "asset_id": "rust_runner_turret_12",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_12.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_12.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 270.0
+    },
+    {
+      "asset_id": "rust_runner_turret_13",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_13.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_13.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 292.5
+    },
+    {
+      "asset_id": "rust_runner_turret_14",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_14.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_14.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 315.0
+    },
+    {
+      "asset_id": "rust_runner_turret_15",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_15.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_15.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner",
+      "angle_degrees": 337.5
+    },
+    {
+      "asset_id": "sand_to_dirt",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/sand_to_dirt.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/sand_to_dirt.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "sandbags",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/sandbags.png",
+      "runtime": "assets/runtime/props/small/sandbags.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "shell_medium",
+      "category": "effect.projectile",
+      "source_master": "assets/source_master/effects/projectiles/shell_medium.png",
+      "runtime": "assets/runtime/effects/projectiles/shell_medium.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        24,
+        24
+      ],
+      "alpha": true,
+      "pivot": [
+        12,
+        12
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "shell_small",
+      "category": "effect.projectile",
+      "source_master": "assets/source_master/effects/projectiles/shell_small.png",
+      "runtime": "assets/runtime/effects/projectiles/shell_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        16,
+        16
+      ],
+      "alpha": true,
+      "pivot": [
+        8,
+        8
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "side_armor_heavy",
+      "category": "vehicle.armor",
+      "source_master": "assets/source_master/vehicles/rust_runner/armor/side_armor_heavy.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/armor/side_armor_heavy.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "side_armor_light",
+      "category": "vehicle.armor",
+      "source_master": "assets/source_master/vehicles/rust_runner/armor/side_armor_light.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/armor/side_armor_light.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "small_green_bush",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/small_green_bush.png",
+      "runtime": "assets/runtime/vegetation/small_green_bush.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        48,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "small_rubble_overlay",
+      "category": "tile.terrain_transition",
+      "source_master": "assets/source_master/tiles/terrain_transitions/small_rubble_overlay.png",
+      "runtime": "assets/runtime/tiles/terrain_transitions/small_rubble_overlay.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        16
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "small_tree_dry",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/small_tree_dry.png",
+      "runtime": "assets/runtime/vegetation/small_tree_dry.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "small_tree_survivor",
+      "category": "vegetation",
+      "source_master": "assets/source_master/vegetation/small_tree_survivor.png",
+      "runtime": "assets/runtime/vegetation/small_tree_survivor.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_00",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_00.png",
+      "runtime": "assets/runtime/effects/smoke/frame_00.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_01",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_01.png",
+      "runtime": "assets/runtime/effects/smoke/frame_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_02",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_02.png",
+      "runtime": "assets/runtime/effects/smoke/frame_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_03",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_03.png",
+      "runtime": "assets/runtime/effects/smoke/frame_03.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_04",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_04.png",
+      "runtime": "assets/runtime/effects/smoke/frame_04.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_05",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_05.png",
+      "runtime": "assets/runtime/effects/smoke/frame_05.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_06",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_06.png",
+      "runtime": "assets/runtime/effects/smoke/frame_06.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_07",
+      "category": "effect.smoke",
+      "source_master": "assets/source_master/effects/smoke/smoke_07.png",
+      "runtime": "assets/runtime/effects/smoke/frame_07.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "smoke_launcher",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/smoke_launcher.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/smoke_launcher.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        48,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "spare_track",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/spare_track.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/spare_track.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "spare_wheel",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/spare_wheel.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/spare_wheel.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        48,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        24,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "spotlight",
+      "category": "vehicle.lights",
+      "source_master": "assets/source_master/vehicles/rust_runner/lights/spotlight.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/lights/spotlight.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "stairs_metal_long",
+      "category": "building.stair",
+      "source_master": "assets/source_master/buildings/stairs/stairs_metal_long.png",
+      "runtime": "assets/runtime/buildings/stairs/stairs_metal_long.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "stairs_metal_short",
+      "category": "building.stair",
+      "source_master": "assets/source_master/buildings/stairs/stairs_metal_short.png",
+      "runtime": "assets/runtime/buildings/stairs/stairs_metal_short.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "storage_box_large",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/storage_box_large.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/storage_box_large.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "storage_box_small",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/storage_box_small.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/storage_box_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "street_lamp",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/street_lamp.png",
+      "runtime": "assets/runtime/props/industrial/street_lamp.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "taoyao_portrait",
+      "category": "portrait",
+      "source_master": "assets/source_master/portraits/taoyao.png",
+      "runtime": "assets/runtime/portraits/taoyao.png",
+      "master_size": [
+        1024,
+        1536
+      ],
+      "runtime_size": [
+        512,
+        768
+      ],
+      "alpha": true,
+      "pivot": [
+        256,
+        768
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "tool_cabinet",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/tool_cabinet.png",
+      "runtime": "assets/runtime/props/industrial/tool_cabinet.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        96
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        96
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "tow_hook",
+      "category": "vehicle.storage",
+      "source_master": "assets/source_master/vehicles/rust_runner/storage/tow_hook.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/storage/tow_hook.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      },
+      "vehicle_id": "rust_runner"
+    },
+    {
+      "asset_id": "trash_bin",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/trash_bin.png",
+      "runtime": "assets/runtime/props/small/trash_bin.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "vent_large",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/vent_large.png",
+      "runtime": "assets/runtime/props/industrial/vent_large.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "vent_small",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/vent_small.png",
+      "runtime": "assets/runtime/props/industrial/vent_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wall_concrete_dirty",
+      "category": "building.wall",
+      "source_master": "assets/source_master/buildings/walls/wall_concrete_dirty.png",
+      "runtime": "assets/runtime/buildings/walls/wall_concrete_dirty.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wall_corrugated_rust_01",
+      "category": "building.wall",
+      "source_master": "assets/source_master/buildings/walls/wall_corrugated_rust_01.png",
+      "runtime": "assets/runtime/buildings/walls/wall_corrugated_rust_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wall_corrugated_rust_02",
+      "category": "building.wall",
+      "source_master": "assets/source_master/buildings/walls/wall_corrugated_rust_02.png",
+      "runtime": "assets/runtime/buildings/walls/wall_corrugated_rust_02.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wall_industrial_panel",
+      "category": "building.wall",
+      "source_master": "assets/source_master/buildings/walls/wall_industrial_panel.png",
+      "runtime": "assets/runtime/buildings/walls/wall_industrial_panel.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wall_old_brick",
+      "category": "building.wall",
+      "source_master": "assets/source_master/buildings/walls/wall_old_brick.png",
+      "runtime": "assets/runtime/buildings/walls/wall_old_brick.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wall_patchwork_metal",
+      "category": "building.wall",
+      "source_master": "assets/source_master/buildings/walls/wall_patchwork_metal.png",
+      "runtime": "assets/runtime/buildings/walls/wall_patchwork_metal.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "water_tank_small",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/water_tank_small.png",
+      "runtime": "assets/runtime/props/industrial/water_tank_small.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        128
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "window_barred",
+      "category": "building.window",
+      "source_master": "assets/source_master/buildings/windows/window_barred.png",
+      "runtime": "assets/runtime/buildings/windows/window_barred.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "window_broken",
+      "category": "building.window",
+      "source_master": "assets/source_master/buildings/windows/window_broken.png",
+      "runtime": "assets/runtime/buildings/windows/window_broken.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "window_metal_closed",
+      "category": "building.window",
+      "source_master": "assets/source_master/buildings/windows/window_metal_closed.png",
+      "runtime": "assets/runtime/buildings/windows/window_metal_closed.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "window_metal_lit",
+      "category": "building.window",
+      "source_master": "assets/source_master/buildings/windows/window_metal_lit.png",
+      "runtime": "assets/runtime/buildings/windows/window_metal_lit.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "window_shop",
+      "category": "building.window",
+      "source_master": "assets/source_master/buildings/windows/window_shop.png",
+      "runtime": "assets/runtime/buildings/windows/window_shop.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        64,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        32,
+        48
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "wood_crate",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/wood_crate.png",
+      "runtime": "assets/runtime/props/small/wood_crate.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        32
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    },
+    {
+      "asset_id": "workbench",
+      "category": "prop.industrial",
+      "source_master": "assets/source_master/props/industrial/workbench.png",
+      "runtime": "assets/runtime/props/industrial/workbench.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        64
+      ],
+      "status": "NEEDS_ART",
+      "qa": {
+        "alpha_clean": false,
+        "dimensions_valid": false,
+        "no_text": false,
+        "no_crop": false
+      }
+    }
+  ]
+}

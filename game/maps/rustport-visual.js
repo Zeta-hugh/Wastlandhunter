@@ -1,7 +1,11 @@
-/* Rustport visual vertical slice v1: rendering only; gameplay geometry is unchanged. */
-const RUSTPORT_VISUAL_VERSION='0.24.0-rustport-v1';
+/* Rustport visual vertical slice v2: production assets resolve through AssetRegistry. */
+const RUSTPORT_VISUAL_VERSION='0.25.0-rustport-assets-v2';
 const RUSTPORT_GROUND=new Image();
-RUSTPORT_GROUND.src='assets/environments/rustport-ground-v1.png';
+let RUSTPORT_GROUND_ERROR=null;
+ASSET_REGISTRY_READY.then(()=>AssetRegistry.bindImage('ground_dirt_oily_01',RUSTPORT_GROUND)).catch(error=>{
+ RUSTPORT_GROUND_ERROR=error;
+ console.error(error);
+});
 
 const rustportPreviousDrawTown=drawTown;
 
@@ -16,13 +20,16 @@ function rustportVisible(x,y,w=0,h=0){return x+w>-80&&y+h>-80&&x<W+80&&y<H+80}
 function rustportNight(){return state.time>=18||state.time<6}
 
 function rustportGround(){
+ if(RUSTPORT_GROUND_ERROR)throw RUSTPORT_GROUND_ERROR;
  const p=rustportPoint(0,0);
  ctx.save();ctx.imageSmoothingEnabled=false;
  ctx.fillStyle='#282b29';ctx.fillRect(0,0,W,H);
  if(RUSTPORT_GROUND.complete&&RUSTPORT_GROUND.naturalWidth){
-  const sw=RUSTPORT_GROUND.naturalWidth,sh=Math.round(RUSTPORT_GROUND.naturalHeight*.643),sy=Math.round((RUSTPORT_GROUND.naturalHeight-sh)/2);
-  ctx.globalAlpha=.5;
-  ctx.drawImage(RUSTPORT_GROUND,0,sy,sw,sh,p.x,p.y,1400,900);
+  ctx.translate(p.x,p.y);
+  ctx.globalAlpha=.72;
+  ctx.fillStyle=ctx.createPattern(RUSTPORT_GROUND,'repeat');
+  ctx.fillRect(0,0,1400,900);
+  ctx.translate(-p.x,-p.y);
  }
  ctx.globalAlpha=1;ctx.fillStyle='rgba(24,28,27,.44)';ctx.fillRect(0,0,W,H);
 

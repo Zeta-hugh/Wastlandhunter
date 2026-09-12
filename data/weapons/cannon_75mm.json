@@ -1,0 +1,13 @@
+{
+  "weapon_id": "cannon_75mm",
+  "display_name_cn": "75mm 主炮",
+  "status": "NEEDS_ART",
+  "slot": "main",
+  "asset": "assets/runtime/weapons/main/cannon_75mm.png",
+  "runtime_size": [128, 128],
+  "pivot": [28, 64],
+  "barrel_origin": [28, 64],
+  "muzzle_point": [112, 64],
+  "damage_visual_class": "medium_shell",
+  "compatible_mounts": ["rust_runner.main_gun"]
+}
