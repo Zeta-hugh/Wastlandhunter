@@ -10,6 +10,9 @@ test('migration preserves original source except the documented building-palette
   assert.equal(createHash('sha256').update(legacy).digest('hex'), '4f09c32813dab16f79ab7a6b2dc06ad2768c10538dc6dc9b3326d0667278b65a');
   const out = await build();
   let code = await readFile(resolve(out, 'game.js'), 'utf8');
+  const rustportEnhancement = await readFile(resolve(root, 'game/maps/rustport-visual.js'), 'utf8');
+  assert.ok(code.endsWith(rustportEnhancement));
+  code = code.slice(0, -rustportEnhancement.length);
   const fixedPalette = "clinic:['#66787b','#30393b'],inn:['#6a4f3b','#271d1a'],house:['#675646','#3b3933'],warehouse:['#535b59','#262a2a']}[b.id]";
   assert.equal(code.split(fixedPalette).length, 2);
   code = code.replace(fixedPalette, "clinic:['#66787b','#30393b']}[b.id]");

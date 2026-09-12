@@ -10,7 +10,7 @@ const { chromium } = require('playwright');
 const server = serve(await build(), 0);
 await once(server, 'listening');
 const url = `http://127.0.0.1:${server.address().port}`;
-const artifacts = resolve(root, 'artifacts/baseline');
+const artifacts = resolve(root, 'artifacts/runtime-qa');
 await mkdir(artifacts, { recursive: true });
 let browser;
 const errors = [];
@@ -107,7 +107,7 @@ try {
   assert.ok(await page.evaluate(() => battle.enemy.hp) < hp);
   assert.deepEqual(errors, []);
   await writeFile(resolve(artifacts, 'checks.json'), JSON.stringify({ freshStart: fresh, movement: true, saveReload: true, v7KeyFallback: true, combat: true, runtimeErrors: errors, screenshots: 7 }, null, 2));
-  console.log('PASS: origin, movement, save/reload, V7 fallback, combat, asset loading; seven baseline screenshots.');
+  console.log('PASS: origin, movement, save/reload, V7 fallback, combat, asset loading; seven runtime QA screenshots.');
 } finally {
   await browser?.close();
   await new Promise(resolve => server.close(resolve));

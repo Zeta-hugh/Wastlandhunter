@@ -4,6 +4,16 @@ Canonical engineering repository: `Zeta-hugh/Wastlandhunter`.
 
 This continues the existing game. Read [CODEX_INSTRUCTIONS.md](docs/CODEX_INSTRUCTIONS.md), then the remaining handoff documents before changing it. The next product milestone is the polished Rustport vertical slice: protagonist, Liu Yan, first tank, and Iron Hound.
 
+## Rustport visual slice — work in progress / 锈港视觉切片开发中
+
+The first post-baseline visual pass replaces the flat town surface with a production ground asset and gives Rustport a dedicated renderer for its seawall, roads, service buildings, drainage, cables, cargo, lamps, smoke and foreground depth. Gameplay geometry, entrances, NPC schedules, quests and saves remain unchanged.
+
+| Day / 白天 | Dusk / 夜间灯光 |
+| --- | --- |
+| ![Rustport visual slice v1 daytime runtime](docs/screenshots/rustport-v1-day.png) | ![Rustport visual slice v1 dusk runtime](docs/screenshots/rustport-v1-dusk.png) |
+
+This pass improves the street layer only. Character animation, the first tank, Iron Hound, interiors and UI still require their planned production passes. See [VISUAL_VERTICAL_SLICE.md](docs/VISUAL_VERTICAL_SLICE.md) for the implementation record and acceptance boundary.
+
 ## Canon 0.23 runtime baseline / 实机基线
 
 These are screenshots from the migrated game running in Google Chrome at 960 × 540. They document the preserved Canon 0.23 prototype before the planned visual vertical-slice upgrade. The review scenes were opened through QA scene setup, so this gallery demonstrates real rendering rather than a recorded end-to-end playthrough.
@@ -38,7 +48,7 @@ npm install
 npm run test:browser
 ```
 
-Browser checks use Playwright and installed Google Chrome with a temporary browser profile. They generate seven QA captures in the ignored `artifacts/baseline/` directory and check startup, movement, persistence, image loading and one combat action. The six curated screenshots above are tracked separately in `docs/screenshots/`. No player browser profile is accessed.
+Browser checks use Playwright and installed Google Chrome with a temporary browser profile. They generate QA captures in ignored `artifacts/` directories and check startup, movement, persistence, image loading and one combat action. Curated milestone and baseline screenshots are tracked separately in `docs/screenshots/`. No player browser profile is accessed.
 
 ## Source layout
 
@@ -48,6 +58,7 @@ Browser checks use Playwright and installed Google Chrome with a temporary brows
 - `game/data/`: character definitions, towns, vehicles and parts.
 - `game/story/`: chapter data and Canon world text.
 - `game/systems/`: extracted base parts, tank statistics and persistence functions.
+- `game/maps/`: focused map-rendering passes; Rustport has the first dedicated visual layer.
 - `game/core/`: initialization, base state, portraits and the remaining prototype runtime.
 - `game/sources.json`: explicit source assembly order.
 - `assets/legacy/`: 16 original embedded images, extracted unchanged with hashes.

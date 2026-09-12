@@ -10,5 +10,6 @@
   "game/core/state.js",
   "game/systems/tank-stats.js",
   "game/systems/persistence.js",
-  "game/core/prototype-runtime.js"
+  "game/core/prototype-runtime.js",
+  "game/maps/rustport-visual.js"
 ]
