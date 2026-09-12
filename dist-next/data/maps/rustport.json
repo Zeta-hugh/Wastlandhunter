@@ -1,0 +1,9 @@
+{
+  "map_id": "rustport",
+  "display_name_cn": "锈港",
+  "tmj": "maps/rustport/rustport.tmj",
+  "tile_size": 32,
+  "map_size_tiles": [64, 64],
+  "world_size": [2048, 2048],
+  "status": "PIPELINE_READY"
+}

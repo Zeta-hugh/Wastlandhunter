@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "rustport_vertical_slice",
+  "camera": {
+    "projection": "2.5d_three_quarter",
+    "ground_scale_y": 0.58,
+    "light_direction": "upper_left"
+  },
+  "layers": [
+    "ground",
+    "roads",
+    "decals",
+    "props_low",
+    "structures",
+    "actors",
+    "vehicles",
+    "roofs",
+    "foreground",
+    "fx"
+  ],
+  "objects": [
+    {
+      "id": "rustport_garage",
+      "binding": "rustport.building.garage",
+      "position": [900, 470],
+      "z_height": 0,
+      "depth_layer": "structures",
+      "occlusion": "roof_toggle",
+      "role": "primary_landmark"
+    },
+    {
+      "id": "harbor_awning",
+      "binding": "rustport.building.awning",
+      "position": [852, 385],
+      "z_height": 24,
+      "depth_layer": "structures",
+      "occlusion": "foreground",
+      "role": "secondary_functional"
+    },
+    {
+      "id": "repair_barrel",
+      "binding": "rustport.props.industrial",
+      "asset_id": "barrel_rust",
+      "position": [520, 505],
+      "z_height": 0,
+      "depth_layer": "props_low",
+      "occlusion": "none",
+      "role": "tertiary_material"
+    },
+    {
+      "id": "hunter_memorial",
+      "binding": "rustport.storytelling.hunter_memorial",
+      "position": [360, 300],
+      "z_height": 0,
+      "depth_layer": "props_low",
+      "occlusion": "none",
+      "role": "storytelling_cluster"
+    },
+    {
+      "id": "iron_hound_bounty",
+      "binding": "rustport.bounty",
+      "position": [640, 260],
+      "z_height": 0,
+      "depth_layer": "actors",
+      "occlusion": "none",
+      "role": "encounter"
+    }
+  ],
+  "quality_gate": {
+    "primary_landmark": true,
+    "secondary_details": true,
+    "tertiary_details": true,
+    "storytelling_prop": true,
+    "navigation_readable": true,
+    "interactables_readable": true,
+    "requires_mobile_review": true
+  }
+}

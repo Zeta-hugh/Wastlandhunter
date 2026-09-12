@@ -1,18 +1,4 @@
 {
   "schema_version": "1.0",
-  "assets": [
-    {
-      "asset_id": "ground_dirt_oily_01",
-      "path": "assets/tiles/ground/ground_dirt_oily_01.png",
-      "runtime_size": [
-        32,
-        32
-      ],
-      "alpha": false,
-      "pivot": [
-        16,
-        16
-      ]
-    }
-  ]
+  "assets": []
 }

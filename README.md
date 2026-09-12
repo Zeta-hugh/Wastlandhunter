@@ -62,7 +62,22 @@ Open http://127.0.0.1:5173. After source edits, run `npm run build` and refresh.
 npm test
 npm install
 npm run test:browser
+npm run test:route
 ```
+
+## Independent Web / Android runtime
+
+The new runtime is under `game/app/` and is shared by the Web/PWA entry and Capacitor Android shell. It is built separately so the legacy compatibility entry remains available while the Rustport slice is migrated:
+
+```sh
+npm run build:next
+npm run test:next
+npm run android:sync
+```
+
+Android Studio can open the generated `android/` project. The next runtime is currently an infrastructure slice; production character, vehicle and Iron Hound assets are migrated into it in later vertical-slice passes.
+
+Available `QA_PASS` assets are loaded by the independent runtime through `game/app/core/assets.js`; incomplete records remain blocked by the production asset contract.
 
 Browser checks use Playwright and installed Google Chrome with a temporary browser profile. They generate QA captures in ignored `artifacts/` directories and check startup, movement, persistence, image loading and one combat action. Curated milestone and baseline screenshots are tracked separately in `docs/screenshots/`. No player browser profile is accessed.
 
@@ -81,3 +96,17 @@ Browser checks use Playwright and installed Google Chrome with a temporary brows
 - `assets/ui/`: existing stylesheet.
 
 This is an extraction baseline with one confirmed legacy renderer crash fixed (missing inn/house/warehouse palette entries). The build assembles one classic script to preserve function hoisting and historical overrides. It is not yet an ES-module architecture or a completed visual milestone. See [ENGINEERING_MIGRATION.md](docs/ENGINEERING_MIGRATION.md) for boundaries and next steps.
+# Wasteland Hunter
+
+## Automatic GitHub backup
+
+On macOS, install the five-hour automatic commit-and-push job with:
+
+```bash
+./scripts/install-git-sync-launchd.sh
+```
+
+The job adds all local changes, skips empty syncs, creates a timestamped commit,
+and pushes the current branch to `origin`. It writes its log to
+`.git/auto-sync.log`. GitHub authentication must already be available through
+the configured credential helper or SSH agent.

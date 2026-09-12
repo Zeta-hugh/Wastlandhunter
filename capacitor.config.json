@@ -1,0 +1,9 @@
+{
+  "appId": "com.wastelandhunter.game",
+  "appName": "荒原猎手",
+  "webDir": "dist-next",
+  "backgroundColor": "#070909",
+  "android": {
+    "allowMixedContent": false
+  }
+}

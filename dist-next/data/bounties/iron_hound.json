@@ -1,0 +1,11 @@
+{
+  "bounty_id": "iron_hound",
+  "name": "铁牙猎犬",
+  "rumor": "北港旧路有一头装甲猎犬在啃食废车。",
+  "location_hint": "锈港北侧旧路",
+  "difficulty": 1,
+  "reward": {"gold": 350, "scrap": 8, "hunterRank": 1},
+  "weakness": "侧后装甲",
+  "loot": ["hound_core_scrap"],
+  "world_consequence": "rustport_next_region_unlocked"
+}

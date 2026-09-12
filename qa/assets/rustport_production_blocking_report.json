@@ -1,0 +1,104 @@
+{
+  "report_version": "1.0",
+  "scope": "Rustport production asset and 2.5D assembly audit",
+  "manifest": {
+    "path": "data/asset_manifest.json",
+    "schema_version": "1.0",
+    "contract_version": "1.0",
+    "asset_records": 626,
+    "unique_asset_ids": true,
+    "qa_pass": 0,
+    "needs_art": 626
+  },
+  "changes_this_round": {
+    "deleted": [],
+    "restored": [],
+    "status_changes": [],
+    "generated_placeholder_art": false
+  },
+  "reference_consistency": {
+    "asset_bindings_missing_ids": [],
+    "scene_bindings_missing_ids": [],
+    "release_manifest_qa_pass_assets": 0,
+    "map_tileset_manifest_record": "ground_dirt_oily_01",
+    "map_tileset_runtime": "assets/runtime/tiles/ground/ground_dirt_oily_01.png",
+    "map_tileset_runtime_exists": false
+  },
+  "scene_assembly": {
+    "scene": "data/rustport_scene.json",
+    "schema_version": "1.0",
+    "objects": [
+      {
+        "id": "rustport_garage",
+        "binding": "rustport.building.garage",
+        "depth_layer": "structures",
+        "asset_count": 8,
+        "qa_pass": 0,
+        "needs_art": 8,
+        "visual_metadata": "missing until production art is supplied"
+      },
+      {
+        "id": "harbor_awning",
+        "binding": "rustport.building.awning",
+        "depth_layer": "structures",
+        "asset_count": 3,
+        "qa_pass": 0,
+        "needs_art": 3,
+        "visual_metadata": "missing until production art is supplied"
+      },
+      {
+        "id": "repair_barrel",
+        "binding": "rustport.props.industrial",
+        "depth_layer": "props_low",
+        "asset_count": 17,
+        "qa_pass": 0,
+        "needs_art": 17,
+        "visual_metadata": "missing until production art is supplied"
+      },
+      {
+        "id": "hunter_memorial",
+        "binding": "rustport.storytelling.hunter_memorial",
+        "depth_layer": "props_low",
+        "asset_count": 3,
+        "qa_pass": 0,
+        "needs_art": 3,
+        "visual_metadata": "missing until production art is supplied"
+      },
+      {
+        "id": "iron_hound_bounty",
+        "binding": "rustport.bounty",
+        "depth_layer": "actors",
+        "asset_count": 5,
+        "qa_pass": 0,
+        "needs_art": 5,
+        "visual_metadata": "missing until production art is supplied"
+      }
+    ]
+  },
+  "blocking_issues": [
+    {
+      "code": "MAP_TILE_RUNTIME_MISSING",
+      "asset_id": "ground_dirt_oily_01",
+      "status": "NEEDS_ART",
+      "detail": "The Rustport tileset references a missing runtime PNG. The map validator must remain blocked until real art is restored and QA reviewed."
+    },
+    {
+      "code": "RUSTPORT_SCENE_NEEDS_ART",
+      "detail": "All 36 assets referenced by the Rustport scene bindings remain NEEDS_ART; no asset was promoted to QA_PASS."
+    },
+    {
+      "code": "RUST_RUNNER_NEEDS_ART",
+      "detail": "Vehicle validation reports 27 independent production files as NEEDS_ART."
+    },
+    {
+      "code": "VISUAL_METADATA_PENDING",
+      "detail": "Referenced NEEDS_ART records do not yet carry production visual metadata. Do not add QA metadata or promote status before real art review."
+    }
+  ],
+  "validation": {
+    "assets_validate": "PASS",
+    "maps_validate": "FAIL: missing ground_dirt_oily_01 runtime and status is NEEDS_ART",
+    "vehicle_validate": "NEEDS_ART: 27 independent files",
+    "release_manifest": "0 QA_PASS assets"
+  }
+}

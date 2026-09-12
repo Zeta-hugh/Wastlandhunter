@@ -217,22 +217,65 @@ function drawMenu(){if(!menu)return;ctx.fillStyle='#070907ef';ctx.fillRect(0,0,W
 
 function startRandomBattle(){if(!state.player.inTank)return;const i=Math.min(state.townIndex,9),names=['锈壳无人车','盐地掠夺者','废土广播机','矿井守卫','竞技逃亡车','风场无人机','冻原猎杀犬','炼城喷火车','磁轨警戒机','零号守卫'];startBattle({name:names[i],hp:180+i*155,atk:18+i*11,boss:false,reward:90+i*65})}
 function startBossBattle(i){const s=BOSS_STATS[i];const pre=i===9?[['柳焰','我们不是来替任何人拿走零号协议。利维坦-零正在把附近聚居区标成清除目标——这就够了。'],['系统','公会委托：终止利维坦-零的清除协议。']]:i>=8?[['档案员','三大势力都想要里面的数据。但公会的委托只有一行：把还活着的人带回来。']]:[['柳焰',`目标确认：${TOWNS[i].boss}。`]];openDialogue([...pre,['桃夭',state.party.taoyao?'火控上线。别把我刚修好的车撞烂。':'火控系统锁定。'],['系统','赏金首战开始。']]);const wait=()=>{if(mode==='play')startBattle({name:TOWNS[i].boss,hp:s.hp,atk:s.atk,boss:true,reward:s.bounty,town:i});else setTimeout(wait,60)};setTimeout(wait,60)}
-function startBattle(e){battle={enemy:{...e,max:e.hp},actions:['主炮','副炮','SE','修理包','撤退'],sel:0,log:`遭遇 ${e.name}！`,win:false};mode='battle';setHint('方向键选择 · A 确认 · B 返回')}
-function battleConfirm(){if(!battle)return;if(battle.win){endBattle();return}const a=battle.sel;if(a<3){const slot=['main','sub','se'][a],p=equipped(slot),c=equipped('cunit'),hit=clamp((p.acc||90)+(c.acc||0),60,99);if(Math.random()*100>hit){battle.log=`${p.name} 射击偏离。`;enemyTurn();return}let dmg=tankAtk(slot);const crit=Math.random()*100<(p.crit||0)+(c.crit||0);if(crit)dmg=Math.round(dmg*1.7);if(battle.enemy.boss){dmg=Math.round(dmg*(1+(c.boss||0)/100));if(state.party.liuyan)dmg=Math.round(dmg*1.08)}dmg=Math.round(dmg*rnd(.9,1.12));battle.enemy.hp-=dmg;battle.log=`${p.name}${crit?' 暴击':''}，造成 ${dmg} 伤害。`;if(battle.enemy.hp<=0)return winBattle();enemyTurn()}else if(a===3){if(state.inventory.repairKits<=0){battle.log='没有修理包。';return}state.inventory.repairKits--;const heal=Math.round(tankMax()*.32);state.tank.hp=Math.min(tankMax(),state.tank.hp+heal);battle.log=`紧急修理恢复 ${heal} 装甲。`;enemyTurn()}else{if(battle.enemy.boss)battle.log='赏金首战无法撤退。';else if(Math.random()<.75){battle=null;mode='play';sayToast('成功撤退')}else{battle.log='撤退失败。';enemyTurn()}}}
+function startBattle(e){battle={enemy:{...e,max:e.hp},actions:['主炮','副炮','SE','修理包','撤退'],sel:0,log:`遭遇 ${e.name}！`,win:false,feedback:0,shake:0,busy:false};mode='battle';setHint('方向键选择 · A 确认')}
+function battleConfirm(){if(!battle||battle.busy)return;if(battle.win){endBattle();return}battle.busy=true;const a=battle.sel;if(a<3){const slot=['main','sub','se'][a],p=equipped(slot),c=equipped('cunit'),hit=clamp((p.acc||90)+(c.acc||0),60,99);if(Math.random()*100>hit){battle.log=`${p.name} 射击偏离。`;battle.feedback=.12;battle.shake=.08;enemyTurn();battle.busy=false;return}let dmg=tankAtk(slot);const crit=Math.random()*100<(p.crit||0)+(c.crit||0);if(crit)dmg=Math.round(dmg*1.7);if(battle.enemy.boss){dmg=Math.round(dmg*(1+(c.boss||0)/100));if(state.party.liuyan)dmg=Math.round(dmg*1.08)}dmg=Math.round(dmg*rnd(.9,1.12));battle.enemy.hp-=dmg;battle.log=`${p.name}${crit?' 暴击':''}，造成 ${dmg} 伤害。`;battle.feedback=.16;battle.shake=.12;if(battle.enemy.hp<=0)return winBattle();enemyTurn()}else if(a===3){if(state.inventory.repairKits<=0){battle.log='没有修理包。';battle.busy=false;return}state.inventory.repairKits--;const heal=Math.round(tankMax()*.32);state.tank.hp=Math.min(tankMax(),state.tank.hp+heal);battle.log=`紧急修理恢复 ${heal} 装甲。`;battle.feedback=.1;enemyTurn()}else{if(battle.enemy.boss)battle.log='赏金首战无法撤退。';else if(Math.random()<.75){battle=null;mode='play';sayToast('成功撤退')}else{battle.log='撤退失败。';enemyTurn()}}if(battle)battle.busy=false}
 function battleBack(){if(battle&&!battle.enemy.boss)battle.sel=battle.actions.length-1}
-function enemyTurn(){if(!battle)return;let dmg=Math.max(1,Math.round(battle.enemy.atk*rnd(.84,1.2)-tankDef()));state.tank.hp-=dmg;battle.log+=`  ${battle.enemy.name} 反击 -${dmg}`;if(state.tank.hp<=0){state.tank.hp=Math.round(tankMax()*.45);state.player.inTank=false;battle=null;mode='play';const t=TOWNS[state.townIndex];state.scene='world';state.tank.x=t.x+70;state.tank.y=t.y+70;state.player.x=t.x+25;state.player.y=t.y+70;state.gold=Math.max(0,state.gold-300);sayToast('战车大破，被拖回附近道路')}}
+function enemyTurn(){if(!battle)return;let dmg=Math.max(1,Math.round(battle.enemy.atk*rnd(.84,1.2)-tankDef()));state.tank.hp-=dmg;battle.shake=.14;battle.log+=`  ${battle.enemy.name} 反击 -${dmg}`;if(state.tank.hp<=0){state.tank.hp=Math.round(tankMax()*.45);state.player.inTank=false;battle=null;mode='play';const t=TOWNS[state.townIndex];state.scene='world';state.tank.x=t.x+70;state.tank.y=t.y+70;state.player.x=t.x+25;state.player.y=t.y+70;state.gold=Math.max(0,state.gold-300);sayToast('战车大破，被拖回附近道路')}}
 function winBattle(){const e=battle.enemy;state.gold+=e.reward;const i=state.townIndex;const salvage=e.boss?3+Math.floor(i/2):1+Math.floor(i/3);state.scrap+=salvage;if(e.boss){const bi=e.town;state.killed[bi]=true;state.townProgress[bi].boss=true;const drop=BOSS_DROPS[bi];if(drop&&!state.inventory.parts.includes(drop))state.inventory.parts.push(drop);battle.log=`${e.name} 被击破！掉落：${findPart(drop)?.name||'核心'} / 废料 +${salvage}。返回 ${TOWNS[bi].name} 交付。`;if(state.party.lincheng)state.tank.hp=Math.min(tankMax(),state.tank.hp+Math.round(tankMax()*.18))}else{const j=state.sideJobs[i];if(j?.accepted&&!j.done){j.kills++;if(j.kills>=SIDE_JOBS[i].goal){j.done=true;battle.log=`敌人被击破！获得 ${e.reward}G / 废料 +${salvage}。本地委托已完成，回酒馆领奖。`}else battle.log=`敌人被击破！获得 ${e.reward}G / 废料 +${salvage}。委托进度 ${j.kills}/${SIDE_JOBS[i].goal}。`}else battle.log=`敌人被击破！获得 ${e.reward}G / 废料 +${salvage}。`}battle.win=true;saveSilently()}
 function endBattle(){battle=null;mode='play';setHint('方向键移动 · A 互动 · B 菜单')}
 function drawBossSprite(x,y,name){ctx.save();ctx.translate(x,y);ctx.fillStyle='#7e2f2a';ctx.fillRect(-65,-26,130,52);ctx.fillStyle='#161916';ctx.fillRect(-55,26,40,14);ctx.fillRect(15,26,40,14);ctx.fillStyle='#a69375';ctx.fillRect(-13,-48,26,26);ctx.fillRect(9,-39,76,8);ctx.fillStyle='#d75944';ctx.fillRect(-46,-18,15,8);ctx.restore()}
-function drawBattle(){if(!battle)return;ctx.fillStyle='#443a2d';ctx.fillRect(0,0,W,H);ctx.fillStyle='#73603d';ctx.fillRect(0,330,W,210);drawTankModel(170,285,0,state.vehicleIndex,1.9,false);drawBossSprite(735,255,battle.enemy.name);ctx.fillStyle='#0c0f0cdd';ctx.fillRect(35,28,890,78);ctx.fillStyle='#f1d075';ctx.font='bold 20px sans-serif';ctx.textAlign='left';ctx.fillText(battle.enemy.name,55,58);ctx.fillStyle='#44231f';ctx.fillRect(55,72,420,14);ctx.fillStyle='#c85045';ctx.fillRect(55,72,420*clamp(battle.enemy.hp/battle.enemy.max,0,1),14);ctx.fillStyle='#fff';ctx.font='12px sans-serif';ctx.fillText(`${Math.max(0,Math.round(battle.enemy.hp))}/${battle.enemy.max}`,490,84);ctx.fillStyle='#101410ef';ctx.fillRect(25,355,910,160);ctx.strokeStyle='#6f795f';ctx.strokeRect(25,355,910,160);battle.actions.forEach((a,i)=>{const col=i%3,row=Math.floor(i/3),x=52+col*286,y=392+row*52;ctx.fillStyle=i===battle.sel?'#765b2e':'#283028';ctx.fillRect(x,y,260,38);ctx.fillStyle='#fff';ctx.font='15px sans-serif';ctx.fillText(a,x+16,y+25)});ctx.fillStyle='#d7d8ce';ctx.font='13px sans-serif';wrapText(battle.log,52,340,820,18);if(battle.win){ctx.fillStyle='#f6dd8d';ctx.font='bold 16px sans-serif';ctx.fillText('A：结束战斗',745,340)}}
+function drawBattle(){if(!battle)return;const shake=battle.shake?Math.sin(performance.now()*.08)*battle.shake*34:0;battle.feedback=Math.max(0,battle.feedback-.016);battle.shake=Math.max(0,battle.shake-.016);ctx.save();ctx.translate(shake,0);ctx.fillStyle='#443a2d';ctx.fillRect(0,0,W,H);ctx.fillStyle='#73603d';ctx.fillRect(0,330,W,210);drawTankModel(170,285,0,state.vehicleIndex,1.9,false);drawBossSprite(735,255,battle.enemy.name);ctx.fillStyle='#0c0f0cdd';ctx.fillRect(35,28,890,78);ctx.fillStyle='#f1d075';ctx.font='bold 20px sans-serif';ctx.textAlign='left';ctx.fillText(battle.enemy.name,55,58);ctx.fillStyle='#44231f';ctx.fillRect(55,72,420,14);ctx.fillStyle='#c85045';ctx.fillRect(55,72,420*clamp(battle.enemy.hp/battle.enemy.max,0,1),14);ctx.fillStyle='#fff';ctx.font='12px sans-serif';ctx.fillText(`${Math.max(0,Math.round(battle.enemy.hp))}/${battle.enemy.max}`,490,84);ctx.fillStyle='#101410ef';ctx.fillRect(25,355,910,160);ctx.strokeStyle='#6f795f';ctx.strokeRect(25,355,910,160);battle.actions.forEach((a,i)=>{const col=i%3,row=Math.floor(i/3),x=52+col*286,y=392+row*52;ctx.fillStyle=i===battle.sel?'#765b2e':'#283028';ctx.fillRect(x,y,260,38);ctx.fillStyle='#fff';ctx.font='15px sans-serif';ctx.fillText(a,x+16,y+25)});ctx.fillStyle='#d7d8ce';ctx.font='13px sans-serif';wrapText(battle.log,52,340,820,18);if(battle.win){ctx.fillStyle='#f6dd8d';ctx.font='bold 16px sans-serif';ctx.fillText('A：结束战斗',745,340)}ctx.restore();if(battle.feedback){ctx.fillStyle=`rgba(255,242,197,${battle.feedback})`;ctx.fillRect(0,0,W,H)}}
 
 function drawPrompt(){if(mode!=='play')return;const i=nearestInteractable();if(!i)return;const f=state.player.inTank?state.tank:state.player,p=screenPos(f.x,f.y);ctx.fillStyle='#111b';ctx.fillRect(p.x-76,p.y-60,152,24);ctx.fillStyle='#f4d477';ctx.font='bold 12px sans-serif';ctx.textAlign='center';ctx.fillText(`A ${i.name||'互动'}`,p.x,p.y-43)}
 function render(dt){ctx.clearRect(0,0,W,H);if(mode==='battle')drawBattle();else{if(state.scene==='world')drawWorld();else if(state.scene==='town')drawTown();else drawInterior();drawPrompt();if(mode==='dialogue')drawDialogue(dt);if(mode==='menu')drawMenu()}if(toast.t>0){toast.t-=dt;ctx.fillStyle='#0b0e0be8';ctx.fillRect(W/2-235,105,470,38);ctx.strokeStyle='#776a48';ctx.strokeRect(W/2-235,105,470,38);ctx.fillStyle='#fff0bd';ctx.font='13px sans-serif';ctx.textAlign='center';ctx.fillText(toast.text,W/2,130)}updateHud()}
 function loop(t){const dt=Math.min(.033,(t-last)/1000);last=t;updateMovement(dt);render(dt);requestAnimationFrame(loop)}
 function setDir(dir,on){keys[dir]=on}
-document.querySelectorAll('[data-dir]').forEach(btn=>{const d=btn.dataset.dir;const down=e=>{e.preventDefault();if(mode==='menu'||mode==='battle'){if(['up','left'].includes(d))menuMove(-1);else menuMove(1);return}setDir(d,true);btn.classList.add('active')},up=e=>{e.preventDefault();setDir(d,false);btn.classList.remove('active')};btn.addEventListener('pointerdown',down);btn.addEventListener('pointerup',up);btn.addEventListener('pointercancel',up);btn.addEventListener('pointerleave',up)});
-$('btnA').addEventListener('pointerdown',e=>{e.preventDefault();$('btnA').classList.add('active');pressA()});$('btnA').addEventListener('pointerup',()=>$('btnA').classList.remove('active'));
-$('btnB').addEventListener('pointerdown',e=>{e.preventDefault();$('btnB').classList.add('active');pressB()});$('btnB').addEventListener('pointerup',()=>$('btnB').classList.remove('active'));
+function releaseTouchControl(button,dir=null){
+ if(dir)setDir(dir,false);
+ button.classList.remove('active');
+}
+function captureTouchControl(button,e){
+ if(e.pointerType==='touch'&&button.setPointerCapture&&!button.hasPointerCapture(e.pointerId))button.setPointerCapture(e.pointerId);
+}
+document.querySelectorAll('[data-dir]').forEach(btn=>{
+ const d=btn.dataset.dir;
+ const down=e=>{
+  e.preventDefault();
+  captureTouchControl(btn,e);
+  if(mode==='menu'||mode==='battle'){
+   if(['up','left'].includes(d))menuMove(-1);else menuMove(1);
+   return;
+  }
+  setDir(d,true);btn.classList.add('active');
+ };
+ const up=e=>{e.preventDefault();releaseTouchControl(btn,d)};
+ btn.addEventListener('pointerdown',down);
+ btn.addEventListener('pointerup',up);
+ btn.addEventListener('pointercancel',up);
+ btn.addEventListener('lostpointercapture',()=>releaseTouchControl(btn,d));
+});
+function bindActionButton(id,action){
+ const button=$(id);
+ let activePointer=null;
+ button.addEventListener('pointerdown',e=>{
+  e.preventDefault();
+  if(activePointer!==null)return;
+  activePointer=e.pointerId;
+  captureTouchControl(button,e);
+  button.classList.add('active');
+  action();
+ });
+ const release=e=>{
+  if(activePointer!==null&&e.pointerId!==undefined&&e.pointerId!==activePointer)return;
+  activePointer=null;
+  releaseTouchControl(button);
+ };
+ button.addEventListener('pointerup',release);
+ button.addEventListener('pointercancel',release);
+ button.addEventListener('lostpointercapture',()=>{activePointer=null;releaseTouchControl(button)});
+}
+bindActionButton('btnA',pressA);
+bindActionButton('btnB',pressB);
 $('btnMenu').onclick=openMenu;
 window.addEventListener('keydown',e=>{if(['ArrowUp','w','W'].includes(e.key)){if(mode==='menu'||mode==='battle')menuMove(-1);else keys.up=true;e.preventDefault()}else if(['ArrowDown','s','S'].includes(e.key)){if(mode==='menu'||mode==='battle')menuMove(1);else keys.down=true;e.preventDefault()}else if(['ArrowLeft','a','A'].includes(e.key)){if(mode==='menu'||mode==='battle')menuMove(-1);else keys.left=true;e.preventDefault()}else if(['ArrowRight','d','D'].includes(e.key)){if(mode==='menu'||mode==='battle')menuMove(1);else keys.right=true;e.preventDefault()}else if(['Enter',' ','j','J'].includes(e.key)){pressA();e.preventDefault()}else if(['Escape','k','K'].includes(e.key)){pressB();e.preventDefault()}});
 window.addEventListener('keyup',e=>{if(['ArrowUp','w','W'].includes(e.key))keys.up=false;else if(['ArrowDown','s','S'].includes(e.key))keys.down=false;else if(['ArrowLeft','a','A'].includes(e.key))keys.left=false;else if(['ArrowRight','d','D'].includes(e.key))keys.right=false});
@@ -775,9 +818,19 @@ function normalizeState(){
  state.world=Object.assign({discovered:{},poiLooted:{},fieldCleared:{},fieldLooted:{},distance:0,eventMeter:0,eventsSeen:{},mapOpened:false},state.world||{});
  state.fieldId=state.fieldId||null;state.fieldReturn=state.fieldReturn||null;state.saveVersion=10;
 }
-function saveSilently(){normalizeState();localStorage.setItem('wastelandHunterV10',JSON.stringify(state))}
-function save(){saveSilently();sayToast('已保存')}
-function load(){try{let raw=localStorage.getItem('wastelandHunterV10')||localStorage.getItem('wastelandHunterV8')||localStorage.getItem('wastelandHunterV7');const data=JSON.parse(raw);if(data)Object.assign(state,data)}catch(e){}normalizeState()}
+function saveSilently(){
+ normalizeState();
+ try{localStorage.setItem('wastelandHunterV10',JSON.stringify(state));return true}
+ catch(error){console.error('Save failed',error);return false}
+}
+function save(){if(saveSilently())sayToast('已保存');else sayToast('保存失败：请检查设备存储')}
+function load(){
+ try{
+  const raw=localStorage.getItem('wastelandHunterV10')||localStorage.getItem('wastelandHunterV8')||localStorage.getItem('wastelandHunterV7');
+  if(raw)Object.assign(state,JSON.parse(raw));
+ }catch(error){console.error('Save load failed',error);sayToast('存档损坏，已使用默认状态')}
+ normalizeState();
+}
 function v10PointSegDist(x,y,a,b){const dx=b[0]-a[0],dy=b[1]-a[1],l2=dx*dx+dy*dy;let t=((x-a[0])*dx+(y-a[1])*dy)/(l2||1);t=clamp(t,0,1);return Math.hypot(x-(a[0]+dx*t),y-(a[1]+dy*t))}
 function v10NearPolyline(lines,x,y,r){for(const line of lines)for(let i=0;i<line.length-1;i++)if(v10PointSegDist(x,y,line[i],line[i+1])<r)return true;return false}
 function v10NearBridge(x,y,r=50){return V10_BRIDGES.some(b=>dist(x,y,b.x,b.y)<r)}

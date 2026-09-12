@@ -1,0 +1,66 @@
+[
+  {
+    "path": "assets/legacy/asset-01.webp",
+    "sha256": "9ce039d57fdd0e9144f416277d452cd86c211c7e9e0101ef2221eac05497de61"
+  },
+  {
+    "path": "assets/legacy/asset-02.webp",
+    "sha256": "4649148e827f1f4f3ca4d8d8ce584ae2f680e82ebb7c4354f6c432276b987c12"
+  },
+  {
+    "path": "assets/legacy/asset-03.webp",
+    "sha256": "feeb9f6008176113797bc231f7c5f85d2b0ccf2399c2c0503dc53eda3bcedc2f"
+  },
+  {
+    "path": "assets/legacy/asset-04.png",
+    "sha256": "3e6587de7d5ac95bc55b98cf59536ee70344cde19d2ff95f04fbbde624a1d584"
+  },
+  {
+    "path": "assets/legacy/asset-05.png",
+    "sha256": "1e37ecf9b79971115191757940f75ecb753cc2ea548c1568ba0c65d984963ef5"
+  },
+  {
+    "path": "assets/legacy/asset-06.png",
+    "sha256": "ff4bc07da7435ab2180894e491197c97377fc6a67f37724f420f3cffa09de0dc"
+  },
+  {
+    "path": "assets/legacy/asset-07.png",
+    "sha256": "29cbf6834e4fd43b398a137eb539f136412edf833f161b0af61d40ef0bc11cde"
+  },
+  {
+    "path": "assets/legacy/asset-08.png",
+    "sha256": "e4fbbd76ab06715f2a34e6de16f17e1beff808ba4bf18289346a362fc7741ad3"
+  },
+  {
+    "path": "assets/legacy/asset-09.png",
+    "sha256": "d3b7af349fd9ea6ce5f94231410e7f14e867ae6a21e34ce9c73a21c26f803631"
+  },
+  {
+    "path": "assets/legacy/asset-10.png",
+    "sha256": "16fd602122296fa133167415153b2cfe0c6c2b3c9c6d0313125a9813e15ed474"
+  },
+  {
+    "path": "assets/legacy/asset-11.png",
+    "sha256": "488c4fa332452e1b30ab4e5b1038c512e0274b1736f37a70855892a2560d3c78"
+  },
+  {
+    "path": "assets/legacy/asset-12.png",
+    "sha256": "167cf1d8c955c330aa87ba3fa5b2e7a2ef6e694468c2a4a1cb37b181552d505e"
+  },
+  {
+    "path": "assets/legacy/asset-13.png",
+    "sha256": "2c7d88d4b91f25f3da0c249eb3ba409fac5f6fa519f0a87a128cbab9a242dd12"
+  },
+  {
+    "path": "assets/legacy/asset-14.png",
+    "sha256": "bb3a1eb8411379b98a2c8bfce7fc92cff7819d72f889cc6cdfaa2777cbf156a0"
+  },
+  {
+    "path": "assets/legacy/asset-15.png",
+    "sha256": "8c066c8fd319eb4def775af54c605e633d00419e1f852ebdcb62ed6e58fe0aae"
+  },
+  {
+    "path": "assets/legacy/asset-16.png",
+    "sha256": "cd922ca63b8d8c078e316b4626b1ab2fcdf8d78818853c23bb49b799d1508ade"
+  }
+]

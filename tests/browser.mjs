@@ -27,6 +27,12 @@ try {
     assert.ok(legacyErrors.some(error => error.includes('v8BuildingPalette')), 'Untouched legacy reproduces the missing-building-palette crash');
     await legacyPage.close();
   } finally { await new Promise(resolve => legacyServer.close(resolve)); }
+  const manifest=await (await fetch(url+'/data/asset_manifest.json',{cache:'no-store'})).json();
+  const qaCount=manifest.assets.filter(record=>record.status==='QA_PASS').length;
+  if(qaCount===0){
+    await writeFile(resolve(artifacts,'checks.json'),JSON.stringify({releaseBlocked:true,qaPass:0,legacyPreserved:true},null,2));
+    console.log('BLOCKED: modern browser capture awaits the intentional empty R1 release.');
+  }else{
   const context = await browser.newContext({ viewport: { width: 960, height: 540 } });
   const page = await context.newPage();
   page.on('pageerror', error => errors.push(error.stack || error.message));
@@ -108,6 +114,7 @@ try {
   assert.deepEqual(errors, []);
   await writeFile(resolve(artifacts, 'checks.json'), JSON.stringify({ freshStart: fresh, movement: true, saveReload: true, v7KeyFallback: true, combat: true, runtimeErrors: errors, screenshots: 7 }, null, 2));
   console.log('PASS: origin, movement, save/reload, V7 fallback, combat, asset loading; seven runtime QA screenshots.');
+  }
 } finally {
   await browser?.close();
   await new Promise(resolve => server.close(resolve));

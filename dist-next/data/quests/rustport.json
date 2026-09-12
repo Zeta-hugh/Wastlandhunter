@@ -1,0 +1,14 @@
+{
+  "quest_id": "rustport_first_bounty",
+  "title": "锈港第一笔赏金",
+  "status": "AVAILABLE",
+  "prerequisites": [],
+  "objectives": [
+    {"id": "meet_liuyan", "type": "talk", "target": "liuyan", "next": "repair_starter_tank"},
+    {"id": "repair_starter_tank", "type": "repair", "target": "rust_runner", "next": "kill_iron_hound"},
+    {"id": "kill_iron_hound", "type": "kill", "target": "iron_hound", "count": 1, "next": "claim_bounty"},
+    {"id": "claim_bounty", "type": "talk", "target": "liuyan", "next": "complete"}
+  ],
+  "rewards": {"gold": 350, "scrap": 8, "hunterRank": 1},
+  "completion_effects": ["set:worldState.iron_hound_dead=true", "set:worldState.rustport_next_region_unlocked=true"]
+}

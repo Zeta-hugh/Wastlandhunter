@@ -6,9 +6,16 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/build.mjs --serve",
+    "build:next": "node scripts/build-next.mjs",
+    "android:sync": "npm run build:next && cap sync android",
     "test": "node --test tests/migration.test.mjs",
     "test:browser": "node tests/browser.mjs",
     "test:visual": "node tests/visual-rustport.mjs",
+    "test:route": "node tests/route-rustport.mjs",
+    "test:next": "node tests/next-runtime.mjs",
+    "test:architecture": "node --test tests/architecture.test.mjs",
+    "test:route:data": "node --test tests/route-data.test.mjs",
+    "test:movement": "node --test tests/movement.test.mjs",
     "assets:validate": "python3 scripts/assets/validate_assets.py",
     "assets:maps": "python3 scripts/assets/validate_maps.py",
     "assets:vehicle": "python3 scripts/assets/validate_vehicle_mounts.py",
@@ -16,5 +23,10 @@
   },
   "devDependencies": {
     "playwright": "1.62.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
   }
 }

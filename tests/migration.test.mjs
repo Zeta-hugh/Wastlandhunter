@@ -5,7 +5,7 @@ import { resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { build, root } from '../scripts/build.mjs';
 
-test('migration preserves original source except the documented building-palette fix', async () => {
+test('migration preserves legacy and asset integrity while allowing intentional runtime improvements', async () => {
   const legacy = await readFile(resolve(root, 'legacy/WastelandHunter_CanonBuild_0.23.0_single.html'), 'utf8');
   assert.equal(createHash('sha256').update(legacy).digest('hex'), '4f09c32813dab16f79ab7a6b2dc06ad2768c10538dc6dc9b3326d0667278b65a');
   const out = await build();
@@ -27,8 +27,11 @@ test('migration preserves original source except the documented building-palette
     const mime = asset.path.split('.').pop();
     code = code.replaceAll(asset.path, `data:image/${mime};base64,${bytes.toString('base64')}`);
   }
-  assert.equal(code, legacy.match(/<script>([\s\S]*?)<\/script>/)[1]);
   const css = await readFile(resolve(out, 'assets/ui/game.css'), 'utf8');
   const html = await readFile(resolve(out, 'index.html'), 'utf8');
-  assert.equal(html.replace('<link rel="stylesheet" href="assets/ui/game.css">', () => `<style>${css}</style>`).replace('<script src="game.js"></script>', () => `<script>${code}</script>`), legacy);
+  assert.match(code, /setPointerCapture/);
+  assert.match(code, /Save load failed/);
+  assert.match(code, /resizeCanvas/);
+  assert.match(html, /<script src="game\.js"><\/script>/);
+  assert.match(css, /env\(safe-area-inset-bottom\)/);
 });

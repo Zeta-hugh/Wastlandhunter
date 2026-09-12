@@ -1,5 +1,5 @@
 {
-  "result": "PASS",
+  "result": "FAIL",
   "map": "maps/rustport/rustport.tmj",
   "layers": [
     "00_ground",
@@ -17,5 +17,8 @@
     "12_triggers",
     "13_lighting"
   ],
-  "errors": []
+  "errors": [
+    "missing tileset image assets/runtime/tiles/ground/ground_dirt_oily_01.png",
+    "tileset image is not QA_PASS: ground_dirt_oily_01"
+  ]
 }

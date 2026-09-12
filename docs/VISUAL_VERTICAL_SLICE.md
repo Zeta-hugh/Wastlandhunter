@@ -10,7 +10,18 @@ The repository now uses the production asset contract. The initial Rustport grou
 
 `game/maps/rustport-visual.js` resolves the runtime tile by `asset_id` through `AssetRegistry`; it no longer contains the image path. The full-scene concept generated from the later target collages was rejected as a runtime asset because the contract forbids concept or promotional scenes from being used as production maps.
 
-This integration establishes the asset pipeline and a valid Rustport TMJ. It does not raise the visual milestone by itself: the remaining 220 planned image records stay `NEEDS_ART`, and the legacy character/vehicle atlases remain a compatibility layer until independent production files replace them.
+This integration established the asset pipeline and a valid Rustport TMJ. On 2026-09-12, all generated production images were intentionally reset to `NEEDS_ART` after review against the repository-root R1 reference boards (`image.png` through `image4.png`). The legacy character/vehicle atlases remain a compatibility layer and were not modified; the production library must now be rebuilt as independent files aligned to the reference style.
+
+### v2.1 Rustport material set — 2026-09-12
+
+The first reusable Rustport material set is now imported and passes the production asset validator:
+
+- `concrete_clean`, `concrete_cracked`, `concrete_oily` — 32×32 RGB road tiles;
+- `awning_canvas_beige` — 96×64 RGBA service-building awning;
+- `barrel_rust` — 32×48 RGBA industrial prop;
+- `cannon_75mm` — 128×128 RGBA Rust Runner main-weapon layer.
+
+These are independent files rather than crops from the legacy atlas or screenshots. They are indexed as `QA_PASS` and copied into `release/assets/`; scene wiring remains a separate renderer task.
 
 ## v1 street pass — 2026-09-12
 

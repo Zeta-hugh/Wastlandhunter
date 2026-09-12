@@ -19,6 +19,7 @@ REQUIRED_KEYS = {
     "asset_id", "category", "source_master", "runtime", "master_size",
     "runtime_size", "alpha", "pivot", "status", "qa",
 }
+VISUAL_LAYERS = {"ground", "structure", "actor", "foreground"}
 
 
 def load_manifest(path: Path = MANIFEST_PATH) -> dict:
@@ -79,6 +80,21 @@ def validate_manifest(manifest: dict) -> list[str]:
             errors.append(f"{asset_id}: incomplete qa object")
         elif record["status"] == "QA_PASS" and not all(qa.values()):
             errors.append(f"{asset_id}: QA_PASS requires every qa flag to be true")
+        visual = record.get("visual")
+        if record["status"] == "QA_PASS":
+            if not isinstance(visual, dict):
+                errors.append(f"{asset_id}: QA_PASS requires visual metadata")
+            else:
+                if visual.get("perspective") not in {"ground_topdown", "three_quarter"}:
+                    errors.append(f"{asset_id}: invalid visual perspective")
+                if visual.get("light_direction") != "upper_left":
+                    errors.append(f"{asset_id}: light_direction must be upper_left")
+                if visual.get("depth_layer") not in VISUAL_LAYERS:
+                    errors.append(f"{asset_id}: invalid visual depth_layer")
+                for field in ("ground_contact", "collision_footprint"):
+                    value = visual.get(field)
+                    if not isinstance(value, list) or len(value) != 2 or not all(isinstance(n, int) and n >= 0 for n in value):
+                        errors.append(f"{asset_id}: visual.{field} must contain two non-negative integers")
     return errors
 
 

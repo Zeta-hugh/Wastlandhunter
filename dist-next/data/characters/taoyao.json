@@ -1,0 +1,9 @@
+{
+  "character_id": "taoyao",
+  "status": "NEEDS_ART",
+  "frame_size": [48, 72],
+  "pivot": [24, 68],
+  "directions": ["n", "ne", "e", "se", "s", "sw", "w", "nw"],
+  "animations": {"idle": 4, "walk": 6, "run": 6, "attack": 6, "interact": 4, "hurt": 3, "down": 4},
+  "path_pattern": "assets/runtime/characters/taoyao/{animation}/{direction}/frame_{index:02d}.png"
+}

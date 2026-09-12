@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111817">
+<link rel="manifest" href="app.webmanifest">
+<link rel="stylesheet" href="assets/ui/next.css">
+<title>荒原猎手 · Rustport Next</title>
+</head>
+<body>
+<main id="next-shell">
+ <canvas aria-label="Rustport game view" width="1280" height="720"></canvas>
+ <div class="next-hud"><strong>荒原猎手 // Rustport</strong><span data-next-status>抵达锈港：先与柳焰交谈</span></div>
+ <div class="next-dpad" aria-label="方向控制">
+  <button data-next-dir="up">▲</button><button data-next-dir="left">◀</button><button data-next-dir="down">▼</button><button data-next-dir="right">▶</button>
+ </div>
+ <button class="next-action" data-next-action="confirm">A<small data-next-context>互动</small></button>
+</main>
+<script type="module" src="game/app/main.js"></script>
+</body>
+</html>

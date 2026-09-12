@@ -2,7 +2,11 @@
 const RUSTPORT_VISUAL_VERSION='0.25.0-rustport-assets-v2';
 const RUSTPORT_GROUND=new Image();
 let RUSTPORT_GROUND_ERROR=null;
-ASSET_REGISTRY_READY.then(()=>AssetRegistry.bindImage('ground_dirt_oily_01',RUSTPORT_GROUND)).catch(error=>{
+ASSET_BINDINGS_READY.then(()=>{
+ const ground=AssetRegistry.resolve('rustport.ground').find(record=>record.asset_id==='ground_dirt_oily_01');
+ if(!ground)throw new Error('Rustport ground binding does not contain ground_dirt_oily_01');
+ return AssetRegistry.bindImage(ground.asset_id,RUSTPORT_GROUND);
+}).catch(error=>{
  RUSTPORT_GROUND_ERROR=error;
  console.error(error);
 });
@@ -70,6 +74,23 @@ function rustportRoads(){
  }
 }
 
+function rustportStreetDetails(){
+ const drains=[[188,455,1.1],[520,455,.8],[890,455,1.15],[1160,455,.85],[700,575,.9],[700,748,1.15],[300,610,.8],[1040,350,.9]];
+ for(const [x,y,scale] of drains){
+  const p=rustportPoint(x,y),w=30*scale,h=8*scale;
+  ctx.fillStyle='rgba(7,11,11,.75)';ctx.fillRect(p.x-w/2,p.y-h/2,w,h);
+  ctx.strokeStyle='rgba(117,128,119,.48)';ctx.lineWidth=1;
+  for(let i=-w/2+4;i<w/2;i+=7){ctx.beginPath();ctx.moveTo(p.x+i,p.y-h/2+1);ctx.lineTo(p.x+i+3,p.y+h/2-1);ctx.stroke()}
+ }
+ const puddles=[[560,520,34,9],[905,390,42,10],[1140,590,28,7],[250,770,38,8]];
+ for(const [x,y,w,h] of puddles){
+  const p=rustportPoint(x,y),g=ctx.createRadialGradient(p.x,p.y,1,p.x,p.y,w);
+  g.addColorStop(0,'rgba(137,173,166,.24)');g.addColorStop(1,'rgba(36,67,66,0)');
+  ctx.fillStyle=g;ctx.beginPath();ctx.ellipse(p.x,p.y,w,h,0,0,TAU);ctx.fill();
+  ctx.strokeStyle='rgba(184,205,190,.22)';ctx.lineWidth=1;ctx.beginPath();ctx.ellipse(p.x,p.y,w*.72,h*.55,0,0,TAU);ctx.stroke();
+ }
+}
+
 const RUSTPORT_BUILDING_STYLE={
  guild:{wall:'#4a433a',side:'#272b29',roof:'#202624',trim:'#c09348',light:'#f4c773'},
  clinic:{wall:'#4d6768',side:'#293839',roof:'#243132',trim:'#8fc6bd',light:'#c9efe2'},
@@ -124,6 +145,8 @@ function rustportBuilding(b){
  ctx.fillStyle='#101513';ctx.fillRect(p.x+w/2-sw/2,p.y+30,sw,24);ctx.strokeStyle=s.trim;ctx.strokeRect(p.x+w/2-sw/2+.5,p.y+30.5,sw-1,23);
  ctx.fillStyle='#ead7a2';ctx.font='bold 12px "Noto Sans SC",sans-serif';ctx.textAlign='center';ctx.fillText(label,p.x+w/2,p.y+47);
  ctx.fillStyle='#1a1f1d';ctx.fillRect(p.x-7,p.y+h-3,w+14,8);
+ ctx.strokeStyle='rgba(19,24,22,.8)';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(p.x+12,p.y+h-18);ctx.lineTo(p.x+w-12,p.y+h-18);ctx.stroke();
+ ctx.strokeStyle=s.trim;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(p.x+18,p.y+h-20);ctx.lineTo(p.x+18,p.y+h+8);ctx.moveTo(p.x+w-22,p.y+h-20);ctx.lineTo(p.x+w-22,p.y+h+8);ctx.stroke();
  ctx.restore();
 }
 
@@ -142,6 +165,9 @@ function rustportProps(){
  [[390,398],[820,418],[1160,520],[151,702]].forEach(q=>rustportBarrel(...q));
  const cables=[[[92,158],[420,148],[710,178]],[[720,168],[1010,140],[1290,165]]];
  for(const c of cables){const p=c.map(q=>rustportPoint(...q));ctx.strokeStyle='#101514';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(p[0].x,p[0].y);ctx.bezierCurveTo(p[1].x,p[1].y+35,p[1].x,p[1].y+35,p[2].x,p[2].y);ctx.stroke()}
+ for(const [x,y] of [[410,176],[720,186],[1010,150]]){
+  const p=rustportPoint(x,y);ctx.fillStyle='#171d1b';ctx.fillRect(p.x-5,p.y-5,10,10);ctx.strokeStyle='#6c765f';ctx.lineWidth=2;ctx.strokeRect(p.x-5,p.y-5,10,10);
+ }
 }
 
 function rustportLamps(){
@@ -167,7 +193,7 @@ function rustportForeground(){
 }
 
 function rustportDrawTown(){
- rustportGround();rustportRoads();rustportAtmosphere();
+ rustportGround();rustportRoads();rustportStreetDetails();rustportAtmosphere();
  townBuildings(0).forEach(rustportBuilding);
  rustportProps();rustportLamps();
  const npcs=getAmbientNpcs(0);npcs.forEach(n=>drawCharacter(n.model,n.x,n.y,n.dir,n.walk,1,n.name));

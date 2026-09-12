@@ -6,10 +6,10 @@ The machine-readable source of truth is `data/asset_manifest.json`. This page re
 
 | Status | Count | Meaning |
 | --- | ---: | --- |
-| `QA_PASS` | 1 | File exists, matches declared PNG mode and dimensions, is indexed, and passed its required automated QA. |
-| `NEEDS_ART` | 220 | Metadata and fixed asset IDs exist; independent production artwork is still required. |
+| `QA_PASS` | 0 | No production asset is currently accepted after the visual-direction reset. |
+| `NEEDS_ART` | 626 | Fixed asset IDs and metadata remain available; all production artwork must be rebuilt against the supplied R1 reference boards. |
 
-The current `QA_PASS` asset is `ground_dirt_oily_01`, a 32×32 RGB ground tile with a 512×512 source master and a generated 4×4 seam preview. Rustport resolves it through `AssetRegistry` instead of a hardcoded path.
+The production library was intentionally reset on 2026-09-12 after review against the four R1 reference boards in the repository root (`image.png` through `image4.png`). The previous generated files were removed from source master, runtime, release, and generated next-build copies. Manifest records and stable asset IDs remain so the library can be rebuilt without changing game call sites. Nothing in `legacy/` was modified.
 
 ## Priority missing sets
 
