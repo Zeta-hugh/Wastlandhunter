@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#11150f">
+<title>荒原猎手：第一阶段里程碑 0.22</title>
+<link rel="stylesheet" href="assets/ui/game.css">
+</head>
+<body>
+<div id="shell">
+  <canvas id="game" width="960" height="540"></canvas>
+  <div id="topHud">
+    <div><b id="zone">荒原</b><span id="modeTag">步行</span></div>
+    <div class="hudline"><span>装甲 <b id="hp">—</b></span><span>资金 <b id="gold">0</b>G</span><span>废料 <b id="scrap">0</b></span><span>任务 <b id="quest">—</b></span></div>
+  </div>
+  <div id="hint">方向键移动 · A 确认/互动 · B 返回/菜单</div>
+  <div id="dpad" class="control-cluster">
+    <button class="dir up" data-dir="up">▲</button>
+    <button class="dir left" data-dir="left">◀</button>
+    <button class="dir down" data-dir="down">▼</button>
+    <button class="dir right" data-dir="right">▶</button>
+  </div>
+  <div id="abpad" class="control-cluster">
+    <button id="btnB" class="round b">B<small>返回</small></button>
+    <button id="btnA" class="round a">A<small>确认</small></button>
+  </div>
+  <button id="btnMenu" aria-label="菜单">☰</button>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
