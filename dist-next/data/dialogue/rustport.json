@@ -10,8 +10,8 @@
     "bounty_claimed": {
       "speaker": "柳焰",
       "text": "铁牙猎犬倒了。带着赏金，去看看北面的旧路。",
-      "conditions": ["worldState.iron_hound_dead"],
-      "effects": ["set:worldState.rustport_next_region_unlocked=true"]
+      "conditions": ["rustport.ironHoundDefeated"],
+      "effects": []
     }
   }
 }

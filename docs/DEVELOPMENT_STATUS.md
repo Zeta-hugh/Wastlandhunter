@@ -24,7 +24,7 @@ The Rustport playable slice remains blocked when required production records are
 | Mobile camera | In progress | DPR, bounded smooth follow and look-ahead now exist; zoom/combat framing remain |
 | Mobile controls | In progress | unified keyboard/touch input and context-sensitive Talk/Open/Attack label now exist; joystick, vehicle aim/fire remain |
 | Character movement | In progress | 8-direction movement now uses bounded collision-aware sliding plus acceleration/deceleration; animation states remain |
-| Vehicle gameplay | Blocked by art | data contract exists; chassis/turret/track QA assets are not available |
+| Vehicle gameplay | Partial art foundation | south chassis, both tracks, turret 00 and 75mm cannon pass component/assembly QA; 22 required directional files remain `NEEDS_ART` |
 | Combat | Prototype | Iron Hound three-hit route exists; projectile, armor, AI phases and weak points remain |
 | Exploration | Not started | Rustport outskirts/optional route/loot loop remains |
 | Town simulation | Not started | NPC schedules and town state changes remain |
@@ -41,7 +41,7 @@ The Rustport playable slice remains blocked when required production records are
 | Performance | Not started | no budget instrumentation or pooling yet |
 | Debug tools | Not started | no release-gated debug menu yet |
 | Content validation | In progress | asset/map validators exist; definition and quest graph validators remain |
-| Rustport vertical slice | Blocked | required production art is currently `NEEDS_ART`/missing |
+| Rustport vertical slice | Blocked | the 11-file P0 environment/vehicle batch passes; required protagonist, Liu Yan and Iron Hound frames are still `NEEDS_ART` |
 
 ## Approximate playable-functionality score
 
@@ -60,7 +60,7 @@ These are conservative, track-based estimates and are not a feature-count comple
 
 ## Required next order
 
-1. Restore or produce the Rustport production assets and return only verified records to `QA_PASS`.
+1. Produce the next required Rustport character and Iron Hound frames, preserving the same per-file QA gate.
 2. Add collision-aware movement and context-sensitive mobile interaction.
 3. Add Rust Runner vehicle controller using the shared vehicle schema.
 4. Add Rustport outskirts, first ruin and the bounty-claim/next-region hook.

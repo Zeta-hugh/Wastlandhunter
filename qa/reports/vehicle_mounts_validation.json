@@ -6,13 +6,9 @@
     "rust_runner_chassis_ne",
     "rust_runner_chassis_e",
     "rust_runner_chassis_se",
-    "rust_runner_chassis_s",
     "rust_runner_chassis_sw",
     "rust_runner_chassis_w",
     "rust_runner_chassis_nw",
-    "rust_runner_track_left",
-    "rust_runner_track_right",
-    "rust_runner_turret_00",
     "rust_runner_turret_01",
     "rust_runner_turret_02",
     "rust_runner_turret_03",
@@ -27,8 +23,7 @@
     "rust_runner_turret_12",
     "rust_runner_turret_13",
     "rust_runner_turret_14",
-    "rust_runner_turret_15",
-    "cannon_75mm"
+    "rust_runner_turret_15"
   ],
   "errors": []
 }

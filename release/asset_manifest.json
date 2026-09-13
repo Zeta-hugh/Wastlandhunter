@@ -1,4 +1,148 @@
 {
   "schema_version": "1.0",
-  "assets": []
+  "assets": [
+    {
+      "asset_id": "awning_canvas_beige",
+      "path": "assets/buildings/awnings/awning_canvas_beige.png",
+      "runtime_size": [
+        96,
+        64
+      ],
+      "alpha": true,
+      "pivot": [
+        48,
+        16
+      ]
+    },
+    {
+      "asset_id": "barrel_rust",
+      "path": "assets/props/small/barrel_rust.png",
+      "runtime_size": [
+        32,
+        48
+      ],
+      "alpha": true,
+      "pivot": [
+        16,
+        48
+      ]
+    },
+    {
+      "asset_id": "cannon_75mm",
+      "path": "assets/weapons/main/cannon_75mm.png",
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        28,
+        64
+      ]
+    },
+    {
+      "asset_id": "concrete_clean",
+      "path": "assets/tiles/roads/concrete_clean.png",
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset_id": "concrete_cracked",
+      "path": "assets/tiles/roads/concrete_cracked.png",
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset_id": "concrete_oily",
+      "path": "assets/tiles/roads/concrete_oily.png",
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset_id": "ground_dirt_oily_01",
+      "path": "assets/tiles/ground/ground_dirt_oily_01.png",
+      "runtime_size": [
+        32,
+        32
+      ],
+      "alpha": false,
+      "pivot": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset_id": "rust_runner_chassis_s",
+      "path": "assets/vehicles/rust_runner/chassis/rust_runner_chassis_s.png",
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ]
+    },
+    {
+      "asset_id": "rust_runner_track_left",
+      "path": "assets/vehicles/rust_runner/tracks/rust_runner_track_left.png",
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ]
+    },
+    {
+      "asset_id": "rust_runner_track_right",
+      "path": "assets/vehicles/rust_runner/tracks/rust_runner_track_right.png",
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        96
+      ]
+    },
+    {
+      "asset_id": "rust_runner_turret_00",
+      "path": "assets/vehicles/rust_runner/turret/rust_runner_turret_00.png",
+      "runtime_size": [
+        128,
+        128
+      ],
+      "alpha": true,
+      "pivot": [
+        64,
+        61
+      ]
+    }
+  ]
 }

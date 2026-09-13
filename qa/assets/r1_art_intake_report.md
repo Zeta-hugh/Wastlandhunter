@@ -1,5 +1,7 @@
 # R1 P0 Asset Delivery Report
 
+> Historical pre-intake report. Superseded by `qa/reports/rustport_p0_batch_01.json` after the 11-file production batch passed QA on 2026-09-13.
+
 Date: 2026-09-12
 
 Date: 2026-09-12

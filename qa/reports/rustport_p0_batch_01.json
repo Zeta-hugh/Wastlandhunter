@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "rustport_p0_batch_01",
+  "produced_on": "2026-09-13",
+  "scope": "First formal Rustport environment and Rust Runner production asset batch",
+  "generation": {
+    "mode": "OpenAI built-in ImageGen",
+    "prompt_set": "docs/RUSTPORT_P0_BATCH_01_PROMPTS.md",
+    "reference_use": "style attributes only; no reference pixels were cropped, copied, composited or repainted"
+  },
+  "batch_status": "QA_PASS",
+  "assets": [
+    {
+      "asset_id": "ground_dirt_oily_01",
+      "category": "tile.ground",
+      "source_master": "assets/source_master/tiles/ground/ground_dirt_oily_01.png",
+      "runtime": "assets/runtime/tiles/ground/ground_dirt_oily_01.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        16
+      ],
+      "ground_contact": [
+        16,
+        16
+      ],
+      "collision_footprint": [
+        32,
+        32
+      ],
+      "perspective": "ground_topdown",
+      "light_direction": "upper_left",
+      "depth_layer": "ground",
+      "alpha": false,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/ground_dirt_oily_01_preview.png",
+      "seam_test": "qa/seam_tests/ground_dirt_oily_01_4x4.png",
+      "seam_metrics": {
+        "horizontal_edge_mae": 6.208,
+        "vertical_edge_mae": 7.073,
+        "preview": "qa/seam_tests/ground_dirt_oily_01_4x4.png"
+      }
+    },
+    {
+      "asset_id": "concrete_clean",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/concrete_clean.png",
+      "runtime": "assets/runtime/tiles/roads/concrete_clean.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        16
+      ],
+      "ground_contact": [
+        16,
+        16
+      ],
+      "collision_footprint": [
+        32,
+        32
+      ],
+      "perspective": "ground_topdown",
+      "light_direction": "upper_left",
+      "depth_layer": "ground",
+      "alpha": false,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/concrete_clean_preview.png",
+      "seam_test": "qa/seam_tests/concrete_clean_4x4.png",
+      "seam_metrics": {
+        "horizontal_edge_mae": 4.906,
+        "vertical_edge_mae": 4.073,
+        "preview": "qa/seam_tests/concrete_clean_4x4.png"
+      }
+    },
+    {
+      "asset_id": "concrete_cracked",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/concrete_cracked.png",
+      "runtime": "assets/runtime/tiles/roads/concrete_cracked.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        16
+      ],
+      "ground_contact": [
+        16,
+        16
+      ],
+      "collision_footprint": [
+        32,
+        32
+      ],
+      "perspective": "ground_topdown",
+      "light_direction": "upper_left",
+      "depth_layer": "ground",
+      "alpha": false,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/concrete_cracked_preview.png",
+      "seam_test": "qa/seam_tests/concrete_cracked_4x4.png",
+      "seam_metrics": {
+        "horizontal_edge_mae": 5.458,
+        "vertical_edge_mae": 5.656,
+        "preview": "qa/seam_tests/concrete_cracked_4x4.png"
+      }
+    },
+    {
+      "asset_id": "concrete_oily",
+      "category": "tile.road",
+      "source_master": "assets/source_master/tiles/roads/concrete_oily.png",
+      "runtime": "assets/runtime/tiles/roads/concrete_oily.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        16
+      ],
+      "ground_contact": [
+        16,
+        16
+      ],
+      "collision_footprint": [
+        32,
+        32
+      ],
+      "perspective": "ground_topdown",
+      "light_direction": "upper_left",
+      "depth_layer": "ground",
+      "alpha": false,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/concrete_oily_preview.png",
+      "seam_test": "qa/seam_tests/concrete_oily_4x4.png",
+      "seam_metrics": {
+        "horizontal_edge_mae": 5.854,
+        "vertical_edge_mae": 5.146,
+        "preview": "qa/seam_tests/concrete_oily_4x4.png"
+      }
+    },
+    {
+      "asset_id": "awning_canvas_beige",
+      "category": "building.awning",
+      "source_master": "assets/source_master/buildings/awnings/awning_canvas_beige.png",
+      "runtime": "assets/runtime/buildings/awnings/awning_canvas_beige.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        96,
+        64
+      ],
+      "pivot": [
+        48,
+        16
+      ],
+      "ground_contact": [
+        48,
+        16
+      ],
+      "collision_footprint": [
+        92,
+        12
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "structure",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/awning_canvas_beige_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    },
+    {
+      "asset_id": "barrel_rust",
+      "category": "prop.small",
+      "source_master": "assets/source_master/props/small/barrel_rust.png",
+      "runtime": "assets/runtime/props/small/barrel_rust.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        32,
+        48
+      ],
+      "pivot": [
+        16,
+        48
+      ],
+      "ground_contact": [
+        16,
+        48
+      ],
+      "collision_footprint": [
+        24,
+        12
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "structure",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/barrel_rust_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    },
+    {
+      "asset_id": "rust_runner_chassis_s",
+      "category": "vehicle.chassis",
+      "source_master": "assets/source_master/vehicles/rust_runner/chassis/rust_runner_chassis_s.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_s.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        96
+      ],
+      "ground_contact": [
+        64,
+        96
+      ],
+      "collision_footprint": [
+        76,
+        49
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "actor",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/rust_runner_chassis_s_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    },
+    {
+      "asset_id": "rust_runner_track_left",
+      "category": "vehicle.track",
+      "source_master": "assets/source_master/vehicles/rust_runner/tracks/rust_runner_track_left.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/tracks/rust_runner_track_left.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        96
+      ],
+      "ground_contact": [
+        64,
+        96
+      ],
+      "collision_footprint": [
+        70,
+        18
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "actor",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/rust_runner_track_left_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    },
+    {
+      "asset_id": "rust_runner_track_right",
+      "category": "vehicle.track",
+      "source_master": "assets/source_master/vehicles/rust_runner/tracks/rust_runner_track_right.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/tracks/rust_runner_track_right.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        96
+      ],
+      "ground_contact": [
+        64,
+        96
+      ],
+      "collision_footprint": [
+        70,
+        18
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "actor",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/rust_runner_track_right_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    },
+    {
+      "asset_id": "rust_runner_turret_00",
+      "category": "vehicle.turret",
+      "source_master": "assets/source_master/vehicles/rust_runner/turret/rust_runner_turret_00.png",
+      "runtime": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_00.png",
+      "master_size": [
+        768,
+        768
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        61
+      ],
+      "ground_contact": [
+        64,
+        61
+      ],
+      "collision_footprint": [
+        52,
+        32
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "actor",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/rust_runner_turret_00_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    },
+    {
+      "asset_id": "cannon_75mm",
+      "category": "weapon.main",
+      "source_master": "assets/source_master/weapons/main/cannon_75mm.png",
+      "runtime": "assets/runtime/weapons/main/cannon_75mm.png",
+      "master_size": [
+        512,
+        512
+      ],
+      "runtime_size": [
+        128,
+        128
+      ],
+      "pivot": [
+        28,
+        64
+      ],
+      "ground_contact": [
+        28,
+        64
+      ],
+      "collision_footprint": [
+        84,
+        12
+      ],
+      "perspective": "three_quarter",
+      "light_direction": "upper_left",
+      "depth_layer": "actor",
+      "alpha": true,
+      "no_text": true,
+      "no_crop": true,
+      "status": "QA_PASS",
+      "qa": {
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "preview": "qa/runtime_previews/cannon_75mm_preview.png",
+      "seam_test": null,
+      "seam_metrics": null
+    }
+  ],
+  "qa_summary": {
+    "manifest": "PASS",
+    "assets": "PASS",
+    "maps": "PASS",
+    "release_assets": 11,
+    "vehicle": "NEEDS_ART",
+    "vehicle_missing_count": 22,
+    "legacy_runtime_debt": 16,
+    "preview_files": "PASS (11/11)",
+    "transparent_canvas_edges": "PASS (14/14 source/runtime files)",
+    "asset_bindings": "PASS (11/11)",
+    "runtime_pivot_mount_integration": "PASS"
+  },
+  "integration_references": [
+    "data/asset_bindings.json",
+    "data/rustport_scene.json",
+    "data/tiles/rustport_ground.tsj",
+    "data/vehicles/rust_runner.json",
+    "data/weapons/cannon_75mm.json"
+  ],
+  "batch_incomplete": [],
+  "incomplete_after_batch": {
+    "rust_runner_status": "NEEDS_ART",
+    "missing_required_directional_assets": [
+      "rust_runner_chassis_n",
+      "rust_runner_chassis_ne",
+      "rust_runner_chassis_e",
+      "rust_runner_chassis_se",
+      "rust_runner_chassis_sw",
+      "rust_runner_chassis_w",
+      "rust_runner_chassis_nw",
+      "rust_runner_turret_01",
+      "rust_runner_turret_02",
+      "rust_runner_turret_03",
+      "rust_runner_turret_04",
+      "rust_runner_turret_05",
+      "rust_runner_turret_06",
+      "rust_runner_turret_07",
+      "rust_runner_turret_08",
+      "rust_runner_turret_09",
+      "rust_runner_turret_10",
+      "rust_runner_turret_11",
+      "rust_runner_turret_12",
+      "rust_runner_turret_13",
+      "rust_runner_turret_14",
+      "rust_runner_turret_15"
+    ],
+    "remaining_manifest_needs_art": 615,
+    "note": "Only the 22 directly required Rust Runner directional files are enumerated here; the project-wide catalog is intentionally not expanded in this batch."
+  },
+  "runtime_integration_preview": "qa/runtime_previews/rustport_p0_runtime_integration.png"
+}

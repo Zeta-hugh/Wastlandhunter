@@ -10,5 +10,5 @@
     {"id": "claim_bounty", "type": "talk", "target": "liuyan", "next": "complete"}
   ],
   "rewards": {"gold": 350, "scrap": 8, "hunterRank": 1},
-  "completion_effects": ["set:worldState.iron_hound_dead=true", "set:worldState.rustport_next_region_unlocked=true"]
+  "completion_effects": []
 }

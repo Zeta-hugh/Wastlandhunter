@@ -129,13 +129,27 @@
         48,
         16
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
-      }
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "visual": {
+        "ground_contact": [
+          48,
+          16
+        ],
+        "collision_footprint": [
+          92,
+          12
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "structure"
+      },
+      "preview": "qa/runtime_previews/awning_canvas_beige_preview.png"
     },
     {
       "asset_id": "awning_green_military",
@@ -233,13 +247,27 @@
         16,
         48
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
-      }
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "visual": {
+        "ground_contact": [
+          16,
+          48
+        ],
+        "collision_footprint": [
+          24,
+          12
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "structure"
+      },
+      "preview": "qa/runtime_previews/barrel_rust_preview.png"
     },
     {
       "asset_id": "button_disabled",
@@ -529,18 +557,32 @@
         28,
         64
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
       },
       "slot": "main",
       "muzzle_point": [
         112,
         64
-      ]
+      ],
+      "visual": {
+        "ground_contact": [
+          28,
+          64
+        ],
+        "collision_footprint": [
+          84,
+          12
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "actor"
+      },
+      "preview": "qa/runtime_previews/cannon_75mm_preview.png"
     },
     {
       "asset_id": "concrete_clean",
@@ -560,13 +602,28 @@
         16,
         16
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
-      }
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "visual": {
+        "ground_contact": [
+          16,
+          16
+        ],
+        "collision_footprint": [
+          32,
+          32
+        ],
+        "perspective": "ground_topdown",
+        "light_direction": "upper_left",
+        "depth_layer": "ground"
+      },
+      "seam_test": "qa/seam_tests/concrete_clean_4x4.png",
+      "preview": "qa/runtime_previews/concrete_clean_preview.png"
     },
     {
       "asset_id": "concrete_cracked",
@@ -586,13 +643,28 @@
         16,
         16
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
-      }
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "visual": {
+        "ground_contact": [
+          16,
+          16
+        ],
+        "collision_footprint": [
+          32,
+          32
+        ],
+        "perspective": "ground_topdown",
+        "light_direction": "upper_left",
+        "depth_layer": "ground"
+      },
+      "seam_test": "qa/seam_tests/concrete_cracked_4x4.png",
+      "preview": "qa/runtime_previews/concrete_cracked_preview.png"
     },
     {
       "asset_id": "concrete_oily",
@@ -612,13 +684,28 @@
         16,
         16
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
-      }
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
+      },
+      "visual": {
+        "ground_contact": [
+          16,
+          16
+        ],
+        "collision_footprint": [
+          32,
+          32
+        ],
+        "perspective": "ground_topdown",
+        "light_direction": "upper_left",
+        "depth_layer": "ground"
+      },
+      "seam_test": "qa/seam_tests/concrete_oily_4x4.png",
+      "preview": "qa/runtime_previews/concrete_oily_preview.png"
     },
     {
       "asset_id": "damage_armor_broken",
@@ -1666,14 +1753,28 @@
         16,
         16
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
       },
-      "seam_test": "qa/seam_tests/ground_dirt_oily_01_4x4.png"
+      "seam_test": "qa/seam_tests/ground_dirt_oily_01_4x4.png",
+      "visual": {
+        "ground_contact": [
+          16,
+          16
+        ],
+        "collision_footprint": [
+          32,
+          32
+        ],
+        "perspective": "ground_topdown",
+        "light_direction": "upper_left",
+        "depth_layer": "ground"
+      },
+      "preview": "qa/runtime_previews/ground_dirt_oily_01_preview.png"
     },
     {
       "asset_id": "industrial_lamp",
@@ -4119,15 +4220,29 @@
         64,
         96
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
       },
       "vehicle_id": "rust_runner",
-      "direction": "s"
+      "direction": "s",
+      "visual": {
+        "ground_contact": [
+          64,
+          96
+        ],
+        "collision_footprint": [
+          76,
+          49
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "actor"
+      },
+      "preview": "qa/runtime_previews/rust_runner_chassis_s_preview.png"
     },
     {
       "asset_id": "rust_runner_chassis_se",
@@ -4231,15 +4346,29 @@
         64,
         96
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
       },
       "vehicle_id": "rust_runner",
-      "side": "left"
+      "side": "left",
+      "visual": {
+        "ground_contact": [
+          64,
+          96
+        ],
+        "collision_footprint": [
+          70,
+          18
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "actor"
+      },
+      "preview": "qa/runtime_previews/rust_runner_track_left_preview.png"
     },
     {
       "asset_id": "rust_runner_track_right",
@@ -4259,15 +4388,29 @@
         64,
         96
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
       },
       "vehicle_id": "rust_runner",
-      "side": "right"
+      "side": "right",
+      "visual": {
+        "ground_contact": [
+          64,
+          96
+        ],
+        "collision_footprint": [
+          70,
+          18
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "actor"
+      },
+      "preview": "qa/runtime_previews/rust_runner_track_right_preview.png"
     },
     {
       "asset_id": "rust_runner_turret_00",
@@ -4287,16 +4430,30 @@
         64,
         61
       ],
-      "status": "NEEDS_ART",
+      "status": "QA_PASS",
       "qa": {
-        "alpha_clean": false,
-        "dimensions_valid": false,
-        "no_text": false,
-        "no_crop": false
+        "alpha_clean": true,
+        "dimensions_valid": true,
+        "no_text": true,
+        "no_crop": true
       },
       "vehicle_id": "rust_runner",
       "angle_degrees": 0,
-      "turret_direction": 0
+      "turret_direction": 0,
+      "visual": {
+        "ground_contact": [
+          64,
+          61
+        ],
+        "collision_footprint": [
+          52,
+          32
+        ],
+        "perspective": "three_quarter",
+        "light_direction": "upper_left",
+        "depth_layer": "actor"
+      },
+      "preview": "qa/runtime_previews/rust_runner_turret_00_preview.png"
     },
     {
       "asset_id": "rust_runner_turret_01",

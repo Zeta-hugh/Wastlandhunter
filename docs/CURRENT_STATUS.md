@@ -61,7 +61,7 @@ Do NOT keep expanding content breadth. Build a polished Rustport vertical slice 
 
 The four repository-root reference boards (`image.png` through `image4.png`) are now the visual direction reference for the production library. After review, all previously generated production images were intentionally removed from source master, runtime, release, and generated next-build copies. Their manifest records, stable asset IDs, binding schema, and import pipeline remain intact and are reset to `NEEDS_ART` for a clean rebuild. The legacy Canon 0.23 prototype and `assets/legacy/` compatibility material were not modified.
 
-The release manifest currently contains zero production assets by design. Runtime visual tests that require `QA_PASS` files should remain blocked until the first R1-aligned replacement set is imported.
+Rustport P0 Batch 01 is now imported: 11 source/runtime pairs are `QA_PASS` and are the only files in `release/assets/`. The batch contains four ground/road tiles, the beige awning, rust barrel, south chassis, two distinct track modules, turret 00 and the 75mm cannon. The exact metadata, previews and unresolved Rust Runner directions are in `qa/reports/rustport_p0_batch_01.json`.
 
 - Mobile virtual controls now use pointer capture and guaranteed release paths.
 - Canvas rendering keeps the 960×540 logical coordinate system while scaling for device pixel ratio.
@@ -90,7 +90,7 @@ The next runtime now loads every available `QA_PASS` record through `game/app/co
 
 Rustport combat feedback now keeps the approved Iron Hound death frame visible briefly after the final hit, while cannon placement follows the target's world position instead of remaining fixed to the viewport.
 
-The new runtime now uses a shared 3/4 orthographic 2.5D projection for world ground, entity foot points, elevation and shadows. Startup has an explicit production-asset gate with a 15-second manifest/image timeout; it reports an actionable unavailable state instead of stopping the first animation frame after a missing asset. The current worktree still has the required Rustport production records at `NEEDS_ART`, so the playable slice is intentionally blocked until those files pass QA.
+The new runtime now uses a shared 3/4 orthographic 2.5D projection for world ground, entity foot points, elevation and shadows. Startup has an explicit production-asset gate with a 15-second manifest/image timeout; it reports an actionable unavailable state instead of stopping the first animation frame after a missing asset. The 11 P0 batch records now pass, while the complete next-runtime slice remains intentionally blocked by its required protagonist, Liu Yan and Iron Hound production frames and by later directional vehicle coverage.
 
 The Rustport route definition is now separated into `data/quests/rustport.json`, `data/dialogue/rustport.json` and `data/bounties/iron_hound.json`. Runtime managers advance the route and prevent duplicate bounty claims; art synchronization remains owned by the parallel asset-production workflow.
 

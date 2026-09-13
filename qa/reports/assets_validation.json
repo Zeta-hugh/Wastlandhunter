@@ -2,20 +2,22 @@
   "result": "PASS",
   "manifest_records": 626,
   "status_counts": {
-    "NEEDS_ART": 626
+    "NEEDS_ART": 615,
+    "QA_PASS": 11
   },
-  "active_files_checked": 0,
-  "missing_art_count": 626,
+  "active_files_checked": 11,
+  "preview_files_checked": 11,
+  "transparent_edges_checked": 14,
+  "bound_asset_ids": 500,
+  "missing_art_count": 615,
   "missing_art": [
     "antenna_long",
     "antenna_short",
     "autocannon_20mm",
     "autocannon_30mm",
-    "awning_canvas_beige",
     "awning_green_military",
     "awning_red_faded",
     "barrel_blue",
-    "barrel_rust",
     "button_disabled",
     "button_hover",
     "button_normal",
@@ -26,10 +28,6 @@
     "cactus_small",
     "cannon_105mm",
     "cannon_120mm",
-    "cannon_75mm",
-    "concrete_clean",
-    "concrete_cracked",
-    "concrete_oily",
     "damage_armor_broken",
     "damage_burn_medium",
     "damage_scratches_light",
@@ -69,7 +67,6 @@
     "ground_dirt_cracked_02",
     "ground_dirt_gravel_01",
     "ground_dirt_gravel_02",
-    "ground_dirt_oily_01",
     "industrial_lamp",
     "junction_box",
     "ladder_metal",
@@ -159,13 +156,9 @@
     "rust_runner_chassis_n",
     "rust_runner_chassis_ne",
     "rust_runner_chassis_nw",
-    "rust_runner_chassis_s",
     "rust_runner_chassis_se",
     "rust_runner_chassis_sw",
     "rust_runner_chassis_w",
-    "rust_runner_track_left",
-    "rust_runner_track_right",
-    "rust_runner_turret_00",
     "rust_runner_turret_01",
     "rust_runner_turret_02",
     "rust_runner_turret_03",
@@ -701,8 +694,41 @@
     }
   ],
   "contract_complete": false,
-  "seam_tests": {},
-  "release_assets": [],
+  "seam_tests": {
+    "concrete_clean": {
+      "horizontal_edge_mae": 4.906,
+      "vertical_edge_mae": 4.073,
+      "preview": "qa/seam_tests/concrete_clean_4x4.png"
+    },
+    "concrete_cracked": {
+      "horizontal_edge_mae": 5.458,
+      "vertical_edge_mae": 5.656,
+      "preview": "qa/seam_tests/concrete_cracked_4x4.png"
+    },
+    "concrete_oily": {
+      "horizontal_edge_mae": 5.854,
+      "vertical_edge_mae": 5.146,
+      "preview": "qa/seam_tests/concrete_oily_4x4.png"
+    },
+    "ground_dirt_oily_01": {
+      "horizontal_edge_mae": 6.208,
+      "vertical_edge_mae": 7.073,
+      "preview": "qa/seam_tests/ground_dirt_oily_01_4x4.png"
+    }
+  },
+  "release_assets": [
+    "buildings/awnings/awning_canvas_beige.png",
+    "props/small/barrel_rust.png",
+    "tiles/ground/ground_dirt_oily_01.png",
+    "tiles/roads/concrete_clean.png",
+    "tiles/roads/concrete_cracked.png",
+    "tiles/roads/concrete_oily.png",
+    "vehicles/rust_runner/chassis/rust_runner_chassis_s.png",
+    "vehicles/rust_runner/tracks/rust_runner_track_left.png",
+    "vehicles/rust_runner/tracks/rust_runner_track_right.png",
+    "vehicles/rust_runner/turret/rust_runner_turret_00.png",
+    "weapons/main/cannon_75mm.png"
+  ],
   "warnings": [
     "16 compatibility image references still bypass AssetRegistry; they cannot enter release/assets and keep contract completion false"
   ],

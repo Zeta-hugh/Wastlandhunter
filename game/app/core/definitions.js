@@ -1,4 +1,4 @@
-const ID_FIELDS=['character_id','boss_id','vehicle_id','weapon_id','map_id','quest_id','npc_id','item_id'];
+const ID_FIELDS=['character_id','boss_id','vehicle_id','weapon_id','map_id','quest_id','dialogue_id','bounty_id','npc_id','item_id'];
 
 function freezeDefinition(value){
  if(!value||typeof value!=='object'||Object.isFrozen(value))return value;

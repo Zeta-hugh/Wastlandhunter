@@ -28,11 +28,11 @@ try{
  await page.waitForFunction(()=>typeof RUSTPORT_VISUAL_VERSION!=='undefined'&&AssetRegistry.loaded&&AssetRegistry.bindingsLoaded&&RUSTPORT_GROUND.complete&&RUSTPORT_GROUND.naturalWidth===32);
  const bindingCheck=await page.evaluate(()=>({
   ground:AssetRegistry.resolve('rustport.ground').map(record=>record.asset_id),
-  characters:AssetRegistry.resolve('characters.gameplay').map(record=>record.asset_id),
-  chassis:AssetRegistry.resolve('rust_runner.chassis').map(record=>record.asset_id),
+  characters:AssetRegistry.resolve('characters.gameplay',{allowIncomplete:true}).map(record=>record.asset_id),
+  chassis:AssetRegistry.resolve('rust_runner.chassis',{allowIncomplete:true}).map(record=>record.asset_id),
   tracks:AssetRegistry.resolve('rust_runner.tracks').map(record=>record.asset_id),
-  turret:AssetRegistry.resolve('rust_runner.turret').map(record=>record.asset_id),
-  bounty:AssetRegistry.resolve('rustport.bounty').map(record=>record.asset_id)
+  turret:AssetRegistry.resolve('rust_runner.turret',{allowIncomplete:true}).map(record=>record.asset_id),
+  bounty:AssetRegistry.resolve('rustport.bounty',{allowIncomplete:true}).map(record=>record.asset_id)
  }));
  assert.deepEqual(bindingCheck.ground,['ground_dirt_oily_01','concrete_clean','concrete_cracked','concrete_oily']);
  assert.equal(bindingCheck.characters.length,400);

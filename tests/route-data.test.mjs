@@ -58,6 +58,23 @@ test('definition loading freezes nested content while state remains mutable',asy
  }
 });
 
+test('definition loading recognizes Rustport dialogue and bounty ids',async()=>{
+ const originalFetch=globalThis.fetch;
+ const definitions={
+  'data/dialogue/rustport.json':{dialogue_id:'rustport_intro',entries:{}},
+  'data/bounties/iron_hound.json':{bounty_id:'iron_hound',reward:{gold:350}}
+ };
+ globalThis.fetch=async path=>new Response(JSON.stringify(definitions[path]));
+ try{
+  const dialogueDefinition=await loadDefinition('data/dialogue/rustport.json','rustport_intro');
+  const bountyDefinition=await loadDefinition('data/bounties/iron_hound.json','iron_hound');
+  assert.equal(dialogueDefinition.dialogue_id,'rustport_intro');
+  assert.equal(bountyDefinition.bounty_id,'iron_hound');
+ }finally{
+  globalThis.fetch=originalFetch;
+ }
+});
+
 test('definition registry keeps custom loader results read-only',async()=>{
  const registry=createDefinitionRegistry(async()=>({bounty_id:'bounty.iron_hound',reward:{gold:350}}));
  const definition=await registry.get('data/bounties/iron_hound.json','bounty.iron_hound');

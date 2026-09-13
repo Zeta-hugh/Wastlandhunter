@@ -17,6 +17,7 @@ except ImportError as error:  # pragma: no cover - dependency failure is explici
 from validate_manifest import ROOT, load_manifest, validate_manifest
 
 REPORT = ROOT / "qa/reports/assets_validation.json"
+BINDINGS = ROOT / "data/asset_bindings.json"
 ACTIVE_STATUS = {"COMPLETE", "QA_PASS"}
 IMAGE_LITERAL = re.compile(r"['\"](assets/[^'\"]+\.(?:png|webp|jpg|jpeg))['\"]")
 
@@ -45,6 +46,8 @@ def main() -> int:
     active = [record for record in assets if record["status"] in ACTIVE_STATUS]
     missing_art = [record["asset_id"] for record in assets if record["status"] in {"PLANNED", "NEEDS_ART", "NEEDS_REGEN"}]
     seam_results: dict[str, dict] = {}
+    preview_files_checked = 0
+    transparent_edges_checked = 0
 
     for record in active:
         asset_id = record["asset_id"]
@@ -61,8 +64,39 @@ def main() -> int:
                     errors.append(f"{asset_id}: {field} mode {image.mode} != {expected_mode}")
                 if image.format != "PNG":
                     errors.append(f"{asset_id}: {field} is {image.format}, expected PNG")
+                if record["alpha"] and image.mode == "RGBA":
+                    alpha = image.getchannel("A")
+                    alpha_min, alpha_max = alpha.getextrema()
+                    if alpha_min != 0 or alpha_max == 0:
+                        errors.append(f"{asset_id}: {field} must contain transparent background and visible pixels")
+                    width, height = image.size
+                    border_alpha = max(
+                        alpha.crop((0, 0, width, 1)).getextrema()[1],
+                        alpha.crop((0, height - 1, width, height)).getextrema()[1],
+                        alpha.crop((0, 0, 1, height)).getextrema()[1],
+                        alpha.crop((width - 1, 0, width, height)).getextrema()[1],
+                    )
+                    if border_alpha:
+                        errors.append(f"{asset_id}: {field} visible pixels touch the canvas edge")
+                    else:
+                        transparent_edges_checked += 1
 
-        if record["category"] == "tile.ground" and record["status"] == "QA_PASS":
+        if record["status"] == "QA_PASS":
+            preview_value = record.get("preview")
+            if not preview_value:
+                errors.append(f"{asset_id}: missing preview metadata")
+            else:
+                preview_path = ROOT / preview_value
+                if not preview_path.is_file():
+                    errors.append(f"{asset_id}: missing preview file {preview_value}")
+                else:
+                    with Image.open(preview_path) as preview:
+                        if preview.format != "PNG":
+                            errors.append(f"{asset_id}: preview is {preview.format}, expected PNG")
+                        else:
+                            preview_files_checked += 1
+
+        if record["category"] in {"tile.ground", "tile.road"} and record["status"] == "QA_PASS":
             runtime_path = ROOT / record["runtime"]
             if runtime_path.is_file():
                 with Image.open(runtime_path) as tile:
@@ -78,6 +112,21 @@ def main() -> int:
                         expected = [record["runtime_size"][0] * 4, record["runtime_size"][1] * 4]
                         if list(preview.size) != expected:
                             errors.append(f"{asset_id}: seam preview size {list(preview.size)} != {expected}")
+
+    manifest_ids = {record["asset_id"] for record in assets}
+    bound_ids: set[str] = set()
+    if not BINDINGS.is_file():
+        errors.append("missing data/asset_bindings.json")
+    else:
+        binding_data = json.loads(BINDINGS.read_text(encoding="utf-8"))
+        for asset_ids in binding_data.get("bindings", {}).values():
+            if isinstance(asset_ids, list):
+                bound_ids.update(asset_ids)
+        for asset_id in sorted(bound_ids - manifest_ids):
+            errors.append(f"asset binding references unknown asset_id: {asset_id}")
+        for record in active:
+            if record["asset_id"] not in bound_ids:
+                errors.append(f"{record['asset_id']}: active asset is missing from data/asset_bindings.json")
 
     runtime_files = {relative(path) for path in (ROOT / "assets/runtime").rglob("*.png")}
     master_files = {relative(path) for path in (ROOT / "assets/source_master").rglob("*.png")}
@@ -118,6 +167,9 @@ def main() -> int:
         "manifest_records": len(assets),
         "status_counts": dict(sorted(status_counts.items())),
         "active_files_checked": len(active),
+        "preview_files_checked": preview_files_checked,
+        "transparent_edges_checked": transparent_edges_checked,
+        "bound_asset_ids": len(bound_ids),
         "missing_art_count": len(missing_art),
         "missing_art": missing_art,
         "legacy_runtime_dependencies": legacy_runtime_dependencies,

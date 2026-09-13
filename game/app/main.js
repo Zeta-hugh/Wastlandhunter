@@ -14,6 +14,13 @@ import { loadSceneDefinition } from './core/scene.js';
 
 const root=document.querySelector('#next-shell');
 const canvas=root.querySelector('canvas');
+const query=new URLSearchParams(location.search);
+const p0AssetPreview=query.has('test')&&query.has('p0-assets');
+const p0AssetIds=[
+ 'ground_dirt_oily_01','concrete_clean','concrete_cracked','concrete_oily',
+ 'awning_canvas_beige','barrel_rust','rust_runner_chassis_s',
+ 'rust_runner_track_left','rust_runner_track_right','rust_runner_turret_00','cannon_75mm'
+];
 const state=createStorage().load();
 const input=new InputRouter(root);
 let last=performance.now();
@@ -94,13 +101,14 @@ function frame(now,renderer){
   const target=currentInteraction();
   context.textContent=target?.action||'互动';
   context.parentElement.setAttribute('aria-label',target?.action||'互动');
- requestAnimationFrame(frame);
+ requestAnimationFrame(nextNow=>frame(nextNow,renderer));
 }
 async function boot(){
- const [questDefinition,dialogueDefinition,bountyDefinition]=await Promise.all([
+ const [questDefinition,dialogueDefinition,bountyDefinition,vehicleDefinition]=await Promise.all([
   loadDefinition('data/quests/rustport.json','rustport_first_bounty'),
   loadDefinition('data/dialogue/rustport.json','rustport_intro'),
-  loadDefinition('data/bounties/iron_hound.json','iron_hound')
+  loadDefinition('data/bounties/iron_hound.json','iron_hound'),
+  loadDefinition('data/vehicles/rust_runner.json','rust_runner')
  ]);
  route={
   quests:createQuestManager(state,{rustport_first_bounty:questDefinition}),
@@ -110,16 +118,21 @@ async function boot(){
   })
  };
  route.quests.start('rustport_first_bounty');
- const assets=await loadProductionAssets('data/asset_manifest.json',[
-  'ground_dirt_oily_01','concrete_clean','concrete_cracked','concrete_oily',
-  'awning_canvas_beige','barrel_rust','cannon_75mm',
+ const gameplayAssetIds=[
   'protagonist_idle_s_00','liuyan_idle_s_00','iron_hound_idle',
   'iron_hound_hurt','iron_hound_enraged','iron_hound_death'
- ]);
+ ];
+ const assets=await loadProductionAssets('data/asset_manifest.json',p0AssetPreview?p0AssetIds:[...p0AssetIds,...gameplayAssetIds]);
  const scene=await loadSceneDefinition();
- const renderer=createRenderer(canvas,assets,camera,scene);
- notice='抵达锈港：先与柳焰交谈';
- if(new URLSearchParams(location.search).has('test'))globalThis.__NEXT_TEST__={state,interact};
+ if(p0AssetPreview){
+  state.rustport.starterTankReady=true;
+  state.rustport.ironHoundDefeated=true;
+  state.player.x=900;
+  state.player.y=470;
+ }
+ const renderer=createRenderer(canvas,assets,camera,scene,vehicleDefinition,{hideIncompleteActors:p0AssetPreview});
+ notice=p0AssetPreview?'Rustport P0 素材运行时检查':'抵达锈港：先与柳焰交谈';
+ if(query.has('test'))globalThis.__NEXT_TEST__={state,interact};
  requestAnimationFrame(now=>frame(now,renderer));
 }
 boot().catch(error=>{

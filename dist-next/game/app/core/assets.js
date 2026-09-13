@@ -31,6 +31,11 @@ export async function loadProductionAssets(manifestUrl='data/asset_manifest.json
    if(!image)throw new Error(`Production asset ${assetId} is not QA_PASS`);
    return image;
   },
+  record(assetId){
+   const record=records.get(assetId);
+   if(!record)throw new Error(`Production asset ${assetId} is not QA_PASS`);
+   return record;
+  },
   has(assetId){return images.has(assetId)}
  };
 }

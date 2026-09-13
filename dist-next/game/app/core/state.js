@@ -2,8 +2,8 @@ import { SAVE_KEY, SCENE_RUSTPORT } from './constants.js';
 
 export function createInitialState(){
  return {
-  saveVersion:1,
-  version:1,
+  saveVersion:23,
+  version:23,
   scene:SCENE_RUSTPORT,
   player:{x:640,y:470,hp:100,maxHp:100,facing:'s'},
   rustport:{arrivalSeen:false,liuyanMet:false,starterTankReady:false,ironHoundDefeated:false,combatHits:0,lastAction:'none',actionUntil:0},
@@ -24,6 +24,10 @@ export function createInitialState(){
 export function normalizeState(value){
  const base=createInitialState();
  if(!value||typeof value!=='object')return base;
+ const legacyWorldState={...(value.worldState||{})};
+ delete legacyWorldState.iron_hound_dead;
+ delete legacyWorldState.rustport_next_region_unlocked;
+ delete legacyWorldState.rustport_bounty_claimed;
  return {
   ...base,...value,
   player:{...base.player,...value.player},
@@ -32,12 +36,12 @@ export function normalizeState(value){
   equipment:{...base.equipment,...value.equipment,character:{...base.equipment.character,...value.equipment?.character},vehicle:{...base.equipment.vehicle,...value.equipment?.vehicle}},
   vehicles:Array.isArray(value.vehicles)?value.vehicles:base.vehicles,
   quests:{...base.quests,...value.quests},
-  worldState:{...base.worldState,...value.worldState},
+  worldState:{...base.worldState,...legacyWorldState},
   relationships:{...base.relationships,...value.relationships},
   townReputation:{...base.townReputation,...value.townReputation},
   map:{...base.map,...value.map,position:{...base.map.position,...value.map?.position}},
-  saveVersion:1,
-  version:1
+  saveVersion:23,
+  version:23
  };
 }
 

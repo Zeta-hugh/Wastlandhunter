@@ -22,7 +22,10 @@
     {
       "id": "rustport_garage",
       "binding": "rustport.building.garage",
-      "position": [900, 470],
+      "position": [
+        900,
+        470
+      ],
       "z_height": 0,
       "depth_layer": "structures",
       "occlusion": "roof_toggle",
@@ -31,17 +34,24 @@
     {
       "id": "harbor_awning",
       "binding": "rustport.building.awning",
-      "position": [852, 385],
+      "position": [
+        852,
+        385
+      ],
       "z_height": 24,
       "depth_layer": "structures",
       "occlusion": "foreground",
-      "role": "secondary_functional"
+      "role": "secondary_functional",
+      "asset_id": "awning_canvas_beige"
     },
     {
       "id": "repair_barrel",
       "binding": "rustport.props.industrial",
       "asset_id": "barrel_rust",
-      "position": [520, 505],
+      "position": [
+        520,
+        505
+      ],
       "z_height": 0,
       "depth_layer": "props_low",
       "occlusion": "none",
@@ -50,7 +60,10 @@
     {
       "id": "hunter_memorial",
       "binding": "rustport.storytelling.hunter_memorial",
-      "position": [360, 300],
+      "position": [
+        360,
+        300
+      ],
       "z_height": 0,
       "depth_layer": "props_low",
       "occlusion": "none",
@@ -59,7 +72,10 @@
     {
       "id": "iron_hound_bounty",
       "binding": "rustport.bounty",
-      "position": [640, 260],
+      "position": [
+        640,
+        260
+      ],
       "z_height": 0,
       "depth_layer": "actors",
       "occlusion": "none",

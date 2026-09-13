@@ -6,17 +6,17 @@ The machine-readable source of truth is `data/asset_manifest.json`. This page re
 
 | Status | Count | Meaning |
 | --- | ---: | --- |
-| `QA_PASS` | 0 | No production asset is currently accepted after the visual-direction reset. |
-| `NEEDS_ART` | 626 | Fixed asset IDs and metadata remain available; all production artwork must be rebuilt against the supplied R1 reference boards. |
+| `QA_PASS` | 11 | Rustport P0 Batch 01: four ground/road tiles, two environment props and five Rust Runner modules. |
+| `NEEDS_ART` | 615 | Remaining fixed asset IDs stay unavailable to production rendering. |
 
-The production library was intentionally reset on 2026-09-12 after review against the four R1 reference boards in the repository root (`image.png` through `image4.png`). The previous generated files were removed from source master, runtime, release, and generated next-build copies. Manifest records and stable asset IDs remain so the library can be rebuilt without changing game call sites. Nothing in `legacy/` was modified.
+The production library was intentionally reset on 2026-09-12 after review against the four R1 reference boards in the repository root (`image.png` through `image4.png`). Rustport P0 Batch 01 was accepted on 2026-09-13 without changing canonical IDs; its exact manifest and QA evidence are recorded in `qa/reports/rustport_p0_batch_01.json`. Nothing in `legacy/` was modified.
 
 ## Priority missing sets
 
 - Rustport road connection families: clean, cracked and heavily damaged asphalt in all 11 `road_4way` variants.
 - Rustport building kit: walls, pillars, doors, windows, roofs, awnings, stairs, platforms, railings, pipes and cables.
 - Protagonist and Liu Yan: 48×72 independent frames in the fixed eight-direction/action order, plus 512×768 RGBA portraits.
-- Rust Runner: eight chassis directions, two aligned track layers, sixteen turret directions and independent weapon/accessory/damage layers.
+- Rust Runner: seven remaining chassis directions, fifteen remaining turret directions and the later weapon/accessory/damage layers. The south chassis, both tracks, turret 00 and 75mm cannon are accepted.
 - Iron Hound: independent frames for idle, move, two attacks, hurt, enraged and death.
 - Mechanical UI: 9-slice panel, four button states and icon families.
 

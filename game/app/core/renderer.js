@@ -1,10 +1,15 @@
 import { LOGICAL_HEIGHT, LOGICAL_WIDTH } from './constants.js';
 import { createProjection } from './projection.js';
 
-export function createRenderer(canvas,assets,camera,scene={objects:[]}){
+export function createRenderer(canvas,assets,camera,scene={objects:[]},vehicleDefinition={},options={}){
  const ctx=canvas.getContext('2d');
  const projection=createProjection(camera.position);
- const scenePosition=id=>scene.objects.find(object=>object.id===id)?.position||[0,0];
+ const sceneObject=id=>scene.objects.find(object=>object.id===id)||{position:[0,0],z_height:0};
+ const drawAtPivot=(assetId,x,y)=>{
+  const image=assets.get(assetId);
+  const [pivotX,pivotY]=assets.record(assetId).pivot;
+  ctx.drawImage(image,x-pivotX,y-pivotY);
+ };
  function resize(){
   const dpr=Math.min(globalThis.devicePixelRatio||1,2);
   canvas.width=Math.round(LOGICAL_WIDTH*dpr);canvas.height=Math.round(LOGICAL_HEIGHT*dpr);
@@ -20,13 +25,14 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]}){
    const pattern=ctx.createPattern(ground,'repeat');
    ctx.fillStyle=pattern;ctx.fillRect(0,0,LOGICAL_WIDTH,LOGICAL_HEIGHT);
    ctx.fillStyle='#1d3537';ctx.fillRect(0,0,LOGICAL_WIDTH,96);
-   const roadTiles=['concrete_clean','concrete_cracked','concrete_oily'];
+   const roadTile=(tx,ty)=>{
+    const variation=Math.abs(tx*17+ty*31)%12;
+    return variation===0?'concrete_cracked':variation===6?'concrete_oily':'concrete_clean';
+   };
    for(let ty=-8;ty<=8;ty++)for(let tx=-12;tx<=12;tx++){
-    const tile=assets.get(roadTiles[Math.abs(tx+ty)%roadTiles.length]);
-    const points=projection.groundDiamond(x+tx*32,y+ty*32);
-    ctx.save();ctx.beginPath();ctx.moveTo(...points[0]);for(const point of points.slice(1))ctx.lineTo(...point);ctx.closePath();ctx.clip();
+    const tile=assets.get(roadTile(tx,ty));
     const center=projection.worldToScreen(x+tx*32,y+ty*32);
-    ctx.drawImage(tile,center.x-16,center.y-10,32,20);ctx.restore();
+    ctx.drawImage(tile,Math.round(center.x-16),Math.round(center.y-10),32,20);
    }
    const sprite=(assetId,ex,ey,width,height)=>{
     const point=projection.worldToScreen(ex,ey);
@@ -35,14 +41,16 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]}){
    };
    const vehicle=(ex,ey)=>{
     const point=projection.worldToScreen(ex,ey),sx=point.x,sy=point.y;
-    ctx.save();
-    ctx.translate(sx,sy-96);
-    ctx.drawImage(assets.get('rust_runner_track_left'),-64,-64,128,128);
-    ctx.drawImage(assets.get('rust_runner_track_right'),-64,-64,128,128);
-    ctx.drawImage(assets.get('rust_runner_chassis_s'),-64,-64,128,128);
-    ctx.drawImage(assets.get('rust_runner_turret_00'),-64,-64,128,128);
-    ctx.drawImage(assets.get('cannon_75mm'),-64,-64,128,128);
-    ctx.restore();
+    const vehiclePivot=vehicleDefinition.pivot||assets.record('rust_runner_chassis_s').pivot;
+    const mainGunMount=vehicleDefinition.mounts?.main_gun||[64,60];
+    const mountX=sx-vehiclePivot[0]+mainGunMount[0];
+    const mountY=sy-vehiclePivot[1]+mainGunMount[1];
+    ctx.fillStyle='rgba(0,0,0,.28)';ctx.beginPath();ctx.ellipse(sx,sy-3,42,10,0,0,Math.PI*2);ctx.fill();
+    drawAtPivot('rust_runner_track_left',sx,sy);
+    drawAtPivot('rust_runner_track_right',sx,sy);
+    drawAtPivot('rust_runner_chassis_s',sx,sy);
+    drawAtPivot('rust_runner_turret_00',mountX,mountY);
+    drawAtPivot('cannon_75mm',mountX,mountY);
    };
    const entity=(ex,ey,w,h,fill,label)=>{
     const point=projection.worldToScreen(ex,ey),sx=point.x,sy=point.y;
@@ -51,37 +59,35 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]}){
    };
    const playerFacing=state.player.facing||'s';
    const playerAsset=`protagonist_idle_${playerFacing}_00`;
-   const liuyanFacing=playerFacing;
-   sprite(`liuyan_idle_${liuyanFacing}_00`,420,470,48,72);
-   const liuyanPoint=projection.worldToScreen(420,470);
-   ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('柳焰',liuyanPoint.x,liuyanPoint.y-82);
-   const awning=assets.get('awning_canvas_beige');
-   const [awningX,awningY]=scenePosition('harbor_awning');
-   const awningPoint=projection.worldToScreen(awningX,awningY,24);
-   ctx.drawImage(awning,awningPoint.x-48,awningPoint.y-40,96,64);
-   const [garageX,garageY]=scenePosition('rustport_garage');
+   if(!options.hideIncompleteActors){
+    const liuyanFacing=playerFacing;
+    sprite(`liuyan_idle_${liuyanFacing}_00`,420,470,48,72);
+    const liuyanPoint=projection.worldToScreen(420,470);
+    ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('柳焰',liuyanPoint.x,liuyanPoint.y-82);
+   }
+   const [garageX,garageY]=sceneObject('rustport_garage').position;
    entity(garageX,garageY,220,110,'#5a625c','战车车库');
+   const awningObject=sceneObject('harbor_awning');
+   const [awningX,awningY]=awningObject.position;
+   const awningPoint=projection.worldToScreen(awningX,awningY,awningObject.z_height||0);
+   drawAtPivot(awningObject.asset_id||'awning_canvas_beige',awningPoint.x,awningPoint.y);
    if(state.rustport.starterTankReady)vehicle(garageX,garageY);
-   const barrel=assets.get('barrel_rust');
-   const [barrelX,barrelY]=scenePosition('repair_barrel');
+   const barrelObject=sceneObject('repair_barrel');
+   const [barrelX,barrelY]=barrelObject.position;
    const barrelPoint=projection.worldToScreen(barrelX,barrelY);
-   ctx.drawImage(barrel,barrelPoint.x-20,barrelPoint.y-40,40,40);
-   const houndVisible=state.rustport.starterTankReady&&(!state.rustport.ironHoundDefeated||state.rustport.actionUntil>now);
+   drawAtPivot(barrelObject.asset_id||'barrel_rust',barrelPoint.x,barrelPoint.y);
+   const houndVisible=!options.hideIncompleteActors&&state.rustport.starterTankReady&&(!state.rustport.ironHoundDefeated||state.rustport.actionUntil>now);
    if(houndVisible){
     const actionActive=state.rustport.actionUntil>now;
     const houndAsset=state.rustport.ironHoundDefeated?'iron_hound_death':actionActive?'iron_hound_hurt':state.rustport.combatHits>=2?'iron_hound_enraged':'iron_hound_idle';
-    const [houndX,houndY]=scenePosition('iron_hound_bounty');
+    const [houndX,houndY]=sceneObject('iron_hound_bounty').position;
     sprite(houndAsset,houndX,houndY,160,128);
     const houndPoint=projection.worldToScreen(houndX,houndY);
     ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('铁牙猎犬',houndPoint.x,houndPoint.y-140);
-    if(!state.rustport.ironHoundDefeated){
-     const cannon=assets.get('cannon_75mm');
-     ctx.drawImage(cannon,houndPoint.x-64,houndPoint.y-64,128,128);
-    }
    }
    const garageSign=projection.worldToScreen(278,330,20);
    ctx.fillStyle='#c49b58';ctx.fillRect(garageSign.x-82,garageSign.y-30,164,60);
-   sprite(playerAsset,640,360,48,72);
+   if(!options.hideIncompleteActors)sprite(playerAsset,640,360,48,72);
    ctx.fillStyle='#0d1110';ctx.font='bold 22px system-ui';ctx.fillText('RUSTPORT // NEXT RUNTIME',28,42);
    ctx.font='16px system-ui';ctx.fillStyle='#d8ddc8';ctx.fillText('锈港 · 独立猎人起点 · A 互动 / 战斗',28,72);
    ctx.textAlign='left';ctx.font='18px system-ui';ctx.fillStyle='#e9e4cf';
