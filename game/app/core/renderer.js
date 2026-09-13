@@ -4,7 +4,7 @@ import { createProjection } from './projection.js';
 export function createRenderer(canvas,assets,camera,scene={objects:[]},vehicleDefinition={},options={}){
  const ctx=canvas.getContext('2d');
  const projection=createProjection(camera.position);
- const sceneObject=id=>scene.objects.find(object=>object.id===id)||{position:[0,0],z_height:0};
+ const sceneObject=id=>scene.objects.find(object=>object.id===id)||{id,position:[0,0],z_height:0};
  const drawAtPivot=(assetId,x,y)=>{
   const image=assets.get(assetId);
   const [pivotX,pivotY]=assets.record(assetId).pivot;
@@ -34,10 +34,12 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]},vehicleDe
     const center=projection.worldToScreen(x+tx*32,y+ty*32);
     ctx.drawImage(tile,Math.round(center.x-16),Math.round(center.y-10),32,20);
    }
-   const sprite=(assetId,ex,ey,width,height)=>{
-    const point=projection.worldToScreen(ex,ey);
-    ctx.fillStyle='rgba(0,0,0,.35)';ctx.beginPath();ctx.ellipse(point.x,point.y-3,width*.36,7,0,0,Math.PI*2);ctx.fill();
-    ctx.drawImage(assets.get(assetId),point.x-width/2,point.y-height,width,height);
+   const sprite=(assetId,ex,ey,z=0)=>{
+    const [width]=assets.record(assetId).runtime_size;
+    const point=projection.worldToScreen(ex,ey,z);
+    const ground=projection.worldToScreen(ex,ey);
+    ctx.fillStyle='rgba(0,0,0,.35)';ctx.beginPath();ctx.ellipse(ground.x,ground.y-3,width*.36,7,0,0,Math.PI*2);ctx.fill();
+    drawAtPivot(assetId,point.x,point.y);
    };
    const vehicle=(ex,ey)=>{
     const point=projection.worldToScreen(ex,ey),sx=point.x,sy=point.y;
@@ -57,37 +59,58 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]},vehicleDe
     ctx.fillStyle=fill;ctx.fillRect(sx-w/2,sy-h/2,w,h);
     ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText(label,sx,sy-h/2-10);
    };
+   const drawQueue=[];
+   const queue=(id,worldY,z,layer,draw)=>{
+    const layerIndex=scene.layers?.indexOf(layer)??-1;
+    drawQueue.push({id,depth:worldY+z+Math.max(0,layerIndex),draw});
+   };
+   const queueObject=(object,draw)=>queue(object.id,object.position[1],object.z_height||0,
+    object.occlusion==='foreground'?'foreground':object.depth_layer,draw);
    const playerFacing=state.player.facing||'s';
    const playerAsset=`protagonist_idle_${playerFacing}_00`;
    if(!options.hideIncompleteActors){
-    const liuyanFacing=playerFacing;
-    sprite(`liuyan_idle_${liuyanFacing}_00`,420,470,48,72);
-    const liuyanPoint=projection.worldToScreen(420,470);
-    ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('柳焰',liuyanPoint.x,liuyanPoint.y-82);
+    queue('liuyan',470,0,'actors',()=>{
+     sprite(`liuyan_idle_${playerFacing}_00`,420,470);
+     const point=projection.worldToScreen(420,470);
+     ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('柳焰',point.x,point.y-82);
+    });
    }
-   const [garageX,garageY]=sceneObject('rustport_garage').position;
-   entity(garageX,garageY,220,110,'#5a625c','战车车库');
+   const garageObject=sceneObject('rustport_garage');
+   const [garageX,garageY]=garageObject.position;
+   queueObject(garageObject,()=>entity(garageX,garageY,220,110,'#5a625c','战车车库'));
    const awningObject=sceneObject('harbor_awning');
-   const [awningX,awningY]=awningObject.position;
-   const awningPoint=projection.worldToScreen(awningX,awningY,awningObject.z_height||0);
-   drawAtPivot(awningObject.asset_id||'awning_canvas_beige',awningPoint.x,awningPoint.y);
-   if(state.rustport.starterTankReady)vehicle(garageX,garageY);
+   queueObject(awningObject,()=>{
+    const [ax,ay]=awningObject.position;
+    const point=projection.worldToScreen(ax,ay,awningObject.z_height||0);
+    drawAtPivot(awningObject.asset_id||'awning_canvas_beige',point.x,point.y);
+   });
+   if(state.rustport.starterTankReady)queue('rust_runner',garageY,0,'vehicles',()=>vehicle(garageX,garageY));
    const barrelObject=sceneObject('repair_barrel');
-   const [barrelX,barrelY]=barrelObject.position;
-   const barrelPoint=projection.worldToScreen(barrelX,barrelY);
-   drawAtPivot(barrelObject.asset_id||'barrel_rust',barrelPoint.x,barrelPoint.y);
+   queueObject(barrelObject,()=>{
+    const [bx,by]=barrelObject.position;
+    const point=projection.worldToScreen(bx,by,barrelObject.z_height||0);
+    drawAtPivot(barrelObject.asset_id||'barrel_rust',point.x,point.y);
+   });
    const houndVisible=!options.hideIncompleteActors&&state.rustport.starterTankReady&&(!state.rustport.ironHoundDefeated||state.rustport.actionUntil>now);
    if(houndVisible){
-    const actionActive=state.rustport.actionUntil>now;
-    const houndAsset=state.rustport.ironHoundDefeated?'iron_hound_death':actionActive?'iron_hound_hurt':state.rustport.combatHits>=2?'iron_hound_enraged':'iron_hound_idle';
-    const [houndX,houndY]=sceneObject('iron_hound_bounty').position;
-    sprite(houndAsset,houndX,houndY,160,128);
-    const houndPoint=projection.worldToScreen(houndX,houndY);
-    ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('铁牙猎犬',houndPoint.x,houndPoint.y-140);
+    const object=sceneObject('iron_hound_bounty');
+    queueObject(object,()=>{
+     const actionActive=state.rustport.actionUntil>now;
+     const assetId=state.rustport.ironHoundDefeated?'iron_hound_death':actionActive?'iron_hound_hurt':state.rustport.combatHits>=2?'iron_hound_enraged':'iron_hound_idle';
+     const [hx,hy]=object.position;
+     sprite(assetId,hx,hy,object.z_height||0);
+     const point=projection.worldToScreen(hx,hy,object.z_height||0);
+     ctx.fillStyle='#e9e4cf';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText('铁牙猎犬',point.x,point.y-140);
+    });
    }
-   const garageSign=projection.worldToScreen(278,330,20);
-   ctx.fillStyle='#c49b58';ctx.fillRect(garageSign.x-82,garageSign.y-30,164,60);
-   if(!options.hideIncompleteActors)sprite(playerAsset,640,360,48,72);
+   queue('garage_sign',330,20,'structures',()=>{
+    const point=projection.worldToScreen(278,330,20);
+    ctx.fillStyle='#c49b58';ctx.fillRect(point.x-82,point.y-30,164,60);
+   });
+   if(!options.hideIncompleteActors)queue('protagonist',state.player.y,0,'actors',()=>sprite(playerAsset,state.player.x,state.player.y));
+   drawQueue.sort((a,b)=>a.depth-b.depth||a.id.localeCompare(b.id));
+   for(const entry of drawQueue)entry.draw();
+   ctx.textAlign='left';
    ctx.fillStyle='#0d1110';ctx.font='bold 22px system-ui';ctx.fillText('RUSTPORT // NEXT RUNTIME',28,42);
    ctx.font='16px system-ui';ctx.fillStyle='#d8ddc8';ctx.fillText('锈港 · 独立猎人起点 · A 互动 / 战斗',28,72);
    ctx.textAlign='left';ctx.font='18px system-ui';ctx.fillStyle='#e9e4cf';

@@ -11,6 +11,33 @@ await once(server,'listening');
 let browser;
 try{
  browser=await chromium.launch({headless:true,channel:'chrome'});
+ // Metadata-only fixtures must fail before any sprite is requested.
+ // They are never saved to the manifest or used as production art.
+ const gateContext=await browser.newContext();
+ for(const character of ['protagonist','liuyan']){
+  for(const direction of ['n','ne','e','se','s','sw','w','nw']){
+   const missingId=`${character}_idle_${direction}_00`;
+   const gatePage=await gateContext.newPage();
+   const consoleErrors=[];
+   const spriteRequests=[];
+   gatePage.on('console',message=>{if(message.type()==='error')consoleErrors.push(message.text())});
+   gatePage.on('request',request=>{if(request.url().includes('/assets/runtime/'))spriteRequests.push(request.url())});
+   await gatePage.route('**/data/asset_manifest.json',async route=>{
+    const response=await route.fetch();
+    const manifest=await response.json();
+    for(const record of manifest.assets)record.status=record.asset_id===missingId?'NEEDS_ART':'QA_PASS';
+    await route.fulfill({response,json:manifest});
+   });
+   await gatePage.goto(`http://127.0.0.1:${server.address().port}/next.html?test=1`);
+   await gatePage.waitForFunction(()=>document.querySelector('[data-next-status]')?.textContent.includes('生产素材尚未通过 QA'));
+   assert.ok(consoleErrors.some(message=>message.includes(missingId)),`missing direction must block startup: ${missingId}`);
+   assert.deepEqual(spriteRequests,[],`no sprite loading before gate passes: ${missingId}`);
+   assert.equal(await gatePage.evaluate(()=>Boolean(globalThis.__NEXT_TEST__)),false);
+   await gatePage.close();
+  }
+ }
+ await gateContext.close();
+ console.log('PASS: all 16 missing character-direction cases block startup before image loading.');
  const context=await browser.newContext({viewport:{width:960,height:540},storageState:{cookies:[],origins:[]},});
  const page=await context.newPage();
  const errors=[];
@@ -23,13 +50,16 @@ try{
    'ground_dirt_oily_01','concrete_clean','concrete_cracked','concrete_oily',
    'awning_canvas_beige','barrel_rust','rust_runner_chassis_s',
    'rust_runner_track_left','rust_runner_track_right','rust_runner_turret_00','cannon_75mm',
-   'protagonist_idle_s_00','liuyan_idle_s_00','iron_hound_idle',
+   ...['protagonist','liuyan'].flatMap(character=>
+    ['n','ne','e','se','s','sw','w','nw'].map(direction=>`${character}_idle_${direction}_00`)),
+   'iron_hound_idle',
    'iron_hound_hurt','iron_hound_enraged','iron_hound_death'
   ];
   const byId=new Map(manifest.assets.map(record=>[record.asset_id,record]));
   return required.every(assetId=>byId.get(assetId)?.status==='QA_PASS');
  });
  if(!productionReady){
+  await page.waitForFunction(()=>document.querySelector('[data-next-status]')?.textContent.includes('生产素材尚未通过 QA'));
   assert.match(await page.textContent('[data-next-status]'),/生产素材尚未通过 QA/);
   assert.deepEqual(errors,[]);
   const p0Context=await browser.newContext({viewport:{width:960,height:540},storageState:{cookies:[],origins:[]}});

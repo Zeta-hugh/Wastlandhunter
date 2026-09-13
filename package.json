@@ -17,6 +17,8 @@
     "test:shared": "node --test tests/shared-contract.test.mjs",
     "test:route:data": "node --test tests/route-data.test.mjs",
     "test:movement": "node --test tests/movement.test.mjs",
+    "test:renderer": "node --test tests/renderer.test.mjs",
+    "test:renderer:browser": "node tests/renderer-browser.mjs",
     "test:spatial": "node --test tests/spatial-sandbox.test.mjs",
     "test:spatial:browser": "node tests/spatial-sandbox-browser.mjs",
     "validate:project": "python3 scripts/validation/validate_project.py",

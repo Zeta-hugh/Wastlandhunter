@@ -2,6 +2,10 @@
 
 Status: `READY_FOR_REVIEW` for the isolated technical experiment only.
 
+Production follow-up: [Decision 002](../integration/SPATIAL_RENDERING_DECISION_002.md)
+integrates a narrow draw-order pass using the existing production scene contract.
+The sandbox formula below remains experimental and was not promoted wholesale.
+
 This model is local to `game/app/spatial-sandbox/`. It does not add fields to
 production `AssetEntry`, `WorldState`, `SaveData`, map data, or route data.
 

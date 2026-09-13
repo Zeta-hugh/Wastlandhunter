@@ -1,0 +1,42 @@
+{
+  "result": "BLOCKED",
+  "production_imported": false,
+  "candidates": [
+    {
+      "file": "qa/assets/character_batch_02/protagonist_idle_s_00_candidate_v1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "alpha_present": false,
+      "result": "QA_FAIL",
+      "reason": "RGB image with painted checkerboard; no alpha channel"
+    },
+    {
+      "file": "qa/assets/character_batch_02/protagonist_idle_s_00_alpha_retry_v2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "alpha_present": false,
+      "result": "QA_FAIL",
+      "reason": "RGB image with painted checkerboard; no alpha channel"
+    },
+    {
+      "file": "qa/assets/character_batch_02/liuyan_idle_s_00_candidate_v1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "alpha_present": false,
+      "result": "QA_FAIL",
+      "reason": "RGB image with painted checkerboard; pose also turns away from exact south idle"
+    }
+  ],
+  "generator": "built-in image_gen",
+  "prompts": "docs/RUSTPORT_CHARACTER_BATCH_02_PROMPTS.md",
+  "next_action": "Obtain genuine RGBA source masters, align south poses and ground contact, then validate runtime downsampling before producing remaining directions."
+}

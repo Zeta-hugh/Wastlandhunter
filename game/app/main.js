@@ -119,7 +119,9 @@ async function boot(){
  };
  route.quests.start('rustport_first_bounty');
  const gameplayAssetIds=[
-  'protagonist_idle_s_00','liuyan_idle_s_00','iron_hound_idle',
+  ...['protagonist','liuyan'].flatMap(character=>
+   ['n','ne','e','se','s','sw','w','nw'].map(direction=>`${character}_idle_${direction}_00`)),
+  'iron_hound_idle',
   'iron_hound_hurt','iron_hound_enraged','iron_hound_death'
  ];
  const assets=await loadProductionAssets('data/asset_manifest.json',p0AssetPreview?p0AssetIds:[...p0AssetIds,...gameplayAssetIds]);

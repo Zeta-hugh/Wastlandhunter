@@ -16,9 +16,9 @@ unit and the affected tests/fixtures are ready.
 | 5 | `data/weapons/cannon_75mm.json` | `weapon_id: cannon_75mm` | `weapon.cannon_75mm` | `validate:ids`, mount/reference validation |
 | 6 | `data/maps/rustport.json` and map consumers | `map_id: rustport` | `map.rustport` | `validate:ids`, map/reference validation |
 | 7 | `data/tiles/ground_dirt_oily_01.json` | bare tile `asset_id` | Approved namespaced asset ID, if Asset Contract owner accepts it | `assets:validate`, `assets:maps`, reference validation |
-| 8 | `game/app/core/state.js` and next save adapter | next-runtime `saveVersion: 1` | Explicit migration into canonical envelope `saveVersion: 24` | `validate:save`, migration fixtures, `test:shared`, next runtime tests |
+| 8 | `game/app/core/state.js` and next save adapter | next-runtime `saveVersion: 23` | Explicit migration into canonical envelope `saveVersion: 24` | `validate:save`, migration fixtures, `test:shared`, next runtime tests |
 | 9 | `game/systems/persistence.js` and legacy adapter consumers | legacy 22/23 normalizers | Preserve legacy reads; emit canonical 24 only after adapter approval | `npm test`, browser save/reload, V7/V8 fixtures |
-| 10 | `game/app/core/quest.js`, `dialogue.js`, `bounty.js` | deprecated/unregistered Rustport world-state writes | Registry-backed canonical keys only; no permanent aliases | `validate:world-state`, route-data tests, integration route test |
+| 10 | `game/app/core/quest.js`, `dialogue.js`, `bounty.js` | Rustport compatibility fields and QuestState (deprecated writes already removed) | Registry-backed canonical keys only; no permanent aliases | `validate:world-state`, route-data tests, integration route test |
 
 ## Execution order
 
