@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "contract_version": "1.0",
+  "keys": {
+    "faction": {
+      "type": "string|null",
+      "default": null,
+      "description": "Compatibility field; null keeps the hunter independent."
+    }
+  },
+  "deprecated_keys": [
+    "iron_hound_dead",
+    "rustport_next_region_unlocked",
+    "rustport_bounty_claimed"
+  ]
+}

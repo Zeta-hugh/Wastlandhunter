@@ -1,0 +1,90 @@
+{
+  "id": "rustport_grammar_v1",
+  "sprint": 1,
+  "scope": [
+    "town/map spatial grammar",
+    "world/local map transition",
+    "first-vehicle staging in Rustport"
+  ],
+  "status": "READY_FOR_REVIEW",
+  "canonical_constraints": {
+    "setting": "2128 / Ash Year 64",
+    "player_identity": "independent hunter",
+    "faction_membership_forbidden": true,
+    "legacy_file_immutable": "legacy/WastelandHunter_CanonBuild_0.23.0_single.html"
+  },
+  "primary_circulation": [
+    "south Town Gate",
+    "Hunter Guild and Garage triangle",
+    "Market",
+    "north Harbor"
+  ],
+  "services": {
+    "hunter_guild": "north-east of Town Gate, first visible service landmark",
+    "garage": "across a short paved lane from Hunter Guild, with gantry sightline",
+    "market": "east of the service triangle between Guild and Harbor",
+    "bar": "west branch from Guild",
+    "clinic": "beyond Bar, sheltered from cargo traffic",
+    "harbor": "north destination and working industrial edge"
+  },
+  "major_landmarks": [
+    "Tide-Cut Crane",
+    "Hunter Guild Board",
+    "Broken Drydock Gantry"
+  ],
+  "secondary_landmarks": [
+    "Salt-burnt water tower",
+    "Three-color cable bridge",
+    "Collapsed fish-smoke chimney",
+    "Scrap weighing cage",
+    "Flood marker wall"
+  ],
+  "optional_pockets": [
+    "Net-Menders' Slip",
+    "Crane Catwalk",
+    "Flooded Scrap Yard"
+  ],
+  "vehicle_access": {
+    "vehicle_accessible": [
+      "Town Gate",
+      "main spine",
+      "Garage apron",
+      "Market loading lane",
+      "Harbor cargo apron"
+    ],
+    "on_foot_only": [
+      "Clinic steps",
+      "Bar interior",
+      "Market vendor alleys",
+      "Crane Catwalk",
+      "Net-Menders' inner slip",
+      "Scrap Yard inner cage"
+    ],
+    "mode_change_anchor": "Garage"
+  },
+  "meaningful_interaction_minimum": 20,
+  "world_local_transition": {
+    "arrival_anchor": "south Town Gate",
+    "exit_anchor": "south Town Gate",
+    "world_map_representation": "coastal industrial node",
+    "preserve_parked_vehicle_position": true
+  },
+  "dependencies": {
+    "contract": "reuse existing vehicle and progress contracts; no schema change",
+    "runtime": "entry camera, interaction priority, mount/dismount, optional state",
+    "art": "signage, landmarks, service facades, NPCs, storytelling props",
+    "mobile": "tap-target and context-action review",
+    "map": "primary/secondary routes, collision, anchors, pockets",
+    "owners": [
+      "Map / Map integration",
+      "Runtime",
+      "Production Art",
+      "Mobile"
+    ]
+  },
+  "do_not_copy": [
+    "source-game town footprints",
+    "source-game building arrangements",
+    "source-game maps, sprites, dialogue, events, or UI"
+  ]
+}

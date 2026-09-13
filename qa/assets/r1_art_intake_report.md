@@ -299,6 +299,29 @@ ground_dirt_oily_01 is missing and not QA_PASS.
 
 Not ready for main workflow integration review. The batch has no real production PNG input and no `QA_PASS` records.
 
-R1 asset intake prepared, but production input is still blocked.
-No placeholder art was created.
-No shared contract was modified.
+The first real R1 batch is now present and technically accepted: 11
+source/runtime pairs are `QA_PASS`. No placeholder art was created and no
+shared contract was modified. The remaining 615 records stay `NEEDS_ART`.
+
+## N. Sprint 1 intake pipeline
+
+The deterministic technical intake command is:
+
+```bash
+python3 scripts/assets/check_png.py --first-batch
+```
+
+It checks manifest-selected source/runtime paths, exact filenames, PNG format,
+expected dimensions, expected RGB/RGBA mode, and source/runtime file presence.
+It reports `BLOCKED` for missing or invalid files and never changes manifest
+status or performs artistic approval.
+
+The human acceptance checklist is maintained in:
+
+- `qa/assets/R1_INTAKE_CHECKLIST.md`
+- `qa/assets/R1_FIRST_BATCH_STATUS.md`
+
+At this checkpoint, all 11 first-batch records have real source/runtime PNGs
+and complete technical metadata. The deterministic check passes. Visual
+integration remains limited to the accepted batch; the remaining Rustport
+runtime coverage is still blocked.

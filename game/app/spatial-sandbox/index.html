@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wasteland Hunter 2.5D Spatial Sandbox</title>
+<style>
+html,body{margin:0;background:#101617;color:#e8e2c9;font:14px system-ui,sans-serif}
+body{display:grid;place-items:center;min-height:100vh}
+main{width:min(1200px,96vw)} canvas{display:block;width:100%;background:#263537;border:2px solid #c49b58;image-rendering:pixelated}
+p{margin:.5rem 0;color:#bdc7b5}
+</style>
+</head>
+<body>
+<main>
+<canvas id="sandbox" width="1200" height="700" aria-label="TEST ONLY 2.5D spatial sandbox"></canvas>
+<p>TEST ONLY — local spatial definitions; debug geometry, ordering bands, collision footprints, and ground contacts.</p>
+</main>
+<script type="module">
+import { SANDBOX_SCENE } from './scene.js';
+import { depthKey, sortSpatialObjects, visualPlacement } from './model.js';
+const canvas=document.querySelector('#sandbox'),ctx=canvas.getContext('2d');
+const scale=1;
+let frameCount=0,drawCount=0,start=performance.now();
+function draw(){
+ drawCount++;
+ ctx.setTransform(scale,0,0,scale,0,0);ctx.clearRect(0,0,canvas.width,canvas.height);
+ ctx.fillStyle='#1b292b';ctx.fillRect(0,0,canvas.width,canvas.height);
+ ctx.strokeStyle='rgba(211,193,143,.16)';ctx.lineWidth=1;
+ for(let x=0;x<canvas.width;x+=50){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,canvas.height);ctx.stroke()}
+ for(let y=0;y<canvas.height;y+=50){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(canvas.width,y);ctx.stroke()}
+ ctx.fillStyle='#e8e2c9';ctx.font='bold 20px system-ui';ctx.fillText('2.5D SPATIAL SANDBOX // TEST ONLY',24,32);
+ ctx.font='12px system-ui';ctx.fillStyle='#bdc7b5';ctx.fillText('sort key = worldY + visualZ × 0.35 + layer + depthBias',24,54);
+ const ordered=sortSpatialObjects(SANDBOX_SCENE);
+ for(const object of ordered){
+  const placement=visualPlacement(object), x=placement.x+70, y=placement.y+90;
+  const w=object.id.includes('wall')?220:object.id.includes('platform')?210:object.id.includes('bridge')?260:object.id.includes('fence')?300:object.id.includes('actor')?28:object.id.includes('pipe')?76:object.id.includes('barrel')?36:48;
+  const h=object.id.includes('wall')?115:object.height||30;
+  ctx.fillStyle='rgba(0,0,0,.28)';ctx.beginPath();ctx.ellipse(x+object.pivot[0],y+object.pivot[1]+3,Math.max(12,w*.38),7,0,0,Math.PI*2);ctx.fill();
+  ctx.fillStyle=object.color;ctx.globalAlpha=object.depthLayer==='foreground'?.88:1;ctx.fillRect(x,y,w,h);ctx.globalAlpha=1;
+  ctx.strokeStyle='#f4e8bf';ctx.strokeRect(x,y,w,h);
+  ctx.fillStyle='#101617';ctx.font='bold 11px system-ui';ctx.fillText(object.label,x+3,y+14);
+  ctx.fillStyle='#e8e2c9';ctx.font='10px system-ui';ctx.fillText(`k=${depthKey(object).toFixed(1)}`,x+3,y+h+13);
+  ctx.fillStyle='#d95d4f';ctx.fillRect(x+object.pivot[0]-2,y+object.pivot[1]-2,4,4);
+  ctx.fillStyle='#7ee0a5';ctx.beginPath();ctx.arc(x+object.groundContact[0],y+object.groundContact[1],3,0,Math.PI*2);ctx.fill();
+ }
+ ctx.fillStyle='#e8e2c9';ctx.font='12px system-ui';ctx.fillText(`Objects: ${ordered.length} | layers: ground → structure → actor → foreground`,24,canvas.height-24);
+ frameCount++;
+}
+draw();
+globalThis.__SPATIAL_TEST__={scene:SANDBOX_SCENE,stats:()=>({frameCount,drawCount,elapsedMs:performance.now()-start})};
+function frame(){draw();requestAnimationFrame(frame)}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

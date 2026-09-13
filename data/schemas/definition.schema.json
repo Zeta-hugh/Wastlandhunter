@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wasteland-hunter/definition",
+  "type": "object",
+  "required": ["schema_version"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"type": "string"},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(\\.[a-z0-9_]+)+$"
+    }
+  },
+  "additionalProperties": true
+}

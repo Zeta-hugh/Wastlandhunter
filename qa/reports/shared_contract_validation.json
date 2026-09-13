@@ -1,0 +1,40 @@
+{
+  "report": "shared_contract_validation",
+  "date": "2026-09-13",
+  "contract_version": "1.0",
+  "schema_version": "1.0",
+  "canonical_save_version": 24,
+  "legacy_save_version": 23,
+  "world_state_keys": [
+    "faction"
+  ],
+  "deprecated_world_state_keys": [
+    "iron_hound_dead",
+    "rustport_next_region_unlocked",
+    "rustport_bounty_claimed"
+  ],
+  "validation": {
+    "validate_project": "PASS",
+    "validate_ids": "PASS_WITH_11_LEGACY_ID_WARNINGS",
+    "validate_world_state": "PASS",
+    "validate_save": "PASS_WITH_RUNTIME_ADAPTER_WARNING",
+    "validate_references": "PASS_WITH_LEGACY_REFERENCE_WARNING",
+    "npm_test": "PASS",
+    "test_architecture": "PASS",
+    "test_route_data": "PASS",
+    "test_next": "BLOCKED_BY_EXISTING_P0_ART_INPUT"
+  },
+  "migration_required": [
+    "Audit and migrate existing bare IDs before changing consumers",
+    "Migrate legacy saveVersion 23 envelopes to canonical saveVersion 24",
+    "Adopt the canonical WorldState registry in save consumers"
+  ],
+  "consumer_changes": {
+    "game_core_runtime": "NOT_CHANGED",
+    "game_app_runtime": "NOT_CHANGED",
+    "assets": "NOT_CHANGED",
+    "maps": "NOT_CHANGED",
+    "renderer": "NOT_CHANGED",
+    "legacy": "NOT_CHANGED"
+  }
+}

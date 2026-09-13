@@ -130,3 +130,24 @@ test('definition loading and registry loader errors propagate',async()=>{
  const registry=createDefinitionRegistry(async()=>{throw expected});
  await assert.rejects(registry.get('broken.json','quest.broken'),error=>error===expected);
 });
+
+test('missing definition ids and dialogue entries fail without fallback',async()=>{
+ const originalFetch=globalThis.fetch;
+ globalThis.fetch=async()=>new Response(JSON.stringify({quest_id:'quest.rustport.first_bounty'}));
+ try{
+  await assert.rejects(
+   loadDefinition('quest.json','quest.rustport.missing'),
+   /Definition id mismatch: expected quest\.rustport\.missing, got quest\.rustport\.first_bounty/
+  );
+ }finally{
+  globalThis.fetch=originalFetch;
+ }
+ const dialogueManager=createDialogueManager(createInitialState(),{entries:{}});
+ assert.throws(()=>dialogueManager.resolve('missing_entry'),/Dialogue entry not found: missing_entry/);
+});
+
+test('bounty precondition failures remain explicit',()=>{
+ const state=createInitialState();
+ const bounty=createBountyManager(state,{reward:{gold:350,scrap:8,hunterRank:1}});
+ assert.throws(()=>bounty.claim(),/Iron Hound bounty is not defeated/);
+});

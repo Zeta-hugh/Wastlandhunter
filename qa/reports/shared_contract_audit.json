@@ -1,0 +1,715 @@
+{
+  "report": "shared_contract_audit",
+  "audit_mode": "read_only",
+  "project": "Wasteland Hunter",
+  "structures": {
+    "GameState": {
+      "current_files": [
+        "game/app/core/state.js",
+        "game/core/state.js"
+      ],
+      "version_fields": [
+        "saveVersion",
+        "version"
+      ],
+      "consumers": [
+        "game/app/main.js",
+        "game/app/core/renderer.js",
+        "game/app/core/quest.js",
+        "game/app/core/dialogue.js",
+        "game/app/core/bounty.js",
+        "game/app/core/state.js",
+        "game/systems/persistence.js",
+        "game/core/prototype-runtime.js"
+      ],
+      "references": [
+        "WorldState",
+        "QuestDefinition",
+        "VehicleDefinition",
+        "MapDefinition"
+      ]
+    },
+    "WorldState": {
+      "current_files": [
+        "game/app/core/state.js",
+        "data/world_state_keys.json"
+      ],
+      "version_fields": [
+        "schema_version",
+        "contract_version"
+      ],
+      "consumers": [
+        "game/app/core/dialogue.js",
+        "game/app/core/state.js",
+        "tests/architecture.test.mjs",
+        "tests/route-data.test.mjs",
+        "game/core/save/migrations.js"
+      ],
+      "references": [
+        "DialogueDefinition",
+        "SaveData"
+      ]
+    },
+    "QuestDefinition": {
+      "current_files": [
+        "data/quests/rustport.json"
+      ],
+      "fields": [
+        "quest_id",
+        "title",
+        "status",
+        "prerequisites",
+        "objectives",
+        "rewards",
+        "completion_effects"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/main.js",
+        "game/app/core/quest.js",
+        "tests/route-data.test.mjs"
+      ],
+      "references": [
+        "NPCDefinition",
+        "VehicleDefinition",
+        "BountyDefinition"
+      ]
+    },
+    "DialogueDefinition": {
+      "current_files": [
+        "data/dialogue/rustport.json"
+      ],
+      "fields": [
+        "dialogue_id",
+        "entries"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/main.js",
+        "game/app/core/dialogue.js",
+        "tests/route-data.test.mjs"
+      ],
+      "references": [
+        "WorldState",
+        "NPCDefinition"
+      ]
+    },
+    "BountyDefinition": {
+      "current_files": [
+        "data/bounties/iron_hound.json"
+      ],
+      "fields": [
+        "bounty_id",
+        "name",
+        "rumor",
+        "location_hint",
+        "difficulty",
+        "reward",
+        "weakness",
+        "loot",
+        "world_consequence"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/main.js",
+        "game/app/core/bounty.js",
+        "tests/route-data.test.mjs"
+      ],
+      "references": [
+        "BossDefinition",
+        "ItemDefinition",
+        "WorldState"
+      ]
+    },
+    "NPCDefinition": {
+      "current_files": [
+        "data/characters/*.json"
+      ],
+      "fields": [
+        "character_id",
+        "status",
+        "frame_size",
+        "pivot",
+        "directions",
+        "animations",
+        "path_pattern"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/main.js",
+        "game/app/core/renderer.js",
+        "game/app/core/dialogue.js"
+      ],
+      "references": [
+        "AssetEntry",
+        "DialogueDefinition"
+      ]
+    },
+    "ItemDefinition": {
+      "current_files": [
+        "no standalone current definition file"
+      ],
+      "fields": [
+        "legacy inventory item values and loot strings only"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/core/bounty.js",
+        "game/core/prototype-runtime.js",
+        "game/systems/persistence.js"
+      ],
+      "references": [
+        "BountyDefinition",
+        "SaveData"
+      ]
+    },
+    "VehicleDefinition": {
+      "current_files": [
+        "data/vehicles/rust_runner.json"
+      ],
+      "fields": [
+        "vehicle_id",
+        "display_name_cn",
+        "status",
+        "runtime_canvas",
+        "pivot",
+        "chassis",
+        "tracks",
+        "turret",
+        "mounts",
+        "collision_box"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/main.js",
+        "game/app/core/renderer.js",
+        "game/app/core/assets.js",
+        "scripts/assets/validate_vehicle_mounts.py"
+      ],
+      "references": [
+        "AssetEntry",
+        "WeaponDefinition"
+      ]
+    },
+    "WeaponDefinition": {
+      "current_files": [
+        "data/weapons/cannon_75mm.json"
+      ],
+      "fields": [
+        "weapon_id",
+        "display_name_cn",
+        "status",
+        "slot",
+        "asset",
+        "runtime_size",
+        "pivot",
+        "barrel_origin",
+        "muzzle_point",
+        "compatible_mounts",
+        "damage_visual_class"
+      ],
+      "version_fields": [],
+      "consumers": [
+        "game/app/core/state.js",
+        "game/app/core/renderer.js",
+        "scripts/assets/validate_vehicle_mounts.py"
+      ],
+      "references": [
+        "AssetEntry",
+        "VehicleDefinition"
+      ]
+    },
+    "MapDefinition": {
+      "current_files": [
+        "data/maps/rustport.json",
+        "data/rustport_scene.json",
+        "data/tiles/*.json"
+      ],
+      "fields": [
+        "map_id",
+        "display_name_cn",
+        "tmj",
+        "tile_size",
+        "map_size_tiles",
+        "world_size",
+        "status"
+      ],
+      "version_fields": [
+        "schema_version",
+        "version",
+        "tiledversion"
+      ],
+      "consumers": [
+        "game/app/core/scene.js",
+        "game/app/core/constants.js",
+        "scripts/assets/validate_maps.py"
+      ],
+      "references": [
+        "AssetEntry",
+        "WorldState"
+      ]
+    },
+    "SaveData": {
+      "current_files": [
+        "game/app/core/state.js",
+        "game/systems/persistence.js",
+        "game/core/prototype-runtime.js",
+        "game/core/save/migrations.js"
+      ],
+      "fields": [
+        "saveVersion",
+        "version",
+        "state payload",
+        "updatedAt",
+        "localStorage keys"
+      ],
+      "version_fields": [
+        "saveVersion",
+        "version"
+      ],
+      "consumers": [
+        "game/app/core/state.js",
+        "game/systems/persistence.js",
+        "game/core/prototype-runtime.js",
+        "tests/browser.mjs",
+        "tests/architecture.test.mjs"
+      ],
+      "references": [
+        "GameState",
+        "WorldState"
+      ]
+    },
+    "AssetEntry": {
+      "current_files": [
+        "data/asset_manifest.json"
+      ],
+      "fields": [
+        "asset_id",
+        "category",
+        "source_master",
+        "runtime",
+        "master_size",
+        "runtime_size",
+        "alpha",
+        "pivot",
+        "status",
+        "qa",
+        "domain metadata"
+      ],
+      "version_fields": [
+        "schema_version",
+        "contract_version"
+      ],
+      "consumers": [
+        "game/app/core/assets.js",
+        "game/core/asset-registry.js",
+        "scripts/assets/validate_assets.py",
+        "scripts/assets/validate_manifest.py",
+        "scripts/assets/build_release_manifest.py"
+      ],
+      "references": [
+        "VehicleDefinition",
+        "WeaponDefinition",
+        "MapDefinition"
+      ]
+    }
+  },
+  "id_inventory": {
+    "all_ids": {
+      "cannon_75mm": [
+        {
+          "field": "weapon_id",
+          "file": "data/weapons/cannon_75mm.json"
+        }
+      ],
+      "ground_dirt_oily_01": [
+        {
+          "field": "asset_id",
+          "file": "data/tiles/ground_dirt_oily_01.json"
+        }
+      ],
+      "iron_hound": [
+        {
+          "field": "boss_id",
+          "file": "data/bosses/iron_hound.json"
+        },
+        {
+          "field": "bounty_id",
+          "file": "data/bounties/iron_hound.json"
+        }
+      ],
+      "lincheng": [
+        {
+          "field": "character_id",
+          "file": "data/characters/lincheng.json"
+        }
+      ],
+      "liuyan": [
+        {
+          "field": "character_id",
+          "file": "data/characters/liuyan.json"
+        }
+      ],
+      "protagonist": [
+        {
+          "field": "character_id",
+          "file": "data/characters/protagonist.json"
+        }
+      ],
+      "rust_runner": [
+        {
+          "field": "vehicle_id",
+          "file": "data/vehicles/rust_runner.json"
+        }
+      ],
+      "rustport": [
+        {
+          "field": "map_id",
+          "file": "data/maps/rustport.json"
+        }
+      ],
+      "rustport_first_bounty": [
+        {
+          "field": "quest_id",
+          "file": "data/quests/rustport.json"
+        }
+      ],
+      "taoyao": [
+        {
+          "field": "character_id",
+          "file": "data/characters/taoyao.json"
+        }
+      ]
+    },
+    "bare_ids": {
+      "cannon_75mm": [
+        {
+          "field": "weapon_id",
+          "file": "data/weapons/cannon_75mm.json"
+        }
+      ],
+      "ground_dirt_oily_01": [
+        {
+          "field": "asset_id",
+          "file": "data/tiles/ground_dirt_oily_01.json"
+        }
+      ],
+      "iron_hound": [
+        {
+          "field": "boss_id",
+          "file": "data/bosses/iron_hound.json"
+        },
+        {
+          "field": "bounty_id",
+          "file": "data/bounties/iron_hound.json"
+        }
+      ],
+      "lincheng": [
+        {
+          "field": "character_id",
+          "file": "data/characters/lincheng.json"
+        }
+      ],
+      "liuyan": [
+        {
+          "field": "character_id",
+          "file": "data/characters/liuyan.json"
+        }
+      ],
+      "protagonist": [
+        {
+          "field": "character_id",
+          "file": "data/characters/protagonist.json"
+        }
+      ],
+      "rust_runner": [
+        {
+          "field": "vehicle_id",
+          "file": "data/vehicles/rust_runner.json"
+        }
+      ],
+      "rustport": [
+        {
+          "field": "map_id",
+          "file": "data/maps/rustport.json"
+        }
+      ],
+      "rustport_first_bounty": [
+        {
+          "field": "quest_id",
+          "file": "data/quests/rustport.json"
+        }
+      ],
+      "taoyao": [
+        {
+          "field": "character_id",
+          "file": "data/characters/taoyao.json"
+        }
+      ]
+    },
+    "prefixed_ids": {},
+    "duplicates": {},
+    "ambiguous": [
+      "iron_hound is used by both BossDefinition and BountyDefinition"
+    ],
+    "unresolved_references": [
+      "BountyDefinition.world_consequence rustport_next_region_unlocked is not a registered WorldState key",
+      "Quest objective target values are bare IDs and have no typed reference namespace"
+    ]
+  },
+  "world_state_inventory": {
+    "registered": {
+      "faction": {
+        "type": "string|null",
+        "default": null,
+        "description": "Compatibility field; null keeps the hunter independent."
+      }
+    },
+    "deprecated": [
+      "iron_hound_dead",
+      "rustport_next_region_unlocked",
+      "rustport_bounty_claimed"
+    ],
+    "observed": {
+      "faction": [
+        "tests/architecture.test.mjs"
+      ],
+      "iron_hound_dead": [
+        "game/core/save/migrations.js",
+        "tests/route-data.test.mjs"
+      ],
+      "rustport_bounty_claimed": [
+        "game/core/save/migrations.js"
+      ],
+      "rustport_next_region_unlocked": [
+        "game/core/save/migrations.js"
+      ]
+    },
+    "findings": [
+      "faction is registered and nullable",
+      "deprecated keys remain in migration tests and bounty data",
+      "rustport.* state is runtime state, not currently registered WorldState"
+    ]
+  },
+  "version_inventory": [
+    {
+      "file": "game/core/asset-registry.js",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "game/core/prototype-runtime.js",
+      "fields": [
+        "saveVersion"
+      ]
+    },
+    {
+      "file": "game/core/state.js",
+      "fields": [
+        "saveVersion"
+      ]
+    },
+    {
+      "file": "game/core/save/migrations.js",
+      "fields": [
+        "saveVersion",
+        "schema_version"
+      ]
+    },
+    {
+      "file": "game/app/core/scene.js",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "game/app/core/state.js",
+      "fields": [
+        "saveVersion",
+        "version"
+      ]
+    },
+    {
+      "file": "game/systems/persistence.js",
+      "fields": [
+        "saveVersion"
+      ]
+    },
+    {
+      "file": "data/asset_manifest.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/rustport_scene.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/asset_bindings.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/world_state_keys.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/schemas/definition.schema.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/schemas/save-data.schema.json",
+      "fields": [
+        "saveVersion",
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/schemas/world-state.schema.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "data/tiles/rustport_ground.tsj",
+      "fields": [
+        "tiledversion",
+        "version"
+      ]
+    },
+    {
+      "file": "data/tiles/roads.json",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "scripts/assets/validate_manifest.py",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "scripts/assets/build_release_manifest.py",
+      "fields": [
+        "schema_version"
+      ]
+    },
+    {
+      "file": "tests/architecture.test.mjs",
+      "fields": [
+        "saveVersion"
+      ]
+    },
+    {
+      "file": "tests/browser.mjs",
+      "fields": [
+        "saveVersion",
+        "version"
+      ]
+    },
+    {
+      "file": "tests/shared-contract.test.mjs",
+      "fields": [
+        "saveVersion"
+      ]
+    }
+  ],
+  "save_compatibility": {
+    "legacy": {
+      "keys": [
+        "wastelandHunterV10",
+        "wastelandHunterV8",
+        "wastelandHunterV7"
+      ],
+      "observed_versions": [
+        10,
+        11,
+        12,
+        22,
+        23
+      ],
+      "shape": "monolithic state object with v11/v12/v19/v22 namespaces",
+      "consumer": "game/core/prototype-runtime.js and game/systems/persistence.js"
+    },
+    "next": {
+      "key": "wastelandHunterNextV1",
+      "saveVersion": 23,
+      "shape": "state object with player, rustport, inventory, equipment, vehicles, quests, worldState, relationships, map",
+      "consumer": "game/app/core/state.js"
+    },
+    "incompatibilities": [
+      "No canonical envelope is currently written by either runtime.",
+      "Legacy and next runtime state fields are structurally incompatible.",
+      "Legacy saveVersion 22 and 23 semantics are not proven by complete fixtures.",
+      "Next runtime saveVersion 23 collides semantically with the legacy Canon 0.23 label.",
+      "No fixture covers all historical localStorage keys or malformed saves.",
+      "worldState keys are removed by next normalization but bounty data still names one deprecated key."
+    ],
+    "claim": "Compatibility is not claimed; only a pure 23-to-24 proposal exists."
+  },
+  "cross_reference_graph": {
+    "quest_prerequisites": [
+      "data/quests/rustport.json -> quest manager"
+    ],
+    "dialogue_links": [
+      "data/dialogue/rustport.json -> main.js/dialogue manager"
+    ],
+    "bounty_references": [
+      "data/bounties/iron_hound.json -> main.js/bounty manager"
+    ],
+    "npc_references": [
+      "quest/dialogue target liuyan -> character data and interaction resolver"
+    ],
+    "item_references": [
+      "bounty loot hound_core_scrap -> no ItemDefinition file"
+    ],
+    "weapon_references": [
+      "state equipment cannon_75mm -> data/weapons/cannon_75mm.json"
+    ],
+    "vehicle_mount_references": [
+      "vehicle mounts and compatible_mounts -> validate_vehicle_mounts.py"
+    ],
+    "asset_references": [
+      "asset_bindings/scene/tiles -> asset_manifest"
+    ],
+    "map_references": [
+      "data/maps/rustport.json -> rustport scene and map validator"
+    ]
+  },
+  "proposals": {
+    "version_field": "schema_version is data shape; contract_version is shared contract family; saveVersion is serialized save migration integer; tool/version fields remain producer-specific.",
+    "id_rule": "new IDs are lowercase dot-separated namespaced IDs; existing IDs require explicit migration plan.",
+    "world_state_registry": "data/world_state_keys.json is authoritative; unknown keys fail validation.",
+    "save_boundary": "legacy saveVersion 23 -> canonical SaveData saveVersion 24, with explicit migration only.",
+    "validator_architecture": "pure read-only Python validators with deterministic JSON report output."
+  },
+  "validator_results": {
+    "validate_project": "PASS_WITH_AUDIT_WARNINGS",
+    "validate_ids": "PASS_WITH_LEGACY_WARNINGS",
+    "validate_world_state": "PASS",
+    "validate_save": "PASS_WITH_UNMIGRATED_CONSUMERS",
+    "validate_references": "PASS_WITH_UNRESOLVED_REFERENCE_WARNINGS"
+  },
+  "blockers": [
+    "Integration Lead approval is required before consumer migration.",
+    "Canonical ID migration requires references owned by Runtime/data workflows.",
+    "Complete save compatibility fixtures are missing.",
+    "ItemDefinition and NPCDefinition are not standalone canonical files."
+  ],
+  "consumer_changes": {
+    "runtime": "required later; not changed in Sprint 1",
+    "art": "none",
+    "mobile": "none",
+    "legacy": "none"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "report": "runtime_contract_dependencies",
+  "sprint": 1,
+  "status": "audit_only",
+  "data_shape_changed": false,
+  "ids_renamed": false,
+  "shared_contract_migration": "BLOCKED",
+  "consumers": {
+    "QuestDefinition": {
+      "files": [
+        "data/quests/rustport.json",
+        "game/app/core/definitions.js",
+        "game/app/core/quest.js",
+        "game/app/main.js"
+      ],
+      "fields_read": [
+        "quest_id",
+        "status",
+        "objectives[].id",
+        "objectives[].type",
+        "objectives[].target",
+        "objectives[].next"
+      ],
+      "state_written": [
+        "state.quests.<quest_id>.status",
+        "state.quests.<quest_id>.objectiveIndex",
+        "state.quests.<quest_id>.progress"
+      ],
+      "definition_mutated": false
+    },
+    "DialogueDefinition": {
+      "files": [
+        "data/dialogue/rustport.json",
+        "game/app/core/dialogue.js",
+        "game/app/main.js"
+      ],
+      "fields_read": [
+        "dialogue_id",
+        "entries.<entry_id>.speaker",
+        "entries.<entry_id>.text",
+        "entries.<entry_id>.conditions",
+        "entries.<entry_id>.effects"
+      ],
+      "state_written": [
+        "state.rustport.liuyanMet"
+      ],
+      "definition_mutated": false,
+      "unregistered_world_state_behavior": "throw"
+    },
+    "BountyDefinition": {
+      "files": [
+        "data/bounties/iron_hound.json",
+        "game/app/core/bounty.js",
+        "game/app/main.js"
+      ],
+      "fields_read": [
+        "bounty_id",
+        "reward.gold",
+        "reward.scrap",
+        "reward.hunterRank"
+      ],
+      "state_written": [
+        "state.inventory.gold",
+        "state.inventory.scrap",
+        "state.hunterRank"
+      ],
+      "definition_mutated": false,
+      "world_consequence_executed": false
+    },
+    "WorldState": {
+      "files": [
+        "game/app/core/state.js",
+        "game/app/core/dialogue.js",
+        "game/core/save/migrations.js"
+      ],
+      "current_key": "faction",
+      "unregistered_effects": "throw_and_do_not_create"
+    },
+    "GameState": {
+      "files": [
+        "game/app/core/state.js",
+        "game/app/main.js",
+        "game/app/core/quest.js",
+        "game/app/core/dialogue.js",
+        "game/app/core/bounty.js"
+      ],
+      "mutable_route_fields": [
+        "player",
+        "rustport",
+        "inventory",
+        "quests",
+        "hunterRank"
+      ]
+    },
+    "SaveData": {
+      "next_runtime_files": [
+        "game/app/core/state.js",
+        "game/app/core/constants.js"
+      ],
+      "legacy_migration_file": "game/core/save/migrations.js",
+      "next_save_key": "wastelandHunterNextV1",
+      "next_save_version": 23,
+      "legacy_migration_current_version": 24,
+      "migration_status": "requires_contract_lead_design"
+    },
+    "VehicleDefinition": {
+      "files": [
+        "data/vehicles/rust_runner.json",
+        "game/app/main.js",
+        "game/app/core/renderer.js"
+      ],
+      "fields_read": [
+        "vehicle_id",
+        "pivot",
+        "mounts.main_gun"
+      ],
+      "definition_mutated": false
+    },
+    "WeaponDefinition": {
+      "files": [
+        "data/weapons/cannon_75mm.json",
+        "game/app/core/assets.js",
+        "game/app/core/renderer.js"
+      ],
+      "direct_json_consumer": false,
+      "asset_id_consumed": "cannon_75mm",
+      "definition_mutated": false
+    },
+    "AssetLookup": {
+      "files": [
+        "data/asset_manifest.json",
+        "game/app/core/assets.js",
+        "game/app/core/renderer.js",
+        "game/core/asset-registry.js"
+      ],
+      "requirements": [
+        "schema_version=1.0",
+        "status=QA_PASS",
+        "runtime path",
+        "pivot metadata where rendered"
+      ],
+      "failure_behavior": "explicit error; no placeholder fallback"
+    }
+  },
+  "route": {
+    "quest_id": "rustport_first_bounty",
+    "dialogue_id": "rustport_intro",
+    "bounty_id": "iron_hound",
+    "vehicle_id": "rust_runner",
+    "world_state_keys_written": [],
+    "temporary_state_namespace": "state.rustport"
+  },
+  "future_migration_touchpoints": [
+    "game/app/main.js",
+    "game/app/core/definitions.js",
+    "game/app/core/quest.js",
+    "game/app/core/dialogue.js",
+    "game/app/core/bounty.js",
+    "game/app/core/state.js",
+    "tests/route-data.test.mjs",
+    "tests/architecture.test.mjs",
+    "data/quests/rustport.json",
+    "data/dialogue/rustport.json",
+    "data/bounties/iron_hound.json"
+  ],
+  "blockers": [
+    "bare IDs remain in current definitions and runtime lookups",
+    "Quest, Dialogue, and Bounty definitions lack approved schema_version",
+    "bounty world_consequence references an unregistered WorldState concept",
+    "next runtime saveVersion 23 and legacy migration version 24 require an approved migration boundary",
+    "next runtime remains blocked by intentional empty R1 production-art gate"
+  ]
+}

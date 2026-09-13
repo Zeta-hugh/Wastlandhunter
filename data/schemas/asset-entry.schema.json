@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wasteland-hunter/asset-entry",
+  "type": "object",
+  "required": [
+    "asset_id", "source_master", "runtime", "master_size", "runtime_size",
+    "pivot", "status", "qa"
+  ],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "source_master": {"type": "string"},
+    "runtime": {"type": "string"},
+    "master_size": {"type": "array", "minItems": 2, "maxItems": 2},
+    "runtime_size": {"type": "array", "minItems": 2, "maxItems": 2},
+    "pivot": {"type": "array", "minItems": 2, "maxItems": 2},
+    "status": {"enum": ["NEEDS_ART", "QA_PASS"]},
+    "qa": {"type": "object"}
+  },
+  "additionalProperties": true
+}

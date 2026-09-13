@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wasteland-hunter/world-state",
+  "type": "object",
+  "required": ["schema_version", "contract_version", "keys", "deprecated_keys"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"const": "1.0"},
+    "keys": {"type": "object"},
+    "deprecated_keys": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

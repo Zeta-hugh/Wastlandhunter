@@ -1,0 +1,115 @@
+{
+  "id": "iron_hound_flow_v1",
+  "sprint": 1,
+  "status": "READY_FOR_REVIEW",
+  "original": true,
+  "flow": [
+    "rumor",
+    "tracks",
+    "wreck evidence",
+    "NPC testimony",
+    "search zone",
+    "pre-boss encounter",
+    "boss arena",
+    "phase 1",
+    "phase 2",
+    "phase 3",
+    "weak point",
+    "vehicle interaction",
+    "loot/proof",
+    "return to Hunter Guild",
+    "town reaction"
+  ],
+  "investigation": {
+    "clue_count": 4,
+    "reveal_threshold": 3,
+    "full_clue_advantage": "bypass or disable the pre-boss maintenance drone"
+  },
+  "clues": [
+    {
+      "id": "tracks",
+      "location": "Net-Menders' Slip",
+      "owner": "Map / Content / Art"
+    },
+    {
+      "id": "wreck_evidence",
+      "location": "Flooded Scrap Yard",
+      "owner": "Map / Content / Art"
+    },
+    {
+      "id": "npc_testimony",
+      "location": "Harbor crane",
+      "owner": "Content / Runtime"
+    },
+    {
+      "id": "guild_comparison",
+      "location": "Hunter Guild evidence tray",
+      "owner": "Content / Runtime / Art"
+    }
+  ],
+  "search_zone": "Old Tideway",
+  "pre_boss_encounter": "damaged maintenance drone with dragged cable",
+  "arena": {
+    "name": "collapsed tide-pump station",
+    "elements": [
+      "raised dry platform",
+      "flooded channel",
+      "cable gantry"
+    ]
+  },
+  "boss": {
+    "name": "Iron Hound",
+    "weak_point": "left coolant manifold",
+    "phases": [
+      {
+        "id": 1,
+        "name": "searchlight_and_charge",
+        "vehicle_interaction": "ram loose pump brace to create temporary cover"
+      },
+      {
+        "id": 2,
+        "name": "flooded_channel_split",
+        "vehicle_interaction": "fire cannon into tide-pump valve to lower channel briefly"
+      },
+      {
+        "id": 3,
+        "name": "failing_maintenance_protocol",
+        "vehicle_interaction": "stay mounted or dismount to pull gantry manual release"
+      }
+    ]
+  },
+  "rewards": [
+    "Iron Hound control seal",
+    "industrial hound jaw plate",
+    "tide-pump regulator",
+    "350 credits at Guild claim",
+    "8 scrap at Guild claim",
+    "1 Hunter Rank at Guild claim"
+  ],
+  "town_reaction": [
+    "Bar rumor resolves into acknowledgment",
+    "Clinic clears one dock-worker cot",
+    "Harbor pennant changes from orange to green",
+    "Liu Yan references chosen Rust Runner part once"
+  ],
+  "dependencies": {
+    "contract": "no new fields proposed; Shared Contract review required for any future generic clue/phase schema",
+    "runtime": "clue progression, reveal, pressure, three phases, reward settlement, repeat prevention",
+    "art": "tracks, wreck, drone, boss phases, weak-point damage, proof and reaction props",
+    "mobile": "context actions, vehicle movement, fire, dismount affordances",
+    "map": "evidence anchors, Old Tideway, pre-boss pocket, tide-pump arena, Guild return",
+    "owners": [
+      "Content",
+      "Runtime",
+      "Production Art",
+      "Mobile",
+      "Map / Map integration",
+      "Shared Contract review"
+    ]
+  },
+  "do_not_copy": [
+    "source bounty identities",
+    "source boss forms, attacks, phase names, arenas",
+    "source dialogue, maps, sprites, event scripts, reward tables"
+  ]
+}
