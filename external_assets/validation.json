@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "packs": 17,
+  "counts": {
+    "original_files": 8186,
+    "images_checked": 4367,
+    "gltf_checked": 768,
+    "normalized_copies": 4174,
+    "blend_headers_checked": 5
+  },
+  "errors": [],
+  "limitations": [
+    "Files and GLB/glTF dependency checks only; OBJ/FBX/BLEND rendering is not verified.",
+    "No asset is promoted to production QA_PASS.",
+    "File counts include formats, textures, previews and documentation, not unique designs."
+  ],
+  "local_links_checked": 8239,
+  "gallery_previews_loaded": 17,
+  "gallery_file": "index.html",
+  "gallery_screenshot": "catalog_preview.png",
+  "normalized_png_copies": 3845,
+  "normalized_glb_copies": 329
+}

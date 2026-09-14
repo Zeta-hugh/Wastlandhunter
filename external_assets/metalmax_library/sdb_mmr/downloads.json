@@ -1,0 +1,154 @@
+[
+  {
+    "file": "mmr_abrams.png",
+    "source_url": "https://spritedatabase.net/file/9572",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/Abrams.png",
+    "bytes": 12637,
+    "sha256": "83a3fe28d83515fdcdc5c468c58128c018e0f6e475492b2eb5ee30fe5b9c7808",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_aegi.png",
+    "source_url": "https://spritedatabase.net/file/9347",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Aegi.png",
+    "bytes": 66977,
+    "sha256": "5116ae1462791a22f8b7c40234a7f8802ace88cf59fd7c79d63c6e0a1337ab70",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_anne.png",
+    "source_url": "https://spritedatabase.net/file/9348",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Anne.png",
+    "bytes": 87127,
+    "sha256": "e29954f9de8fd150e8c84ee7acde93c0e0cec8713bbb01a3f88e175ba9abfe35",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_bscon.png",
+    "source_url": "https://spritedatabase.net/file/9928",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_BSCon.png",
+    "bytes": 22540,
+    "sha256": "833fb4373953b18439b3d8565d572f31d037d0fd17b210ffc9e709ee868c44ed",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_buggy.png",
+    "source_url": "https://spritedatabase.net/file/9504",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Buggy.png",
+    "bytes": 10085,
+    "sha256": "79f3af1bf23d3f9d411c2c62258c4176f3d98c6b810c8510844bd8aed1d89825",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_hunt.png",
+    "source_url": "https://spritedatabase.net/file/9349",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Hunt.png",
+    "bytes": 71407,
+    "sha256": "723eaaa4e32212bda7aaf6492e7874c71ed353cecb4eeb16dc27c1a46713d9e1",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_jukebox.png",
+    "source_url": "https://spritedatabase.net/file/11396",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Jukebox.png",
+    "bytes": 93019,
+    "sha256": "ac4e93d3db14e065f202364fbdd672b8f2f450a8a36bd3df466c35ea50a320dd",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_lav.png",
+    "source_url": "https://spritedatabase.net/file/9573",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/LAV.png",
+    "bytes": 12653,
+    "sha256": "0220cf20745aaa3b32ddd6f2d340752597d7ff465d3cf00629a042d768134e50",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_mosquito.png",
+    "source_url": "https://spritedatabase.net/file/9505",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Mosquito.png",
+    "bytes": 10965,
+    "sha256": "e725da045ad50ac06d985571c0b6988f17dd449f6b622f705484556641d1f7ba",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_noah.png",
+    "source_url": "https://spritedatabase.net/file/10302",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Noah.png",
+    "bytes": 304913,
+    "sha256": "67cfe9970da17a5c587dd2312d7348c4cfb446c8308922d1464152f3808b8a4c",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_redwolf.png",
+    "source_url": "https://spritedatabase.net/file/9574",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/RedWolf.png",
+    "bytes": 14712,
+    "sha256": "689af151bb7525718a5f3884662cd78efe96661150843d83c1be9e4b0acf197e",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_tiger.png",
+    "source_url": "https://spritedatabase.net/file/9575",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/Tiger.png",
+    "bytes": 11675,
+    "sha256": "b4c53f1903b0547908ec06ec5e61eb316c7a61c4ca7d7ef6a4a2d992897283d9",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_van.png",
+    "source_url": "https://spritedatabase.net/file/9576",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/Van.png",
+    "bytes": 14070,
+    "sha256": "2e7ab001612b5c75565d81852c1c8bbcf046248b770ee53849ead517aa3f6769",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_vendingmachine.png",
+    "source_url": "https://spritedatabase.net/file/11397",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_VendingMachine.png",
+    "bytes": 42328,
+    "sha256": "331d085bbfbba402d47bab17d9194dbe42c54ef4b7e5220f862b3dc700406422",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_wantedposter.png",
+    "source_url": "https://spritedatabase.net/file/9502",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_WantedPoster.png",
+    "bytes": 42701,
+    "sha256": "b0748db839da036caf1af057566bebd13ee9c6929987ad9873422b93b2fea5f9",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_whitemuu.png",
+    "source_url": "https://spritedatabase.net/file/9503",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Whitemuu.png",
+    "bytes": 17871,
+    "sha256": "08af16b87e726ee690f188c313320073d0ee40ac9029ba0f13060778cf7bf70c",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_wolf.png",
+    "source_url": "https://spritedatabase.net/file/9506",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Sprite/MMR_Wolf.png",
+    "bytes": 8667,
+    "sha256": "2d1ce67d6ad0e03a6e6ace10fc33fd8047fd25448832bf04839dd5e32dfa36c1",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_mmr_lifescienceslab.png",
+    "source_url": "https://spritedatabase.net/file/9356",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Background/MMR_LifeSciencesLab.png",
+    "bytes": 279565,
+    "sha256": "e5b37cc0b27aec6b2668be0429017bff1baf47baf5c34aa88ce16d0e13f43f22",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  },
+  {
+    "file": "mmr_run-downoasis.png",
+    "source_url": "https://spritedatabase.net/file/9577",
+    "download_url": "https://spritedatabase.net/files/snes/1544/Background/Run-DownOasis.png",
+    "bytes": 63944,
+    "sha256": "0fe3e268ecfcf951484bf3148912a31b8adcffdf6d64ce0d5b3cf668a5882fec",
+    "status": "REFERENCE_ONLY_GAME_EXTRACTION"
+  }
+]

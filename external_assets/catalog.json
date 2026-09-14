@@ -1,0 +1,902 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-14",
+  "packs": [
+    {
+      "pack_id": "kenney_city_kit_industrial",
+      "category": "buildings_industrial",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/city-kit-industrial",
+      "download_url": "https://kenney.nl/media/pages/assets/city-kit-industrial/0ec35b139d-1788171848/kenney_city-kit-industrial_2.0.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "buildings_industrial/kenney_city_kit_industrial/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "buildings_industrial/kenney_city_kit_industrial/kenney_city_kit_industrial.zip",
+      "archive_sha256": "5b381164e5760f3830a2dbee43b972deee38b2a695d091b56e238ab2910c96d2",
+      "archive_bytes": 5045077,
+      "file_count": 201,
+      "extensions": {
+        ".txt": 1,
+        ".fbx": 37,
+        ".png": 48,
+        ".glb": 37,
+        ".mtl": 37,
+        ".obj": 37,
+        ".html": 1,
+        ".url": 3
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Warehouse/factory geometry and industrial landmarks; weathering and 3/4 render required",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "buildings_industrial/kenney_city_kit_industrial/original/Preview.png",
+      "priority": "P1",
+      "decision_cn": "适配后使用",
+      "usage_cn": "工业房屋、仓库与能源设施：优先选择几何部件，统一旧化材质和 3/4 相机后用于锈港背景建筑；整栋模型仅作组装参考。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "buildings_industrial/kenney_city_kit_industrial/original/Models/GLB format/building-a.glb",
+        "buildings_industrial/kenney_city_kit_industrial/original/Models/GLB format/building-b.glb"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "buildings_industrial/kenney_city_kit_industrial/catalog.json"
+    },
+    {
+      "pack_id": "kenney_isometric_tiles_buildings",
+      "category": "buildings_isometric",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/isometric-tiles-buildings",
+      "download_url": "https://kenney.nl/media/pages/assets/isometric-tiles-buildings/cfcdb066e1-1677694983/kenney_isometric-buildings.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "buildings_isometric/kenney_isometric_tiles_buildings/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "buildings_isometric/kenney_isometric_tiles_buildings/kenney_isometric_tiles_buildings.zip",
+      "archive_sha256": "0894214e3b604f3eef53b9fa633340ba4617e24053a6178fa81dab6bac3d6d5e",
+      "archive_bytes": 1706949,
+      "file_count": 136,
+      "extensions": {
+        ".txt": 1,
+        ".png": 132,
+        ".xml": 1,
+        ".url": 2
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "Silhouette and assembly reference; whole-building images are not modular production facades",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "buildings_isometric/kenney_isometric_tiles_buildings/original/Preview.png",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "房屋轮廓和组合关系参考；整栋 2D 立面不替代项目要求的独立墙、门、窗与屋顶。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "buildings_isometric/kenney_isometric_tiles_buildings/catalog.json"
+    },
+    {
+      "pack_id": "kenney_building_kit",
+      "category": "buildings_modules",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/building-kit",
+      "download_url": "https://kenney.nl/media/pages/assets/building-kit/0de7aaa492-1743244741/kenney_building-kit.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "buildings_modules/kenney_building_kit/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "buildings_modules/kenney_building_kit/kenney_building_kit.zip",
+      "archive_sha256": "2740ef5772fb5fb3d7aab881db22d129f6b68afe711b1a79e6d5e9e19cf3eec6",
+      "archive_bytes": 1598905,
+      "file_count": 407,
+      "extensions": {
+        ".txt": 1,
+        ".fbx": 79,
+        ".png": 86,
+        ".glb": 79,
+        ".mtl": 79,
+        ".obj": 79,
+        ".html": 1,
+        ".url": 3
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Walls, windows and roofs; assemble original Rustport buildings then render",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "buildings_modules/kenney_building_kit/original/Preview.png",
+      "priority": "P0",
+      "decision_cn": "适配后使用",
+      "usage_cn": "房屋墙面、门窗、楼梯、管道、路障：优先制作锈港工坊的独立建筑模块，输出对应 PNG 与脚点。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "buildings_modules/kenney_building_kit/original/Models/GLB format/column.glb",
+        "buildings_modules/kenney_building_kit/original/Models/GLB format/detail-pipe.glb"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "buildings_modules/kenney_building_kit/catalog.json"
+    },
+    {
+      "pack_id": "kenney_modular_buildings",
+      "category": "buildings_modules",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/modular-buildings",
+      "download_url": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "buildings_modules/kenney_modular_buildings/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "buildings_modules/kenney_modular_buildings/kenney_modular_buildings.zip",
+      "archive_sha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+      "archive_bytes": 1825490,
+      "file_count": 554,
+      "extensions": {
+        ".txt": 1,
+        ".fbx": 108,
+        ".png": 117,
+        ".glb": 108,
+        ".mtl": 108,
+        ".obj": 108,
+        ".html": 1,
+        ".url": 3
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Reusable modular geometry for workshops and residential blocks; retexture and render 3/4",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "buildings_modules/kenney_modular_buildings/original/Preview.png",
+      "priority": "P0",
+      "decision_cn": "适配后使用",
+      "usage_cn": "房屋模块：门、转角、窗台与檐口优先；按原创锈港布局组装，不照搬示例楼。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "buildings_modules/kenney_modular_buildings/original/Models/GLB format/building-corner.glb",
+        "buildings_modules/kenney_modular_buildings/original/Models/GLB format/building-door.glb"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "buildings_modules/kenney_modular_buildings/catalog.json"
+    },
+    {
+      "pack_id": "kenney_nature_kit",
+      "category": "environment_nature",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/nature-kit",
+      "download_url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "environment_nature/kenney_nature_kit/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "environment_nature/kenney_nature_kit/kenney_nature_kit.zip",
+      "archive_sha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+      "archive_bytes": 10537521,
+      "file_count": 3618,
+      "extensions": {
+        ".url": 3,
+        ".png": 1640,
+        ".txt": 1,
+        ".dae": 329,
+        ".fbx": 329,
+        ".glb": 329,
+        ".mtl": 329,
+        ".obj": 329,
+        ".stl": 329
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Rocks, trees and terrain geometry for outskirts; palette and perspective conversion",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "environment_nature/kenney_nature_kit/original/Preview.png",
+      "priority": "P1",
+      "decision_cn": "适配后使用",
+      "usage_cn": "环境植被：岩石、仙人掌、枯木与桥梁几何用于锈港外围，先统一比例及低饱和调色；不整包替换环境。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "environment_nature/kenney_nature_kit/named_models/kenney_nature_kit__models_gltf_format_cactus_short.glb",
+        "environment_nature/kenney_nature_kit/named_models/kenney_nature_kit__models_gltf_format_cactus_tall.glb"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "environment_nature/kenney_nature_kit/catalog.json"
+    },
+    {
+      "pack_id": "kenney_survival_kit",
+      "category": "environment_props",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/survival-kit",
+      "download_url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "environment_props/kenney_survival_kit/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "environment_props/kenney_survival_kit/kenney_survival_kit.zip",
+      "archive_sha256": "c3586341b5932c87eb43d75d915434f47daed168b17ed36a03e8ca9977c7443e",
+      "archive_bytes": 1948174,
+      "file_count": 412,
+      "extensions": {
+        ".txt": 1,
+        ".fbx": 80,
+        ".png": 87,
+        ".glb": 80,
+        ".mtl": 80,
+        ".obj": 80,
+        ".html": 1,
+        ".url": 3
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Camp and salvage props; convert selected meshes to original palette and camera",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "environment_props/kenney_survival_kit/original/Preview.png",
+      "priority": "P0",
+      "decision_cn": "适配后使用",
+      "usage_cn": "环境道具：箱桶、围栏、帐篷与营地用品，选择结构适用的模型制作废土材质和独立透明帧。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "environment_props/kenney_survival_kit/original/Models/GLB format/barrel.glb",
+        "environment_props/kenney_survival_kit/original/Models/GLB format/box.glb",
+        "environment_props/kenney_survival_kit/original/Models/GLB format/fence.glb"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "environment_props/kenney_survival_kit/catalog.json"
+    },
+    {
+      "pack_id": "kenney_city_kit_roads",
+      "category": "maps_roads",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/city-kit-roads",
+      "download_url": "https://kenney.nl/media/pages/assets/city-kit-roads/74288c9459-1787042796/kenney_city-kit-roads.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "maps_roads/kenney_city_kit_roads/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "maps_roads/kenney_city_kit_roads/kenney_city_kit_roads.zip",
+      "archive_sha256": "22058af3d68173a7cf9bda9f0e243a8cef6bd68168c302ebc76327063849674e",
+      "archive_bytes": 2849382,
+      "file_count": 487,
+      "extensions": {
+        ".txt": 1,
+        ".fbx": 95,
+        ".png": 102,
+        ".glb": 95,
+        ".mtl": 95,
+        ".obj": 95,
+        ".html": 1,
+        ".url": 3
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Road/bridge geometry kit for original local maps; not an authored Rustport map",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "maps_roads/kenney_city_kit_roads/original/Preview.png",
+      "priority": "P1",
+      "decision_cn": "适配后使用",
+      "usage_cn": "地图道路：道路、桥墩、电线杆、施工围挡。先组合原创路网，再输出可连接道路瓦片和环境模块。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "maps_roads/kenney_city_kit_roads/original/Models/GLB format/bridge-pillar.glb",
+        "maps_roads/kenney_city_kit_roads/original/Models/GLB format/construction-barrier.glb",
+        "maps_roads/kenney_city_kit_roads/original/Models/GLB format/electricity-pole.glb"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "maps_roads/kenney_city_kit_roads/catalog.json"
+    },
+    {
+      "pack_id": "kenney_isometric_roads",
+      "category": "maps_roads",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/isometric-roads",
+      "download_url": "https://kenney.nl/media/pages/assets/isometric-roads/d3b7757a28-1677695247/kenney_isometric-roads.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "maps_roads/kenney_isometric_roads/original/readme.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "maps_roads/kenney_isometric_roads/kenney_isometric_roads.zip",
+      "archive_sha256": "dc7ffbe7d65c26cb2f46c6ce4beabf07206f410466a31572f572456728ed8f12",
+      "archive_bytes": 621468,
+      "file_count": 101,
+      "extensions": {
+        ".txt": 1,
+        ".ai": 1,
+        ".svg": 1,
+        ".swf": 1,
+        ".png": 96,
+        ".jpg": 1
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "Road connectivity and elevation prototypes; perspective and scale conversion needed",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "maps_roads/kenney_isometric_roads/original/preview.jpg",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "地图道路与河流连接参考；45 度菱形透视不能直接混入当前非菱形地面投影。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "maps_roads/kenney_isometric_roads/catalog.json"
+    },
+    {
+      "pack_id": "kenney_isometric_tiles_landscape",
+      "category": "maps_terrain",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/isometric-tiles-landscape",
+      "download_url": "https://kenney.nl/media/pages/assets/isometric-tiles-landscape/37eb18a8d1-1677695072/kenney_isometric-landscape.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "maps_terrain/kenney_isometric_tiles_landscape/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "maps_terrain/kenney_isometric_tiles_landscape/kenney_isometric_tiles_landscape.zip",
+      "archive_sha256": "18fa4fb22fa18bd4230e2422bc4123c986123c53966846b5a5bc219b331e7d3e",
+      "archive_bytes": 1141541,
+      "file_count": 134,
+      "extensions": {
+        ".png": 130,
+        ".xml": 1,
+        ".url": 2,
+        ".txt": 1
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "Independent isometric terrain tiles; test seams and camera fit before adoption",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "maps_terrain/kenney_isometric_tiles_landscape/original/Preview.png",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "地形、水岸、山坡的连接语法参考；现有颜色与投影不适合直接作为正式锈港瓦片。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "maps_terrain/kenney_isometric_tiles_landscape/catalog.json"
+    },
+    {
+      "pack_id": "kenney_roguelike_modern_city",
+      "category": "maps_town",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/roguelike-modern-city",
+      "download_url": "https://kenney.nl/media/pages/assets/roguelike-modern-city/0ff3dfff2b-1677694743/kenney_roguelike-modern-city.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "maps_town/kenney_roguelike_modern_city/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "maps_town/kenney_roguelike_modern_city/kenney_roguelike_modern_city.zip",
+      "archive_sha256": "2a3f36b1bc3a3d1cb4b9da051c493d163c493fe54adc66e78e76b3fb4abcfc56",
+      "archive_bytes": 519937,
+      "file_count": 1044,
+      "extensions": {
+        ".png": 1040,
+        ".txt": 2,
+        ".url": 2
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "Small pixel town layout and service icons; incompatible production pixel scale",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "maps_town/kenney_roguelike_modern_city/original/Preview.png",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "常见城镇地图图块、室内设施与小像素图标，用于服务布局和寻路技术草图；不作为正式画面。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "maps_town/kenney_roguelike_modern_city/catalog.json"
+    },
+    {
+      "pack_id": "kenney_map_pack",
+      "category": "maps_world",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/map-pack",
+      "download_url": "https://kenney.nl/media/pages/assets/map-pack/86e20aaba9-1677662163/kenney_map-pack.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "maps_world/kenney_map_pack/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "maps_world/kenney_map_pack/kenney_map_pack.zip",
+      "archive_sha256": "6298e198de4e05e0d573bdca0c58198b6375bb0fed45f29d4f0ecf84abf49c49",
+      "archive_bytes": 2347889,
+      "file_count": 198,
+      "extensions": {
+        ".png": 194,
+        ".xml": 1,
+        ".svg": 1,
+        ".swf": 1,
+        ".txt": 1
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "World-map symbols and map grammar; not a playable TMJ map",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "maps_world/kenney_map_pack/original/Preview.png",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "常见大地图符号、地形与路线规划参考；没有可直接接入的锈港 TMJ 地图。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "maps_world/kenney_map_pack/catalog.json"
+    },
+    {
+      "pack_id": "kenney_top_down_tanks",
+      "category": "tanks",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/top-down-tanks",
+      "download_url": "https://kenney.nl/media/pages/assets/top-down-tanks/0385fcb3e0-1677699019/kenney_top-down-tanks.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "tanks/kenney_top_down_tanks/original/license.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "tanks/kenney_top_down_tanks/kenney_top_down_tanks.zip",
+      "archive_sha256": "005e1225e1a65b77ea8e8232cc9400b0b9f14e7a6463d3e036d814c17f3c5fb5",
+      "archive_bytes": 360093,
+      "file_count": 93,
+      "extensions": {
+        ".svg": 1,
+        ".swf": 1,
+        ".txt": 1,
+        ".png": 89,
+        ".xml": 1
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "2D top-down chassis/turret separation reference; not Rust Runner production art",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "tanks/kenney_top_down_tanks/original/preview.png",
+      "priority": "P1",
+      "decision_cn": "仅供参考",
+      "usage_cn": "坦克底盘、炮塔与弹道分层参考；平面俯视且风格简化，不替换 3/4 Rust Runner。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "tanks/kenney_top_down_tanks/catalog.json"
+    },
+    {
+      "pack_id": "oga_hubahuba_tank_01",
+      "category": "tanks",
+      "author": "hubahuba",
+      "source_url": "https://opengameart.org/content/tank1",
+      "download_url": "https://opengameart.org/sites/default/files/tank_0.blend",
+      "license": "CC0-1.0",
+      "license_files": [
+        "licenses/cc0_1_0_legalcode.txt",
+        "tanks/oga_hubahuba_tank_01/source_page.html"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "tanks/oga_hubahuba_tank_01/original/tank_01.blend",
+      "archive_sha256": "c68c4825e8cadc614bd9c4f090f4a9f4bde05646b46c3f19ce38c439d9cfb821",
+      "archive_bytes": 587620,
+      "file_count": 1,
+      "extensions": {
+        ".blend": 1
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Tank geometry candidate: inspect object separation, texture dependencies and author eight-view renders before considering Rust Runner integration",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "preview": "tanks/oga_hubahuba_tank_01/preview.jpg",
+      "intake_status": "FILES_VERIFIED",
+      "priority": "P1",
+      "decision_cn": "适配后使用",
+      "usage_cn": "坦克几何候选：检查底盘、炮塔能否拆分后制作八方向渲染；仅完成 Blender 文件头校验，尚未完成模型可用性和风格验收。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "tanks/oga_hubahuba_tank_01/original/tank_01.blend"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "tanks/oga_hubahuba_tank_01/catalog.json"
+    },
+    {
+      "pack_id": "kenney_isometric_tiles_vehicles",
+      "category": "vehicles",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/isometric-tiles-vehicles",
+      "download_url": "https://kenney.nl/media/pages/assets/isometric-tiles-vehicles/34c07c3393-1677695121/kenney_isometric-vehicles.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "vehicles/kenney_isometric_tiles_vehicles/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "vehicles/kenney_isometric_tiles_vehicles/kenney_isometric_tiles_vehicles.zip",
+      "archive_sha256": "b478cf692d936e2cfda2368f8d24505841508907adc343f1068a6b2ea457d3fd",
+      "archive_bytes": 2269908,
+      "file_count": 563,
+      "extensions": {
+        ".txt": 1,
+        ".png": 553,
+        ".xml": 7,
+        ".url": 2
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "Vehicle silhouette reference; no assumption of complete eight-direction or modular animation",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "vehicles/kenney_isometric_tiles_vehicles/original/Preview.png",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "车辆外形、载货与城镇交通参考；不等同八方向动作齐全的模块化战车。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "vehicles/kenney_isometric_tiles_vehicles/catalog.json"
+    },
+    {
+      "pack_id": "kenney_blaster_kit",
+      "category": "weapons",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/blaster-kit",
+      "download_url": "https://kenney.nl/media/pages/assets/blaster-kit/261d80a716-1753959510/kenney_blaster-kit_2.1.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "weapons/kenney_blaster_kit/original/License.txt"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "weapons/kenney_blaster_kit/kenney_blaster_kit.zip",
+      "archive_sha256": "91e3093e95427d59625e7e2ce2d0399b861600160fd0b4ada7714796b67cea8c",
+      "archive_bytes": 1724676,
+      "file_count": 211,
+      "extensions": {
+        ".txt": 1,
+        ".fbx": 40,
+        ".png": 46,
+        ".glb": 40,
+        ".mtl": 40,
+        ".obj": 40,
+        ".html": 1,
+        ".url": 3
+      },
+      "decision": "REFERENCE_ONLY",
+      "usage": "Weapon and accessory geometry; choose grounded designs, retexture and author mounts",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "intake_status": "FILES_VERIFIED",
+      "preview": "weapons/kenney_blaster_kit/original/Preview.png",
+      "priority": "P2",
+      "decision_cn": "仅供参考",
+      "usage_cn": "武器附件和箱体组合参考；泡沫弹/玩具枪造型不符合荒原猎手常规武器，不直接采用整枪外观。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "weapons/kenney_blaster_kit/catalog.json"
+    },
+    {
+      "pack_id": "oga_lucian_pavel_hunting_rifle",
+      "category": "weapons",
+      "author": "Lucian Pavel",
+      "source_url": "https://opengameart.org/content/hunting-rifle",
+      "download_url": "https://opengameart.org/sites/default/files/Hunting%20Rifle%20New%20%20Spec_0.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "licenses/cc0_1_0_legalcode.txt",
+        "weapons/oga_lucian_pavel_hunting_rifle/source_page.html"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "weapons/oga_lucian_pavel_hunting_rifle/oga_lucian_pavel_hunting_rifle.zip",
+      "archive_sha256": "07ac14d7417cc6448b78b9a2b330acc0d897f2479bf49b9cbf49d0edc643f029",
+      "archive_bytes": 9556817,
+      "file_count": 5,
+      "extensions": {
+        ".png": 3,
+        ".fbx": 1,
+        ".txt": 1
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Weathered rifle geometry/textures candidate for hunter equipment; render to project sprite/icon specs",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "preview": "weapons/oga_lucian_pavel_hunting_rifle/preview.png",
+      "intake_status": "FILES_VERIFIED",
+      "priority": "P1",
+      "decision_cn": "适配后使用",
+      "usage_cn": "旧猎枪模型与材质：优先评估猎人装备图标，保留磨损质感；需要相机、缩小可读性和持握点适配。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "weapons/oga_lucian_pavel_hunting_rifle/original/Hunting Rifle.fbx"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "weapons/oga_lucian_pavel_hunting_rifle/catalog.json"
+    },
+    {
+      "pack_id": "oga_quaternius_low_poly_guns",
+      "category": "weapons",
+      "author": "quaternius",
+      "source_url": "https://opengameart.org/content/low-poly-guns",
+      "download_url": "https://opengameart.org/sites/default/files/GunPack%20Vol.1.zip",
+      "license": "CC0-1.0",
+      "license_files": [
+        "licenses/cc0_1_0_legalcode.txt",
+        "weapons/oga_quaternius_low_poly_guns/source_page.html"
+      ],
+      "downloaded_on": "2026-09-14",
+      "archive": "weapons/oga_quaternius_low_poly_guns/oga_quaternius_low_poly_guns.zip",
+      "archive_sha256": "9492ed25970b500f0bbd7da89f95144e0d250e7ab030209d078f9ece7a2fad84",
+      "archive_bytes": 879866,
+      "file_count": 21,
+      "extensions": {
+        ".blend": 4,
+        ".blend1": 3,
+        ".mtl": 5,
+        ".obj": 5,
+        ".png": 3,
+        ".rar": 1
+      },
+      "decision": "ADAPT_REQUIRED",
+      "usage": "Grounded weapon geometry; render item icons and weapon sprites after palette/camera adaptation",
+      "production_status": "NOT_IMPORTED",
+      "owner": "Production Art",
+      "reviewers": [
+        "Reference",
+        "Contract / QA",
+        "Runtime",
+        "Mobile",
+        "Integration"
+      ],
+      "preview": "weapons/oga_quaternius_low_poly_guns/preview.png",
+      "intake_status": "FILES_VERIFIED",
+      "priority": "P1",
+      "decision_cn": "适配后使用",
+      "usage_cn": "常规枪械几何候选：优先转为装备图标和人物武器层，统一材质及尺度；不把人物枪械冒充战车主炮。",
+      "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+      "selected_files": [
+        "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.blend",
+        "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.obj",
+        "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Rifle.blend",
+        "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/RocketLauncher.blend",
+        "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Uzi.blend"
+      ],
+      "next_step_owner": "Production Art",
+      "acceptance_owners": {
+        "geometry_and_palette": "Production Art",
+        "source_and_license": "Contract / QA",
+        "manifest_and_runtime": "Runtime",
+        "mobile_readability": "Mobile / 2.5D",
+        "scope_and_canon": "Reference / Integration"
+      },
+      "catalog": "weapons/oga_quaternius_low_poly_guns/catalog.json"
+    }
+  ]
+}

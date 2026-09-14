@@ -4,6 +4,8 @@
 
 ## 当前目标
 
+当前执行优先级以 [锈港下一批决定](RUSTPORT_NEXT_BATCH_CN.md) 为准：停止广泛扩库，保留已验收素材，先做南门—柳焰—首车工坊局部构图和五种工坊模块；角色基础帧仍是启动依赖。以下素材批次记录保留为历史，不作为新的扩库指令。
+
 先交付锈港、主角、柳焰、首辆战车、铁牙猎犬的可玩视觉切片。保留 Canon、独立猎人立场和 legacy 原件。新城镇、广泛系统扩展和发布工程排在切片验收之后。
 
 ## 分工与下一项交付
@@ -21,6 +23,10 @@
 
 ### 外部共享素材复用
 
+最新入库结果：已取得 [重装机兵分类素材库](../../external_assets/metalmax_library/README_CN.md)，136 张 PNG、1474 条 Unity 切帧记录。Reference/Art 从这里开展人物、车辆、工坊三项候选对比；Contract 审查来源和坐标；Runtime 等待适配验收，Mobile 验证实际尺度，Integration 验收真实场景。此条覆盖下方“系列附件尚未取得”的旧进度；仍未完成生产替换。
+
+最新执行方向（2026-09-14，覆盖下方旧批次优先级）：按用户要求，以重装机兵原版、MMR、MM2R/MM3 及同人自制素材为首选；Kenney 降为备用结构参考。具体来源、已下载文件、访问阻塞及六线后续工作见 [重装机兵风格筛选记录](../../external_assets/style_research_20260914/README_CN.md)。已补充两包废土像素候选，系列素材附件尚未取得，不计为已完成素材。
+
 缺素材时先检索可复用资源，再决定适配或定制。独立 PNG、统一风格和 QA 要求不意味着必须从零制作。
 
 - Reference：寻找针对锈港缺口的共享素材包、成熟制作流程，提供具体来源。
@@ -33,6 +39,8 @@
 优先检索环境模块、道具、音效、特效和 UI 图标；主角、柳焰、铁牙猎犬仍需符合既定身份和美术方向。共享数据库作为检索来源，验收后固定版本保存在本地，不让游戏依赖外部网站在线加载。
 
 候选入口：Kenney、OpenGameArt、Poly Haven。它们尚未通过本项目具体资产验收；OpenGameArt 必须逐件核对许可，Poly Haven 的材质/3D 资源需评估转为像素 2.5D 的额外成本。下一次素材工作从具体候选对比开始，避免反复依赖同一生成方法。
+
+2026-09-14 执行更新：17 包共享素材已分类下载、建立规范命名副本和来源/hash 映射。查看 [中文资源说明](../../external_assets/README_CN.md) 和 [离线浏览目录](../../external_assets/index.html)。本批 Art 优先适配 Building Kit、Modular Buildings、Survival Kit 的工坊墙门转角管道及箱桶围栏；Contract / QA 复核尺寸和脚点，Runtime 接入 manifest，Mobile 验证实际尺度，Integration 审核场景。坦克模型先做组件可分离性检查，常规枪械优先做装备图标，地图图块由 Reference 提炼连接规则。逐包用途与选中文件见 `external_assets/catalog.json` 和包内 `README_CN.md`。生产资产状态尚未改变。
 
 - Runtime 是 `renderer.js`、`camera.js`、`input.js`、`movement.js`、`world.js` 的唯一修改方；Mobile 提交方案和隔离验证，由 Runtime 接入。
 - Art 修改 manifest 内容；结构变更由契约角色审查，再由集成负责人确认。运行时不得擅自修改资产状态。

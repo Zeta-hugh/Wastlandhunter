@@ -1,0 +1,70 @@
+{
+  "repository": "https://github.com/aaixy/zzgl",
+  "commit": "85a5d41543f3e3119c84063750c9436559fc72b5",
+  "files": [
+    {
+      "original_path": "README.md",
+      "local_path": "upstream_README.md",
+      "url": "https://raw.githubusercontent.com/aaixy/zzgl/85a5d41543f3e3119c84063750c9436559fc72b5/README.md",
+      "bytes": 848,
+      "sha256": "1fcbe21e717712c3f0366056e6bbae033a98476e87bdcae11f4492becc6ece73",
+      "status": "REFERENCE_ONLY_RIGHTS_UNVERIFIED"
+    },
+    {
+      "original_path": "LICENSE",
+      "local_path": "upstream_LICENSE",
+      "url": "https://raw.githubusercontent.com/aaixy/zzgl/85a5d41543f3e3119c84063750c9436559fc72b5/LICENSE",
+      "bytes": 1062,
+      "sha256": "52aeaff6ddbc4b89a666197ecd2d736ffb9d22893c54e3a1589d06b436023e4d",
+      "status": "REFERENCE_ONLY_RIGHTS_UNVERIFIED"
+    },
+    {
+      "original_path": "img/animations/45mmpao.png",
+      "local_path": "zzgl_45mmpao.png",
+      "url": "https://raw.githubusercontent.com/aaixy/zzgl/85a5d41543f3e3119c84063750c9436559fc72b5/img/animations/45mmpao.png",
+      "bytes": 2524,
+      "sha256": "33efa24a9e4d323c6b1ff3052b0212012dca13cf07b57338d556b491ffe2ade3",
+      "status": "REFERENCE_ONLY_RIGHTS_UNVERIFIED",
+      "dimensions": [
+        950,
+        650
+      ]
+    },
+    {
+      "original_path": "img/animations/anmirocket1.png",
+      "local_path": "zzgl_anmirocket1.png",
+      "url": "https://raw.githubusercontent.com/aaixy/zzgl/85a5d41543f3e3119c84063750c9436559fc72b5/img/animations/anmirocket1.png",
+      "bytes": 98788,
+      "sha256": "2a68360bf18750d6a7000e0a7d4a21bc36fde9ce852ab40c90363de2fbde7e2d",
+      "status": "REFERENCE_ONLY_RIGHTS_UNVERIFIED",
+      "dimensions": [
+        960,
+        960
+      ]
+    },
+    {
+      "original_path": "img/animations/anmirocket2.png",
+      "local_path": "zzgl_anmirocket2.png",
+      "url": "https://raw.githubusercontent.com/aaixy/zzgl/85a5d41543f3e3119c84063750c9436559fc72b5/img/animations/anmirocket2.png",
+      "bytes": 197788,
+      "sha256": "eb6fd5f6d713cb77f51803bfb65c7c864e04b8ed6ce0747e61202c6cbe0caef4",
+      "status": "REFERENCE_ONLY_RIGHTS_UNVERIFIED",
+      "dimensions": [
+        960,
+        960
+      ]
+    },
+    {
+      "original_path": "img/animations/jiguang.png",
+      "local_path": "zzgl_jiguang.png",
+      "url": "https://raw.githubusercontent.com/aaixy/zzgl/85a5d41543f3e3119c84063750c9436559fc72b5/img/animations/jiguang.png",
+      "bytes": 19174,
+      "sha256": "3627bc82f3761f2312056e467ec2280f94119544ef92f943fb846a13ffcebe07",
+      "status": "REFERENCE_ONLY_RIGHTS_UNVERIFIED",
+      "dimensions": [
+        955,
+        771
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "path": "post-apocalyptic-16x16-tileset/wasteland_terrain_buildings_atlas.png",
+    "original_name": "apocalypse_0.png",
+    "source_url": "https://opengameart.org/content/post-apocalyptic-16x16-tileset",
+    "download_url": "https://opengameart.org/sites/default/files/apocalypse_0.png",
+    "author": "CobraLad",
+    "license": "CC-BY-SA-3.0",
+    "status": "ADAPT_REQUIRED_NOT_IMPORTED",
+    "sha256": "8fc286e7e0bdd141ef487691ac01b3e34935aaf58f75a5ce8690a298920efe3d",
+    "bytes": 70127,
+    "dimensions": [
+      640,
+      400
+    ]
+  },
+  {
+    "path": "post-apocalyptic-expansion/wasteland_characters_atlas.png",
+    "original_name": "7DRL-Characters-old.png",
+    "source_url": "https://opengameart.org/content/post-apocalyptic-expansion",
+    "download_url": "https://opengameart.org/sites/default/files/7DRL-Characters-old.png",
+    "author": "keith karnage; based on CobraLad",
+    "license": "CC-BY-SA-3.0",
+    "status": "ADAPT_REQUIRED_NOT_IMPORTED",
+    "sha256": "d1c3ae67250bbc661a13fb29bdc235edf94e8121c2a83d8a28504a49623014d7",
+    "bytes": 3026,
+    "dimensions": [
+      128,
+      128
+    ]
+  },
+  {
+    "path": "post-apocalyptic-expansion/wasteland_roads_walls_fences_atlas.png",
+    "original_name": "7DRL-Tiles2.png",
+    "source_url": "https://opengameart.org/content/post-apocalyptic-expansion",
+    "download_url": "https://opengameart.org/sites/default/files/7DRL-Tiles2.png",
+    "author": "keith karnage; based on CobraLad",
+    "license": "CC-BY-SA-3.0",
+    "status": "ADAPT_REQUIRED_NOT_IMPORTED",
+    "sha256": "1ac6021b9bbd53cfb0cc1e224e987ee64eeac77d6cc4d741fef5cd17b4eac030",
+    "bytes": 10285,
+    "dimensions": [
+      256,
+      256
+    ]
+  }
+]

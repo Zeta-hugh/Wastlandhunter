@@ -90,5 +90,37 @@
     "navigation_readable": true,
     "interactables_readable": true,
     "requires_mobile_review": true
-  }
+  },
+  "paved_regions": [
+    {
+      "id": "hunter_workshop_road",
+      "tiles": [
+        11,
+        13,
+        33,
+        17
+      ],
+      "asset_id": "concrete_clean"
+    },
+    {
+      "id": "arrival_lane",
+      "tiles": [
+        18,
+        17,
+        22,
+        23
+      ],
+      "asset_id": "concrete_cracked"
+    },
+    {
+      "id": "workshop_apron",
+      "tiles": [
+        25,
+        11,
+        32,
+        17
+      ],
+      "asset_id": "concrete_oily"
+    }
+  ]
 }

@@ -1,0 +1,1570 @@
+{
+  "pack_id": "kenney_blaster_kit",
+  "category": "weapons",
+  "author": "Kenney",
+  "source_url": "https://kenney.nl/assets/blaster-kit",
+  "download_url": "https://kenney.nl/media/pages/assets/blaster-kit/261d80a716-1753959510/kenney_blaster-kit_2.1.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "weapons/kenney_blaster_kit/original/License.txt"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "weapons/kenney_blaster_kit/kenney_blaster_kit.zip",
+  "archive_sha256": "91e3093e95427d59625e7e2ce2d0399b861600160fd0b4ada7714796b67cea8c",
+  "archive_bytes": 1724676,
+  "file_count": 211,
+  "extensions": {
+    ".txt": 1,
+    ".fbx": 40,
+    ".png": 46,
+    ".glb": 40,
+    ".mtl": 40,
+    ".obj": 40,
+    ".html": 1,
+    ".url": 3
+  },
+  "decision": "REFERENCE_ONLY",
+  "usage": "Weapon and accessory geometry; choose grounded designs, retexture and author mounts",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/License.txt",
+      "sha256": "bece5f4d99cca9dcf86931221a69909862ff6cc95e1735462ee678516a1063e2",
+      "bytes": 700,
+      "asset_key": "kenney_blaster_kit__license_txt"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-a.fbx",
+      "sha256": "7656ec60fbe8e02b713f7bd359708a6d4ad626f4fb4eda78c9beb7dc14fa6ec6",
+      "bytes": 42960,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_a_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-b.fbx",
+      "sha256": "0f75d644ab2f9812e99651a8e58fa9eaa3aa43a0efa5b84bd06103b38fd37e6f",
+      "bytes": 35792,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_b_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-c.fbx",
+      "sha256": "3ba34fd53bebd22ec14b48704fc89ffb6d64652285bfff4b663ae96bd040c7a5",
+      "bytes": 36608,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_c_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-d.fbx",
+      "sha256": "c2a7b5697232dc6ab94dbb3133851af61b61775b5c47f290799d17803da2eee3",
+      "bytes": 44688,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_d_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-e.fbx",
+      "sha256": "6ce26400889f8f7f43307aa873f33e6092123eeb4bec4d834c17c1d54ab135eb",
+      "bytes": 57504,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_e_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-f.fbx",
+      "sha256": "fca1c386b6be69c0f56c4d5a4bce82e8826ec02d764ae7a600ed1eec3bfc0d28",
+      "bytes": 57616,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_f_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-g.fbx",
+      "sha256": "416c3fe1ee36edd151eb6c7c11816cc4fcf77c02c54dad425a893ac4db96dfc7",
+      "bytes": 42000,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_g_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-h.fbx",
+      "sha256": "e68ef542b970dbfa72f99515a937580a3aaed9a3189970bcb992f63683b7ca40",
+      "bytes": 32992,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_h_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-i.fbx",
+      "sha256": "9da7b0180d05c32b4d1b2ac28179bdff6a2c701c269dbe0cd9f5885a8b3939d0",
+      "bytes": 36448,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_i_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-j.fbx",
+      "sha256": "21f415d51fbd5a7f87182482aba239a44fd7270111e9ba35dbc048afc7322756",
+      "bytes": 47120,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_j_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-k.fbx",
+      "sha256": "0033945dacacf16e199e26814167ec8382965b30b8ae3c5444c4b79f489851e4",
+      "bytes": 35184,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_k_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-l.fbx",
+      "sha256": "a5a94d522029c3671dc825757cd5d8b9198ca33e5701bac2b8fbe0f6f5273f08",
+      "bytes": 37600,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_l_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-m.fbx",
+      "sha256": "1f227691c230a9ea74ce0e7acb2718fcdc5a2854bbe775346be9310113388f98",
+      "bytes": 37536,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_m_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-n.fbx",
+      "sha256": "50bf82fade9c4d8db4c0c22e995ca4365c4eba922e4a226321f5d48f71590daa",
+      "bytes": 37712,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_n_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-o.fbx",
+      "sha256": "057271352f56bcd3479ebd3abb939db673d109921b8f0c7173ed43f37e27a92a",
+      "bytes": 42656,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_o_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-p.fbx",
+      "sha256": "1f2557710624c803a7982a2b0ed9a13f40763d5eafd257844d09d25779e871e4",
+      "bytes": 55920,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_p_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-q.fbx",
+      "sha256": "18aac054249dadff6d8796fbf78703cdc6db7b412282e3d857612bf334345b72",
+      "bytes": 41072,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_q_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/blaster-r.fbx",
+      "sha256": "6895b137589d1579fbf55ed18614f9ec42e97b63223e20cf289cb5b7cbd6cfa5",
+      "bytes": 44544,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_blaster_r_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/bullet-foam-thick.fbx",
+      "sha256": "84233dbdca63a55b4c361ee12cb7c9438e3781ee3fe9f77c345fa5374fc97af8",
+      "bytes": 27520,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_bullet_foam_thick_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/bullet-foam-tip-thick.fbx",
+      "sha256": "d18596983c619498c8e6ccf59a09483b77fa72667f0fbb3c50a19833e65cbab0",
+      "bytes": 26096,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_bullet_foam_tip_thick_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/bullet-foam-tip.fbx",
+      "sha256": "5bd6c7d435257dc0333082063983ac7efec4484dc602453d71e9092fd4431976",
+      "bytes": 26208,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_bullet_foam_tip_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/bullet-foam.fbx",
+      "sha256": "61c4c20e51db60302293cfbe3eb0b638751dba23edd4a6801dc154f120b906ba",
+      "bytes": 27584,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_bullet_foam_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/clip-large.fbx",
+      "sha256": "d6398ddbc464540771e9e8dee032011cc1a5080afe5bc38ee1045a4c6370919a",
+      "bytes": 27280,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_clip_large_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/clip-small.fbx",
+      "sha256": "ffaac442b1e63cae4c5b011b3bdb2ad6145264e829f2983f6a4026117cf060f8",
+      "bytes": 26560,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_clip_small_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/crate-medium.fbx",
+      "sha256": "7601078deaaff6b26d48cf0fadfb6ab32d5dd700d6f68a3307878dda5ed453a6",
+      "bytes": 61312,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_crate_medium_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/crate-small.fbx",
+      "sha256": "69920a39cc7bf4dd759ac9844a0cb9935196e3488ae85dc8a63a0450483e0ff6",
+      "bytes": 61408,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_crate_small_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/crate-wide.fbx",
+      "sha256": "22a93bbb3507d6db698a4d9dd1502c4b90d5c25f22de25feedb967aa1fba105f",
+      "bytes": 61360,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_crate_wide_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/grenade-a.fbx",
+      "sha256": "f9eb088f5e81c55b051a61c13c94156756bda55533a4b6485af25282bd916484",
+      "bytes": 30032,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_grenade_a_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/grenade-b.fbx",
+      "sha256": "c0697c72e8329dca8c4b9488210c96feab9db2dd3f9967f72b085c4faf2fa2af",
+      "bytes": 30288,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_grenade_b_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/scope-large-a.fbx",
+      "sha256": "16085c3fe40175118ce724807c40c6101b7a63276437f327bd96cebaff61c31a",
+      "bytes": 30512,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_scope_large_a_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/scope-large-b.fbx",
+      "sha256": "2ac82780ff4e4132e301c3ccf04b29f61529fa001f39d1ce096251accdebbcca",
+      "bytes": 31248,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_scope_large_b_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/scope-small.fbx",
+      "sha256": "3bfe6abf33d195575ab718697d075d2de5efceaf592828af377e867ee0b38db1",
+      "bytes": 30544,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_scope_small_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/silencer-larger.fbx",
+      "sha256": "a6e0f2ea028651099f58934437b816666c781aae23af175c6dd6d302a907474b",
+      "bytes": 27072,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_silencer_larger_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/silencer-small.fbx",
+      "sha256": "ae3cb89bd754ca85e1a0955cc4c7578e0540011097c1912f550d4d52f55e4c0f",
+      "bytes": 26272,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_silencer_small_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/smoke.fbx",
+      "sha256": "13b56361b1f830cdccba587ef6946c326a41bc209b578d537b411b182e19206b",
+      "bytes": 35600,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_smoke_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/target-detail.fbx",
+      "sha256": "9ff47ccaf78f0a89c691900326cdb1ea5e95506b7719323ac6ba51e9e49834c1",
+      "bytes": 28016,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_target_detail_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/target-fragment-large.fbx",
+      "sha256": "dd42802c611e52d9c65d37c1166325a24a27c9b54f7527a13f811948883f479b",
+      "bytes": 28176,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_target_fragment_large_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/target-fragment-small.fbx",
+      "sha256": "c97402771fcc994511f6b3553e93c2f35c86042700070d7099d0486975bfb1e3",
+      "bytes": 27520,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_target_fragment_small_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/target-large.fbx",
+      "sha256": "2cfb8d6f786922b95df3086374d278832882ed07358267a1f4451c5de94b4859",
+      "bytes": 26912,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_target_large_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/target-small.fbx",
+      "sha256": "8e5c9637ce5e1ebfad3fce1b5fcb0306cab7e7f7d0b1ee0743c2a6dc952169a8",
+      "bytes": 26608,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_target_small_fbx"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/FBX format/Textures/colormap.png",
+      "sha256": "4d0867c3c3c8c539106f91fbc0987d0e1b7d2811362d1daed593169c7d3b0fdc",
+      "bytes": 10223,
+      "asset_key": "kenney_blaster_kit__models_fbx_format_textures_colormap_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-a.glb",
+      "sha256": "d6d6fe0ec5baf21d7717449220799d45b95d2d663ace7b22612b255dc1a8b308",
+      "bytes": 44992,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_a_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-b.glb",
+      "sha256": "7df4457ed864bc0714fc33059ac56d198304092093b1e78dc407b6c829945a4f",
+      "bytes": 34380,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_b_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-c.glb",
+      "sha256": "1c4c53f201597b2845c3d71717e0c465af1c21d8f8c30c0e1b4358dc33133d35",
+      "bytes": 36232,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_c_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-d.glb",
+      "sha256": "c05bf6af6cded1bc76e32e455507f5d1a21cd58503ce66de33ca39e597b28280",
+      "bytes": 45072,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_d_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-e.glb",
+      "sha256": "df3e35c9286d7bfe8bde2ff7231ef40ff89b1e7caa52fbf80ea685cb601de3ca",
+      "bytes": 75444,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_e_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-f.glb",
+      "sha256": "ea389c88b7d90ede2763e1f2b5834b9fbaaaa56b8a51ebdf21f61ec46d716320",
+      "bytes": 72460,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_f_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-g.glb",
+      "sha256": "1798d7ff656116d04df516dffceceea3be174598a384a48d632b0ef1adf204cd",
+      "bytes": 56240,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_g_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-h.glb",
+      "sha256": "f124a4ffd990a248e801aa451ab7ec4abde71a18c121b571f9bb52206609b36b",
+      "bytes": 28380,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_h_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-i.glb",
+      "sha256": "d78880a941fed7785df22c5846f553b7b7560a7b9f307d2993892b0103f7d514",
+      "bytes": 38604,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_i_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-j.glb",
+      "sha256": "d0d077820b8b840e0f41947dcb4d05960d94ede7431ae3c5e137847771a2f6a1",
+      "bytes": 50632,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_j_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-k.glb",
+      "sha256": "f8df17fe6377c6cff52c8ce59d10a5a182f5ba7de4ff291843f3238698471036",
+      "bytes": 35676,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_k_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-l.glb",
+      "sha256": "2739ae04bcb1e396b599cbf4af774df73b7708512bde2a054b2918d1161f16df",
+      "bytes": 41848,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_l_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-m.glb",
+      "sha256": "ff3f1196f2e9acabbdc44143dc3b93f79f4c5e8176e54514479bd2b788477c80",
+      "bytes": 41532,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_m_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-n.glb",
+      "sha256": "e3faa048f8a90fe57fe838a7f86609bd91815358a1ac3a8dd26432f8010590f6",
+      "bytes": 38376,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_n_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-o.glb",
+      "sha256": "52da12866542e6d9948af535e8070f5cc924783ffefa32222762ee17e2bb7e98",
+      "bytes": 59396,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_o_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-p.glb",
+      "sha256": "2ffc94c6d8f12d45410012b13169988b70929c7e6ae7d4f868a188265210e49a",
+      "bytes": 80460,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_p_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-q.glb",
+      "sha256": "e2062bf76cf9ea7690acbb5ae18c9d92be5f7623ec3a2f4b363eb926d1017522",
+      "bytes": 55856,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_q_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/blaster-r.glb",
+      "sha256": "ab0b5f51ecff405238727626d558414750a9946d5e255cd1dc8bf81eebe1f1e2",
+      "bytes": 48920,
+      "asset_key": "kenney_blaster_kit__models_glb_format_blaster_r_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/bullet-foam-thick.glb",
+      "sha256": "ac12699af02e969be9860794d20f1750505273128864a27bff9393d7d6d3786f",
+      "bytes": 4124,
+      "asset_key": "kenney_blaster_kit__models_glb_format_bullet_foam_thick_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/bullet-foam-tip-thick.glb",
+      "sha256": "27cedf72c41ff00ca1034eca4fb71b9d6e096f538f86f1f0221f9aa4350b6b58",
+      "bytes": 5756,
+      "asset_key": "kenney_blaster_kit__models_glb_format_bullet_foam_tip_thick_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/bullet-foam-tip.glb",
+      "sha256": "e3f99099d6ec946f053c23cba0f83f6d5b674f217e4f46325659f4dfa6747d3a",
+      "bytes": 5744,
+      "asset_key": "kenney_blaster_kit__models_glb_format_bullet_foam_tip_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/bullet-foam.glb",
+      "sha256": "af03c14f053f64c9d351643ec3d5d0a05210e1234fcd2534f7dac3deab7fa515",
+      "bytes": 4112,
+      "asset_key": "kenney_blaster_kit__models_glb_format_bullet_foam_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/clip-large.glb",
+      "sha256": "47dff38cf9636abf15cf518324f1612d9409e6b1066d99da249047219e41379e",
+      "bytes": 7808,
+      "asset_key": "kenney_blaster_kit__models_glb_format_clip_large_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/clip-small.glb",
+      "sha256": "3501c4c2a1671379643219fc1ea581c9162da0986363cf0f7b1a214c647b5c37",
+      "bytes": 7808,
+      "asset_key": "kenney_blaster_kit__models_glb_format_clip_small_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/crate-medium.glb",
+      "sha256": "187c32592fedaecbbb84152102bbf536f733cbc0c2cfee60828fb18a4803619c",
+      "bytes": 59344,
+      "asset_key": "kenney_blaster_kit__models_glb_format_crate_medium_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/crate-small.glb",
+      "sha256": "00ed47c02a5016c11ce5ea0bd54888d120f3a112c5eab79dc4bd4ab878ceb805",
+      "bytes": 59020,
+      "asset_key": "kenney_blaster_kit__models_glb_format_crate_small_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/crate-wide.glb",
+      "sha256": "0a17a51b274d238c09ade21674b70742bd5f1703f7b0e8974b6d0b2b92a58c8b",
+      "bytes": 59404,
+      "asset_key": "kenney_blaster_kit__models_glb_format_crate_wide_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/grenade-a.glb",
+      "sha256": "8b67f9500005efee816f3fe72eb00bcded0282f7a9916f4436bf923877d8a89f",
+      "bytes": 19280,
+      "asset_key": "kenney_blaster_kit__models_glb_format_grenade_a_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/grenade-b.glb",
+      "sha256": "d36dfabf6c8b5d40ffead1d421934b4aae126f0e55a500d78f1b7d3ddaa4c7cc",
+      "bytes": 16216,
+      "asset_key": "kenney_blaster_kit__models_glb_format_grenade_b_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/scope-large-a.glb",
+      "sha256": "bf83b1cff0bc56b9a11f2956c8c8eb23ef66624dd357e8f3eeb63d0481323928",
+      "bytes": 19476,
+      "asset_key": "kenney_blaster_kit__models_glb_format_scope_large_a_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/scope-large-b.glb",
+      "sha256": "0d612ce9f4d5c4bc196df8eadd38e875d80d42021a2af14ef0c18826a023dc8f",
+      "bytes": 21932,
+      "asset_key": "kenney_blaster_kit__models_glb_format_scope_large_b_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/scope-small.glb",
+      "sha256": "e7fed68bd5477b214e5af2c29aca55481bffa9b0fd9db5be4cfb1c2bf3a52a65",
+      "bytes": 19480,
+      "asset_key": "kenney_blaster_kit__models_glb_format_scope_small_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/silencer-larger.glb",
+      "sha256": "21532245b41bd9e5fa1b3768d1880a80b948b5dc2755b8a63d4216931d8a1689",
+      "bytes": 11412,
+      "asset_key": "kenney_blaster_kit__models_glb_format_silencer_larger_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/silencer-small.glb",
+      "sha256": "ebfc350c024eda0e8a26f79bccea4d7a12fba792d008496739f5a693dbbf15db",
+      "bytes": 8960,
+      "asset_key": "kenney_blaster_kit__models_glb_format_silencer_small_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/smoke.glb",
+      "sha256": "6dbf3e971ce419dbbcdee5fccfaa0c059a0333058484cc0949f490d0e21a8b86",
+      "bytes": 12520,
+      "asset_key": "kenney_blaster_kit__models_glb_format_smoke_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/target-detail.glb",
+      "sha256": "639c45fbdde41d9e8c6bc3d11fa23afe622225728a389215f7fa8fd5d858f88f",
+      "bytes": 15168,
+      "asset_key": "kenney_blaster_kit__models_glb_format_target_detail_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/target-fragment-large.glb",
+      "sha256": "e6292ccc645c678b40863eeb5d17e19c7d8831f06eec7cc5b87898daec5227ea",
+      "bytes": 4600,
+      "asset_key": "kenney_blaster_kit__models_glb_format_target_fragment_large_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/target-fragment-small.glb",
+      "sha256": "7bf18ac45f838c27956b8f32163a72914b1514fa4f593c38d17478a1631a9118",
+      "bytes": 2996,
+      "asset_key": "kenney_blaster_kit__models_glb_format_target_fragment_small_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/target-large.glb",
+      "sha256": "e55c0b3652823909268ffeda38f08f53e900ea259ff5834a3e35e386a9220e88",
+      "bytes": 7568,
+      "asset_key": "kenney_blaster_kit__models_glb_format_target_large_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/target-small.glb",
+      "sha256": "6f2e8fe26b13c8fdeecaab2c4a3309ec3243e17ce4a22c40951b14e0c14833dc",
+      "bytes": 7592,
+      "asset_key": "kenney_blaster_kit__models_glb_format_target_small_glb"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/GLB format/Textures/colormap.png",
+      "sha256": "4d0867c3c3c8c539106f91fbc0987d0e1b7d2811362d1daed593169c7d3b0fdc",
+      "bytes": 10223,
+      "asset_key": "kenney_blaster_kit__models_glb_format_textures_colormap_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_a_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-a.obj",
+      "sha256": "840bf438e76ad104d964f064472553fb80e70856e5d95ce2e3145ca9fdc275ed",
+      "bytes": 41125,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_a_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_b_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-b.obj",
+      "sha256": "a12659c745e892e1f52186fd204701dae04e22fa3167494c6877679275f16041",
+      "bytes": 33448,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_b_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-c.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_c_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-c.obj",
+      "sha256": "f6b19852cd42b88b3438f0fa2eff79fbf3b85d5b049ae0e9432da1a3a76e9a13",
+      "bytes": 35579,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_c_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-d.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_d_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-d.obj",
+      "sha256": "a49d1465b8d1ba1bb131189c99653bf0959a883b93cac02397caedae532b505b",
+      "bytes": 45150,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_d_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-e.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_e_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-e.obj",
+      "sha256": "b36593e7c75a9e720c6407c02a5c375026c0212d5cbb04ca36a330854a190938",
+      "bytes": 59263,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_e_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-f.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_f_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-f.obj",
+      "sha256": "01f043ca28ef17d168cf96b3a440fa6edd86fa4b2a767cb0a441c694b6d41b86",
+      "bytes": 61882,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_f_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-g.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_g_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-g.obj",
+      "sha256": "c94e4ab770bb2e64463099cb0e45a993555135fbc1b5f5558edae2bcd1248cca",
+      "bytes": 57085,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_g_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-h.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_h_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-h.obj",
+      "sha256": "9adb5a1019f0b7a4c76805b24bbcb16a25a58a4d46eae332066eb3b7e2bfdb60",
+      "bytes": 28367,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_h_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-i.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_i_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-i.obj",
+      "sha256": "76e83dc852c759d50a332347fe5f818d5c02ca27a240ae37cca77ab944cca3bb",
+      "bytes": 38026,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_i_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-j.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_j_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-j.obj",
+      "sha256": "dec74dbc964354a72f374ed012e4db4cfe2e9799455738f84c79d228c8f8654e",
+      "bytes": 49238,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_j_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-k.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_k_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-k.obj",
+      "sha256": "aa123f6d0df695d929af195b87410708639dfca55650abde5ef1e859d9826d5c",
+      "bytes": 36672,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_k_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-l.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_l_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-l.obj",
+      "sha256": "e1074c89cbbfa1bc8a4cd5b626c0612e3c88a67d25c42b31140eaee64b78e42f",
+      "bytes": 43045,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_l_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-m.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_m_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-m.obj",
+      "sha256": "ad8270aefcaa6a4fe65c6941b4ce9421ad0da8de1df21863be5c561037e481de",
+      "bytes": 42178,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_m_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-n.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_n_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-n.obj",
+      "sha256": "affd36cdc8618cb862169aaea1b220adfbba2746eda98c83cf857d0fc6133969",
+      "bytes": 38627,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_n_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-o.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_o_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-o.obj",
+      "sha256": "dc708d0906b2b71b429bceace2543c249819f845bc39454d71fce6d013960c95",
+      "bytes": 58236,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_o_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-p.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_p_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-p.obj",
+      "sha256": "f6028b89402006aaf23c5c9a439983eaa7819b386926d72ee8bf2970b0409662",
+      "bytes": 80786,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_p_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-q.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_q_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-q.obj",
+      "sha256": "8f64e369357c2cd333c0fdc051227dbf9cefe0c1b123723c79ba56ba38f3a9ed",
+      "bytes": 55351,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_q_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-r.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_r_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/blaster-r.obj",
+      "sha256": "a74bb06e00326f5acda7203d9980d71b06389e07eaa6ac7edea9d22bfe40d012",
+      "bytes": 44188,
+      "asset_key": "kenney_blaster_kit__models_obj_format_blaster_r_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam-thick.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_thick_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam-thick.obj",
+      "sha256": "c07cf665dd02936a4560125e250bc518d0610275933dc0e3d2170f3124eafa7c",
+      "bytes": 2065,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_thick_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam-tip-thick.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_tip_thick_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam-tip-thick.obj",
+      "sha256": "d8b1b452b35d673927f161f5a1bc3c64e0378aed390a5bcebc7981716a5ea554",
+      "bytes": 3541,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_tip_thick_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam-tip.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_tip_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam-tip.obj",
+      "sha256": "8d4186b2082c0cf8921829433181819ea58b110da18d6dc2cc55d426e6193146",
+      "bytes": 3471,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_tip_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/bullet-foam.obj",
+      "sha256": "27fb320d186b342aeea5a0db76fc4efd1e48a5bc7fe0cb04abdc6ae905f5543f",
+      "bytes": 2045,
+      "asset_key": "kenney_blaster_kit__models_obj_format_bullet_foam_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/clip-large.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_clip_large_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/clip-large.obj",
+      "sha256": "e6c8725e49cb22c3c2135f01b8e0cd7c3ba74a9cb936d08b9b604ddd318825e0",
+      "bytes": 5710,
+      "asset_key": "kenney_blaster_kit__models_obj_format_clip_large_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/clip-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_clip_small_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/clip-small.obj",
+      "sha256": "16ea527848dea8837299c8f321875e4a7bd55da0a78e0a673632978c0e632dc3",
+      "bytes": 5834,
+      "asset_key": "kenney_blaster_kit__models_obj_format_clip_small_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/crate-medium.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_crate_medium_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/crate-medium.obj",
+      "sha256": "95515ec35f731202a7b9ec22cdcc67680276f94c00a01b1a38236fef72ba929d",
+      "bytes": 43789,
+      "asset_key": "kenney_blaster_kit__models_obj_format_crate_medium_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/crate-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_crate_small_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/crate-small.obj",
+      "sha256": "00478face59e002fb6660bbd421f29503ce2920c1d8c391a8baad6407113417f",
+      "bytes": 43823,
+      "asset_key": "kenney_blaster_kit__models_obj_format_crate_small_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/crate-wide.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_crate_wide_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/crate-wide.obj",
+      "sha256": "afe4abae4552606bc79c623652f9fba6da652cb64e574678d8c1e94b191cca8e",
+      "bytes": 43900,
+      "asset_key": "kenney_blaster_kit__models_obj_format_crate_wide_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/grenade-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_grenade_a_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/grenade-a.obj",
+      "sha256": "5190d12d1adf8ec2ec96f0e44d934c7f339f90104af4c36a64b5f64094acc84f",
+      "bytes": 17624,
+      "asset_key": "kenney_blaster_kit__models_obj_format_grenade_a_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/grenade-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_grenade_b_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/grenade-b.obj",
+      "sha256": "94acfcbe047bc7526279f88b9db282c878e809e3e240a7562bb783cfe1344db7",
+      "bytes": 13766,
+      "asset_key": "kenney_blaster_kit__models_obj_format_grenade_b_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/scope-large-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_scope_large_a_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/scope-large-a.obj",
+      "sha256": "075235e82b32531cdf7f8586ed474367c110acd3de036cff92cd769cf9e0f3a9",
+      "bytes": 16078,
+      "asset_key": "kenney_blaster_kit__models_obj_format_scope_large_a_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/scope-large-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_scope_large_b_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/scope-large-b.obj",
+      "sha256": "976cedd21c36a5ecb58a1bc5dc26257c92e1f714e7e87febadb2af201f5bfdb8",
+      "bytes": 18724,
+      "asset_key": "kenney_blaster_kit__models_obj_format_scope_large_b_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/scope-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_scope_small_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/scope-small.obj",
+      "sha256": "b7c9d152fe1acbe538cdad304cfb503035d1db7eb3014b56ee5b3af0f964556f",
+      "bytes": 16404,
+      "asset_key": "kenney_blaster_kit__models_obj_format_scope_small_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/silencer-larger.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_silencer_larger_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/silencer-larger.obj",
+      "sha256": "22337f2ed1fb4355a55f7ff5577aeaea0fbe0aa7165af4a071e7b5ceec727723",
+      "bytes": 10266,
+      "asset_key": "kenney_blaster_kit__models_obj_format_silencer_larger_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/silencer-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_silencer_small_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/silencer-small.obj",
+      "sha256": "dc1e7d007ec2cda1775be703322ed0bcee50f9b43f87185d89a3f42a041400bb",
+      "bytes": 7673,
+      "asset_key": "kenney_blaster_kit__models_obj_format_silencer_small_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/smoke.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_smoke_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/smoke.obj",
+      "sha256": "f0862856a86ca6c52274f9aee689258ee2546cb54e4a95666558b300e40e30c5",
+      "bytes": 32281,
+      "asset_key": "kenney_blaster_kit__models_obj_format_smoke_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-detail.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_detail_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-detail.obj",
+      "sha256": "f180e9622149c8a8f0cc8703000d1b342778a1f862b693c51a87e69e1408631c",
+      "bytes": 14326,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_detail_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-fragment-large.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_fragment_large_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-fragment-large.obj",
+      "sha256": "5629fd8eb42e0b7f4e372af21458068bc9993ee4371610718df3bd350405b665",
+      "bytes": 3125,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_fragment_large_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-fragment-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_fragment_small_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-fragment-small.obj",
+      "sha256": "a6246b235cda97304ae9ea43a86a61ea5a63cd8841a5b0f90fb88882ac1a2413",
+      "bytes": 1289,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_fragment_small_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-large.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_large_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-large.obj",
+      "sha256": "91d95e579727773f03452b8b78ede7a550903cc934676d2d2339f338f4f19bf9",
+      "bytes": 7783,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_large_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_small_mtl"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/target-small.obj",
+      "sha256": "490b4b4052be7ca77f07320b50fe3754965a2ab64243c31cd40a491996220430",
+      "bytes": 6129,
+      "asset_key": "kenney_blaster_kit__models_obj_format_target_small_obj"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/OBJ format/Textures/colormap.png",
+      "sha256": "4d0867c3c3c8c539106f91fbc0987d0e1b7d2811362d1daed593169c7d3b0fdc",
+      "bytes": 10223,
+      "asset_key": "kenney_blaster_kit__models_obj_format_textures_colormap_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Models/Textures/variation-a.png",
+      "sha256": "da6ebfad462005d205054e2a4a9b3f0b5077497744f12a75bbc22581e4924ec0",
+      "bytes": 10066,
+      "asset_key": "kenney_blaster_kit__models_textures_variation_a_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Overview.html",
+      "sha256": "4efa9c72f8ebd2e88dba26d198afd0fb69540f67389f580a7e7a3267441a4147",
+      "bytes": 9162,
+      "asset_key": "kenney_blaster_kit__overview_html"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Preview (Variation A).png",
+      "sha256": "c0ee1adb4e7f821237c07f1b63f2f691968804cfcde0b707a94143778e5b2a7f",
+      "bytes": 383429,
+      "asset_key": "kenney_blaster_kit__preview_variation_a_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Preview.png",
+      "sha256": "1681554bac50ab2f2f68018a967ab0f30cefd6959366c8fb5ad604fdcfdb9aa6",
+      "bytes": 116430,
+      "asset_key": "kenney_blaster_kit__preview_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-a.png",
+      "sha256": "f2c5429ac788196f6b1f4f1b576efb09a45aa095af8bbdfe1e76fd2d875651f5",
+      "bytes": 1771,
+      "asset_key": "kenney_blaster_kit__previews_blaster_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-b.png",
+      "sha256": "f97587870de1439818679ebb0bc6a4efbf62cbfba3cdf121cc931618ed37d886",
+      "bytes": 2361,
+      "asset_key": "kenney_blaster_kit__previews_blaster_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-c.png",
+      "sha256": "d654520b6554fcae06faddd2a913569cef7ff230a5a73d328adb6aeb376a750b",
+      "bytes": 1988,
+      "asset_key": "kenney_blaster_kit__previews_blaster_c_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-d.png",
+      "sha256": "726817a6fcd971e33be1053cb6e71d988e5bff7dd6d0ff91491049d104c7b804",
+      "bytes": 1990,
+      "asset_key": "kenney_blaster_kit__previews_blaster_d_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-e.png",
+      "sha256": "ffe262ea3849aee7b3caf0203b78f4b3b0b163f66b5de54e0a1e10e4c8ff08b2",
+      "bytes": 1679,
+      "asset_key": "kenney_blaster_kit__previews_blaster_e_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-f.png",
+      "sha256": "bb0cb4a07cdf5b7d119a11f8ba3141aeb8adb460eb2f466c81f3aac557eeeeb4",
+      "bytes": 1707,
+      "asset_key": "kenney_blaster_kit__previews_blaster_f_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-g.png",
+      "sha256": "9f7ae80ce7f40d1398ea0b1c3d9f2ca035d32a2f1337fe9a810fe90ce8cd3d9d",
+      "bytes": 1974,
+      "asset_key": "kenney_blaster_kit__previews_blaster_g_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-h.png",
+      "sha256": "f5479ce17b0f282fbf33266a8ede8bc86d9ed5fa579c67bc7b4b6f89fcebe783",
+      "bytes": 1877,
+      "asset_key": "kenney_blaster_kit__previews_blaster_h_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-i.png",
+      "sha256": "22806e684025bd725df429dfb0c9270c1883f842decec70c565b3d291602aad4",
+      "bytes": 1621,
+      "asset_key": "kenney_blaster_kit__previews_blaster_i_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-j.png",
+      "sha256": "e16fe6b0bbfd313cdfae100049f200c08cf40337f08a4b22b6f0f8bab8bde65a",
+      "bytes": 1958,
+      "asset_key": "kenney_blaster_kit__previews_blaster_j_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-k.png",
+      "sha256": "4360b839a9a55fa0829bd0799994b65b2f9107502d5c46a2bb92faa774109f7e",
+      "bytes": 1816,
+      "asset_key": "kenney_blaster_kit__previews_blaster_k_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-l.png",
+      "sha256": "edcd39b2f45f7e6e5db68eb478e87a7e3edf776323a7f6f28754270318f99022",
+      "bytes": 2088,
+      "asset_key": "kenney_blaster_kit__previews_blaster_l_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-m.png",
+      "sha256": "6639cffff7feee23622276244669d8252388b3e1e9fe729fffd8953d6f86378a",
+      "bytes": 1961,
+      "asset_key": "kenney_blaster_kit__previews_blaster_m_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-n.png",
+      "sha256": "1aad2ac57377bda211a80cff8c00ca4298ebff7eadc4bdfefe62c8663a7b2825",
+      "bytes": 1923,
+      "asset_key": "kenney_blaster_kit__previews_blaster_n_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-o.png",
+      "sha256": "0eb081f0f3fef14a94a4a7f35697c73b0cf049e6735e02e7a56f5eff137c5346",
+      "bytes": 1762,
+      "asset_key": "kenney_blaster_kit__previews_blaster_o_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-p.png",
+      "sha256": "98b28473af3abfd4e96a3dc3e7a030205617e9745f8329f63284cf4304779dc3",
+      "bytes": 2032,
+      "asset_key": "kenney_blaster_kit__previews_blaster_p_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-q.png",
+      "sha256": "cb8bd2cc9e906135179edc63ae34c18ec257333e99584b6654aacc61b5ea313f",
+      "bytes": 1857,
+      "asset_key": "kenney_blaster_kit__previews_blaster_q_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/blaster-r.png",
+      "sha256": "dac77fbe811d46690095f719cf8e2b2da253b6b4c6585a448bb8e8f91fec5403",
+      "bytes": 2013,
+      "asset_key": "kenney_blaster_kit__previews_blaster_r_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/bullet-foam-thick.png",
+      "sha256": "aab1352cf871ac914f84e35def17e64d5b19118240f60c2f896778ba1d51e8b9",
+      "bytes": 989,
+      "asset_key": "kenney_blaster_kit__previews_bullet_foam_thick_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/bullet-foam-tip-thick.png",
+      "sha256": "9d281be36d151b1b0dea2b0f857be731f7216e5343da2f8761da641fa36e10e4",
+      "bytes": 957,
+      "asset_key": "kenney_blaster_kit__previews_bullet_foam_tip_thick_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/bullet-foam-tip.png",
+      "sha256": "39dc6ac14c00fedf8dfd518af1f7726de33e14c800705456afb4c55eee3b676c",
+      "bytes": 801,
+      "asset_key": "kenney_blaster_kit__previews_bullet_foam_tip_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/bullet-foam.png",
+      "sha256": "c4cb541b47f52df4651fdc81e95d9845f7030344d20c86a2fec48d123e7024a1",
+      "bytes": 731,
+      "asset_key": "kenney_blaster_kit__previews_bullet_foam_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/clip-large.png",
+      "sha256": "91bedef35d8ca2778502c92f1e433f7cb2456e06e3eca3400ebaba0d9ac62080",
+      "bytes": 1656,
+      "asset_key": "kenney_blaster_kit__previews_clip_large_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/clip-small.png",
+      "sha256": "f9541abfad291aed7a3a0d65cffbbbbbb65cf39b3bafcf087f9f47673bbb1252",
+      "bytes": 1801,
+      "asset_key": "kenney_blaster_kit__previews_clip_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/crate-medium.png",
+      "sha256": "203f95ed15b643ef14f2b0ce353995bbd7d1034a2395a413fa0b05a1a8478692",
+      "bytes": 2037,
+      "asset_key": "kenney_blaster_kit__previews_crate_medium_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/crate-small.png",
+      "sha256": "d6822f331c8d0f7386f8ade798ec29e8345a816f9972e125c8d50783ebd14046",
+      "bytes": 1982,
+      "asset_key": "kenney_blaster_kit__previews_crate_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/crate-wide.png",
+      "sha256": "1ee6b903ed8758f2a58126f96bcd92852a344c1c96fe919191a091ff72128590",
+      "bytes": 1950,
+      "asset_key": "kenney_blaster_kit__previews_crate_wide_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/grenade-a.png",
+      "sha256": "5ada35f752669e4de43d19f54929b143c36854df99365825b9c50fbf21ac2c3d",
+      "bytes": 1696,
+      "asset_key": "kenney_blaster_kit__previews_grenade_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/grenade-b.png",
+      "sha256": "2f0f7eb1122c5d5cd8393221af42a370692d0b22f8dfffa6367aa7f2542db22d",
+      "bytes": 1814,
+      "asset_key": "kenney_blaster_kit__previews_grenade_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/scope-large-a.png",
+      "sha256": "e317d6eec73b920264fb1fe43893cfb321491136d7938b430d1e9ae30105599b",
+      "bytes": 1722,
+      "asset_key": "kenney_blaster_kit__previews_scope_large_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/scope-large-b.png",
+      "sha256": "51048bf84a61f993ec4adaba05a7b33495a0947e3062ea2aa33b43aa2b67f3a4",
+      "bytes": 1738,
+      "asset_key": "kenney_blaster_kit__previews_scope_large_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/scope-small.png",
+      "sha256": "012eae030cf0b4b7a4abce0a261665c0d1d3323e93fef7b41810e9a3990095bb",
+      "bytes": 1890,
+      "asset_key": "kenney_blaster_kit__previews_scope_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/silencer-larger.png",
+      "sha256": "3bf3d7aeab647b3ea1ab4cf25cf6797fd5ea0c029198b8595c62e03553ee74ac",
+      "bytes": 1832,
+      "asset_key": "kenney_blaster_kit__previews_silencer_larger_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/silencer-small.png",
+      "sha256": "442945fd9ff3eadfff93a9589fe0a3f0040fb91661896d36236521358fe55fd6",
+      "bytes": 1737,
+      "asset_key": "kenney_blaster_kit__previews_silencer_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/smoke.png",
+      "sha256": "37f9ebbf410d3ad0c4c9382bbf2cbf99c3307428edc962674520ac0a7b967596",
+      "bytes": 2082,
+      "asset_key": "kenney_blaster_kit__previews_smoke_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/target-detail.png",
+      "sha256": "6ff3260370389467fb66301d8546926f05ea89f91c4cd808491e11e9eb351472",
+      "bytes": 1812,
+      "asset_key": "kenney_blaster_kit__previews_target_detail_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/target-fragment-large.png",
+      "sha256": "3fce29f9dbfbbc6b47fcf470e0f10ad3f837f8b3e4212e2bb9991c4feaf33ca6",
+      "bytes": 1549,
+      "asset_key": "kenney_blaster_kit__previews_target_fragment_large_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/target-fragment-small.png",
+      "sha256": "068c9a16d4b7d44e0fcb33c0c53a152b535201704c779b5eaa466ae5b19fd588",
+      "bytes": 1062,
+      "asset_key": "kenney_blaster_kit__previews_target_fragment_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/target-large.png",
+      "sha256": "13b5149ca0f1c38c6d8b6437ec7384a3c349a6cbee650e5b46dcc941b00bbf88",
+      "bytes": 1886,
+      "asset_key": "kenney_blaster_kit__previews_target_large_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Previews/target-small.png",
+      "sha256": "e0fbf54421dcd5547c06eb5a5edc9e5e0c55d5d2908ebf16174ec6e8893cbf95",
+      "bytes": 1841,
+      "asset_key": "kenney_blaster_kit__previews_target_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/View Documentation.url",
+      "sha256": "04e97bd6cafb469c1d38fd8c0b7db896d4f40ae14a4892de49690e2339977ef5",
+      "bytes": 185,
+      "asset_key": "kenney_blaster_kit__view_documentation_url"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Visit Kenney.url",
+      "sha256": "773515aff299de98f621b769e3ad1ac5552eed54ea686791f75000014911e203",
+      "bytes": 118,
+      "asset_key": "kenney_blaster_kit__visit_kenney_url"
+    },
+    {
+      "original_path": "weapons/kenney_blaster_kit/original/Visit Patreon.url",
+      "sha256": "84be5ef26b07905fa7e196e943c9807bf84138c3a71d87f51c6fd57b85c48c34",
+      "bytes": 55,
+      "asset_key": "kenney_blaster_kit__visit_patreon_url"
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "preview": "weapons/kenney_blaster_kit/original/Preview.png",
+  "priority": "P2",
+  "decision_cn": "仅供参考",
+  "usage_cn": "武器附件和箱体组合参考；泡沫弹/玩具枪造型不符合荒原猎手常规武器，不直接采用整枪外观。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

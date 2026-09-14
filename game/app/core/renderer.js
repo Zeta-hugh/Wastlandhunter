@@ -25,14 +25,14 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]},vehicleDe
    const pattern=ctx.createPattern(ground,'repeat');
    ctx.fillStyle=pattern;ctx.fillRect(0,0,LOGICAL_WIDTH,LOGICAL_HEIGHT);
    ctx.fillStyle='#1d3537';ctx.fillRect(0,0,LOGICAL_WIDTH,96);
-   const roadTile=(tx,ty)=>{
-    const variation=Math.abs(tx*17+ty*31)%12;
-    return variation===0?'concrete_cracked':variation===6?'concrete_oily':'concrete_clean';
-   };
-   for(let ty=-8;ty<=8;ty++)for(let tx=-12;tx<=12;tx++){
-    const tile=assets.get(roadTile(tx,ty));
-    const center=projection.worldToScreen(x+tx*32,y+ty*32);
-    ctx.drawImage(tile,Math.round(center.x-16),Math.round(center.y-10),32,20);
+   // Region bounds are half-open world tile coordinates, independent of camera.
+   for(const region of scene.paved_regions||[]){
+    const [left,top,right,bottom]=region.tiles;
+    const tile=assets.get(region.asset_id);
+    for(let ty=top;ty<bottom;ty++)for(let tx=left;tx<right;tx++){
+     const point=projection.worldToScreen(tx*32,ty*32);
+     ctx.drawImage(tile,Math.round(point.x),Math.round(point.y),32,19);
+    }
    }
    const sprite=(assetId,ex,ey,z=0)=>{
     const [width]=assets.record(assetId).runtime_size;

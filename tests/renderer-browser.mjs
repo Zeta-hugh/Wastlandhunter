@@ -51,6 +51,30 @@ try{
  }
  assert.deepEqual(errors,[]);
  await page.screenshot({path:fileURLToPath(new URL('../qa/runtime_previews/production_depth_order.png',import.meta.url))});
+ const paving=await page.evaluate(async()=>{
+  const {createRenderer}=await import('/game/app/core/renderer.js');
+  const {loadProductionAssets}=await import('/game/app/core/assets.js');
+  const {loadSceneDefinition}=await import('/game/app/core/scene.js');
+  const {createInitialState}=await import('/game/app/core/state.js');
+  const assets=await loadProductionAssets('/data/asset_manifest.json');
+  const scene=await loadSceneDefinition('/data/rustport_scene.json','/data/asset_bindings.json');
+  const vehicle=await (await fetch('/data/vehicles/rust_runner.json')).json();
+  document.body.innerHTML='<p>Rustport paving study — existing P0 assets; incomplete actors hidden</p><canvas></canvas>';
+  const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');
+  const draws=[],original=ctx.drawImage.bind(ctx);
+  ctx.drawImage=(image,...args)=>{if(image.src.endsWith('/concrete_clean.png'))draws.push(args);original(image,...args)};
+  const camera={position:{x:640,y:470}},state=createInitialState();
+  state.rustport.starterTankReady=true;
+  const renderer=createRenderer(canvas,assets,camera,scene,vehicle,{hideIncompleteActors:true});
+  renderer.draw(state,0);const first=draws[0];draws.length=0;
+  camera.position.x+=32;renderer.draw(state,0);const shifted=draws[0];
+  camera.position.x-=32;renderer.draw(state,0);
+  return {first,shifted};
+ });
+ assert.equal(paving.shifted[0],paving.first[0]-32,'paving stays anchored in world space');
+ assert.equal(paving.shifted[1],paving.first[1]);
+ assert.deepEqual(errors,[]);
+ await page.screenshot({path:fileURLToPath(new URL('../qa/runtime_previews/rustport_paving_study.png',import.meta.url))});
  console.log('PASS: production renderer changes vehicle/barrel occlusion; real P0 asset screenshot saved.');
 }finally{
  await browser?.close();

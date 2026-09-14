@@ -1,0 +1,2148 @@
+{
+  "pack_id": "kenney_isometric_tiles_landscape",
+  "category": "maps_terrain",
+  "author": "Kenney",
+  "source_url": "https://kenney.nl/assets/isometric-tiles-landscape",
+  "download_url": "https://kenney.nl/media/pages/assets/isometric-tiles-landscape/37eb18a8d1-1677695072/kenney_isometric-landscape.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "maps_terrain/kenney_isometric_tiles_landscape/original/License.txt"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "maps_terrain/kenney_isometric_tiles_landscape/kenney_isometric_tiles_landscape.zip",
+  "archive_sha256": "18fa4fb22fa18bd4230e2422bc4123c986123c53966846b5a5bc219b331e7d3e",
+  "archive_bytes": 1141541,
+  "file_count": 134,
+  "extensions": {
+    ".png": 130,
+    ".xml": 1,
+    ".url": 2,
+    ".txt": 1
+  },
+  "decision": "REFERENCE_ONLY",
+  "usage": "Independent isometric terrain tiles; test seams and camera fit before adoption",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_000.png",
+      "sha256": "3b7374147c9c168a6bfba17140e55b75b7366f105880499da7dbaf785a176f71",
+      "bytes": 4683,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_000_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_000.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_001.png",
+      "sha256": "9a1eb511a965fea52343f5c8fbd5692ae8527f051a2a0f0e8e4159ba93877b5c",
+      "bytes": 4814,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_001_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_001.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_002.png",
+      "sha256": "7ff14dc559da93767d416f45dea6fdc20cb3801f47193b60882aa6071f5149e7",
+      "bytes": 4782,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_002_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_002.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_003.png",
+      "sha256": "66b92041c1db539994edf1c97bc290918f5043156ed16703e7d0039c49fad54e",
+      "bytes": 6467,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_003_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_003.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_004.png",
+      "sha256": "87e508e2cc42bff51b34669603a07f3c87fa07b9314fda477ff568f37186323a",
+      "bytes": 5251,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_004_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_004.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_005.png",
+      "sha256": "a60ef74ed33d2f647349cbacd995e631b89302252d9cce5b3bf552dda6c49619",
+      "bytes": 6996,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_005_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_005.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_006.png",
+      "sha256": "d04a503bd0c51494f68a096dd930bac5f55671985e7bd43faceeba913b6dea65",
+      "bytes": 7325,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_006_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_006.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_007.png",
+      "sha256": "8286c5d9acc30318164610be9100cd2afcdcda56cb9dcd7cc5f73fde90d1ab5c",
+      "bytes": 6464,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_007_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_007.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_008.png",
+      "sha256": "45d69ab6b925a95f14ff5fdead034a4674806e22de7baec57030941c2af55203",
+      "bytes": 6935,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_008_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_008.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_009.png",
+      "sha256": "9e52fd45d642322b9debfdd91c349416de7b2d34c7d9efe6afb1533c50179bbf",
+      "bytes": 3503,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_009_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_009.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_010.png",
+      "sha256": "84138b5865531471c626224939dd0133c0758a7713e97d59e94b187e7831aa70",
+      "bytes": 1962,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_010_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_010.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_011.png",
+      "sha256": "74483d9c1a0491d490eb230b9a6d50e3a78ffbfe76d25cd06056165f2868af26",
+      "bytes": 7657,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_011_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_011.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_012.png",
+      "sha256": "8721bf34f58b7bd0494c16fffb6bafa7cf337537244d7cd7d4b6a3333a9abf8b",
+      "bytes": 9366,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_012_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_012.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_013.png",
+      "sha256": "028d26f3403cb07cd8973f27ae74867236daf652b169c9781b4dd9f217796994",
+      "bytes": 3531,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_013_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_013.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_014.png",
+      "sha256": "8cc9c3b9b37b2297ca75ab8e031ec17803d2f73e2a2114416211157242f5e0be",
+      "bytes": 1072,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_014_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_014.png",
+      "image_size": [
+        133,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_015.png",
+      "sha256": "e1054a47d935580e6fdc62acb293794b3cf65c9a706d10386d6a018bc8a033f8",
+      "bytes": 1881,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_015_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_015.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_016.png",
+      "sha256": "520741663d38bd9f0b3012022041e085b6613563ed14dfcca9cba4ba7b66c403",
+      "bytes": 1882,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_016_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_016.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_017.png",
+      "sha256": "e7fecbcc5bb7461f63f0433ebb3d23bd550a4d3626295cef5820021988285091",
+      "bytes": 9009,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_017_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_017.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_018.png",
+      "sha256": "a9eb21d4e2dcda44bba64fd1a12d3fbce33ed1b41fe82bdf0d4897abff95d6f0",
+      "bytes": 4679,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_018_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_018.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_019.png",
+      "sha256": "27b7a52598e8e19a7de73100e06f1a595bb332cf39b4eca5c018df2bbaf0a9de",
+      "bytes": 4602,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_019_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_019.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_020.png",
+      "sha256": "065df274787be55b428366ec0194e876a361ec76d9602fb2652fba07d3d80b23",
+      "bytes": 939,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_020_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_020.png",
+      "image_size": [
+        133,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_021.png",
+      "sha256": "96a549b17d4aa500bcd8a5400cab073bec42d149245c4f9cfd39c7a2ad5bf740",
+      "bytes": 1725,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_021_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_021.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_022.png",
+      "sha256": "44059609b941a52b471a32a82b57d01ecbdbd3f9576874b9ac88772dde83677c",
+      "bytes": 2191,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_022_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_022.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_023.png",
+      "sha256": "f6034c364dbe2ee6b2c11794fe86db5b01095763cebc2143fc6346a905ae207f",
+      "bytes": 5150,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_023_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_023.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_024.png",
+      "sha256": "c05d5d5a08fd9a910d2372038c24a86a33f2299f24b24949eda1f699173fc011",
+      "bytes": 4763,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_024_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_024.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_025.png",
+      "sha256": "e414dfdff4283cc1199d572eb6345a467fd8bdbba2f3ae78855c7fb7b0fcc4c7",
+      "bytes": 4821,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_025_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_025.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_026.png",
+      "sha256": "1add71a0be7512c2d0ff5e6fddcb59901d5fc437b717b4401f1194541d97c12d",
+      "bytes": 5554,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_026_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_026.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_027.png",
+      "sha256": "c0d1d74d4fc0e5b82899e022f5d16db374613f5ccdf33d72ae13e327dc1b86aa",
+      "bytes": 3157,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_027_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_027.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_028.png",
+      "sha256": "618ab73eb6ecb77f458bdd703046dff3b1059bfd90d30ea302e0b33223d3a62c",
+      "bytes": 2169,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_028_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_028.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_029.png",
+      "sha256": "c86d76c6749be9059e54eec8136fa78f02db78542ac4e30b479482527c0b9a21",
+      "bytes": 2165,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_029_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_029.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_030.png",
+      "sha256": "92edc723b2509e0dbf05a02dff285d36f81cdd780f431821dc203ee0007dd784",
+      "bytes": 5586,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_030_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_030.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_031.png",
+      "sha256": "a6914a4ca1cc1888a7b721cd29b7852dc3327e49b4d3f79e5dfcc0f48140fc75",
+      "bytes": 5288,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_031_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_031.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_032.png",
+      "sha256": "ea74a81d8cc18f2cef85958d3c286138b91ffba9c6ac1be05eb8305d59311c16",
+      "bytes": 6098,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_032_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_032.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_033.png",
+      "sha256": "b5b87bfbd32fec620274abfe3bf07b386f7fdbb75e4f2ab11f0c021e863bd92b",
+      "bytes": 5439,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_033_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_033.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_034.png",
+      "sha256": "58a8f9c270bc0ac1a11313b1f589d351dd6855834363a2ea5aab21858520f479",
+      "bytes": 3134,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_034_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_034.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_035.png",
+      "sha256": "a1d6c5694654611cbb1ffe8e5d63e34b924a107d67518e7e5b1c23f02f80eb3e",
+      "bytes": 1676,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_035_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_035.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_036.png",
+      "sha256": "0e8804269007d0e1920d39168d683fae32fc44737ccfd18ecbfce0393aea2c7b",
+      "bytes": 1795,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_036_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_036.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_037.png",
+      "sha256": "798c48a56d8952faf4cf4d556a93f09fd7a03a53650bbed0b247c2fb57ef2de3",
+      "bytes": 1132,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_037_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_037.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_038.png",
+      "sha256": "25e26c7d6a2c2ec21b57d2f419022614386110ef22ebcd4ce8fc6824c5c7cdc9",
+      "bytes": 5487,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_038_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_038.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_039.png",
+      "sha256": "04daee4a1b16554197ad7ffaccd8ffbf9503d8c5f00e9a17868089e2a53eaa44",
+      "bytes": 6196,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_039_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_039.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_040.png",
+      "sha256": "9e496413c5af24bfbf23456bd7e2102f0f4260efdc869b2e5f2127c212bd0f11",
+      "bytes": 6853,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_040_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_040.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_041.png",
+      "sha256": "eba76cc339dabb71610de72410808035b9a0bce392fe8bbfc0869e149df2c84b",
+      "bytes": 5970,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_041_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_041.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_042.png",
+      "sha256": "dc6565ae211c294b0134f5d23abfb39675b78b4b807a992d865ea5e3109bfb12",
+      "bytes": 1816,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_042_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_042.png",
+      "image_size": [
+        133,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_043.png",
+      "sha256": "55e78b6e2e249dd0803eaa128a01274602aa4eba42d740318b7de6b8f39acfa5",
+      "bytes": 3847,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_043_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_043.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_044.png",
+      "sha256": "1c47f96b062a9b040ef7c13eec4d1cb980ddc6a923c5d35e29b9d48e168c5029",
+      "bytes": 1164,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_044_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_044.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_045.png",
+      "sha256": "173efd818761a296327cd39b1ea797119258a485623e938be11194fa7df20502",
+      "bytes": 1121,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_045_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_045.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_046.png",
+      "sha256": "8947c84338634f28849792caf5cf3430bd9a0bbb523c7e8f332627d7e99bd557",
+      "bytes": 4328,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_046_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_046.png",
+      "image_size": [
+        132,
+        97
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_047.png",
+      "sha256": "4056013cd9116503801e6d4cc05eab40f3ef9fc863d0749537333a1ada5cdecf",
+      "bytes": 6810,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_047_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_047.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_048.png",
+      "sha256": "8c7be1ffc3279933169084c0c2acef869b3853dd291482128f635cccb8f0ce54",
+      "bytes": 4712,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_048_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_048.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_049.png",
+      "sha256": "2911b16cea697b7bf4dce5c1f56855cd0e3d6d8a939051e878cef5cefb3f1b6e",
+      "bytes": 4844,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_049_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_049.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_050.png",
+      "sha256": "1705a68832f52992641cd862854c4000af36af082954d8c3fdfc21951dd30ce5",
+      "bytes": 3759,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_050_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_050.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_051.png",
+      "sha256": "0101265a5b2d24d9d07700c71ab3a757d2528c507d186038e79b345e0313913f",
+      "bytes": 1856,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_051_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_051.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_052.png",
+      "sha256": "d698bee78307a461adccab2a16e14f735936f71f8b0915dfd61d662041df7af3",
+      "bytes": 1153,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_052_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_052.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_053.png",
+      "sha256": "4e453687510238c0e0f7d1687f7e8cad2bea696f8bcacc8a478f717b323e175e",
+      "bytes": 1130,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_053_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_053.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_054.png",
+      "sha256": "0d8dd24c5cb2b4845f107ef2dbd3522d2533297c34f1ab6623820f319abf289a",
+      "bytes": 4432,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_054_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_054.png",
+      "image_size": [
+        132,
+        97
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_055.png",
+      "sha256": "a8f4885f43ca851274240a1b54782e8f34bfb57568ace6cc1d7b0fff317e2b07",
+      "bytes": 5376,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_055_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_055.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_056.png",
+      "sha256": "56b236380047dc4b686837ecc43fb469bfe19408bd90a8709ac29c5611099f92",
+      "bytes": 2800,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_056_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_056.png",
+      "image_size": [
+        133,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_057.png",
+      "sha256": "7afbe058493cb8e778732b041db43587f09c2b662385a77adc2a397aba35015f",
+      "bytes": 5952,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_057_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_057.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_058.png",
+      "sha256": "ecf346f202da1f74df32ce8baa25bd5d803261ef4b53ed1105d7ff725984ca34",
+      "bytes": 2107,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_058_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_058.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_059.png",
+      "sha256": "4787623bb7cccd3f733df46bfe67fd9c1a8eee2729f1b9f41c64fc118791f66f",
+      "bytes": 1012,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_059_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_059.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_060.png",
+      "sha256": "83a1f4f01c3c1ef78abb9d340d0820c3e1f1441e2ef36571ca4fe16faed54421",
+      "bytes": 1615,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_060_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_060.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_061.png",
+      "sha256": "f44185add185787ff6cf6b78e5d734431e7c563307cc9a1365c4bce37624d1b8",
+      "bytes": 1572,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_061_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_061.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_062.png",
+      "sha256": "48418ca451f5a97bdfba9ae810c79992ecfcc2b3e0424da19fd7afbdafa8d69e",
+      "bytes": 3985,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_062_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_062.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_063.png",
+      "sha256": "0329b6ff7a1df7620499c7c4071e9392ad6535cf37573eeeb0059ae1392eb019",
+      "bytes": 3891,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_063_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_063.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_064.png",
+      "sha256": "20f2d1927c68def1d24a200ed581ab230dca8723d9536dff2c015ee22c087ddf",
+      "bytes": 4447,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_064_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_064.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_065.png",
+      "sha256": "24f131ec7099812bacca5fd19c6032263f0de4c5d7cf9127a2c84fd413c633f2",
+      "bytes": 6101,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_065_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_065.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_066.png",
+      "sha256": "afd246b92a8818eab8281cc69906ef19942450df78790985fde07d9587fd333d",
+      "bytes": 740,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_066_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_066.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_067.png",
+      "sha256": "c48731777960773ae997a50bc3c32740e6adac112230d0a317416bb688d39fd9",
+      "bytes": 1471,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_067_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_067.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_068.png",
+      "sha256": "850673e9b1a7915aeb7a98cc162e2b36204293076debe9b827b2f0df09877cff",
+      "bytes": 2119,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_068_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_068.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_069.png",
+      "sha256": "701900b0c0b939d75764f15c65348906252abc9cebc6eae90a197b5c7c3064e9",
+      "bytes": 1588,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_069_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_069.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_070.png",
+      "sha256": "7cd48ed23d264cd3c6f9c943ceccdbe5f16986eb08fdb9828e50946df95857ca",
+      "bytes": 2343,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_070_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_070.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_071.png",
+      "sha256": "37bdbc6efe936ea09ae5cc0327efa2aa9aebefb6d7dab772751ef1b893d74ca5",
+      "bytes": 5644,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_071_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_071.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_072.png",
+      "sha256": "0e405bea70b2b5c49b21e79a9efd359177609924c1e40f402603694f2d954239",
+      "bytes": 4774,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_072_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_072.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_073.png",
+      "sha256": "9e0d1c8fbecbc787d8a81c791c5a7ba75427961455f10d1b84ddf9c500be4127",
+      "bytes": 715,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_073_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_073.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_074.png",
+      "sha256": "15a2a9ecf44b7317acc4cff7f7d6a75bf54d8a97d657f4967bc214b799a5bb9f",
+      "bytes": 3646,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_074_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_074.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_075.png",
+      "sha256": "2a73870b5d3dd9c64c3425323dea4007b54b4d7de077c6b7eea9d0da3f72c57e",
+      "bytes": 1710,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_075_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_075.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_076.png",
+      "sha256": "4a4d82223aa7ed1c1a6a1cdfc6e02cc8c115e20d1f2eec3e83a2e1c6900fcc1a",
+      "bytes": 1985,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_076_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_076.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_077.png",
+      "sha256": "c8d904182a229e779c76f4e5d361fa456bbad936e5b3ffb4f9f093b57f80eee5",
+      "bytes": 2103,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_077_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_077.png",
+      "image_size": [
+        132,
+        83
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_078.png",
+      "sha256": "3eabfbbbac2666c5c14067efaee96c1c62fac74fe921cc31e4ad032e6aa2f298",
+      "bytes": 4760,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_078_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_078.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_079.png",
+      "sha256": "a1837b482e8213473d3ebfa56556a7d57fca2177b0eb74e52d956f34e219d14b",
+      "bytes": 4796,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_079_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_079.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_080.png",
+      "sha256": "a8db6b03ecf70ccdc595184f8a61e293407608ae7e09f064d799a4e05208f730",
+      "bytes": 2182,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_080_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_080.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_081.png",
+      "sha256": "d709065bc17fe3f63b32fcf74eb69c420761bbfe05082399418d21e71f4b3120",
+      "bytes": 987,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_081_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_081.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_082.png",
+      "sha256": "7d27ee1246a3f55b31f12500cf0ba580fcca982a65075fa30533b45b76d6be43",
+      "bytes": 3608,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_082_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_082.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_083.png",
+      "sha256": "b7a8a30cf7958acbd6658a091c09e5fbe72b9c90402bcceaa5a8d08ea1e18fe9",
+      "bytes": 911,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_083_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_083.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_084.png",
+      "sha256": "eb79937ff25a2d69be17d5051c62503c5c2ad2b404cb0a1e9d7aa19428e4ce33",
+      "bytes": 2609,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_084_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_084.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_085.png",
+      "sha256": "6768b6aeac182a27c375b6ba71a945ca044fc1794fd62f528780040e6fdf13f7",
+      "bytes": 7274,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_085_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_085.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_086.png",
+      "sha256": "e8e8af86572df8542b3e6d6c49d42658f668981b31048cbdc2de339344819cb2",
+      "bytes": 3842,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_086_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_086.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_087.png",
+      "sha256": "16fbd5e01c015dcf52d3e07cf36b03c25323363cc2655a6cf4c76484f7668fbc",
+      "bytes": 2115,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_087_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_087.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_088.png",
+      "sha256": "f63660fe65284e9e99cbd407a0ddae17099f257d7a116cac3790a6e00212b6f5",
+      "bytes": 2559,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_088_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_088.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_089.png",
+      "sha256": "c657ac9a0c266e6f863cd847cf9a4288119c080928e27c39296df9f6b6d18035",
+      "bytes": 3861,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_089_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_089.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_090.png",
+      "sha256": "9b43503b93626cd44297ed21e07c050a4abedb2dc0fe71ef1708953b2fd52d89",
+      "bytes": 3999,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_090_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_090.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_091.png",
+      "sha256": "ae6d74056424d94c68bded29d2a5b1c42a46ef4c5400297109dc389ca9377625",
+      "bytes": 1927,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_091_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_091.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_092.png",
+      "sha256": "64d8558eda24079ffebd07bc06e49510beb128aacbb434048f9471d9a0af101b",
+      "bytes": 5905,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_092_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_092.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_093.png",
+      "sha256": "46da26e12fca40eb6b8832986917a3686f6edde14a7c54bd4b038d8a6e8da549",
+      "bytes": 6378,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_093_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_093.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_094.png",
+      "sha256": "4ba8b43b09146b1d7292489ed4cc38f0b558424192c9f6bc70ec8c9d6d1c51d7",
+      "bytes": 2547,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_094_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_094.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_095.png",
+      "sha256": "dc036be75fb43eb7079087f87542ac96188a872678577e1193ea1fc001f27783",
+      "bytes": 2538,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_095_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_095.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_096.png",
+      "sha256": "3e758c206f2c3df8dd990ba1152640265b07e322e87f2b0048ac89107e570a05",
+      "bytes": 3698,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_096_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_096.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_097.png",
+      "sha256": "3b44ba62aa3f0006a083965d9450a18c3f73e4c647c555930eca4c136c41ab5d",
+      "bytes": 3623,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_097_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_097.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_098.png",
+      "sha256": "c62c089b20268a08f0ed512da30a08321c595d68a4918cb17c8af427fb7a4d2d",
+      "bytes": 2371,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_098_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_098.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_099.png",
+      "sha256": "7f038893ddbc14a2ad1d0977e61b3989b63a14f8dae7722ed2601406082c7b9f",
+      "bytes": 1642,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_099_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_099.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_100.png",
+      "sha256": "af23ac657b92f5dbce09e5ed1890e4849c72a3c02243d386b214c00fca296609",
+      "bytes": 5574,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_100_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_100.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_101.png",
+      "sha256": "61b4d9caea5a6d42940109b5fba292cc2747b535c624ef28472081625191d636",
+      "bytes": 2546,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_101_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_101.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_102.png",
+      "sha256": "a2d405c2b3ec06260b5f4d0f9ad3b586a375210e64d53385801a0b6bf95f9b1b",
+      "bytes": 2640,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_102_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_102.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_103.png",
+      "sha256": "7e0934dfbe835a7ea2953e08a47f4c9a33b51491675bd7fe64618330cb956cfc",
+      "bytes": 3580,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_103_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_103.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_104.png",
+      "sha256": "5fe21043dacd8bb3fb4a07345df9c2e7ac5080c8c913bc27b3c903a967bdca65",
+      "bytes": 3992,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_104_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_104.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_105.png",
+      "sha256": "f3e68292690d6c8f7bbfc06d67d7751553803b3ab2e2bc67ef7e254ee1da0a95",
+      "bytes": 3796,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_105_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_105.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_106.png",
+      "sha256": "5f7d564226631fa1b9ac3e05178920e3be850ea53f4fd0a6ad3274fde40478fc",
+      "bytes": 2020,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_106_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_106.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_107.png",
+      "sha256": "2e91542f8e22a7558e897b8332f7e99bbfea9616e2d08ff7e000a0cdf3b8cb25",
+      "bytes": 3991,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_107_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_107.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_108.png",
+      "sha256": "a8dc12d4258f49bf42f52f3cf7b67ba103a81dbf6d7702620ba1f9007f7be75a",
+      "bytes": 2638,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_108_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_108.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_109.png",
+      "sha256": "3e233f7dd1bb914521f6a5952a8365fac249ddf8f40cf743ddf636993716ba74",
+      "bytes": 5597,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_109_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_109.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_110.png",
+      "sha256": "323c0d251d004b28dfa895039cd5b63aeded47680df958915aafd1b3700d48d3",
+      "bytes": 3503,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_110_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_110.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_111.png",
+      "sha256": "acf3c7e5c764febde89eec731abc3d9ecf78efc8d31c6fe039eb6309001a19fd",
+      "bytes": 3788,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_111_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_111.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_112.png",
+      "sha256": "de31586a28745594fd7f8fb0acc07b77655d3f9dc0c43c9c777807b0ed0d1c3a",
+      "bytes": 3928,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_112_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_112.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_113.png",
+      "sha256": "3a095ff0de9de05b6b6dc7abe1f24abdab4addf092eb18d337b5e0433e66fe29",
+      "bytes": 4043,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_113_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_113.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_114.png",
+      "sha256": "b2d924bfc7d30581fded0327721d09716aa42e87b3bcea11ce95ea475f7ef45f",
+      "bytes": 2928,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_114_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_114.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_115.png",
+      "sha256": "8f8d16129e8063cc072a4de9d0f7204006c0df0b9d08ff8b3320231a8165819e",
+      "bytes": 5581,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_115_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_115.png",
+      "image_size": [
+        132,
+        131
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_116.png",
+      "sha256": "f64daec6e944462ae67505ad6c844b9177cc56f998cb36d075e0bef4cc29c16c",
+      "bytes": 5006,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_116_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_116.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_117.png",
+      "sha256": "9c9503fe027f7f3f9d878fdede32f7986f8ae376ad0db0be2a5ed1427855ada7",
+      "bytes": 3817,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_117_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_117.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_118.png",
+      "sha256": "c77f97f5a7db1fb800f8aa7e1c6e2a5712e150c07f808c35492bc60d4d7132e8",
+      "bytes": 2914,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_118_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_118.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_119.png",
+      "sha256": "fdb7f4cd4ecf294b9393190e6afff8ffceaba48d0fe1ec483943ac3536b32209",
+      "bytes": 3135,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_119_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_119.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_120.png",
+      "sha256": "070ac7895dc74ec1f24fc7caf3b1b0ea72216fc04c8739d22af336d7b51d1568",
+      "bytes": 5765,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_120_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_120.png",
+      "image_size": [
+        132,
+        129
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_121.png",
+      "sha256": "e00321b2e27e3f007d62e38c0de808fdfed4511dba8ebb681a5cbd40381a0155",
+      "bytes": 4487,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_121_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_121.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_122.png",
+      "sha256": "f8c90f880b6f977a6bd9f2d3828d5ee791c3719a80cfd2acc8b291b599a576e1",
+      "bytes": 3006,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_122_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_122.png",
+      "image_size": [
+        133,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_123.png",
+      "sha256": "b13155591e664e6d3218ac4d0738c609b1dbc0c6d8df28309173280583757db0",
+      "bytes": 4363,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_123_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_123.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_124.png",
+      "sha256": "8de929f8ba1c9430af99fd8a95ee6b839ad0bea937e6321865bb66504c53466d",
+      "bytes": 5726,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_124_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_124.png",
+      "image_size": [
+        132,
+        129
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_125.png",
+      "sha256": "295e6fac37f1986d11be1e0c0e16fbc73d883a1a439ec06e4e42cb2518d68cc6",
+      "bytes": 3917,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_125_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_125.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_126.png",
+      "sha256": "57b423680eab34f89e1604fb1a1e7c69e1433fd7c76de5ed508354a5c64a1b39",
+      "bytes": 4045,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_126_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_126.png",
+      "image_size": [
+        132,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/PNG/landscapeTiles_127.png",
+      "sha256": "8948eded5d54f5331547bce9a08e8bcec02430bed78fa79f36b50d6198a13d5a",
+      "bytes": 4351,
+      "asset_key": "kenney_isometric_tiles_landscape__png_landscapetiles_127_png",
+      "named_path": "maps_terrain/kenney_isometric_tiles_landscape/named_png/kenney_isometric_tiles_landscape__png_landscapetiles_127.png",
+      "image_size": [
+        132,
+        98
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/Spritesheet/landscapeTiles_sheet.png",
+      "sha256": "e45c50f3a7c046fc52ad110ab3ee72f2f7d1380163cb21fbea06bee6635c4abe",
+      "bytes": 525473,
+      "asset_key": "kenney_isometric_tiles_landscape__spritesheet_landscapetiles_sheet_png",
+      "image_size": [
+        1024,
+        2048
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/Spritesheet/landscapeTiles_sheet.xml",
+      "sha256": "bb7c1f3904f75466405951b3e98b0763473f8998be6d8c611b9c94f2ff1eb104",
+      "bytes": 10946,
+      "asset_key": "kenney_isometric_tiles_landscape__spritesheet_landscapetiles_sheet_xml"
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/Donate.url",
+      "sha256": "807d04cbe407d54709f54ac4cc971184f50502a343f5dbf537ff58b0c2f6f914",
+      "bytes": 48,
+      "asset_key": "kenney_isometric_tiles_landscape__donate_url"
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/Facebook.url",
+      "sha256": "54d02f3070d8205901d10c0f493b813bd14e7103ec981a72da4337644e00ac3c",
+      "bytes": 57,
+      "asset_key": "kenney_isometric_tiles_landscape__facebook_url"
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/License.txt",
+      "sha256": "75ecca7c3888db2320ecff48a70dbd7fb68ec42b74c21d2e0188dd389dc40b2c",
+      "bytes": 623,
+      "asset_key": "kenney_isometric_tiles_landscape__license_txt"
+    },
+    {
+      "original_path": "maps_terrain/kenney_isometric_tiles_landscape/original/Preview.png",
+      "sha256": "1c1c32b335f87786b86c9933f4bc9b8e8703a10dcd50307bd5ecb7674e821bdf",
+      "bytes": 127802,
+      "asset_key": "kenney_isometric_tiles_landscape__preview_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGB"
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "preview": "maps_terrain/kenney_isometric_tiles_landscape/original/Preview.png",
+  "priority": "P2",
+  "decision_cn": "仅供参考",
+  "usage_cn": "地形、水岸、山坡的连接语法参考；现有颜色与投影不适合直接作为正式锈港瓦片。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

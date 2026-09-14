@@ -1,0 +1,13 @@
+{
+  "images": 136,
+  "categories": {
+    "ui_props_other": 38,
+    "terrain_buildings": 23,
+    "characters_props": 58,
+    "vehicles": 15,
+    "scene_reference": 2
+  },
+  "frames": 1474,
+  "hashes_verified": true,
+  "images_decoded": true
+}

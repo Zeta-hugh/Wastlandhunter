@@ -1,0 +1,208 @@
+{
+  "pack_id": "oga_quaternius_low_poly_guns",
+  "category": "weapons",
+  "author": "quaternius",
+  "source_url": "https://opengameart.org/content/low-poly-guns",
+  "download_url": "https://opengameart.org/sites/default/files/GunPack%20Vol.1.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "licenses/cc0_1_0_legalcode.txt",
+    "weapons/oga_quaternius_low_poly_guns/source_page.html"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "weapons/oga_quaternius_low_poly_guns/oga_quaternius_low_poly_guns.zip",
+  "archive_sha256": "9492ed25970b500f0bbd7da89f95144e0d250e7ab030209d078f9ece7a2fad84",
+  "archive_bytes": 879866,
+  "file_count": 21,
+  "extensions": {
+    ".blend": 4,
+    ".blend1": 3,
+    ".mtl": 5,
+    ".obj": 5,
+    ".png": 3,
+    ".rar": 1
+  },
+  "decision": "ADAPT_REQUIRED",
+  "usage": "Grounded weapon geometry; render item icons and weapon sprites after palette/camera adaptation",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.blend",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_ak47_blend",
+      "sha256": "40dabee55e8a9cd6078187fae743a1d46aa3ee1386f9a021dac1a0ab35511616",
+      "bytes": 600864
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.blend1",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_ak47_blend1",
+      "sha256": "70de7e452c948c072d67c8e30c2529907fe6bf40251cd5ecac442004602f8d13",
+      "bytes": 595264
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.mtl",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_ak47_mtl",
+      "sha256": "662fb2e5bbe39f4bd4bc2467942b8b124c5d1813755638adb43a684c9e91d602",
+      "bytes": 518
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.obj",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_ak47_obj",
+      "sha256": "5a7af3646bb3c0bc3f54c6417ab513d0a46117ef6cefc17a35dab6be7ac1b106",
+      "bytes": 58714
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Ak47Texture.png",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_ak47texture_png",
+      "sha256": "2e8ac9a32ad5a7f19657e9633e54457ec9817ffb95486b8439f71260b553ecef",
+      "bytes": 182,
+      "image_size": [
+        32,
+        32
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/FixedAk47.rar",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_fixedak47_rar",
+      "sha256": "de6213e35227cf9af18997a61523eee10463a3a9e32baf6e243eb86980b2c5ee",
+      "bytes": 102715
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Rifle.blend",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_rifle_blend",
+      "sha256": "7ea7076a9e6939bc22e1d12ed7ac99b51f5ab16a0a4205bc232631bd86d0e45c",
+      "bytes": 553296
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/RifleTexture.png",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_rifletexture_png",
+      "sha256": "ea5597c2fe051876aabfabc638b7441c316e8dc4f09cfb35b1678bf47370a41b",
+      "bytes": 179,
+      "image_size": [
+        32,
+        32
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/RocketLauncher.blend",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_rocketlauncher_blend",
+      "sha256": "2c179f617a77589590fd71843e4f3aec676599a1a9e53de192c4619376d96219",
+      "bytes": 757908
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/RocketLauncher.blend1",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_rocketlauncher_blend1",
+      "sha256": "f3a22cc9b7c7643769a00a2aea1458d520aa2b615dfd3c6a45675052dd2d3da7",
+      "bytes": 540084
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/RocketLauncherTexture.png",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_rocketlaunchertexture_png",
+      "sha256": "31022de5c164edcbbfd30e761daa981b2691cb0f3f3379d4df7b267be860d6a0",
+      "bytes": 176,
+      "image_size": [
+        32,
+        32
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Uzi.blend",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_uzi_blend",
+      "sha256": "f2ade9ebf92225d3ae8315d9cc1aa45e6d97623af3699aee07ff5d634422bc65",
+      "bytes": 604804
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Uzi.blend1",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_blends_uzi_blend1",
+      "sha256": "34362d02ad3d56e0c5be54f8218b138bfd5ce0d67b08cb7238d0946906d21008",
+      "bytes": 613224
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/ak47.mtl",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_ak47_mtl",
+      "sha256": "662fb2e5bbe39f4bd4bc2467942b8b124c5d1813755638adb43a684c9e91d602",
+      "bytes": 518
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/ak47.obj",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_ak47_obj",
+      "sha256": "9d4c1784d3871059fceae8a5b47ab5ac0fe518c87deead4a7b393613b2831efe",
+      "bytes": 58890
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/Rifle.mtl",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_rifle_mtl",
+      "sha256": "19f15f35ef75356a34f2190ca4724f523ce74899927d29c3ccb9e946719ec930",
+      "bytes": 519
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/Rifle.obj",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_rifle_obj",
+      "sha256": "1fa732dadd77c88e3ec1f4bdc2727c41669b13fec48362e7a9d9dec201df8aa3",
+      "bytes": 33613
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/RocketLauncher.mtl",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_rocketlauncher_mtl",
+      "sha256": "816e8dc0184851ef5d9757f2fd66f33445f0600291ae80fd06dc7b632f36072b",
+      "bytes": 373
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/RocketLauncher.obj",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_rocketlauncher_obj",
+      "sha256": "3eadc077d78c1ef2933dfbc3839bde2ec987eb764cdfb401fbc3a52fe0f48b9d",
+      "bytes": 64988
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/Uzi.mtl",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_uzi_mtl",
+      "sha256": "eb7c263dcf9cd1a9e6807b79485b8a3a0b8f384f8e0476a2e68b451da445a0f1",
+      "bytes": 517
+    },
+    {
+      "original_path": "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/OBJ/Uzi.obj",
+      "asset_key": "oga_quaternius_low_poly_guns__gunpack_vol_1_obj_uzi_obj",
+      "sha256": "20057ea1694b1fd31391e17603489e7c9e032adf729af2a5150ea17117ba9bd3",
+      "bytes": 48575
+    }
+  ],
+  "preview": "weapons/oga_quaternius_low_poly_guns/preview.png",
+  "intake_status": "FILES_VERIFIED",
+  "priority": "P1",
+  "decision_cn": "适配后使用",
+  "usage_cn": "常规枪械几何候选：优先转为装备图标和人物武器层，统一材质及尺度；不把人物枪械冒充战车主炮。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [
+    "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.blend",
+    "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/ak47.obj",
+    "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Rifle.blend",
+    "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/RocketLauncher.blend",
+    "weapons/oga_quaternius_low_poly_guns/original/GunPack Vol.1/Blends/Uzi.blend"
+  ],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "pack_id": "oga_lucian_pavel_hunting_rifle",
+  "category": "weapons",
+  "author": "Lucian Pavel",
+  "source_url": "https://opengameart.org/content/hunting-rifle",
+  "download_url": "https://opengameart.org/sites/default/files/Hunting%20Rifle%20New%20%20Spec_0.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "licenses/cc0_1_0_legalcode.txt",
+    "weapons/oga_lucian_pavel_hunting_rifle/source_page.html"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "weapons/oga_lucian_pavel_hunting_rifle/oga_lucian_pavel_hunting_rifle.zip",
+  "archive_sha256": "07ac14d7417cc6448b78b9a2b330acc0d897f2479bf49b9cbf49d0edc643f029",
+  "archive_bytes": 9556817,
+  "file_count": 5,
+  "extensions": {
+    ".png": 3,
+    ".fbx": 1,
+    ".txt": 1
+  },
+  "decision": "ADAPT_REQUIRED",
+  "usage": "Weathered rifle geometry/textures candidate for hunter equipment; render to project sprite/icon specs",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "weapons/oga_lucian_pavel_hunting_rifle/original/Hunting Rifle SPEC.png",
+      "asset_key": "oga_lucian_pavel_hunting_rifle__hunting_rifle_spec_png",
+      "sha256": "58a13973751a6ebb9e7c61f027ff827766efde1abbaf3729e8d48519b722e4e2",
+      "bytes": 3394143,
+      "image_size": [
+        2048,
+        2048
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        54,
+        118
+      ]
+    },
+    {
+      "original_path": "weapons/oga_lucian_pavel_hunting_rifle/original/Hunting Rifle.fbx",
+      "asset_key": "oga_lucian_pavel_hunting_rifle__hunting_rifle_fbx",
+      "sha256": "a97455798d48ad8aec13a432c6da51dd7aac20ca3a80c09874b14ca4d8f22b8d",
+      "bytes": 81884
+    },
+    {
+      "original_path": "weapons/oga_lucian_pavel_hunting_rifle/original/Hunting Rifle.png",
+      "asset_key": "oga_lucian_pavel_hunting_rifle__hunting_rifle_png",
+      "sha256": "c862cba65a5d3f6bf99b31e9e81d4b5c4f7253a52c1b8837804b12bbed200ab1",
+      "bytes": 3145019,
+      "image_size": [
+        2048,
+        2048
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "weapons/oga_lucian_pavel_hunting_rifle/original/Hunting Rifle_NRM.png",
+      "asset_key": "oga_lucian_pavel_hunting_rifle__hunting_rifle_nrm_png",
+      "sha256": "545895d9d0252d1cbf6bc16a9525f3c2b8044b5b06e506ba0028f0b1d01dd0a7",
+      "bytes": 2994846,
+      "image_size": [
+        2048,
+        2048
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "weapons/oga_lucian_pavel_hunting_rifle/original/Readme.txt",
+      "asset_key": "oga_lucian_pavel_hunting_rifle__readme_txt",
+      "sha256": "403bcb8ff0c975422c34ba74bb5eeac1a9ec461269ae9dec8efbe71646912dfd",
+      "bytes": 198
+    }
+  ],
+  "preview": "weapons/oga_lucian_pavel_hunting_rifle/preview.png",
+  "intake_status": "FILES_VERIFIED",
+  "priority": "P1",
+  "decision_cn": "适配后使用",
+  "usage_cn": "旧猎枪模型与材质：优先评估猎人装备图标，保留磨损质感；需要相机、缩小可读性和持握点适配。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [
+    "weapons/oga_lucian_pavel_hunting_rifle/original/Hunting Rifle.fbx"
+  ],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

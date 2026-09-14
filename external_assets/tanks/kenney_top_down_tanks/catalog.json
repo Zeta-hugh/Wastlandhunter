@@ -1,0 +1,1496 @@
+{
+  "pack_id": "kenney_top_down_tanks",
+  "category": "tanks",
+  "author": "Kenney",
+  "source_url": "https://kenney.nl/assets/top-down-tanks",
+  "download_url": "https://kenney.nl/media/pages/assets/top-down-tanks/0385fcb3e0-1677699019/kenney_top-down-tanks.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "tanks/kenney_top_down_tanks/original/license.txt"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "tanks/kenney_top_down_tanks/kenney_top_down_tanks.zip",
+  "archive_sha256": "005e1225e1a65b77ea8e8232cc9400b0b9f14e7a6463d3e036d814c17f3c5fb5",
+  "archive_bytes": 360093,
+  "file_count": 93,
+  "extensions": {
+    ".svg": 1,
+    ".swf": 1,
+    ".txt": 1,
+    ".png": 89,
+    ".xml": 1
+  },
+  "decision": "REFERENCE_ONLY",
+  "usage": "2D top-down chassis/turret separation reference; not Rust Runner production art",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/Vector/vector_tanks.svg",
+      "sha256": "ea12b510ad13c885b9d3a40037faeea149c76442a328feeffeb308806aa834e4",
+      "bytes": 97416,
+      "asset_key": "kenney_top_down_tanks__vector_vector_tanks_svg"
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/Vector/vector_tanks.swf",
+      "sha256": "80786fe630a293aa27aa35a80ffa0591c51c5d724c255a082ba4ac6993d1e19c",
+      "bytes": 10462,
+      "asset_key": "kenney_top_down_tanks__vector_vector_tanks_swf"
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/license.txt",
+      "sha256": "5cc7ef76b27299ef5f66cca4f06aa83165af1415e4f88e0d4a5d397f444e627b",
+      "bytes": 481,
+      "asset_key": "kenney_top_down_tanks__license_txt"
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/preview.png",
+      "sha256": "80adefe0f85d4f1943974d162303bbb3e846536806841479f558924380cccb77",
+      "bytes": 60005,
+      "asset_key": "kenney_top_down_tanks__preview_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/sample.png",
+      "sha256": "ffdb5588c10310869e03404f3fcd50079a6d6334c8e6a5d10af93b4c0ec56c58",
+      "bytes": 114899,
+      "asset_key": "kenney_top_down_tanks__sample_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBeige.png",
+      "sha256": "8237a14e92185115c7fdc4b708ea4b1f53065a547e55d3b7c2bb1f2b9b9a298b",
+      "bytes": 211,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletbeige_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletbeige.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBeigeSilver.png",
+      "sha256": "83410e80a7f96f31ca39af12a8ad4729bf702dd85030e4a0d90ff3af3b5068b6",
+      "bytes": 218,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletbeigesilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletbeigesilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBeigeSilver_outline.png",
+      "sha256": "4bf767a0548e6e715fadc261a1dd08845d8091db1f57ff5491f17bcbbbc6ba59",
+      "bytes": 368,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletbeigesilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletbeigesilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBeige_outline.png",
+      "sha256": "ff3f1088e64f42de5586be793230a7ab32b1817aea8a1e51e07ede192ff400ba",
+      "bytes": 363,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletbeige_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletbeige_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBlue.png",
+      "sha256": "19855fdbae8d7f6bf02b3e287cf8cc2a0d3ff36f058d5d4553f9e327bc5f5850",
+      "bytes": 209,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletblue_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletblue.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBlueSilver.png",
+      "sha256": "0ce39bbb5d5f28eb845046ae6b7a98c18f7dd58b2498f675912b27b95601aa86",
+      "bytes": 216,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletbluesilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletbluesilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBlueSilver_outline.png",
+      "sha256": "ce7072c0db22c719469adab6df77f73bab54cf020d974c869add00b34046a8a9",
+      "bytes": 367,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletbluesilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletbluesilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletBlue_outline.png",
+      "sha256": "97e169c9cd426c760ac7eba6cb07de5e5bfc94d418249e8be5a3f4a52cc3a0eb",
+      "bytes": 361,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletblue_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletblue_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletGreen.png",
+      "sha256": "1b6b1a8cd1533d426285a1406e64d37f75721621c2cd293d83c6d97bf73b5f8a",
+      "bytes": 210,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletgreen_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletgreen.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletGreenSilver.png",
+      "sha256": "263e18bfac268bcba411197f3d19ddc8b91d846f8d35f5b59eb310e96bc2af47",
+      "bytes": 217,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletgreensilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletgreensilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletGreenSilver_outline.png",
+      "sha256": "60cf166629bffb713a3374101e1f72c8b1056423987b354450a15f4446474c96",
+      "bytes": 367,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletgreensilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletgreensilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletGreen_outline.png",
+      "sha256": "1a923f85beb3111fe3443499ff79f2fea485465cbf0a48e98a32fc1b5792125c",
+      "bytes": 361,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletgreen_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletgreen_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletRed.png",
+      "sha256": "b93f37773f2a7e5bb8e94966040c3ba00ef037e957465e62ae8a6162589870ad",
+      "bytes": 207,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletred_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletred.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletRedSilver.png",
+      "sha256": "64a13c0e8603f4051c1af5221d43e72190706f3a1492d1ecc131d59d35f2c17d",
+      "bytes": 214,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletredsilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletredsilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletRedSilver_outline.png",
+      "sha256": "02b278a8abfb8a349a7f2726a501fd8e3c34664851ee5f164524406603a780c8",
+      "bytes": 363,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletredsilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletredsilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletRed_outline.png",
+      "sha256": "5163bdbcbb78c0ee9bd3533adfd215967f36e0ea489864fbdbdb59dfd0e5f007",
+      "bytes": 357,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletred_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletred_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletSilver.png",
+      "sha256": "25b397a7a4b7fad70696064a3c18f647f6a831a120dbfef83e4ca2ae0a720caf",
+      "bytes": 211,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletsilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletsilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletSilverSilver.png",
+      "sha256": "d9845823c6564c81184ad33bf32038ccc4643b0b669fa223a782f9e064b7d040",
+      "bytes": 218,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletsilversilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletsilversilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletSilverSilver_outline.png",
+      "sha256": "04dc9562217b4b02a8ebf1ce76afdd00168cfca7beae9a13cd3264364ef5bdd3",
+      "bytes": 369,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletsilversilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletsilversilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletSilver_outline.png",
+      "sha256": "c53a85feb8fa34194bb026e9bdeaf44a800435736b4606582168ff208910692b",
+      "bytes": 363,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletsilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletsilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletYellow.png",
+      "sha256": "dc9249759237e665fb0174be76b0d63500a20a568737769512211aaa5baf2e98",
+      "bytes": 209,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletyellow_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletyellow.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletYellowSilver.png",
+      "sha256": "1bd11e29e735072cc7d0b1ae48f7df3c1a3efbf84326841c7b2eb87ce9cccd43",
+      "bytes": 216,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletyellowsilver_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletyellowsilver.png",
+      "image_size": [
+        12,
+        26
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletYellowSilver_outline.png",
+      "sha256": "482cd65fc2af560b2f9e70a34592fa9459cddcb7b9aa03268888d847fe3cf928",
+      "bytes": 352,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletyellowsilver_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletyellowsilver_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Bullets/bulletYellow_outline.png",
+      "sha256": "604ee4a1fb0661cadeebb9482a4f1dc861881217fd3feaffd4e6d809e4a65210",
+      "bytes": 348,
+      "asset_key": "kenney_top_down_tanks__png_bullets_bulletyellow_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_bullets_bulletyellow_outline.png",
+      "image_size": [
+        20,
+        34
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Environment/dirt.png",
+      "sha256": "dfe25e73fb6dfb924898f5600c6761b41c70131aad20b0554fad96d429901ff7",
+      "bytes": 2175,
+      "asset_key": "kenney_top_down_tanks__png_environment_dirt_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_environment_dirt.png",
+      "image_size": [
+        128,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Environment/grass.png",
+      "sha256": "19bcd2b28eb1e4cbdbb843adea19dddd4c08f30d3d63c430d8b4b5961cde3c86",
+      "bytes": 356,
+      "asset_key": "kenney_top_down_tanks__png_environment_grass_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_environment_grass.png",
+      "image_size": [
+        128,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Environment/sand.png",
+      "sha256": "67c5b91cf6e0ca396dc54fedd918081300509bb2c32baf959205b412eda39025",
+      "bytes": 1982,
+      "asset_key": "kenney_top_down_tanks__png_environment_sand_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_environment_sand.png",
+      "image_size": [
+        128,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Environment/treeLarge.png",
+      "sha256": "736592bc016a309eb9b544992ff5355a13d1c1c27dbd6b58511428d9eedf9bdf",
+      "bytes": 2129,
+      "asset_key": "kenney_top_down_tanks__png_environment_treelarge_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_environment_treelarge.png",
+      "image_size": [
+        98,
+        107
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Environment/treeSmall.png",
+      "sha256": "1d24ae09bec4963e6721d7b86b0a722d000e4e6ea5d237e76a6279fbb1aad695",
+      "bytes": 1825,
+      "asset_key": "kenney_top_down_tanks__png_environment_treesmall_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_environment_treesmall.png",
+      "image_size": [
+        87,
+        87
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelGreen_side.png",
+      "sha256": "56aa4df600f07efe2d5d743844deada3f58d2e06478633be53eb3d38009cafc9",
+      "bytes": 301,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelgreen_side_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelgreen_side.png",
+      "image_size": [
+        44,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelGreen_side_damaged.png",
+      "sha256": "1d63fea2f2206b3a94fd29f77246bedb931a5fc4b4915a2e999f9fffec864984",
+      "bytes": 682,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelgreen_side_damaged_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelgreen_side_damaged.png",
+      "image_size": [
+        44,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelGreen_up.png",
+      "sha256": "48eb27b1a57762e3c837d20afedb494fd706913706ca51c25f7dadb878420016",
+      "bytes": 1088,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelgreen_up_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelgreen_up.png",
+      "image_size": [
+        48,
+        48
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelGrey_sde_rust.png",
+      "sha256": "c8c970a423fded777f0cda4b358c215ac7e6c196b7df8dd6ecd2beafb69b71d7",
+      "bytes": 686,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelgrey_sde_rust_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelgrey_sde_rust.png",
+      "image_size": [
+        44,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelGrey_side.png",
+      "sha256": "38e578197820008b4ed7fc17ab32a9883a675558d5ac15b2e3a2ca8001c4f60c",
+      "bytes": 293,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelgrey_side_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelgrey_side.png",
+      "image_size": [
+        44,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelGrey_up.png",
+      "sha256": "6abc5d5b9b9d842758027bdc4093822c526d47ea746a8e034741c78db3682282",
+      "bytes": 1055,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelgrey_up_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelgrey_up.png",
+      "image_size": [
+        48,
+        48
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelRed_side.png",
+      "sha256": "34437a9821fb0c0b6497062902ffdb745d8448dd6b5d0794021df65c4d843966",
+      "bytes": 310,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelred_side_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelred_side.png",
+      "image_size": [
+        44,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/barrelRed_up.png",
+      "sha256": "b1b136b5e3b2901107b65d518224c1fc252c15a652152cb8b8f8692e1405e058",
+      "bytes": 1099,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_barrelred_up_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_barrelred_up.png",
+      "image_size": [
+        48,
+        48
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/oil.png",
+      "sha256": "27572c1cd680bdd14a779be6bc3e768c96103ab98cafa19c6bd5c1f9b4cd379c",
+      "bytes": 2172,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_oil_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_oil.png",
+      "image_size": [
+        96,
+        96
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/sandbagBeige.png",
+      "sha256": "9749fc4b0c2db5caa9a902de430acc620e02ad8c13255046fe20756721782576",
+      "bytes": 650,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_sandbagbeige_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_sandbagbeige.png",
+      "image_size": [
+        66,
+        44
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Obstacles/sandbagBrown.png",
+      "sha256": "6b0ee62e3fd207bbb1b8babe607c302e7ddec3f084a4580ca51cd80779009d48",
+      "bytes": 647,
+      "asset_key": "kenney_top_down_tanks__png_obstacles_sandbagbrown_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_obstacles_sandbagbrown.png",
+      "image_size": [
+        66,
+        44
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeGrey0.png",
+      "sha256": "618bb2a7f683fcf97030d9fa15ce370cc85d752bb94c3e3d71fdd0b65b46d35c",
+      "bytes": 1375,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokegrey0_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokegrey0.png",
+      "image_size": [
+        87,
+        87
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeGrey1.png",
+      "sha256": "908aa5c6c95547e47045a8968d723d799cabfd44f8f9c2e42c70934aaee386c0",
+      "bytes": 1154,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokegrey1_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokegrey1.png",
+      "image_size": [
+        92,
+        89
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeGrey2.png",
+      "sha256": "674910275f4fecf8890626db66068f16d957f8419b07c57d5f2ceffa708c248c",
+      "bytes": 907,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokegrey2_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokegrey2.png",
+      "image_size": [
+        90,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeGrey3.png",
+      "sha256": "e912ebf893773fb3e0a7f0386e7823e3de44e917b493dd10b58ed55f44c96012",
+      "bytes": 785,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokegrey3_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokegrey3.png",
+      "image_size": [
+        79,
+        79
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeGrey4.png",
+      "sha256": "161159d2bf2ef9a16ce333a43cfd18398c3b261910e25372ffb2ff764a0fcfbb",
+      "bytes": 2020,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokegrey4_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokegrey4.png",
+      "image_size": [
+        100,
+        97
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeGrey5.png",
+      "sha256": "cd061515e8316dee9191bea5c68059605cc6047f3cf1aa756852e87cfc4ccd06",
+      "bytes": 1603,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokegrey5_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokegrey5.png",
+      "image_size": [
+        98,
+        107
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeOrange0.png",
+      "sha256": "71642f2eeef96d5520de2a694e97c867ae5b3da942852a61334d4daaeb5a0e7c",
+      "bytes": 1411,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeorange0_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeorange0.png",
+      "image_size": [
+        87,
+        87
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeOrange1.png",
+      "sha256": "ccef17d1f413b7a09fa015ab5e07d2105ef16712897b5c1adb8ff467df3037ee",
+      "bytes": 1215,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeorange1_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeorange1.png",
+      "image_size": [
+        92,
+        89
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeOrange2.png",
+      "sha256": "c2fd15bb8510a2c997a16f9c0f3ced543f583519fdad57b40c926e0b54181a66",
+      "bytes": 936,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeorange2_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeorange2.png",
+      "image_size": [
+        90,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeOrange3.png",
+      "sha256": "88f32141230ea88cd4f2baeaef52f97d7001b9d76cf5dddbc32bda575316ec58",
+      "bytes": 823,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeorange3_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeorange3.png",
+      "image_size": [
+        79,
+        79
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeOrange4.png",
+      "sha256": "77b58279ff07a31484e90636abfefe42448783c18b2fe6801dc9eb64c8b7344d",
+      "bytes": 2074,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeorange4_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeorange4.png",
+      "image_size": [
+        100,
+        97
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeOrange5.png",
+      "sha256": "dfb65acceeacc21d71761b38d0b30aa953f65b1d7d0b1ea51a5c5f74334184de",
+      "bytes": 1657,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeorange5_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeorange5.png",
+      "image_size": [
+        98,
+        107
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeWhite0.png",
+      "sha256": "f18556419e704633bd2f769f02ec01abe25b260aeefb747af76df13950ef3b03",
+      "bytes": 1166,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokewhite0_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokewhite0.png",
+      "image_size": [
+        92,
+        89
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeWhite1.png",
+      "sha256": "6dd6b60860f243d45407f7306203c37843a1acc83a63a33d734326112fd59fa8",
+      "bytes": 918,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokewhite1_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokewhite1.png",
+      "image_size": [
+        90,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeWhite2.png",
+      "sha256": "2f473b7756ab11f33c214a7ee18becf5f55b62919e833914695596847d1e1b96",
+      "bytes": 782,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokewhite2_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokewhite2.png",
+      "image_size": [
+        79,
+        79
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeWhite3.png",
+      "sha256": "4a1e49e7c6bcc3d0e015cc4f36b1af1a5cba65193fa032f84f07eb8ec143fd7f",
+      "bytes": 2012,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokewhite3_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokewhite3.png",
+      "image_size": [
+        100,
+        97
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeWhite4.png",
+      "sha256": "0ed21137383ee026f5a8407902a1549ca3267bbeffe169dcef0bb95746288283",
+      "bytes": 1601,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokewhite4_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokewhite4.png",
+      "image_size": [
+        98,
+        107
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeWhite5.png",
+      "sha256": "743a7e020d9a00b42343adb587b7038b8855cfe0a61012913645f86db0c3c670",
+      "bytes": 1372,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokewhite5_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokewhite5.png",
+      "image_size": [
+        87,
+        87
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeYellow0.png",
+      "sha256": "9849b519b32184e5ff49170e724952c860612c7dd1151eefee7125cdab28da66",
+      "bytes": 1396,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeyellow0_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeyellow0.png",
+      "image_size": [
+        87,
+        87
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeYellow1.png",
+      "sha256": "e7c697140f30113c65d3f9c46b42372f38c41fbadb0691d16fb03d59d0918ceb",
+      "bytes": 1200,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeyellow1_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeyellow1.png",
+      "image_size": [
+        92,
+        89
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeYellow2.png",
+      "sha256": "b1addc1e262fc63e4f93f725d27fdfb1d83fac14fce8b0da00145fee241f4ebc",
+      "bytes": 922,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeyellow2_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeyellow2.png",
+      "image_size": [
+        90,
+        99
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeYellow3.png",
+      "sha256": "de8755c6b05db45578b4178d1ca3c362432164a3d5be2f8b70f4384483917be9",
+      "bytes": 808,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeyellow3_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeyellow3.png",
+      "image_size": [
+        79,
+        79
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeYellow4.png",
+      "sha256": "41cddc391252edc6bdf45bd8902f656c8cf3bc93877751d44a3f36b93a7ae01d",
+      "bytes": 2042,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeyellow4_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeyellow4.png",
+      "image_size": [
+        100,
+        97
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Smoke/smokeYellow5.png",
+      "sha256": "ada0af0fca660e05f5753c72d799d0c11dd256c62330c265404f88dbaadeb9d6",
+      "bytes": 1629,
+      "asset_key": "kenney_top_down_tanks__png_smoke_smokeyellow5_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_smoke_smokeyellow5.png",
+      "image_size": [
+        98,
+        107
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelBeige.png",
+      "sha256": "d29116275ec46cfc09e6e2539a4a672e251980ae1f7ef3f4ffd7d0f4a2421946",
+      "bytes": 258,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelbeige_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelbeige.png",
+      "image_size": [
+        16,
+        50
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelBeige_outline.png",
+      "sha256": "e31417d70b25dfa11549fc83a8f82d7b552b4c160a3106216529c601a691f925",
+      "bytes": 430,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelbeige_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelbeige_outline.png",
+      "image_size": [
+        24,
+        58
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelBlack.png",
+      "sha256": "7700929520dd2665d54597ddfa0bd029a07377417ebc69646d31197bdc542f3c",
+      "bytes": 258,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelblack_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelblack.png",
+      "image_size": [
+        16,
+        50
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelBlack_outline.png",
+      "sha256": "9393f541f3ad252b5a1f5c06c219d2327f14660469eea637a9bc9fb9d84a4b6a",
+      "bytes": 425,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelblack_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelblack_outline.png",
+      "image_size": [
+        24,
+        58
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelBlue.png",
+      "sha256": "b39f23dd7cea40cc801c8389fe972cefeaa38b298209c2c5212b50de64d422dc",
+      "bytes": 257,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelblue_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelblue.png",
+      "image_size": [
+        16,
+        50
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelBlue_outline.png",
+      "sha256": "6b5ff8142238662aca5335dfed291654218f760938559fbf5829f8c27acece26",
+      "bytes": 425,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelblue_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelblue_outline.png",
+      "image_size": [
+        24,
+        58
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelGreen.png",
+      "sha256": "1d388628317b91be4fad00d29c79cf402cff0b7f73f9479d35a2347ad745e7d3",
+      "bytes": 251,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelgreen_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelgreen.png",
+      "image_size": [
+        16,
+        50
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelGreen_outline.png",
+      "sha256": "bf2ce922c3026c84fa3af0f261f7bf0256619fe46f68bb8286658a4549c20deb",
+      "bytes": 424,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelgreen_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelgreen_outline.png",
+      "image_size": [
+        24,
+        58
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelRed.png",
+      "sha256": "872f7c04de8049f13afb17fc73c16b83d50ebe3692867ec0709f05a252310242",
+      "bytes": 257,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelred_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelred.png",
+      "image_size": [
+        16,
+        50
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/barrelRed_outline.png",
+      "sha256": "6e109a09adc73f2a6e1943db394e54271738ed4e407bb2714d0e54332ff84f13",
+      "bytes": 428,
+      "asset_key": "kenney_top_down_tanks__png_tanks_barrelred_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_barrelred_outline.png",
+      "image_size": [
+        24,
+        58
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankBeige.png",
+      "sha256": "66080ed61c0bb447398ad8990548ea9155f0ad39396c865b579f9cf6b3ef2a0f",
+      "bytes": 625,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankbeige_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankbeige.png",
+      "image_size": [
+        75,
+        70
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankBeige_outline.png",
+      "sha256": "28d1d7ed7aee56ffbf35732e1d3323bfb8309d7d505169456ccb87984ff98943",
+      "bytes": 798,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankbeige_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankbeige_outline.png",
+      "image_size": [
+        83,
+        78
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankBlack.png",
+      "sha256": "c0de4ce004b663fa27e7ac2e19449e8fd85177cce9c5ca50ba0a66b9e6a6c15f",
+      "bytes": 594,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankblack_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankblack.png",
+      "image_size": [
+        75,
+        70
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankBlack_outline.png",
+      "sha256": "7cf69805edc1f1fdb29431358955faaa00d2ea39b0af436c07e6778b9e4d17ac",
+      "bytes": 767,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankblack_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankblack_outline.png",
+      "image_size": [
+        83,
+        78
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankBlue.png",
+      "sha256": "16df64aa8bbb86265c6612a501d2218dcb2973f028bfaf566f7bc052d3753556",
+      "bytes": 610,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankblue_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankblue.png",
+      "image_size": [
+        75,
+        70
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankBlue_outline.png",
+      "sha256": "5d268749788347b1ad67230589e72547c29221870758287896df718ebf741357",
+      "bytes": 778,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankblue_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankblue_outline.png",
+      "image_size": [
+        83,
+        78
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankGreen.png",
+      "sha256": "3174b5523e4ca7ef85013488aec34701b4d5c6abe2f13df2fb0e2fe56acc24f5",
+      "bytes": 609,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankgreen_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankgreen.png",
+      "image_size": [
+        75,
+        70
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankGreen_outline.png",
+      "sha256": "cf5123c6d450326e771e0a97c58e00526b022f4ca00abbed035bf2619d1d9780",
+      "bytes": 782,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankgreen_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankgreen_outline.png",
+      "image_size": [
+        83,
+        78
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankRed.png",
+      "sha256": "440bd97f5ad95b24785fcf30f01b3d3554e21645ef857cf1ca321e7f8658f5f8",
+      "bytes": 613,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankred_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankred.png",
+      "image_size": [
+        75,
+        70
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tankRed_outline.png",
+      "sha256": "943ca8176eee6956eea4710914198f50d255a277820afc66017a3c2ecbdbec98",
+      "bytes": 785,
+      "asset_key": "kenney_top_down_tanks__png_tanks_tankred_outline_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_tankred_outline.png",
+      "image_size": [
+        83,
+        78
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tracksLarge.png",
+      "sha256": "57593d6c21461597066395780cf75c1a9717d3665057da81d0a5599a1291fb36",
+      "bytes": 248,
+      "asset_key": "kenney_top_down_tanks__png_tanks_trackslarge_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_trackslarge.png",
+      "image_size": [
+        82,
+        104
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        77
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/PNG/Tanks/tracksSmall.png",
+      "sha256": "f2da07ab4c69f7c6ec00a884e69e4472fcf9c408f0e09112f3c55e427dd0c2a2",
+      "bytes": 246,
+      "asset_key": "kenney_top_down_tanks__png_tanks_trackssmall_png",
+      "named_path": "tanks/kenney_top_down_tanks/named_png/kenney_top_down_tanks__png_tanks_trackssmall.png",
+      "image_size": [
+        74,
+        104
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        77
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/Spritesheet/sheet_tanks.png",
+      "sha256": "545bac477a3fd333bd6370960064d263697ffa3af6526829f310b2e98905912c",
+      "bytes": 74264,
+      "asset_key": "kenney_top_down_tanks__spritesheet_sheet_tanks_png",
+      "image_size": [
+        1024,
+        512
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "tanks/kenney_top_down_tanks/original/Spritesheet/sheet_tanks.xml",
+      "sha256": "3a4acb8f685124bc220c58e2cc026fa5b99866f32914b093bf5085c30650ac6e",
+      "bytes": 6867,
+      "asset_key": "kenney_top_down_tanks__spritesheet_sheet_tanks_xml"
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "preview": "tanks/kenney_top_down_tanks/original/preview.png",
+  "priority": "P1",
+  "decision_cn": "仅供参考",
+  "usage_cn": "坦克底盘、炮塔与弹道分层参考；平面俯视且风格简化，不替换 3/4 Rust Runner。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

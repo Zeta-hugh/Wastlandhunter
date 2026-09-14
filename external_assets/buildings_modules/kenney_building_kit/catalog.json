@@ -1,0 +1,2929 @@
+{
+  "pack_id": "kenney_building_kit",
+  "category": "buildings_modules",
+  "author": "Kenney",
+  "source_url": "https://kenney.nl/assets/building-kit",
+  "download_url": "https://kenney.nl/media/pages/assets/building-kit/0de7aaa492-1743244741/kenney_building-kit.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "buildings_modules/kenney_building_kit/original/License.txt"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "buildings_modules/kenney_building_kit/kenney_building_kit.zip",
+  "archive_sha256": "2740ef5772fb5fb3d7aab881db22d129f6b68afe711b1a79e6d5e9e19cf3eec6",
+  "archive_bytes": 1598905,
+  "file_count": 407,
+  "extensions": {
+    ".txt": 1,
+    ".fbx": 79,
+    ".png": 86,
+    ".glb": 79,
+    ".mtl": 79,
+    ".obj": 79,
+    ".html": 1,
+    ".url": 3
+  },
+  "decision": "ADAPT_REQUIRED",
+  "usage": "Walls, windows and roofs; assemble original Rustport buildings then render",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/License.txt",
+      "sha256": "60a07f9108f5a3fc5f9429fd1faa5b168c05cc085354f78ed48180ef32ec6209",
+      "bytes": 715,
+      "asset_key": "kenney_building_kit__license_txt"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/barricade-doorway-a.fbx",
+      "sha256": "a422ad1d3cb26c559ad9c804dc5fa3a9151906ea2ebcf270bbb84a4b00aeb074",
+      "bytes": 26304,
+      "asset_key": "kenney_building_kit__models_fbx_format_barricade_doorway_a_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/barricade-doorway-b.fbx",
+      "sha256": "9fb278a47e71ecb0975a5c7ab9971f224b02ca14252ab0b9becac7e0b94d3d28",
+      "bytes": 26480,
+      "asset_key": "kenney_building_kit__models_fbx_format_barricade_doorway_b_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/barricade-doorway-c.fbx",
+      "sha256": "52677630bf66ffba5157593c92dd9f06d8206a8fe5f82aad57f7220e80c43b82",
+      "bytes": 26912,
+      "asset_key": "kenney_building_kit__models_fbx_format_barricade_doorway_c_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/barricade-window-a.fbx",
+      "sha256": "d943a8941c479f03ad2cbacd4cecd6f9ee594ff5443123140958663d66bbc5fb",
+      "bytes": 26304,
+      "asset_key": "kenney_building_kit__models_fbx_format_barricade_window_a_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/barricade-window-b.fbx",
+      "sha256": "0d624abcd0a9e92a35abe13e70a905eb211a6cf3955138e39b93a7954a778dad",
+      "bytes": 26464,
+      "asset_key": "kenney_building_kit__models_fbx_format_barricade_window_b_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/barricade-window-c.fbx",
+      "sha256": "2b0be31109ab2a4da9ad3f6b6dd034f649995b98f19636a1671fe79f63886425",
+      "bytes": 26912,
+      "asset_key": "kenney_building_kit__models_fbx_format_barricade_window_c_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-corner-diagonal.fbx",
+      "sha256": "376681d28b52e596542258df44d8675d2b60a55b6c50022ce2165d4d1a90b863",
+      "bytes": 25888,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_corner_diagonal_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-corner-round.fbx",
+      "sha256": "d327062176dbc3eb36c23a33cd039905d86b3569db45d895383cb36f17c54c7d",
+      "bytes": 29616,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_corner_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-corner-small.fbx",
+      "sha256": "ff4f72607a4eb3553ab85e4f875f82071e1b7740f82b4f6d1008fa30aaf73c0a",
+      "bytes": 25872,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_corner_small_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-corner.fbx",
+      "sha256": "11a9710d5feb08aa6c5aabde3ee6d3170d7ef731a443ea1455ee18d62cef1ed8",
+      "bytes": 25856,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_corner_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-high-corner-diagonal.fbx",
+      "sha256": "e0e08fab9968f2dcb9190e2162d740aa9f721cd11152d3a8576a0d643fa87321",
+      "bytes": 25904,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_high_corner_diagonal_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-high-corner-round.fbx",
+      "sha256": "a4ea4b0e368ded936e89fde83ea82f7106c64f2b8be71a904190cff4a8fcda66",
+      "bytes": 29664,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_high_corner_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-high-corner-small.fbx",
+      "sha256": "8066b6d9ef8ad3c9a2b04ff42b7ae56c910091a2a94c1eb219e1c0dd3a7a53f1",
+      "bytes": 25888,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_high_corner_small_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-high-corner.fbx",
+      "sha256": "b365164ec7a48109bf304163e9b0c41d32e1775d245604888dc0cf65cecebdcb",
+      "bytes": 25872,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_high_corner_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border-high.fbx",
+      "sha256": "d979f17036af820b4ec060c736813b45124020b6a6815a43dbb021ce5b8169e6",
+      "bytes": 26256,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_high_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/border.fbx",
+      "sha256": "9c17debafeb012577a80764732e559600c1d0bc7e17904fb886f1259cec115ac",
+      "bytes": 26240,
+      "asset_key": "kenney_building_kit__models_fbx_format_border_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/column-thin.fbx",
+      "sha256": "884b97b3ebe4afabd3c3fb2b98c215407a4c964901b914db7c479ac317b7f3c1",
+      "bytes": 28752,
+      "asset_key": "kenney_building_kit__models_fbx_format_column_thin_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/column-wide.fbx",
+      "sha256": "9c06f9025dbd0f9f22db773c27147200becb0c02bad59ff87ff33ba717cba9f4",
+      "bytes": 28752,
+      "asset_key": "kenney_building_kit__models_fbx_format_column_wide_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/column.fbx",
+      "sha256": "1e0075eeee2cfd9d7b3f4381f87e9a557417d1ab64a797928fec415da332f758",
+      "bytes": 28736,
+      "asset_key": "kenney_building_kit__models_fbx_format_column_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/detail-pipe.fbx",
+      "sha256": "d66b56b8dd544c87b31e76c48e522e03447c349343f4fb660b3abad5a4f00f49",
+      "bytes": 27584,
+      "asset_key": "kenney_building_kit__models_fbx_format_detail_pipe_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-round-a.fbx",
+      "sha256": "1c9dcfd007c5a8fa6d7455f725ca66cc0bd3f728092d5763fb9c5089ea6f93f6",
+      "bytes": 64176,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_round_a_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-round-b.fbx",
+      "sha256": "77e86f74c161b34ff2007bb50381d9bbf8febfcc7ab9c7baae2552902a019b19",
+      "bytes": 68752,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_round_b_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-round-c.fbx",
+      "sha256": "8bfe91ca4d4ae7c2403d01397c149cd554062496de3f1bc7059fe5e3458344a5",
+      "bytes": 72128,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_round_c_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-round-d.fbx",
+      "sha256": "f45ac637e1ebc4dffc48e91d7f7119f1bcbec5133d535b1f3e4764de21b28a0d",
+      "bytes": 78624,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_round_d_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-square-a.fbx",
+      "sha256": "2d85e618a834f0b852882eee6cf93c2e86d3d6912f79af99034c1e6f4d411f2e",
+      "bytes": 64624,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_square_a_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-square-b.fbx",
+      "sha256": "89fd14e936600f303775a376dbfcff6913c290a3f7dfb6fd769de3451f2ff2f5",
+      "bytes": 64992,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_square_b_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-square-c.fbx",
+      "sha256": "0b859926605725afeb07d4062779eb19aac33f40ade6d0517a6217c203c2e932",
+      "bytes": 66448,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_square_c_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/door-rotate-square-d.fbx",
+      "sha256": "7fbf0b4a11aa1e9c11837b3a29004c5f5b36991e0b03e0df173e53a98ec6081e",
+      "bytes": 72528,
+      "asset_key": "kenney_building_kit__models_fbx_format_door_rotate_square_d_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/floor-corner-diagonal.fbx",
+      "sha256": "d6c575e7c18f85fd84537fcf5f38d6d37c5177669d47415a0522853d343f4b00",
+      "bytes": 25696,
+      "asset_key": "kenney_building_kit__models_fbx_format_floor_corner_diagonal_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/floor-corner-round.fbx",
+      "sha256": "39a42f75c4bb567bca32b96aee6d24c91ca52a04ce31e4903015e61afb1a487a",
+      "bytes": 26096,
+      "asset_key": "kenney_building_kit__models_fbx_format_floor_corner_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/floor-half.fbx",
+      "sha256": "899e1fa8138a3bfa8114225efa9a19138b287711487cd6202fad9d21ed19ead9",
+      "bytes": 27488,
+      "asset_key": "kenney_building_kit__models_fbx_format_floor_half_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/floor-quarter.fbx",
+      "sha256": "361f6d670ce70be9dac98bc2bb8191e3dd46c9cd868a563bbed31eca0ee4e3b6",
+      "bytes": 27488,
+      "asset_key": "kenney_building_kit__models_fbx_format_floor_quarter_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/floor.fbx",
+      "sha256": "46002f698f175b3b79181adc29ccc1ee1a274258d8de02f53a34fa8f737ea400",
+      "bytes": 27472,
+      "asset_key": "kenney_building_kit__models_fbx_format_floor_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/gutter-vertical-bottom.fbx",
+      "sha256": "4c99434a7c95fbcc0b054fc9590e2423577c1a831da68f86728c93229d73e612",
+      "bytes": 28432,
+      "asset_key": "kenney_building_kit__models_fbx_format_gutter_vertical_bottom_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/gutter-vertical-short.fbx",
+      "sha256": "96f6a4f5378498f621d379b4d36df3b7f942ffb967581f47213c39b32bb976cc",
+      "bytes": 26448,
+      "asset_key": "kenney_building_kit__models_fbx_format_gutter_vertical_short_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/gutter-vertical-top.fbx",
+      "sha256": "51530e41519b002fdddeb2a4ae9f687b57ca28712bcfa0c448202d3148d49ba7",
+      "bytes": 28272,
+      "asset_key": "kenney_building_kit__models_fbx_format_gutter_vertical_top_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/gutter-vertical-wall.fbx",
+      "sha256": "9590cfbd99e7ec806fde1afbc9486ebfff67a10a013dd3b14879087c6bb72515",
+      "bytes": 27136,
+      "asset_key": "kenney_building_kit__models_fbx_format_gutter_vertical_wall_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/gutter-vertical.fbx",
+      "sha256": "86c62eb7404fa4f670894255e144e923edce5a372399bed678d33a8c6bd896ef",
+      "bytes": 27184,
+      "asset_key": "kenney_building_kit__models_fbx_format_gutter_vertical_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/plating-detailed-wide.fbx",
+      "sha256": "78b7df85fe6aedd59655471cb3440bbe33db9734d2a115144b8921301bdeae72",
+      "bytes": 27664,
+      "asset_key": "kenney_building_kit__models_fbx_format_plating_detailed_wide_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/plating-detailed.fbx",
+      "sha256": "44dbd44b781bf776aab958dd5ff8469ee299f99666f6b14705a517c78f1cd4cf",
+      "bytes": 27808,
+      "asset_key": "kenney_building_kit__models_fbx_format_plating_detailed_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/plating-wide.fbx",
+      "sha256": "8fb3610b4b5e4870e4b5c36c29c211aa0c071c411aa8093f829f78f669c4bf59",
+      "bytes": 26480,
+      "asset_key": "kenney_building_kit__models_fbx_format_plating_wide_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/plating.fbx",
+      "sha256": "bad3cf20490718b1965f60fc0d26f69574b752524c3897b70844e2d16d1600c3",
+      "bytes": 26624,
+      "asset_key": "kenney_building_kit__models_fbx_format_plating_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-center.fbx",
+      "sha256": "6e4f8294f8605bba3f768ca4c612a1a07f73baeb80f57fa4b7ec952569183440",
+      "bytes": 27504,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_center_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-corner-inner.fbx",
+      "sha256": "5c4b22224fd888846b5dd88a97d6d459307b137a6cb0e35ff7e7cecad42a5c64",
+      "bytes": 26048,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_corner_inner_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-corner.fbx",
+      "sha256": "32d2a1c9d000c9d7feafb9ad1c5d086d35d616c76b7638ae7aefb6c8e9d31006",
+      "bytes": 26848,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_corner_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-patch-large.fbx",
+      "sha256": "ace19213247595ab4e0cd47749089119cb73cff853a0f7b6d5a67a577a12e148",
+      "bytes": 25696,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_patch_large_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-patch.fbx",
+      "sha256": "9ce35362eefafa78bfcdeaa518e2568b72295f304c098a7283999cc3d1e7073d",
+      "bytes": 25680,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_patch_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-side.fbx",
+      "sha256": "cdcded4370eec7a496b2970f4be96729ca4b6c5bd56a8d0e7631715d691c0726",
+      "bytes": 25824,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_side_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/roof-flat-square.fbx",
+      "sha256": "870cda7e02f5f17c7d5bfdfe9d4b913b340872467c8c93e60253755b0088aa25",
+      "bytes": 27152,
+      "asset_key": "kenney_building_kit__models_fbx_format_roof_flat_square_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-center-short.fbx",
+      "sha256": "12e6be896d889e705cdf77eb0bb584b655180d851e14bfcc2e92cd3d2b8bf0e2",
+      "bytes": 26080,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_center_short_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-center.fbx",
+      "sha256": "1e14e2d873e207a6f28990108cb65b42530653711a33bcfa55401284180f2453",
+      "bytes": 26048,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_center_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-closed-short.fbx",
+      "sha256": "0301b5cb0b4a6d6c98e6a9483d6a595f1c447ec3596bf3bf2569b1f4075f849f",
+      "bytes": 26224,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_closed_short_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-closed.fbx",
+      "sha256": "ad851071f973192d1e959e4e2bd798262dcb340b2805f47c4d4f1b0a4759586d",
+      "bytes": 26544,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_closed_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-open-short.fbx",
+      "sha256": "37cad892fecd9ed7f586ab34630291d31709adfbf95eafa9166c299d3d0e80a4",
+      "bytes": 26704,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_open_short_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-open.fbx",
+      "sha256": "b40a31a0cef41b8c2d41799ea86df168d0048fbbbc34b02f62ca22a7b72313ed",
+      "bytes": 26416,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_open_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-sides-short.fbx",
+      "sha256": "f86286fa13f14a7762e8b929dd354bc69d415de4beb9f419beaee1d6dae58472",
+      "bytes": 41920,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_sides_short_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/stairs-sides.fbx",
+      "sha256": "9212fc6a433f370b9dad3d11d45e0217300a2dce6ea86a332112144ea91c1c49",
+      "bytes": 41632,
+      "asset_key": "kenney_building_kit__models_fbx_format_stairs_sides_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/Textures/colormap.png",
+      "sha256": "01741a46a279bef667de3143ee653d0073ed7cae925d88341281391d9220092b",
+      "bytes": 10051,
+      "asset_key": "kenney_building_kit__models_fbx_format_textures_colormap_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner-column-bottom.fbx",
+      "sha256": "f83906905eb437c3c5cc875ec5de28d448423401f27770b5e6f489db0f00bb19",
+      "bytes": 26384,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_column_bottom_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner-column-small-bottom.fbx",
+      "sha256": "2002c3035d47ab0327ab076b14a8f93e850bbe309180c185d1239e632cab87ba",
+      "bytes": 26400,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_column_small_bottom_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner-column-small.fbx",
+      "sha256": "2f2a9480f4577823c4db160fdd06ce0b2f63fe840a9f01ee3ee0ef9cefa2e78c",
+      "bytes": 28096,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_column_small_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner-column.fbx",
+      "sha256": "44fbb444649bc181692bd0a108fd0954b4d7debcf020737c70cc679fbdcf141f",
+      "bytes": 28064,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_column_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner-diagonal.fbx",
+      "sha256": "15e880f0e131bbcc965321612e852c53dd0a1189c73250d0dba7bc29159e2237",
+      "bytes": 26608,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_diagonal_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner-round.fbx",
+      "sha256": "295009845cccfdde82e7087dbcce02134b9698078110fd9f9f6d5c7ea12e98ce",
+      "bytes": 26896,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-corner.fbx",
+      "sha256": "14fb44effb1a20935c168674d091721c3100b803e0eb68d75e27a0a74c6813da",
+      "bytes": 25648,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_corner_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-doorway-round.fbx",
+      "sha256": "b93fc0cb38504b57a3f355fec41808dffbce28661ddf94136833148be4804616",
+      "bytes": 27056,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_doorway_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-doorway-square.fbx",
+      "sha256": "1323c48d61b2a8e195d5ae7ab2fb5aa2a84f54eea7c7369f3ef974271ece30c2",
+      "bytes": 26656,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_doorway_square_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-doorway-wide-round.fbx",
+      "sha256": "ceb62e12eda8e8bb7cb994126ab1b1436b1bf780d5bb01e287ecc6465486fcf2",
+      "bytes": 27248,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_doorway_wide_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-doorway-wide-square.fbx",
+      "sha256": "eb9e7694e275acf6614eea733d70c8663e45130f199c1ea4641b6797486065b3",
+      "bytes": 26688,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_doorway_wide_square_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-half.fbx",
+      "sha256": "8da648ae92294afeacffd4ab74d7597c48eae75a4541f5f80394ad7c66ad6701",
+      "bytes": 26800,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_half_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-low.fbx",
+      "sha256": "a49d25db386acb4956120ef28a6bb02db61f94398c845d554a176f124b8c22be",
+      "bytes": 26784,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_low_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-round-detailed.fbx",
+      "sha256": "709d19c98fd2f66b1c0a428bb8971460788ec25e190b4474f644d15dff606c91",
+      "bytes": 36672,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_round_detailed_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-round.fbx",
+      "sha256": "b1fbba8100a8991cc550cee37093df454f165e6a5ce38e230291c3fecebcb5a4",
+      "bytes": 35072,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-square-detailed.fbx",
+      "sha256": "09e8e7179c3f2488c8ae9f6a3fa6ccc5432b750dfe2d5b67dab40cc2070f1855",
+      "bytes": 32480,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_square_detailed_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-square.fbx",
+      "sha256": "def410d39b22766d2dba7ffe7743c9ad2207f9ad70044d1bd17d8edbf5dd040f",
+      "bytes": 31808,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_square_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-wide-round-detailed.fbx",
+      "sha256": "5e2a69b30a67b5abbaecd67d83eee578bcae067b10ea7a3324c4dce790c7f9c8",
+      "bytes": 37552,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_wide_round_detailed_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-wide-round.fbx",
+      "sha256": "7b3f6c4cefd41d11eea50ae72fbcef3bd37b21061ab4981c1d282718dc3863ee",
+      "bytes": 35376,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_wide_round_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-wide-square-detailed.fbx",
+      "sha256": "6b639cf80506d0815fd6fbeba86b35b3c786edcc8d51a763fe06681c352cd731",
+      "bytes": 33056,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_wide_square_detailed_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall-window-wide-square.fbx",
+      "sha256": "6acad23eccdc042954fc3cd234f123416cfda45196fddeb196df91b033e50e51",
+      "bytes": 31840,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_window_wide_square_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/FBX format/wall.fbx",
+      "sha256": "41a49632e85953b3d92f462f43be8f5aafe9069f3419fe2b065365e4db3d4e75",
+      "bytes": 26784,
+      "asset_key": "kenney_building_kit__models_fbx_format_wall_fbx"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/barricade-doorway-a.glb",
+      "sha256": "0d8bc73f2cf7912b6a60affaa706c99774af7cb72c15f91dfd66870a5bf2add0",
+      "bytes": 8216,
+      "asset_key": "kenney_building_kit__models_glb_format_barricade_doorway_a_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/barricade-doorway-b.glb",
+      "sha256": "8ecba71a19f506eedb3ff2d16b2b74975c9d1cac0d238bdbb8bee39467dd43f7",
+      "bytes": 12572,
+      "asset_key": "kenney_building_kit__models_glb_format_barricade_doorway_b_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/barricade-doorway-c.glb",
+      "sha256": "7152f57e742e44d1904f92fa2cb6d80294010527d0ebfb8c4891e706e01050d4",
+      "bytes": 13944,
+      "asset_key": "kenney_building_kit__models_glb_format_barricade_doorway_c_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/barricade-window-a.glb",
+      "sha256": "aeed11a3206b3a9f8821578dceac248a3f1f40f56d04b0bfbc1c490e5efef621",
+      "bytes": 8212,
+      "asset_key": "kenney_building_kit__models_glb_format_barricade_window_a_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/barricade-window-b.glb",
+      "sha256": "a2e923d6927483825286922635c00c87dcddb94089cb2332ae41fba34b64606e",
+      "bytes": 12572,
+      "asset_key": "kenney_building_kit__models_glb_format_barricade_window_b_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/barricade-window-c.glb",
+      "sha256": "c5124b3b5a5507e63ae5b7c6cc8b5f5ca8e932c523f2ab58e530309663bb49c5",
+      "bytes": 13940,
+      "asset_key": "kenney_building_kit__models_glb_format_barricade_window_c_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-corner-diagonal.glb",
+      "sha256": "6d60c6ca38f1e2cc66574c0f8ed1a318a54437745c18920edd741bb73c16b248",
+      "bytes": 5372,
+      "asset_key": "kenney_building_kit__models_glb_format_border_corner_diagonal_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-corner-round.glb",
+      "sha256": "52f12a281e219a649ae7acf05cbbb7a76457255d9d48a305b899f5ee541e5f82",
+      "bytes": 15184,
+      "asset_key": "kenney_building_kit__models_glb_format_border_corner_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-corner-small.glb",
+      "sha256": "b009ef4641843135c32a4879f34bc26725ad08604819b5046f71c3614b92c70f",
+      "bytes": 5320,
+      "asset_key": "kenney_building_kit__models_glb_format_border_corner_small_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-corner.glb",
+      "sha256": "0b296873a91cd9a6c338a615ede88d0a57cd00d985cb78bd7a159c3dfcaafa89",
+      "bytes": 5304,
+      "asset_key": "kenney_building_kit__models_glb_format_border_corner_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-high-corner-diagonal.glb",
+      "sha256": "79a5c0ca94017060709570de429dd2036ab4ac9ccf82d173405d803b6307b780",
+      "bytes": 5352,
+      "asset_key": "kenney_building_kit__models_glb_format_border_high_corner_diagonal_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-high-corner-round.glb",
+      "sha256": "031e7b42baab4442a2c18b145ec38bf74bbf9a6ce3458735d9f5a149f30f72f4",
+      "bytes": 15184,
+      "asset_key": "kenney_building_kit__models_glb_format_border_high_corner_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-high-corner-small.glb",
+      "sha256": "a3320faa75264e1034d961f2fadbf585a2562316d00c57f37c0679a8845b3f19",
+      "bytes": 5320,
+      "asset_key": "kenney_building_kit__models_glb_format_border_high_corner_small_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-high-corner.glb",
+      "sha256": "5a37f52697f845c5efd1c89d460a55543dcdcd60313b2fc49ea6b7a8a5fee86d",
+      "bytes": 5304,
+      "asset_key": "kenney_building_kit__models_glb_format_border_high_corner_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border-high.glb",
+      "sha256": "a86799d9cfea44e812c6c472f39e7420d3ecfe44b3e27513b6dff9c9d7187ca6",
+      "bytes": 3484,
+      "asset_key": "kenney_building_kit__models_glb_format_border_high_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/border.glb",
+      "sha256": "1128c29d8489992aa382ff003b0dce5bbd26f5b65a06af374dc2863a304f71be",
+      "bytes": 3488,
+      "asset_key": "kenney_building_kit__models_glb_format_border_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/column-thin.glb",
+      "sha256": "37cfd995746888acfd15d6f226f7ddda83257707b6d21793f38fbe851a958daf",
+      "bytes": 4344,
+      "asset_key": "kenney_building_kit__models_glb_format_column_thin_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/column-wide.glb",
+      "sha256": "9cc036176e9b23aeb906dbae798c24b19fc6a1a64879ccbc6e0c7ea6514ca910",
+      "bytes": 4344,
+      "asset_key": "kenney_building_kit__models_glb_format_column_wide_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/column.glb",
+      "sha256": "f2bbc1799caa57c433f18b4b35ed69b9a464285eefe2c291cec04b8a01795f30",
+      "bytes": 4268,
+      "asset_key": "kenney_building_kit__models_glb_format_column_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/detail-pipe.glb",
+      "sha256": "d380dc7c5b7960ad537633bede26420ca311afa7b453827bf9e4032ca52d724f",
+      "bytes": 7428,
+      "asset_key": "kenney_building_kit__models_glb_format_detail_pipe_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-round-a.glb",
+      "sha256": "515022ca7d40003b1b15e72707f4c325ba866dc83f15c28cb67eb310a99d150e",
+      "bytes": 23288,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_round_a_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-round-b.glb",
+      "sha256": "50ac6d5a0697df107ab93d7fed1a9fc93db0efee0691b39dc20e4a66d5ea01d5",
+      "bytes": 33204,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_round_b_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-round-c.glb",
+      "sha256": "04b11d1fc420e9417933a9fdac293f726e31521d5cf257d40254e2870ecb4540",
+      "bytes": 39956,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_round_c_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-round-d.glb",
+      "sha256": "b96337ec6d8625ac5c12e588e4dc18b65bdbfee574ceacfcb8b9d0e0ac245423",
+      "bytes": 42516,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_round_d_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-square-a.glb",
+      "sha256": "12675fba53441fb556772f8dadbfcb88bb2deb8c6d0e3d47f0c86bc364721918",
+      "bytes": 25616,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_square_a_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-square-b.glb",
+      "sha256": "9c43202aa52df169a12e7141de732bcbe5d5a918ebcda30d2b46ec097b9e126f",
+      "bytes": 24452,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_square_b_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-square-c.glb",
+      "sha256": "473c4fa9686ec4130da14a5a9b2edb93e62360abe28c02794a84a88bf6771362",
+      "bytes": 29032,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_square_c_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/door-rotate-square-d.glb",
+      "sha256": "8bf778f0f30313714b489d7d337a64ba82a58383817608b55654b7b4d204a49b",
+      "bytes": 30932,
+      "asset_key": "kenney_building_kit__models_glb_format_door_rotate_square_d_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/floor-corner-diagonal.glb",
+      "sha256": "c5545600a4e3ff1991278b25d3b442ab110388405e1236fb15546af57f8275e3",
+      "bytes": 3180,
+      "asset_key": "kenney_building_kit__models_glb_format_floor_corner_diagonal_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/floor-corner-round.glb",
+      "sha256": "df7bf069181fa70006435cd7493686aaaf8dfb288ef4749c2cc0b36319245a55",
+      "bytes": 5928,
+      "asset_key": "kenney_building_kit__models_glb_format_floor_corner_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/floor-half.glb",
+      "sha256": "473c1d7035e3b218bdfdb5cac859b9764f41736e26b69e4f5be02d581ba9b943",
+      "bytes": 2848,
+      "asset_key": "kenney_building_kit__models_glb_format_floor_half_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/floor-quarter.glb",
+      "sha256": "24d9a4c42f65ff50ba33f77a48220c1576d9b42dae62284ffecfaed3609bef00",
+      "bytes": 2856,
+      "asset_key": "kenney_building_kit__models_glb_format_floor_quarter_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/floor.glb",
+      "sha256": "fbe8e907e502381db5d9f87676ef9e34522e35fc95a401a754d3e4984819338b",
+      "bytes": 2832,
+      "asset_key": "kenney_building_kit__models_glb_format_floor_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/gutter-vertical-bottom.glb",
+      "sha256": "8f324e680d03a3d6f4935dec9fd387a9e0b437a64b58f4e973eaa1ab97e91de9",
+      "bytes": 8720,
+      "asset_key": "kenney_building_kit__models_glb_format_gutter_vertical_bottom_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/gutter-vertical-short.glb",
+      "sha256": "2622d66539025e033c9d49aa2f0abd680e7e9336e8a85b867ba587b85464a121",
+      "bytes": 6516,
+      "asset_key": "kenney_building_kit__models_glb_format_gutter_vertical_short_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/gutter-vertical-top.glb",
+      "sha256": "d98105c4acee213b253d636d7ea2e3e1034ac41315a1f80e433e59e8a5cc34c1",
+      "bytes": 8708,
+      "asset_key": "kenney_building_kit__models_glb_format_gutter_vertical_top_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/gutter-vertical-wall.glb",
+      "sha256": "e7f9dcf78a67a55116b869e397e9335444d17a75c7252b7c75d1adda93434dc1",
+      "bytes": 8920,
+      "asset_key": "kenney_building_kit__models_glb_format_gutter_vertical_wall_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/gutter-vertical.glb",
+      "sha256": "a567911e30388348e5e79f386cedcec45522c3975aa17cccd7c4b61ebc16f6f4",
+      "bytes": 8892,
+      "asset_key": "kenney_building_kit__models_glb_format_gutter_vertical_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/plating-detailed-wide.glb",
+      "sha256": "bb99ba099a93e43269bb6c16db8d2944cb58ef5190393f32cadb42a1de1f034d",
+      "bytes": 17020,
+      "asset_key": "kenney_building_kit__models_glb_format_plating_detailed_wide_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/plating-detailed.glb",
+      "sha256": "88b22db6c01138a4946b8fa05d60b9632854c9b4b594ba4efc75f86c4b7671b9",
+      "bytes": 17024,
+      "asset_key": "kenney_building_kit__models_glb_format_plating_detailed_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/plating-wide.glb",
+      "sha256": "a257871403fa58c079520f3f470347ca36f77a1356248d238f0b22eb6b03c55c",
+      "bytes": 12492,
+      "asset_key": "kenney_building_kit__models_glb_format_plating_wide_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/plating.glb",
+      "sha256": "0889b56a906c82a30e42d61fa3ae0a766188e0a681d47def0c61c0185e43347b",
+      "bytes": 12496,
+      "asset_key": "kenney_building_kit__models_glb_format_plating_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-center.glb",
+      "sha256": "8c4fc6fe46640b1f69818b668c8c3ecca03c9df6cacc698073774c716fac4a1f",
+      "bytes": 2864,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_center_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-corner-inner.glb",
+      "sha256": "773025e18a74a87018bf4040d61d83b6a7a0cb0fd51e3ed780318c7917acdbd8",
+      "bytes": 6096,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_corner_inner_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-corner.glb",
+      "sha256": "63172494beada870666874be756316c0937dec15286b7acc44fbf6f42ae17709",
+      "bytes": 7152,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_corner_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-patch-large.glb",
+      "sha256": "e4c462d08650278c0046a95413c36ef85eb47ada630628cc5b5c3649d3ee6484",
+      "bytes": 5440,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_patch_large_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-patch.glb",
+      "sha256": "d49f58ab9ee3e0be152a9756c39b397e877bc6a12dbd7ed3d5364bdf0d64752d",
+      "bytes": 5424,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_patch_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-side.glb",
+      "sha256": "34f1603e07bf7158f547d56f94a2c749dcef88f025466ea7d8324949d3209e28",
+      "bytes": 5688,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_side_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/roof-flat-square.glb",
+      "sha256": "f9c96d5bfa9523c6629c89c5ffb89b5afc594fef219ab4ec9e10b7c7693825c7",
+      "bytes": 8556,
+      "asset_key": "kenney_building_kit__models_glb_format_roof_flat_square_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-center-short.glb",
+      "sha256": "2ea7e4253ae510d8bca19354d5bf237fd2513c09b7637634fb6ed37f52984e43",
+      "bytes": 8096,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_center_short_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-center.glb",
+      "sha256": "0f34d1cc7a401b9da4301d685b6c1c2d78702dfed8799007863a88ba51aa05f0",
+      "bytes": 12820,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_center_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-closed-short.glb",
+      "sha256": "53a79347445187d56cab4fbd97d433dc996ac0cd0f1f905d0c7fae33c5252f57",
+      "bytes": 8720,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_closed_short_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-closed.glb",
+      "sha256": "5eba10401fb44492db82bec91e344e307533efa1dd15c0439cf38145dedab8cf",
+      "bytes": 15476,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_closed_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-open-short.glb",
+      "sha256": "1f44e89733a58321c28261bf7f1f78aa36f54e366b2d071a597de0b0d2a947a9",
+      "bytes": 9660,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_open_short_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-open.glb",
+      "sha256": "70eefbb88b7f9597d687efdb3245e8f68b593c0b3be1f5dcebac4adce2f7cc47",
+      "bytes": 14780,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_open_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-sides-short.glb",
+      "sha256": "530924c1011c4ecbade32a9208292129366b4ae9d6549eab2c0e9a8b4783d2c0",
+      "bytes": 13532,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_sides_short_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/stairs-sides.glb",
+      "sha256": "dfcc73a19a4e60cf7b5233c49132718c78bf5fe89432a4b75a16dd979a0cf977",
+      "bytes": 18268,
+      "asset_key": "kenney_building_kit__models_glb_format_stairs_sides_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/Textures/colormap.png",
+      "sha256": "01741a46a279bef667de3143ee653d0073ed7cae925d88341281391d9220092b",
+      "bytes": 10051,
+      "asset_key": "kenney_building_kit__models_glb_format_textures_colormap_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner-column-bottom.glb",
+      "sha256": "f1b05f555041c45b36c489be280d27c88e0e38773701c54f42641ef39de57565",
+      "bytes": 6216,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_column_bottom_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner-column-small-bottom.glb",
+      "sha256": "6631fcce3338bc9e2be2cce0b802c96612bd6fe26a1d44e71d70f0c56a25d8f9",
+      "bytes": 6268,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_column_small_bottom_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner-column-small.glb",
+      "sha256": "df87b34452da8178d6b73877e1351f467b1d9ffdd86e0f1235573ba247fdc7ea",
+      "bytes": 4648,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_column_small_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner-column.glb",
+      "sha256": "41a014fe20aebd2ee7d5e162680d129c4ec8c7ff4cad8dc9a4a793ace597239c",
+      "bytes": 4592,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_column_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner-diagonal.glb",
+      "sha256": "c6fe02f00fddcad1c13a5b5ee14d367fdd48c685ed304263bc04e4541a6484a3",
+      "bytes": 3676,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_diagonal_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner-round.glb",
+      "sha256": "e374557954a754459c4941ea50d1cd9828f99ca863e9a92f2acd98d0a116e906",
+      "bytes": 8224,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-corner.glb",
+      "sha256": "8a9dd91cdd10e2ed76908a2b5f77451c0d4530550328836a7bd9dc0771dd41d2",
+      "bytes": 3148,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_corner_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-doorway-round.glb",
+      "sha256": "4ab09a9817ec7400a5b3b3724c0612f3935a2aeb925f2cbdffdd7e403814d413",
+      "bytes": 11052,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_doorway_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-doorway-square.glb",
+      "sha256": "5fc3ab4d17545ffcca24d73a77589d6f4816d2bd21b29614be3e0819c97f0410",
+      "bytes": 6308,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_doorway_square_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-doorway-wide-round.glb",
+      "sha256": "88bb60fe71b2fb91ea796b2bca12999eabd06368d9e331fd8cdf64b8d9039bec",
+      "bytes": 11696,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_doorway_wide_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-doorway-wide-square.glb",
+      "sha256": "4d95dbe33a03b4e5624c6040f4e87610a3b6b6e2f5ad1c798867eca655534996",
+      "bytes": 6324,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_doorway_wide_square_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-half.glb",
+      "sha256": "bc68a006ee810f57c268aded426ae082689c307c1633bb169c32f7105382671e",
+      "bytes": 2676,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_half_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-low.glb",
+      "sha256": "21954aa215ae8243126be5a7aff9a48552134c399e1b16c9d46f807ae20b8ca3",
+      "bytes": 2672,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_low_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-round-detailed.glb",
+      "sha256": "e3ec8623a825c91bc2669e66d3db7abaa099867641ef48329afb64ddf63dd1c8",
+      "bytes": 20044,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_round_detailed_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-round.glb",
+      "sha256": "90152d5acc8c1dfdeb5fb175fce3fa174f4279265140a2d0c2c59cd5099550b2",
+      "bytes": 14848,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-square-detailed.glb",
+      "sha256": "5ae5b2636977c0d7fb4943853356ee11bb4e5dbfaf699b40a389366271669caa",
+      "bytes": 11424,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_square_detailed_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-square.glb",
+      "sha256": "099d332de4c632cb03692140f9a4004b5d6508cea6a7e3a80268564976cc8b7e",
+      "bytes": 8964,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_square_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-wide-round-detailed.glb",
+      "sha256": "dc6fdce83e3b28a95b8d89cfb339c416d8ad61f658880e384dd07ee3833bbcf6",
+      "bytes": 23364,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_wide_round_detailed_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-wide-round.glb",
+      "sha256": "7c52c3a489a380b71ca53f6832e1fcb7e242b6e9fb0600389c3f5cbb64bcd4e2",
+      "bytes": 15384,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_wide_round_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-wide-square-detailed.glb",
+      "sha256": "5890f4c4989a066117c062664fc6e41a5a9c455ccf8d63f50c4e7660bbf38b38",
+      "bytes": 13820,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_wide_square_detailed_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall-window-wide-square.glb",
+      "sha256": "7561a3279b2ff0e2ea21e25e3db5f285a8f204683e8d0148cdd1de5cf1ea9624",
+      "bytes": 9016,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_window_wide_square_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/GLB format/wall.glb",
+      "sha256": "769a02a70327132ba864c04299631c65fb08e96e01e1796ba73ddf7f44679a36",
+      "bytes": 2664,
+      "asset_key": "kenney_building_kit__models_glb_format_wall_glb"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-doorway-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_doorway_a_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-doorway-a.obj",
+      "sha256": "02f017057a7962b88012d91404fce16ad65249a97cd96e0d01feabcda947fb15",
+      "bytes": 5497,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_doorway_a_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-doorway-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_doorway_b_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-doorway-b.obj",
+      "sha256": "cb7e9f42e173031b5a29f0ef17df30a975cf6b6efa1d38676dc2c5b1f9941c6e",
+      "bytes": 9029,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_doorway_b_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-doorway-c.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_doorway_c_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-doorway-c.obj",
+      "sha256": "6a3cbf2f15603ca75e9644b48cd55b7fabb97e245b8558869935f2c7287f580e",
+      "bytes": 10335,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_doorway_c_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-window-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_window_a_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-window-a.obj",
+      "sha256": "e715abb8762feae2093e78619ec3a8203865012c6f50fbb9b8a038a5c168f4e8",
+      "bytes": 5476,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_window_a_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-window-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_window_b_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-window-b.obj",
+      "sha256": "5a53126b11a98cdd80b7f1242abc330b8a19c6ed2abb71fa6e60ffb6b55e374c",
+      "bytes": 8978,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_window_b_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-window-c.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_window_c_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/barricade-window-c.obj",
+      "sha256": "bb9806ee0582e6b77b91da9d0fea21d2c3312bb68e77c8be882974405737cb30",
+      "bytes": 10326,
+      "asset_key": "kenney_building_kit__models_obj_format_barricade_window_c_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner-diagonal.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_diagonal_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner-diagonal.obj",
+      "sha256": "c3244368dfa508dd6730edd3a8bcba9a7ac972b8174ce0896ab141c396f78118",
+      "bytes": 3252,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_diagonal_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner-round.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner-round.obj",
+      "sha256": "eeda99ddb4f647a43919ab7ff4881d5d75a70bd6874e633e7215f6c4859f5a98",
+      "bytes": 13207,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_small_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner-small.obj",
+      "sha256": "7bf8cabec435f9a0720b67f962084d18c8000052bc04443c8ba0ed4d3b9b45a0",
+      "bytes": 3231,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_small_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-corner.obj",
+      "sha256": "9b7f70507e8fd32f208f930920671faeedb39b8a58cf595f98e953dc9a85df86",
+      "bytes": 3181,
+      "asset_key": "kenney_building_kit__models_obj_format_border_corner_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner-diagonal.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_diagonal_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner-diagonal.obj",
+      "sha256": "81bc84767f639d7bbfca6ad21067b8551985419d2317ddbffcce8475bd025b52",
+      "bytes": 3175,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_diagonal_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner-round.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner-round.obj",
+      "sha256": "63bb879b339d9ff332105410466921ba68cbf55340df117f35adc65802aa0af4",
+      "bytes": 13218,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_small_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner-small.obj",
+      "sha256": "bad5f12d4dae189275475ec1cb11de341c82954a4aee3bb2ddee8acafec00209",
+      "bytes": 3242,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_small_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high-corner.obj",
+      "sha256": "fa74ddf7206fb4bea74c12b5f9de27d242341a4a771d862ff21d5c207cb5a0c7",
+      "bytes": 3192,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_corner_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border-high.obj",
+      "sha256": "d9c37027dcf57a454b8f0fa9e50e1ca5198d22dde82f823b55c5cc28f76bbd69",
+      "bytes": 1425,
+      "asset_key": "kenney_building_kit__models_obj_format_border_high_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_border_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/border.obj",
+      "sha256": "705c95a748181e97df4a5c60a5c44f093b28ffa52fac95d5e00eb4621ec414e5",
+      "bytes": 1414,
+      "asset_key": "kenney_building_kit__models_obj_format_border_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/column-thin.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_column_thin_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/column-thin.obj",
+      "sha256": "b6edce8460bc757318e7ecbd573ed7e1d04ff017ae2fc5c88009230f3d09d2c5",
+      "bytes": 2853,
+      "asset_key": "kenney_building_kit__models_obj_format_column_thin_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/column-wide.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_column_wide_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/column-wide.obj",
+      "sha256": "dfa86de6cc04a8ceb53494001fb49cf7e0c1d37fbcd10e2e4379f7fcb94b488d",
+      "bytes": 2837,
+      "asset_key": "kenney_building_kit__models_obj_format_column_wide_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/column.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_column_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/column.obj",
+      "sha256": "ae735f4e5704abab84b354349b28e7a66eb76a79a8f146cf44828126af5ced89",
+      "bytes": 2822,
+      "asset_key": "kenney_building_kit__models_obj_format_column_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/detail-pipe.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_detail_pipe_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/detail-pipe.obj",
+      "sha256": "7e42137e310d10bb5ff12bc5bce40db3f64bcd45556b637d19c2cacac89c498c",
+      "bytes": 5033,
+      "asset_key": "kenney_building_kit__models_obj_format_detail_pipe_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_a_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-a.obj",
+      "sha256": "8f22cfe6e2408698f3535113c50a0a72dc47c7ec771d0d6532d39a2648351fc6",
+      "bytes": 9199,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_a_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_b_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-b.obj",
+      "sha256": "bd72e2c784ef581b857ad304274e01b35ccfd92a7291aa244195e9382b19ad01",
+      "bytes": 21276,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_b_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-c.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_c_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-c.obj",
+      "sha256": "8df6ecca23c5a23847d4fb996b3e56c80c89e27cf6f6f86c6afd98a556c77a93",
+      "bytes": 23375,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_c_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-d.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_d_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-round-d.obj",
+      "sha256": "2dfb8d9bf7346ac9ec1da1bb76d3935ef719d466d7453b89a99669b770729b78",
+      "bytes": 24908,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_round_d_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-a.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_a_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-a.obj",
+      "sha256": "3c796d6006edc4641b5f8f536d5c656c8c219a965f997b2fcba38bba411c3062",
+      "bytes": 9605,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_a_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-b.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_b_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-b.obj",
+      "sha256": "414978ae2463514cacc2aa3db7f95f2b50ff77afa7e858969e39943764efc3f5",
+      "bytes": 11204,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_b_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-c.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_c_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-c.obj",
+      "sha256": "e276230402c63e7b76c5c4d0ed71cbb059cc2226a6ee1b9db93f82fbbc24bba3",
+      "bytes": 13035,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_c_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-d.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_d_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/door-rotate-square-d.obj",
+      "sha256": "5993f18a9733eed40bec0afc1d977c8cf375c8850da57dfb14d6ea2bc68fa3e4",
+      "bytes": 13242,
+      "asset_key": "kenney_building_kit__models_obj_format_door_rotate_square_d_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-corner-diagonal.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_corner_diagonal_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-corner-diagonal.obj",
+      "sha256": "9e2baaca92843bf824feeb43e04fae13bf56b46d82e379d99fdd96fa2824aade",
+      "bytes": 1240,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_corner_diagonal_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-corner-round.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_corner_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-corner-round.obj",
+      "sha256": "f523ddd2581bea40f4d1599f87b06c5e5a172364610abf304f628a1ea34141eb",
+      "bytes": 3964,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_corner_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-half.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_half_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-half.obj",
+      "sha256": "ae4c60952cd42352b6be02b3b0025add518d28eacab4673f6b8ea087345d7d56",
+      "bytes": 918,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_half_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-quarter.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_quarter_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor-quarter.obj",
+      "sha256": "992dca23a4772f1875224c5236938163bde029293ac540d1cbf005666f44e0b6",
+      "bytes": 927,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_quarter_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/floor.obj",
+      "sha256": "7f5a80cedcca4770587fafeeb7410279c3311b70ca6f8b467c131c078082268a",
+      "bytes": 887,
+      "asset_key": "kenney_building_kit__models_obj_format_floor_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-bottom.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_bottom_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-bottom.obj",
+      "sha256": "171e445c4f624401234640d9fcea4138a84cec77730e0a54868d3afe9e6eca14",
+      "bytes": 6100,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_bottom_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-short.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_short_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-short.obj",
+      "sha256": "e64caf998af49c5e1c27dcccfd2faa32d46a110982bc27ffb061f59870d58a99",
+      "bytes": 3959,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_short_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-top.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_top_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-top.obj",
+      "sha256": "03691ddbf22590552afc624796990713288bfb515e65f19f07863dd406f6f2f4",
+      "bytes": 5934,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_top_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-wall.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_wall_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical-wall.obj",
+      "sha256": "b47fd129df11e16950277bf6bea504bb4621dbe2346f52f37e59c6a5593de9bc",
+      "bytes": 5972,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_wall_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/gutter-vertical.obj",
+      "sha256": "f04844835280b5bd89778108a0dc93a1bd491a590b7124b0eb27b9b2115fe345",
+      "bytes": 5797,
+      "asset_key": "kenney_building_kit__models_obj_format_gutter_vertical_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating-detailed-wide.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_detailed_wide_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating-detailed-wide.obj",
+      "sha256": "fb9cd4393879891caec227c66a92a7b1c9667aad6508c63bbd600c3ae929d836",
+      "bytes": 14570,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_detailed_wide_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating-detailed.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_detailed_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating-detailed.obj",
+      "sha256": "7b2bb8488042316ae5686732f1b456967f0007cb5d56a59f449425a3c6b631a1",
+      "bytes": 15000,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_detailed_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating-wide.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_wide_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating-wide.obj",
+      "sha256": "f1fe530d0f63151e21b271b50bcfc5fdb1f914e7eaa1a34ea7e8c51d9d0b86da",
+      "bytes": 10909,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_wide_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/plating.obj",
+      "sha256": "89347c32eb315253a2b6ba0e31fa10e50e71dd707f4f434731aa3b525c0511cb",
+      "bytes": 11323,
+      "asset_key": "kenney_building_kit__models_obj_format_plating_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-center.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_center_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-center.obj",
+      "sha256": "819746bcf343601f1ee8aced94b1a4b9a2e6ffb797d10555033b0dc439634215",
+      "bytes": 920,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_center_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-corner-inner.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_corner_inner_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-corner-inner.obj",
+      "sha256": "35ba0bc6437f99b9ebfd409a02d27eb051910bf2b94c6d02d6ecda6ff67d4126",
+      "bytes": 3441,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_corner_inner_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-corner.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_corner_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-corner.obj",
+      "sha256": "809418f56ea33cf33fea4b31b0614b9e8e9845bd9aa660493129544ea4806e26",
+      "bytes": 4532,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_corner_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-patch-large.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_patch_large_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-patch-large.obj",
+      "sha256": "c19bdab5d208286a16ebd5ca1b6327446c2f6e67f39e0427194d706db3fb4d93",
+      "bytes": 3289,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_patch_large_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-patch.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_patch_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-patch.obj",
+      "sha256": "cefc636cc449f19699d7bfde717795642143a09193a39b23f36c0ce21a1a6591",
+      "bytes": 3367,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_patch_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-side.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_side_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-side.obj",
+      "sha256": "13f76df3319c2d42e5c26b92a4b2799a28f42cb00b1fbd9846d65eaa900468ed",
+      "bytes": 3121,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_side_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-square.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_square_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/roof-flat-square.obj",
+      "sha256": "33f67fbbdf56b7bc8fcb76952184bd55f7f40e5cbf0ebb5b692c1a1ede2bfdec",
+      "bytes": 6500,
+      "asset_key": "kenney_building_kit__models_obj_format_roof_flat_square_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-center-short.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_center_short_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-center-short.obj",
+      "sha256": "2d04aad0ae5eaeef8463c262bccdfe1f147c94d26a2f49ae0072d420522660c8",
+      "bytes": 4612,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_center_short_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-center.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_center_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-center.obj",
+      "sha256": "fc9f61c796576861c491c258916cec52e2b3235fd365458c882949b96ebbeade",
+      "bytes": 7578,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_center_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-closed-short.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_closed_short_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-closed-short.obj",
+      "sha256": "3c7b1dce4df3908c62dc07ef97543daa388231cd3c521b80332b692d68ccecc3",
+      "bytes": 5130,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_closed_short_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-closed.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_closed_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-closed.obj",
+      "sha256": "817722f958ef9940c28b5bf743a7cc5f8f927bd611b64d5d2048e58b678362f5",
+      "bytes": 9867,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_closed_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-open-short.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_open_short_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-open-short.obj",
+      "sha256": "40201b41176b682bee8a81b3758dd60abf7dce2db02ed992f8a136844c05abd0",
+      "bytes": 5754,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_open_short_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-open.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_open_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-open.obj",
+      "sha256": "6eb837f36cd083c45fedad4b119081b29809a68dccc64d958c921df81b0e2641",
+      "bytes": 8712,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_open_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-sides-short.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_sides_short_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-sides-short.obj",
+      "sha256": "63e53bc4e2bc9ef93458275ae2319fd4d845175d3fbf84c95f3b7847fda72682",
+      "bytes": 5693,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_sides_short_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-sides.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_sides_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/stairs-sides.obj",
+      "sha256": "ec051b753f6c14e418ae34a7a2b2e7a455ab5412b06347be1068adbdc4df5453",
+      "bytes": 8651,
+      "asset_key": "kenney_building_kit__models_obj_format_stairs_sides_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/Textures/colormap.png",
+      "sha256": "01741a46a279bef667de3143ee653d0073ed7cae925d88341281391d9220092b",
+      "bytes": 10051,
+      "asset_key": "kenney_building_kit__models_obj_format_textures_colormap_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column-bottom.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_bottom_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column-bottom.obj",
+      "sha256": "b57f4aca6189e45b9848872ea5dd3ca528b81fa098ad32d4443ba1bfce35316a",
+      "bytes": 4655,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_bottom_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column-small-bottom.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_small_bottom_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column-small-bottom.obj",
+      "sha256": "f4d9132c3bd7a62f303a3c1a785511b7b3481a731080434f7e519549fdacaa6c",
+      "bytes": 4757,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_small_bottom_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column-small.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_small_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column-small.obj",
+      "sha256": "4d30d773eb505f5c31e4559adc8895ec73bd16bc89907b3db50c484beba7cdcb",
+      "bytes": 2621,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_small_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-column.obj",
+      "sha256": "9f3cb104d49b804121ecad964a099b46bbc736fa563641723d060567898e0528",
+      "bytes": 2511,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_column_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-diagonal.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_diagonal_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-diagonal.obj",
+      "sha256": "05a703afb17e239922388feae8118526cfda2f40f5874ad972e1d9ed8ab0d253",
+      "bytes": 1724,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_diagonal_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-round.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner-round.obj",
+      "sha256": "2745b8136c058d5b5412115a160cb7c7dafb27a962389f41b83d9fa80e8084cb",
+      "bytes": 6603,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-corner.obj",
+      "sha256": "44f551eaeac9b8ceec93475b1229477548a423d5961001cbd7d8d620cb59e651",
+      "bytes": 1235,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_corner_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-round.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-round.obj",
+      "sha256": "0f6aea624f1c96e8ef443b76cb3f570e693d088800056b35270435a1b9e8c21c",
+      "bytes": 12966,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-square.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_square_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-square.obj",
+      "sha256": "9f0de41520af41cab7ec5ae9406292a5f40122f5ae8ef42fc9e113d8fa5eed58",
+      "bytes": 5380,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_square_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-wide-round.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_wide_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-wide-round.obj",
+      "sha256": "c2a2d59f5e4e4b84e093ad020b3a9a4d205184e311c78287670aa93d17f0ac0d",
+      "bytes": 13831,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_wide_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-wide-square.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_wide_square_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-doorway-wide-square.obj",
+      "sha256": "04f3387bdce59dbf6b3ca7de91680b11706cc9c7c91f317698c7ac7af2e6889b",
+      "bytes": 5267,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_doorway_wide_square_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-half.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_half_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-half.obj",
+      "sha256": "074967952a25b4c1814ab770a96aa26de0c3c18ed0b12133cbc88173389a7ace",
+      "bytes": 950,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_half_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-low.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_low_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-low.obj",
+      "sha256": "6f1313a9e0accf8f7e2ab1b07d35a9a6111af1e33359e0ff7fee51a55b48c841",
+      "bytes": 907,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_low_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-round-detailed.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_round_detailed_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-round-detailed.obj",
+      "sha256": "19c555ddd84d56eaf0c1ad90a2222c36fc88bea80d7506f0c05e22c83e60df61",
+      "bytes": 23075,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_round_detailed_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-round.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-round.obj",
+      "sha256": "ea7e65ea6f19f6fc71c9a1de6308f3ac0843aa5945f454f258d951993b7fe1db",
+      "bytes": 16762,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-square-detailed.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_square_detailed_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-square-detailed.obj",
+      "sha256": "b79ae67d1afdf2691bd502c405420ddab7a23deb83c0f9f9f9dda573b64f1b13",
+      "bytes": 9464,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_square_detailed_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-square.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_square_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-square.obj",
+      "sha256": "46250bc4b95529a44c0ffdc217fd851aee08bc1f398b7593855a0227d0af6964",
+      "bytes": 7245,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_square_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-round-detailed.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_round_detailed_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-round-detailed.obj",
+      "sha256": "1d822edbbd18ca176599ebc135642cf2fb0f018f7c4f8b5b6c93f3ac5719ab52",
+      "bytes": 27150,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_round_detailed_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-round.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_round_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-round.obj",
+      "sha256": "ce5b2c347b1f1b180397e7a7e210ab3efe761507a0ec819919dd5d4d6f41b107",
+      "bytes": 17987,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_round_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-square-detailed.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_square_detailed_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-square-detailed.obj",
+      "sha256": "fd47e548c7fe292a5b6f79b2591cd32e22235401830bb6e10e38626c06f905cb",
+      "bytes": 11107,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_square_detailed_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-square.mtl",
+      "sha256": "ed29173626ee1757041a294720602d8d8b03ff0cc15a859b81b3adb6462ff3e3",
+      "bytes": 140,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_square_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall-window-wide-square.obj",
+      "sha256": "1e2604551c5d3a539222be522b51ef1e39096a8effe80930645979b0ad93270d",
+      "bytes": 7251,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_window_wide_square_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall.mtl",
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060",
+      "bytes": 98,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_mtl"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/OBJ format/wall.obj",
+      "sha256": "8e0aa66860cd2b1a3ad1bd26423df8a0d085588f9844bdf75a03daa943ac97cf",
+      "bytes": 919,
+      "asset_key": "kenney_building_kit__models_obj_format_wall_obj"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Models/Textures/variation-a.png",
+      "sha256": "49119956a9ac8daf564a1498e23ec2826c3f83b0afd0b58e26f8af76a76bc2a7",
+      "bytes": 9690,
+      "asset_key": "kenney_building_kit__models_textures_variation_a_png",
+      "image_size": [
+        512,
+        512
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Overview.html",
+      "sha256": "e2a6432d3b20e078f14aadd1af1d91e59094a36a23d0e78b1f8903973e6c0602",
+      "bytes": 15628,
+      "asset_key": "kenney_building_kit__overview_html"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Preview (Variation A).png",
+      "sha256": "a18566d1c532b07ad3ce829ed5d1761bc31d772ec29b7fe74f9a8c014a1ae73b",
+      "bytes": 119358,
+      "asset_key": "kenney_building_kit__preview_variation_a_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Preview.png",
+      "sha256": "438981fe1512cc1e16645653417b0f8eef0199ab23e98f6e350a153e59b365c1",
+      "bytes": 120155,
+      "asset_key": "kenney_building_kit__preview_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/barricade-doorway-a.png",
+      "sha256": "af2c14a81f20bebb0789f784a0bed70425b49cfc93aaeef4762b377ede3db62e",
+      "bytes": 862,
+      "asset_key": "kenney_building_kit__previews_barricade_doorway_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/barricade-doorway-b.png",
+      "sha256": "1e4eb151aeb1204ef38f8a14d4a3e685915231f46d6d339dcd95e8731e9464cb",
+      "bytes": 1623,
+      "asset_key": "kenney_building_kit__previews_barricade_doorway_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/barricade-doorway-c.png",
+      "sha256": "1cbdce2053dee61da08bc19f4863528f05621a7fbd1ee05ded3b3a3dac8975b8",
+      "bytes": 1753,
+      "asset_key": "kenney_building_kit__previews_barricade_doorway_c_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/barricade-window-a.png",
+      "sha256": "18e4d86f834ccdb993c7329d93d5b5e34cd0cc22092c58dce7e4627411edaa0e",
+      "bytes": 1168,
+      "asset_key": "kenney_building_kit__previews_barricade_window_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/barricade-window-b.png",
+      "sha256": "57eba19d7accc784dd6b69b097d930f871b4497b179d775386121e9f1b89051a",
+      "bytes": 1748,
+      "asset_key": "kenney_building_kit__previews_barricade_window_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/barricade-window-c.png",
+      "sha256": "6808ee2560c4ce8eeb24bfce5d43078974f647f73e1baa12cf5116295f6c03f4",
+      "bytes": 2035,
+      "asset_key": "kenney_building_kit__previews_barricade_window_c_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-corner-diagonal.png",
+      "sha256": "842e07f874dc672eb7a7128ffc1f1f1970666614a8584e147ee4af60fb783d0d",
+      "bytes": 1257,
+      "asset_key": "kenney_building_kit__previews_border_corner_diagonal_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-corner-round.png",
+      "sha256": "1d21da634518e786fde04d93c25d7e50d4ab2225be2c25ab0652f8a2b862baee",
+      "bytes": 1367,
+      "asset_key": "kenney_building_kit__previews_border_corner_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-corner-small.png",
+      "sha256": "7324c21c2ccb2f069b8b256add19fbb73fd59174f2f50193ee37ef2aa36fef89",
+      "bytes": 1586,
+      "asset_key": "kenney_building_kit__previews_border_corner_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-corner.png",
+      "sha256": "cbf4c159fae8a299dd4869ccbe0a2fd0a670aea7b6ca5c157d8361d12bea0023",
+      "bytes": 1230,
+      "asset_key": "kenney_building_kit__previews_border_corner_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-high-corner-diagonal.png",
+      "sha256": "d453a416ce2af030ae1fa54a555e30fd6f1086fb23909be6206d5a88b3ba1494",
+      "bytes": 1458,
+      "asset_key": "kenney_building_kit__previews_border_high_corner_diagonal_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-high-corner-round.png",
+      "sha256": "bde2049fdd436132ea0a5940fee0be71886151ec5db8886c17620072fdc0a162",
+      "bytes": 1471,
+      "asset_key": "kenney_building_kit__previews_border_high_corner_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-high-corner-small.png",
+      "sha256": "4b5602b091183b3bef05dd437abc49244f2731bc45078afcb08aa6c5887d6f29",
+      "bytes": 1749,
+      "asset_key": "kenney_building_kit__previews_border_high_corner_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-high-corner.png",
+      "sha256": "8a6c5827628dc798aa12ac681f1152b243ea0b1f7738bc9a87c59ebe38432f3e",
+      "bytes": 1410,
+      "asset_key": "kenney_building_kit__previews_border_high_corner_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border-high.png",
+      "sha256": "9983e1ed5bee217c2f3fdf3f795327704f64ef58b435aee5317efe055b765dee",
+      "bytes": 1443,
+      "asset_key": "kenney_building_kit__previews_border_high_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/border.png",
+      "sha256": "3afc0cf227e0b1fa249b5fb8fc84cdccfa611fb906b505bbd0785752cacee01a",
+      "bytes": 1006,
+      "asset_key": "kenney_building_kit__previews_border_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/column-thin.png",
+      "sha256": "0b2087c52af976f17b656fe0b1235030fb858db98e20d41726cfa3dccfbcf45d",
+      "bytes": 1298,
+      "asset_key": "kenney_building_kit__previews_column_thin_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/column-wide.png",
+      "sha256": "b6c341f354cce27b671b1c07cf4220b398624dc05e058f845b22ed5dfcd7b159",
+      "bytes": 1499,
+      "asset_key": "kenney_building_kit__previews_column_wide_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/column.png",
+      "sha256": "3212a9799db0e96be30f23b8d1a65444294b1510cc6398258558c41c2528ca84",
+      "bytes": 1430,
+      "asset_key": "kenney_building_kit__previews_column_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/detail-pipe.png",
+      "sha256": "8462671b42dcd09e9d26140768bb408e7ad180881e874a191bb0148d63a376b9",
+      "bytes": 1714,
+      "asset_key": "kenney_building_kit__previews_detail_pipe_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-round-a.png",
+      "sha256": "f5b482257595df812f9a33e2f1e2b09831468fec02c54a404c5ddd20bf676528",
+      "bytes": 1316,
+      "asset_key": "kenney_building_kit__previews_door_rotate_round_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-round-b.png",
+      "sha256": "19db3624dc469a1c875286c4f3c15502407c29a05093d591f871555bacdb39e0",
+      "bytes": 1544,
+      "asset_key": "kenney_building_kit__previews_door_rotate_round_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-round-c.png",
+      "sha256": "0337eff0df9ce9924b0db8e6f6f8aec2ffae6db5709cf5970a320c8c2d094bb8",
+      "bytes": 1548,
+      "asset_key": "kenney_building_kit__previews_door_rotate_round_c_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-round-d.png",
+      "sha256": "99907b8cef44f7b93ca08838f3bc284fdd70e018f868cdf9403633ae572c92e9",
+      "bytes": 1552,
+      "asset_key": "kenney_building_kit__previews_door_rotate_round_d_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-square-a.png",
+      "sha256": "97f35908bfdd85a25d339775d8e4bc1489772542a33d9e2f2e0aa2d7650f9fe5",
+      "bytes": 1445,
+      "asset_key": "kenney_building_kit__previews_door_rotate_square_a_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-square-b.png",
+      "sha256": "44d798d2bdc8656befb00bb24d454f1aa6406a74da37bb2b1e74cd247434ad4d",
+      "bytes": 1571,
+      "asset_key": "kenney_building_kit__previews_door_rotate_square_b_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-square-c.png",
+      "sha256": "94733e7cd1cce264c14cb07418c9e2fe80e67f1bef0a9cc0f7063e21c72f0351",
+      "bytes": 1582,
+      "asset_key": "kenney_building_kit__previews_door_rotate_square_c_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/door-rotate-square-d.png",
+      "sha256": "8eafca8f03a60c5112a7462721398f789989c1a80d1ea9466fa651365eddc4de",
+      "bytes": 1581,
+      "asset_key": "kenney_building_kit__previews_door_rotate_square_d_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/floor-corner-diagonal.png",
+      "sha256": "7c67ed1c39bc82ad6852f2dc7a5791cb0bb71fa06a535b64577695758ad450f1",
+      "bytes": 892,
+      "asset_key": "kenney_building_kit__previews_floor_corner_diagonal_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/floor-corner-round.png",
+      "sha256": "c63d8664a221a7c90696dcbba18cc9a81a8004253e1097d0c386c6b22b2d7af1",
+      "bytes": 872,
+      "asset_key": "kenney_building_kit__previews_floor_corner_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/floor-half.png",
+      "sha256": "e6abaa41d9592c8d9f5473842c5d0ad0e591d48de526aee42892ca07476329b3",
+      "bytes": 873,
+      "asset_key": "kenney_building_kit__previews_floor_half_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/floor-quarter.png",
+      "sha256": "b0bac4acfd82f143fa93e858ad43504fb4c45401c70cbc4200e3da213e9c6da0",
+      "bytes": 989,
+      "asset_key": "kenney_building_kit__previews_floor_quarter_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/floor.png",
+      "sha256": "5ffb4c38c3402e9e4180bf0f04c6571bc69f6afac708c617534c3b9f4dcce117",
+      "bytes": 905,
+      "asset_key": "kenney_building_kit__previews_floor_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/gutter-vertical-bottom.png",
+      "sha256": "1a6a4bfbad039823f5c7dce2c0cbf7f4698ee7178761f7d5dc08ab515efba04b",
+      "bytes": 1449,
+      "asset_key": "kenney_building_kit__previews_gutter_vertical_bottom_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/gutter-vertical-short.png",
+      "sha256": "a1691c87363cc55332db85a30a9b30143bccd4669ca08b88a122bba5ca788f4a",
+      "bytes": 698,
+      "asset_key": "kenney_building_kit__previews_gutter_vertical_short_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/gutter-vertical-top.png",
+      "sha256": "cc2c5a045e89f0041359649d734bd39d5bb780c6b16439604cdb176965235415",
+      "bytes": 1407,
+      "asset_key": "kenney_building_kit__previews_gutter_vertical_top_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/gutter-vertical-wall.png",
+      "sha256": "719fe80703b7f088c2666ae1c1b3652f75a1c3691e0283b1271bdf99728cd4c7",
+      "bytes": 470,
+      "asset_key": "kenney_building_kit__previews_gutter_vertical_wall_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/gutter-vertical.png",
+      "sha256": "510f1a4b5cf0f29a527cd860e893b7b94490a5fc5af0e4083a94b077098b5573",
+      "bytes": 584,
+      "asset_key": "kenney_building_kit__previews_gutter_vertical_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/plating-detailed-wide.png",
+      "sha256": "046c770ad5f6c1c7773c232501db23ca376471c2271ee89f9a011cda9bb9095e",
+      "bytes": 1745,
+      "asset_key": "kenney_building_kit__previews_plating_detailed_wide_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/plating-detailed.png",
+      "sha256": "2d9a9091adac1b0bf943c017a1f1c8551ec0ff8b759ce4f58451a1f5a0af128b",
+      "bytes": 1674,
+      "asset_key": "kenney_building_kit__previews_plating_detailed_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/plating-wide.png",
+      "sha256": "6901a5c1f43113a5d72fc716e3989d03ea7c8a5f76a3f84f1007adbcdb6470c8",
+      "bytes": 1644,
+      "asset_key": "kenney_building_kit__previews_plating_wide_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/plating.png",
+      "sha256": "c57eac009e77a048de32cdd666e12afea7826bd3ba764a0db7c01191b13bcbcf",
+      "bytes": 1547,
+      "asset_key": "kenney_building_kit__previews_plating_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-center.png",
+      "sha256": "13bc84a0a7de5547a84467bac198297beedf7f77a8f7f86f0102bfa1fdd3cf76",
+      "bytes": 909,
+      "asset_key": "kenney_building_kit__previews_roof_flat_center_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-corner-inner.png",
+      "sha256": "2b52eda896645035d88a4b134802577ebd2a81d256f84019fafb123912eea8ab",
+      "bytes": 1415,
+      "asset_key": "kenney_building_kit__previews_roof_flat_corner_inner_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-corner.png",
+      "sha256": "5293b64c49729a3dcee37e1badb8a98e4ad2c19d98aafee62a05d823061c73cd",
+      "bytes": 1740,
+      "asset_key": "kenney_building_kit__previews_roof_flat_corner_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-patch-large.png",
+      "sha256": "8d44a29509a00f95d82d57c335f1c04d8c3c5f09c202ba31b8af8e3232cae4b7",
+      "bytes": 805,
+      "asset_key": "kenney_building_kit__previews_roof_flat_patch_large_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-patch.png",
+      "sha256": "e8b785464af1174461684ebbfaa454c82c602c2fd154785babd87e0519a315c2",
+      "bytes": 931,
+      "asset_key": "kenney_building_kit__previews_roof_flat_patch_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-side.png",
+      "sha256": "56bb20d2e878471f653df5ec642385dd12def8d8adecd9082ab78d83804edf6f",
+      "bytes": 1661,
+      "asset_key": "kenney_building_kit__previews_roof_flat_side_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/roof-flat-square.png",
+      "sha256": "e631020e6128296d0e1093e5c7eb533846838cc2bbb274c5d536095c1d89c49b",
+      "bytes": 1835,
+      "asset_key": "kenney_building_kit__previews_roof_flat_square_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-center-short.png",
+      "sha256": "8d95998a232d43b71fab355525ff678242ecada515d2dcafc27d40dc6859f97f",
+      "bytes": 1513,
+      "asset_key": "kenney_building_kit__previews_stairs_center_short_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-center.png",
+      "sha256": "c330a95508ff8093aa7a19323fee67fa6a10034d496f9dad67e736e0ed0b3ebd",
+      "bytes": 1653,
+      "asset_key": "kenney_building_kit__previews_stairs_center_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-closed-short.png",
+      "sha256": "91d97047a37d7f09d64522ecf7a4a98478dbda6f1afc8ec8908a0195bced4c2b",
+      "bytes": 1674,
+      "asset_key": "kenney_building_kit__previews_stairs_closed_short_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-closed.png",
+      "sha256": "c19f5c31a6caf57c09f4f7fcd55bd146a2261c159f8074a435a5c033b458f793",
+      "bytes": 1838,
+      "asset_key": "kenney_building_kit__previews_stairs_closed_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-open-short.png",
+      "sha256": "10d572a949fb25e8ab72fc03b0b2a180cad8d4c2807051bfef31b73a6d06ac44",
+      "bytes": 1379,
+      "asset_key": "kenney_building_kit__previews_stairs_open_short_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-open.png",
+      "sha256": "ac01b0feb39d5bcf25facc5dafb211801a2494fa467aa5153dc622777df789de",
+      "bytes": 1590,
+      "asset_key": "kenney_building_kit__previews_stairs_open_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-sides-short.png",
+      "sha256": "2c9a691855b1cd0316a6d47f218f226aef34275c84d17b5b4120e46c06d0a39a",
+      "bytes": 1631,
+      "asset_key": "kenney_building_kit__previews_stairs_sides_short_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/stairs-sides.png",
+      "sha256": "5f7b67a8c5fcbd0dfa26da27b1588fae9b2861add5ce4a06c6a8a3fd05a576fb",
+      "bytes": 1637,
+      "asset_key": "kenney_building_kit__previews_stairs_sides_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner-column-bottom.png",
+      "sha256": "320eac96376495b797e2205f22bfbb8e56776d5b9f2e1058ff5583521104f921",
+      "bytes": 1907,
+      "asset_key": "kenney_building_kit__previews_wall_corner_column_bottom_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner-column-small-bottom.png",
+      "sha256": "0fb0b9d39065ca9e3b5255df352d1651cedb5fe356799f475fb746cac35ec8a3",
+      "bytes": 1693,
+      "asset_key": "kenney_building_kit__previews_wall_corner_column_small_bottom_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner-column-small.png",
+      "sha256": "eb9c7da67904e4776173df007eeeda070049542db959c3430ed6ca686ae345ed",
+      "bytes": 1712,
+      "asset_key": "kenney_building_kit__previews_wall_corner_column_small_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner-column.png",
+      "sha256": "b656f47cc558992434280aacde9a1b07f5fe3607e13833b694fac03d5e576701",
+      "bytes": 1933,
+      "asset_key": "kenney_building_kit__previews_wall_corner_column_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner-diagonal.png",
+      "sha256": "3f1f4a98a501a2c01b84a28ff6f716365ca4dd10afe6d6a1668a8f067f67f19e",
+      "bytes": 1947,
+      "asset_key": "kenney_building_kit__previews_wall_corner_diagonal_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner-round.png",
+      "sha256": "f95790367769c74c1d3a2ed0ef43a804c59bb4b8948acd1b672ce199dd985949",
+      "bytes": 2065,
+      "asset_key": "kenney_building_kit__previews_wall_corner_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-corner.png",
+      "sha256": "d1ac5c1a8dd0e32af761de19ec8eb5dd4c68c12b7c469c0da9b17a4382ebcdfb",
+      "bytes": 1960,
+      "asset_key": "kenney_building_kit__previews_wall_corner_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-doorway-round.png",
+      "sha256": "83449d7800a041c00c916bf66fb08503bba4797648808ce75b0ac18a50552bab",
+      "bytes": 1619,
+      "asset_key": "kenney_building_kit__previews_wall_doorway_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-doorway-square.png",
+      "sha256": "70937595d272d6001b945f09095b8e35e9f77569fc71559e5f08c22425a913d8",
+      "bytes": 1630,
+      "asset_key": "kenney_building_kit__previews_wall_doorway_square_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-doorway-wide-round.png",
+      "sha256": "53cc14775e939d186bf326142582d2a924a4c2f9647fbca3d36d3b08698d7b81",
+      "bytes": 1589,
+      "asset_key": "kenney_building_kit__previews_wall_doorway_wide_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-doorway-wide-square.png",
+      "sha256": "8dad80faf06be16b8077d2b1d232515707b91612a2fb176f90bc9e2341d04959",
+      "bytes": 1593,
+      "asset_key": "kenney_building_kit__previews_wall_doorway_wide_square_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-half.png",
+      "sha256": "3aa522ac8fcf9ea08ce4ee2d75209573efb6461cf22abdb7a07d4dcdb3f06d34",
+      "bytes": 1119,
+      "asset_key": "kenney_building_kit__previews_wall_half_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-low.png",
+      "sha256": "3301eebf79d62ed778bdbae5b98c5bfe582dfa748282eb71db993e0b1ec74a59",
+      "bytes": 1670,
+      "asset_key": "kenney_building_kit__previews_wall_low_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-round-detailed.png",
+      "sha256": "01f77ba7c4fbc0ff4f63e79a894cfb3dfc41004af2ae141dd8ac8857bd0c674a",
+      "bytes": 1749,
+      "asset_key": "kenney_building_kit__previews_wall_window_round_detailed_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-round.png",
+      "sha256": "16fdc651363a4f56d792eefe8cb0d1d0441c1e7616807d765c6f462853b22f79",
+      "bytes": 1700,
+      "asset_key": "kenney_building_kit__previews_wall_window_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-square-detailed.png",
+      "sha256": "134318fe70d7b901f87ff101d8a223214b42b7aeb49a8629a5dd964acf357ce7",
+      "bytes": 1743,
+      "asset_key": "kenney_building_kit__previews_wall_window_square_detailed_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-square.png",
+      "sha256": "c8193d15fd47ababf3606e6ea432088e37203042840be0aab51fd3163ca9d757",
+      "bytes": 1682,
+      "asset_key": "kenney_building_kit__previews_wall_window_square_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-wide-round-detailed.png",
+      "sha256": "18f1d97559f600854d2a4cf522b74e831dabfbb2b1f61591c64f4892b3f34f67",
+      "bytes": 1977,
+      "asset_key": "kenney_building_kit__previews_wall_window_wide_round_detailed_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-wide-round.png",
+      "sha256": "9c32e3d6c03f187901102d2f6ffae21a0cdd414dac60cd0cd410750091f171e5",
+      "bytes": 1889,
+      "asset_key": "kenney_building_kit__previews_wall_window_wide_round_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-wide-square-detailed.png",
+      "sha256": "44986d91ecb2aaf6087bf98902a0c80a9fbc2b6776e9a28575f2d2d44e0cd4ab",
+      "bytes": 2007,
+      "asset_key": "kenney_building_kit__previews_wall_window_wide_square_detailed_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall-window-wide-square.png",
+      "sha256": "f934b507673b71fe3d8eb623679d1b3674c84419c2e91efb0db23a2868aefa80",
+      "bytes": 1842,
+      "asset_key": "kenney_building_kit__previews_wall_window_wide_square_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Previews/wall.png",
+      "sha256": "da69f0584af7585d1115b26ae81242a841118655d473892f72e06b714a92273b",
+      "bytes": 1532,
+      "asset_key": "kenney_building_kit__previews_wall_png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Sample.png",
+      "sha256": "8a4286aa805789be8d5ace82aa8fe21bf72c61fa44c0d02689be5a47173390d4",
+      "bytes": 99262,
+      "asset_key": "kenney_building_kit__sample_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "P"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/View Documentation.url",
+      "sha256": "04e97bd6cafb469c1d38fd8c0b7db896d4f40ae14a4892de49690e2339977ef5",
+      "bytes": 185,
+      "asset_key": "kenney_building_kit__view_documentation_url"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Visit Kenney.url",
+      "sha256": "773515aff299de98f621b769e3ad1ac5552eed54ea686791f75000014911e203",
+      "bytes": 118,
+      "asset_key": "kenney_building_kit__visit_kenney_url"
+    },
+    {
+      "original_path": "buildings_modules/kenney_building_kit/original/Visit Patreon.url",
+      "sha256": "84be5ef26b07905fa7e196e943c9807bf84138c3a71d87f51c6fd57b85c48c34",
+      "bytes": 55,
+      "asset_key": "kenney_building_kit__visit_patreon_url"
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "preview": "buildings_modules/kenney_building_kit/original/Preview.png",
+  "priority": "P0",
+  "decision_cn": "适配后使用",
+  "usage_cn": "房屋墙面、门窗、楼梯、管道、路障：优先制作锈港工坊的独立建筑模块，输出对应 PNG 与脚点。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [
+    "buildings_modules/kenney_building_kit/original/Models/GLB format/column.glb",
+    "buildings_modules/kenney_building_kit/original/Models/GLB format/detail-pipe.glb"
+  ],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

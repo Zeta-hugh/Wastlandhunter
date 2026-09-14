@@ -1,0 +1,57 @@
+{
+  "pack_id": "oga_hubahuba_tank_01",
+  "category": "tanks",
+  "author": "hubahuba",
+  "source_url": "https://opengameart.org/content/tank1",
+  "download_url": "https://opengameart.org/sites/default/files/tank_0.blend",
+  "license": "CC0-1.0",
+  "license_files": [
+    "licenses/cc0_1_0_legalcode.txt",
+    "tanks/oga_hubahuba_tank_01/source_page.html"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "tanks/oga_hubahuba_tank_01/original/tank_01.blend",
+  "archive_sha256": "c68c4825e8cadc614bd9c4f090f4a9f4bde05646b46c3f19ce38c439d9cfb821",
+  "archive_bytes": 587620,
+  "file_count": 1,
+  "extensions": {
+    ".blend": 1
+  },
+  "decision": "ADAPT_REQUIRED",
+  "usage": "Tank geometry candidate: inspect object separation, texture dependencies and author eight-view renders before considering Rust Runner integration",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "preview": "tanks/oga_hubahuba_tank_01/preview.jpg",
+  "files": [
+    {
+      "original_path": "tanks/oga_hubahuba_tank_01/original/tank_01.blend",
+      "upstream_filename": "tank_0.blend",
+      "asset_key": "oga_hubahuba_tank_01__tank_01_blend",
+      "sha256": "c68c4825e8cadc614bd9c4f090f4a9f4bde05646b46c3f19ce38c439d9cfb821",
+      "bytes": 587620
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "priority": "P1",
+  "decision_cn": "适配后使用",
+  "usage_cn": "坦克几何候选：检查底盘、炮塔能否拆分后制作八方向渲染；仅完成 Blender 文件头校验，尚未完成模型可用性和风格验收。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [
+    "tanks/oga_hubahuba_tank_01/original/tank_01.blend"
+  ],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

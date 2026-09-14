@@ -1,0 +1,3125 @@
+{
+  "pack_id": "kenney_map_pack",
+  "category": "maps_world",
+  "author": "Kenney",
+  "source_url": "https://kenney.nl/assets/map-pack",
+  "download_url": "https://kenney.nl/media/pages/assets/map-pack/86e20aaba9-1677662163/kenney_map-pack.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "maps_world/kenney_map_pack/original/License.txt"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "maps_world/kenney_map_pack/kenney_map_pack.zip",
+  "archive_sha256": "6298e198de4e05e0d573bdca0c58198b6375bb0fed45f29d4f0ecf84abf49c49",
+  "archive_bytes": 2347889,
+  "file_count": 198,
+  "extensions": {
+    ".png": 194,
+    ".xml": 1,
+    ".svg": 1,
+    ".swf": 1,
+    ".txt": 1
+  },
+  "decision": "REFERENCE_ONLY",
+  "usage": "World-map symbols and map grammar; not a playable TMJ map",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Spritesheet/mapPack_spritesheet.png",
+      "sha256": "9c3d15242a9a844947bfef84164945b6ddcad449dc0e72e5af0e823792e4eca6",
+      "bytes": 189463,
+      "asset_key": "kenney_map_pack__spritesheet_mappack_spritesheet_png",
+      "image_size": [
+        896,
+        896
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Spritesheet/mapPack_spritesheet.xml",
+      "sha256": "e77282233c7b10ff9cf302395c95957510353917cf65aeffa4e33aff375137a9",
+      "bytes": 14446,
+      "asset_key": "kenney_map_pack__spritesheet_mappack_spritesheet_xml"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Tilesheet/mapPack_tilesheet.png",
+      "sha256": "07a9b51f66b6779723af2c1ce96861ef3344dd4b149a16d0555f912c248cd519",
+      "bytes": 204964,
+      "asset_key": "kenney_map_pack__tilesheet_mappack_tilesheet_png",
+      "image_size": [
+        1088,
+        768
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Tilesheet/mapPack_tilesheet_2X.png",
+      "sha256": "a3efc1e126e943cc315ec88e894202625778cee58155118148571ef167c24df9",
+      "bytes": 461423,
+      "asset_key": "kenney_map_pack__tilesheet_mappack_tilesheet_2x_png",
+      "image_size": [
+        2176,
+        1536
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Vector/mapPack_vector.svg",
+      "sha256": "cf51c8b0c4da1ba918ff7c83c95d47b8b478f14a60d711d28ec94cf10c902b0c",
+      "bytes": 840956,
+      "asset_key": "kenney_map_pack__vector_mappack_vector_svg"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Vector/mapPack_vector.swf",
+      "sha256": "73f3d9fa061bf9d13e383d47b07f978c58d1c43c5900b5ccbef416ca814a6690",
+      "bytes": 66158,
+      "asset_key": "kenney_map_pack__vector_mappack_vector_swf"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/License.txt",
+      "sha256": "710ab147f82c1dcc8aadbf0471125a165428e2cd05755ecae46e5a5ec704eb2c",
+      "bytes": 480,
+      "asset_key": "kenney_map_pack__license_txt"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Preview.png",
+      "sha256": "933f6de91dfffda3ca878bacb95c0b280f082fbd9628fda16def4748ba756da0",
+      "bytes": 146340,
+      "asset_key": "kenney_map_pack__preview_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Preview_KenneyNL.png",
+      "sha256": "4b2fe0006935111e3c38fe1e4f569e5bad3e6df2c56074f185ac4c6d7b7c5b3a",
+      "bytes": 139436,
+      "asset_key": "kenney_map_pack__preview_kenneynl_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/Sample.png",
+      "sha256": "6efa1d5f8387a68fba061735d2dfee67a5ba6340225c534dbeaf54cf9328b031",
+      "bytes": 387490,
+      "asset_key": "kenney_map_pack__sample_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_001.png",
+      "sha256": "6f2235f3c58204a4c02a966b36e49a58d41d0f982c6cf47c3f8b54d43fafef1e",
+      "bytes": 3803,
+      "asset_key": "kenney_map_pack__png_maptile_001_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_001.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_002.png",
+      "sha256": "a8fd86d539ac8d3aabf8415993f42812d94ae40d5e5fd0ca0372b594d94ccc65",
+      "bytes": 3644,
+      "asset_key": "kenney_map_pack__png_maptile_002_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_002.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_003.png",
+      "sha256": "d336a4ab81a199e47049d80f46330cc2d3b6327ef0497ea1b88376e989023ca6",
+      "bytes": 4046,
+      "asset_key": "kenney_map_pack__png_maptile_003_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_003.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_004.png",
+      "sha256": "f6870ca98298095ff6ee731d185f141f81bed6ce5f6ce9c2f06c5b8aede80c7f",
+      "bytes": 3401,
+      "asset_key": "kenney_map_pack__png_maptile_004_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_004.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_005.png",
+      "sha256": "3d3e58eed6a34c65bdc896d575ae1d750e52ec23725b8867da1f3b0394fe29aa",
+      "bytes": 3548,
+      "asset_key": "kenney_map_pack__png_maptile_005_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_005.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_006.png",
+      "sha256": "e8e6d99ac562fb537e21b5be53c366148fb8b6591b91aff19f96d22a90578ae7",
+      "bytes": 4202,
+      "asset_key": "kenney_map_pack__png_maptile_006_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_006.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_007.png",
+      "sha256": "67233dddf6bb484c12af2933ee4bcc86e990da2faa31c0b9af004ec86431a75f",
+      "bytes": 4240,
+      "asset_key": "kenney_map_pack__png_maptile_007_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_007.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_008.png",
+      "sha256": "85f2511870e70897f6314490fe84c76ab3eadc7dec274c72b3100e081a71b9e0",
+      "bytes": 4537,
+      "asset_key": "kenney_map_pack__png_maptile_008_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_008.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_009.png",
+      "sha256": "b2d3c1f6ac173597d6f3d1be7fb56dedd53538c70d5759cbeb348d47669db0d1",
+      "bytes": 4124,
+      "asset_key": "kenney_map_pack__png_maptile_009_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_009.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_010.png",
+      "sha256": "35d32fcbc9c09b1b96cefa607ef955a4e2def551073a3a758e7c6b11827d0542",
+      "bytes": 4142,
+      "asset_key": "kenney_map_pack__png_maptile_010_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_010.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_011.png",
+      "sha256": "e11a0fddc7cb9a98a8135c519f23dede4af875d43a06baf93cb4afd1c16998d3",
+      "bytes": 3930,
+      "asset_key": "kenney_map_pack__png_maptile_011_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_011.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_012.png",
+      "sha256": "2f25787f1bbfde5d1d659198b9a78aa1f0c14c22271fe0e34f766086671a213a",
+      "bytes": 3746,
+      "asset_key": "kenney_map_pack__png_maptile_012_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_012.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_013.png",
+      "sha256": "d4b0b446a107792609ad0359475433813e44c93da08538affd946ecfbcd0a4a0",
+      "bytes": 4101,
+      "asset_key": "kenney_map_pack__png_maptile_013_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_013.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_014.png",
+      "sha256": "c4a465bce46bf31421e913882c2a2092b011e1c7b363aa8589d5fb92a0a84691",
+      "bytes": 3544,
+      "asset_key": "kenney_map_pack__png_maptile_014_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_014.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_015.png",
+      "sha256": "367f1b130edcf721a0947598944e0b724c92144679d6eb076e3f547b89fec447",
+      "bytes": 3648,
+      "asset_key": "kenney_map_pack__png_maptile_015_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_015.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_016.png",
+      "sha256": "1cd0d0f9572dffe7da5ce11961a832b7e7a66715e07e603a780b6b6027e77222",
+      "bytes": 3851,
+      "asset_key": "kenney_map_pack__png_maptile_016_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_016.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_017.png",
+      "sha256": "1d82846b6b683c7a23468444eb14702bc356c9a5852c46fcb35eb0996e6b9b0b",
+      "bytes": 2869,
+      "asset_key": "kenney_map_pack__png_maptile_017_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_017.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_018.png",
+      "sha256": "130cb598b61982de463537131d88adbf45f6d10550f8c16316ffd21381b63f48",
+      "bytes": 3868,
+      "asset_key": "kenney_map_pack__png_maptile_018_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_018.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_019.png",
+      "sha256": "e4721617637cc683f2f1cbb3aeeac3f567f2f51a99245f45c46b186ec1bbb6ff",
+      "bytes": 3297,
+      "asset_key": "kenney_map_pack__png_maptile_019_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_019.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_020.png",
+      "sha256": "afd0433e58f1ac99c0bf007c6523c45c8f10381db55c9b6b9312aadd899b1ffe",
+      "bytes": 3287,
+      "asset_key": "kenney_map_pack__png_maptile_020_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_020.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_021.png",
+      "sha256": "021059b225a746235c0ae23ce1f1166e862637dacb3b7212b0fd4782d2c6c069",
+      "bytes": 4273,
+      "asset_key": "kenney_map_pack__png_maptile_021_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_021.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_022.png",
+      "sha256": "c2bb076f72e4f8a0a0adf48a26b25f4c8360555bf7eb9b0c33b78f91f034cbbe",
+      "bytes": 3563,
+      "asset_key": "kenney_map_pack__png_maptile_022_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_022.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_023.png",
+      "sha256": "aff9ab9de567641d3b02dd0250ea8786acbd9d7be761a764961595560ccff4ea",
+      "bytes": 4422,
+      "asset_key": "kenney_map_pack__png_maptile_023_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_023.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_024.png",
+      "sha256": "a0c9137a946284c6509f2e2069acab01dc03b824733cef04265ce627c884d5ee",
+      "bytes": 3953,
+      "asset_key": "kenney_map_pack__png_maptile_024_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_024.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_025.png",
+      "sha256": "5e1bf671b920cf1c99168966718449b9b0a535da642de377ae59859a17bb2d5a",
+      "bytes": 3967,
+      "asset_key": "kenney_map_pack__png_maptile_025_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_025.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_026.png",
+      "sha256": "876f59a81d6f184aece7dfde8a4d4a73265e452952264e8899c2b3c7446a05f6",
+      "bytes": 3937,
+      "asset_key": "kenney_map_pack__png_maptile_026_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_026.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_027.png",
+      "sha256": "c7e2d89bdb0fb2ea7b9a9ac6f0c50eacf707589434fc5c7d78eaab026d21b0d1",
+      "bytes": 2994,
+      "asset_key": "kenney_map_pack__png_maptile_027_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_027.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_028.png",
+      "sha256": "cc0aed524de75646d1c8e79fb6c0d07a8ddd1173da0d03c0e37cda78bc78ba0a",
+      "bytes": 3976,
+      "asset_key": "kenney_map_pack__png_maptile_028_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_028.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_029.png",
+      "sha256": "b0ff0b819275547b118a68f8839e9c762d5bbab1fee2305d16a2cbea0d346bc7",
+      "bytes": 3421,
+      "asset_key": "kenney_map_pack__png_maptile_029_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_029.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_030.png",
+      "sha256": "6ffcd5f66f055c710b47848fdbafb03761c6d9ebff75d187915aa380036b6813",
+      "bytes": 3393,
+      "asset_key": "kenney_map_pack__png_maptile_030_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_030.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_031.png",
+      "sha256": "2e378b08669d5987c884da22b874ddf115e4110c843c9e22162b92f63071e75a",
+      "bytes": 4334,
+      "asset_key": "kenney_map_pack__png_maptile_031_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_031.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_032.png",
+      "sha256": "a7ce1e4d76a29efcf25e6042c5823ee99534920e6b004bfd31e654be41229710",
+      "bytes": 4001,
+      "asset_key": "kenney_map_pack__png_maptile_032_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_032.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_033.png",
+      "sha256": "2c768a16fbb712d241ca4ff1700af02805a0cb0098ba7dbaf445e87ea147f7f3",
+      "bytes": 4315,
+      "asset_key": "kenney_map_pack__png_maptile_033_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_033.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_034.png",
+      "sha256": "8a3430813b3bc17854a8e61c83ae30be7ec58ba0b1708783ba601bbfd48a54a1",
+      "bytes": 2418,
+      "asset_key": "kenney_map_pack__png_maptile_034_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_034.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_035.png",
+      "sha256": "b398e0b6ce95b0a3b0341f90c06b62d7d24d62577253a9bd2d8987b7fcdf80a5",
+      "bytes": 2925,
+      "asset_key": "kenney_map_pack__png_maptile_035_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_035.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_036.png",
+      "sha256": "decd581d77e102b797f6643612f3f06d30cc1443530fba0279eea9ecf31fc738",
+      "bytes": 4564,
+      "asset_key": "kenney_map_pack__png_maptile_036_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_036.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_037.png",
+      "sha256": "795552a4b2222d974a0d0d043e80bf40ae48028c5dca54be3a2c24267fb446ac",
+      "bytes": 4415,
+      "asset_key": "kenney_map_pack__png_maptile_037_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_037.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_038.png",
+      "sha256": "b4f51b81f20b84b442ac5d29c850e02f0e5735cd5270d7b2db7253d1ec15bf96",
+      "bytes": 4633,
+      "asset_key": "kenney_map_pack__png_maptile_038_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_038.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_039.png",
+      "sha256": "533f28a4a0a2db043635d217ab177e488340fdb7a171170ba948f2d31712ca2f",
+      "bytes": 2662,
+      "asset_key": "kenney_map_pack__png_maptile_039_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_039.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_040.png",
+      "sha256": "ee95f021aedfeeb83e6e687e7db8dbde4237fdf83ffaf66a338b763fc6e2cd61",
+      "bytes": 3117,
+      "asset_key": "kenney_map_pack__png_maptile_040_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_040.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_041.png",
+      "sha256": "bfdf910fd6f344924c902ba2ec4fa82c8b31a493bc5ac01bf26d3e88edb9c661",
+      "bytes": 4376,
+      "asset_key": "kenney_map_pack__png_maptile_041_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_041.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_042.png",
+      "sha256": "b024e707ca08e5896796a4cb044086c00bcedbf8235ea87d53cdd6400c05b409",
+      "bytes": 4077,
+      "asset_key": "kenney_map_pack__png_maptile_042_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_042.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_043.png",
+      "sha256": "f3ee017fed98bbeb9b1fd10e47d7493815c8401b0c0716ed2d7acf56f5e49ae6",
+      "bytes": 4381,
+      "asset_key": "kenney_map_pack__png_maptile_043_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_043.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_044.png",
+      "sha256": "d290f9acbd7a0e748f50cf6bc7b0a4e5d37a887cbf9f64327625607c026d70df",
+      "bytes": 2801,
+      "asset_key": "kenney_map_pack__png_maptile_044_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_044.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_045.png",
+      "sha256": "ba394cf01ea076a443d95159d020bad419ce2f017c98d82e37a5969d4093dc08",
+      "bytes": 2402,
+      "asset_key": "kenney_map_pack__png_maptile_045_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_045.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_046.png",
+      "sha256": "fd384d857e41312d9c7b2ce3b02d30fcf68b384c20f43a0a2d5215d13867ab17",
+      "bytes": 4117,
+      "asset_key": "kenney_map_pack__png_maptile_046_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_046.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_047.png",
+      "sha256": "f81fd02232cc3443e911ac15017ed5a3d211a97cd4bc3fb20151792079328ae4",
+      "bytes": 3733,
+      "asset_key": "kenney_map_pack__png_maptile_047_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_047.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_048.png",
+      "sha256": "f0e55a9f050a6fcb38f49219c271411f2eda589ea0a0cecbd6f8fabfa3baf168",
+      "bytes": 4125,
+      "asset_key": "kenney_map_pack__png_maptile_048_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_048.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_049.png",
+      "sha256": "21e91227a9100f5ae696d780d98954e7864cfbcffacf56af96ef628310e592f3",
+      "bytes": 2880,
+      "asset_key": "kenney_map_pack__png_maptile_049_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_049.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_050.png",
+      "sha256": "00cea367ad05d3cb20df2257f2338d68ff0b00ac09e7962b2b703ba695d32d03",
+      "bytes": 3287,
+      "asset_key": "kenney_map_pack__png_maptile_050_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_050.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_051.png",
+      "sha256": "8faceb43c5d4f347e52caaf87eb5dcca7eb960f8c67e1f8aabc05649b05f8221",
+      "bytes": 4364,
+      "asset_key": "kenney_map_pack__png_maptile_051_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_051.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_052.png",
+      "sha256": "83ed1e74b2ff51439fa544d5a1e94bd7b48478ffda82a427fd733fbf2d4f473b",
+      "bytes": 4205,
+      "asset_key": "kenney_map_pack__png_maptile_052_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_052.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_053.png",
+      "sha256": "8a84e5700fba6ba08285d0d895d4919e7e1b9ae3a91d76796939e0b366196427",
+      "bytes": 4395,
+      "asset_key": "kenney_map_pack__png_maptile_053_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_053.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_054.png",
+      "sha256": "ac5ee3232774c0d63cfbc063a6dbeb7cd4e047af093cd7d91ff6f30fd111d16c",
+      "bytes": 2412,
+      "asset_key": "kenney_map_pack__png_maptile_054_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_054.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_055.png",
+      "sha256": "b0c5ae29d200463986bed161d68b912b7807650708cd7caf38ab8920cf3ed763",
+      "bytes": 2980,
+      "asset_key": "kenney_map_pack__png_maptile_055_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_055.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_056.png",
+      "sha256": "3b17ec3f4ac7b6714f93fc19f80fbfcbf44d751dc98102a5879d5ae0885b14b4",
+      "bytes": 4149,
+      "asset_key": "kenney_map_pack__png_maptile_056_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_056.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_057.png",
+      "sha256": "307dfd2520d0a33ce5de864c6a0d2f5c5a94215cc4111b09a21a8ccb7b583d17",
+      "bytes": 3855,
+      "asset_key": "kenney_map_pack__png_maptile_057_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_057.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_058.png",
+      "sha256": "3b9f5a99dd760b703c512ab1f11ea91fffce3c49b0e5c9ef003a104b42914d0b",
+      "bytes": 4121,
+      "asset_key": "kenney_map_pack__png_maptile_058_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_058.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_059.png",
+      "sha256": "89809edba6a1c3739d73987dc187dd3347cb62acf61b9b5af8311a357e5b1f78",
+      "bytes": 4077,
+      "asset_key": "kenney_map_pack__png_maptile_059_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_059.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_060.png",
+      "sha256": "0825599668e033bf4c2f720ba9922f16b97ba46f3371b3f6330e4c5655f46992",
+      "bytes": 2704,
+      "asset_key": "kenney_map_pack__png_maptile_060_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_060.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_061.png",
+      "sha256": "d0ceb05c91b6abfd278ed4952473812dfe119542be6d5d8e58fe77a22f0ee946",
+      "bytes": 3609,
+      "asset_key": "kenney_map_pack__png_maptile_061_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_061.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_062.png",
+      "sha256": "cb42b64efbb3cb0db660bb3f7169e438f91d304ed598fdfe3cd2b2acfc3a2790",
+      "bytes": 3455,
+      "asset_key": "kenney_map_pack__png_maptile_062_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_062.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_063.png",
+      "sha256": "4c8236715ca2587766eaf8f27171e5af708e9768bb4e007b12dda86af29fff65",
+      "bytes": 3822,
+      "asset_key": "kenney_map_pack__png_maptile_063_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_063.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_064.png",
+      "sha256": "e92d782e90dd10dda9e73f9ae776bb32724f10a5709821a50bb1f6364865ad40",
+      "bytes": 3302,
+      "asset_key": "kenney_map_pack__png_maptile_064_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_064.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_065.png",
+      "sha256": "abce44803af90e2f189cd997918f1418372842f655fd2329fe7c3610e99eb3cd",
+      "bytes": 3426,
+      "asset_key": "kenney_map_pack__png_maptile_065_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_065.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_066.png",
+      "sha256": "a2a227ef5dba1e162c3d9bfdae7bddb36c160c05a9c6c91bf0343f4801bd8b21",
+      "bytes": 4035,
+      "asset_key": "kenney_map_pack__png_maptile_066_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_066.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_067.png",
+      "sha256": "1781afda222ebdea7d5283b451985b71ba672ff8d19aef97f189ce40714ac64a",
+      "bytes": 3955,
+      "asset_key": "kenney_map_pack__png_maptile_067_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_067.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_068.png",
+      "sha256": "bf04a7ea4cfc92afa2edcb4f069e0d6e2ac4368531a5524e300b27eb52d24deb",
+      "bytes": 4216,
+      "asset_key": "kenney_map_pack__png_maptile_068_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_068.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_069.png",
+      "sha256": "afbd8ebcf7ba8d1dd52909046aae04cc8d133d2cce605d47745cd389401bae64",
+      "bytes": 3661,
+      "asset_key": "kenney_map_pack__png_maptile_069_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_069.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_070.png",
+      "sha256": "467e52c5d1399d66b15dc3a7e86e013957e57d75c0ff0ff965d50285e4f8d017",
+      "bytes": 3750,
+      "asset_key": "kenney_map_pack__png_maptile_070_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_070.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_071.png",
+      "sha256": "2ee4f4c5bf058140c3589e73501a98c877763f5b06d7ab68f85ea5966d4260a1",
+      "bytes": 4384,
+      "asset_key": "kenney_map_pack__png_maptile_071_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_071.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_072.png",
+      "sha256": "49c316842cd93cf84287d3a9a5bdc9ee192d0bda68c1820012e32cbda57b03f7",
+      "bytes": 4426,
+      "asset_key": "kenney_map_pack__png_maptile_072_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_072.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_073.png",
+      "sha256": "d73b6dc4c84ee14586cf97ee1e59e2042cb26a7b8555f9138e61e2cff368956e",
+      "bytes": 4727,
+      "asset_key": "kenney_map_pack__png_maptile_073_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_073.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_074.png",
+      "sha256": "5ab92896318a38c3f8a9934f34fe66a7048cc56933e6b8f7b3f63ae46579aef5",
+      "bytes": 4239,
+      "asset_key": "kenney_map_pack__png_maptile_074_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_074.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_075.png",
+      "sha256": "371e848f827710fa0b40f4409e3a0c9756b0ca40d61494c8129ca649ba87bfe1",
+      "bytes": 4281,
+      "asset_key": "kenney_map_pack__png_maptile_075_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_075.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_076.png",
+      "sha256": "146138d3b62f942395d6db87f5ff2197af3482b581cfff2730f8e3248d0b24bc",
+      "bytes": 3694,
+      "asset_key": "kenney_map_pack__png_maptile_076_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_076.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_077.png",
+      "sha256": "89eb6fec6849ef3d5401d17c4b35cee1b9ce9fb4140e9afea89681a41f374c04",
+      "bytes": 2864,
+      "asset_key": "kenney_map_pack__png_maptile_077_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_077.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_078.png",
+      "sha256": "132eed897aed6c6dfe6700f8bb3891f75f1ea695be771e32062b4958f1bb776b",
+      "bytes": 3721,
+      "asset_key": "kenney_map_pack__png_maptile_078_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_078.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_079.png",
+      "sha256": "245e7a0e655d480617757d3a8bb22c4d3fbc71907537781fa52545f7fb8086e5",
+      "bytes": 3164,
+      "asset_key": "kenney_map_pack__png_maptile_079_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_079.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_080.png",
+      "sha256": "90d3f7f2e80b535951785c63dee7867bae0a8aa1cd40aa3596e0d90875052f6d",
+      "bytes": 3168,
+      "asset_key": "kenney_map_pack__png_maptile_080_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_080.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_081.png",
+      "sha256": "1e10dbf09d5310346afcdb02a218b87cae804ed320dd9c739498ed72672afc07",
+      "bytes": 4053,
+      "asset_key": "kenney_map_pack__png_maptile_081_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_081.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_082.png",
+      "sha256": "487f0ecf8e36dd077ff2e483730a5762c1a9f504db8c32386c8f8063fbe7d63f",
+      "bytes": 3207,
+      "asset_key": "kenney_map_pack__png_maptile_082_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_082.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_083.png",
+      "sha256": "7ce5b96da8e5485b5708226d98f71f25956cff3c3a83ceaf34611bdc694e08eb",
+      "bytes": 4179,
+      "asset_key": "kenney_map_pack__png_maptile_083_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_083.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_084.png",
+      "sha256": "df85a7f64f6da9516013628125323b9c0ca885c670adde0b950e8eb1d4ea2fd1",
+      "bytes": 3628,
+      "asset_key": "kenney_map_pack__png_maptile_084_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_084.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_085.png",
+      "sha256": "f9a3d9b9835c8414b78dad71ce533e2b2ce4dbbdc1f255c95276e13e6c3391ed",
+      "bytes": 3612,
+      "asset_key": "kenney_map_pack__png_maptile_085_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_085.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_086.png",
+      "sha256": "a76502df70c38343dd3e33e4cb193486e0ad051366ff3e94cc593449c6f3f90d",
+      "bytes": 4500,
+      "asset_key": "kenney_map_pack__png_maptile_086_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_086.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_087.png",
+      "sha256": "aebfb6f558ee6132706bddf1089f1701edcef65db868f3869448b9597744dca8",
+      "bytes": 3721,
+      "asset_key": "kenney_map_pack__png_maptile_087_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_087.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_088.png",
+      "sha256": "ce7f03eb8ee6f9f743ee50ae1e52ec849d63d6d1e8c426536dd4fa67781a9854",
+      "bytes": 4672,
+      "asset_key": "kenney_map_pack__png_maptile_088_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_088.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_089.png",
+      "sha256": "3db18434d2c2624da90c0f40d1da0afee1ece29af5b06f8d26a6d5dcca7d34db",
+      "bytes": 4124,
+      "asset_key": "kenney_map_pack__png_maptile_089_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_089.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_090.png",
+      "sha256": "cab3bf332339d43bfa73b3312f55407a204f79e6dcfc4bfea3317c95a73b6f21",
+      "bytes": 4185,
+      "asset_key": "kenney_map_pack__png_maptile_090_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_090.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_091.png",
+      "sha256": "c574c125fd3316f08c7b4e26ce3cc7fb1897cb64e60c324feeee8faa27703f02",
+      "bytes": 4229,
+      "asset_key": "kenney_map_pack__png_maptile_091_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_091.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_092.png",
+      "sha256": "57ab173514f4205f8ac73bd18bb96bf1c2b89aeed0b3211b50fecfa3d9efd4ef",
+      "bytes": 3770,
+      "asset_key": "kenney_map_pack__png_maptile_092_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_092.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_093.png",
+      "sha256": "27e47b0470f420bad4abadf1e9bf0ce1b6aaf9ae5f5eef65c91669b9234ecba2",
+      "bytes": 4076,
+      "asset_key": "kenney_map_pack__png_maptile_093_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_093.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_094.png",
+      "sha256": "f8e52fa5f1f212b9eac2c815ab4dd58b66a930d296ebcf2098554a0580ef21f4",
+      "bytes": 2751,
+      "asset_key": "kenney_map_pack__png_maptile_094_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_094.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_095.png",
+      "sha256": "4fcb42ec2a6667fa341b2b38e247bbf68df35753e5a3ddf8d4054f663064e3ab",
+      "bytes": 3181,
+      "asset_key": "kenney_map_pack__png_maptile_095_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_095.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_096.png",
+      "sha256": "180b03b0d8664afe050f2937b669b0680467e665a0eb7ec5a123c0ddc48a02b1",
+      "bytes": 4176,
+      "asset_key": "kenney_map_pack__png_maptile_096_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_096.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_097.png",
+      "sha256": "66b83ed7d3f154fa0b865b32b83e9a39f7c13894d5b901fede58eb11a05d84ea",
+      "bytes": 4001,
+      "asset_key": "kenney_map_pack__png_maptile_097_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_097.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_098.png",
+      "sha256": "a92c88bbfe311a89867832efc6165ae861ae64ec287f56a5769c38ae2a6e3807",
+      "bytes": 4137,
+      "asset_key": "kenney_map_pack__png_maptile_098_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_098.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_099.png",
+      "sha256": "e7535f5b2da15f47781c708ff5b5f41e04af96807171dda1ab7bc782ec062072",
+      "bytes": 2793,
+      "asset_key": "kenney_map_pack__png_maptile_099_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_099.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_100.png",
+      "sha256": "0295ab8f0cef29507cf37197c6bed0455899634fc82711f5fe5528157f4a0951",
+      "bytes": 4131,
+      "asset_key": "kenney_map_pack__png_maptile_100_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_100.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_101.png",
+      "sha256": "2dc1af841e0d0b33b82f3acde80fad684466a58c4cdeff75bc8892763c7b87bb",
+      "bytes": 4633,
+      "asset_key": "kenney_map_pack__png_maptile_101_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_101.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_102.png",
+      "sha256": "af335fbb41d783c857eef9899538996b6d2c9a2f815e77ee4b73eddf413e4604",
+      "bytes": 4545,
+      "asset_key": "kenney_map_pack__png_maptile_102_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_102.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_103.png",
+      "sha256": "e49e9f1d7911d2d6d1e21cb75ca94cec723dcb7278b068ffec203277915afc80",
+      "bytes": 4769,
+      "asset_key": "kenney_map_pack__png_maptile_103_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_103.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_104.png",
+      "sha256": "5f19dd0b298096d32bd1df1d59c0527597c07d56ae23ff6e488032acafef2bc1",
+      "bytes": 2851,
+      "asset_key": "kenney_map_pack__png_maptile_104_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_104.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_105.png",
+      "sha256": "0fb3837ce109f624a6700c4a66d872c15b6839270dbf3e0630412621d4a593ab",
+      "bytes": 2712,
+      "asset_key": "kenney_map_pack__png_maptile_105_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_105.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_106.png",
+      "sha256": "ab5cce89916b413370a868454c8965b69668ad4338f96a1b0be1e41d9bf47c96",
+      "bytes": 3947,
+      "asset_key": "kenney_map_pack__png_maptile_106_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_106.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_107.png",
+      "sha256": "794207e88d28e61cafbe0687b951ceb81153ae5086ab854070b89eaada739e2d",
+      "bytes": 3554,
+      "asset_key": "kenney_map_pack__png_maptile_107_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_107.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_108.png",
+      "sha256": "d134b617e16d120ed6053c20e8f5f2b0db913f51c7bf2bd28d8e967af1dcf018",
+      "bytes": 3891,
+      "asset_key": "kenney_map_pack__png_maptile_108_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_108.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_109.png",
+      "sha256": "7b6f3d600031c8543f380fcfca5a90e6b10d36ba9a66d5c7406be413cddfec08",
+      "bytes": 3305,
+      "asset_key": "kenney_map_pack__png_maptile_109_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_109.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_110.png",
+      "sha256": "46b5202a88c5bc2f7337ff01ab30b1fa80859f104a0b7767bb3a3e964a0c6b6c",
+      "bytes": 3577,
+      "asset_key": "kenney_map_pack__png_maptile_110_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_110.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_111.png",
+      "sha256": "61cf4ab792e1531cf2b1b6aaa357ba1c8c1e00c22ee2c3ee7e115096d0d74279",
+      "bytes": 4037,
+      "asset_key": "kenney_map_pack__png_maptile_111_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_111.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_112.png",
+      "sha256": "3bcff564a407f51b416969da3cf7df9bd982ab845bde9f6fcadaffa8f9562bfa",
+      "bytes": 3780,
+      "asset_key": "kenney_map_pack__png_maptile_112_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_112.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_113.png",
+      "sha256": "b3a9e9847707c3562f536b0ed0c59aa2d45c7a3aa9e7184fa7f24f8c2f83b392",
+      "bytes": 3989,
+      "asset_key": "kenney_map_pack__png_maptile_113_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_113.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_114.png",
+      "sha256": "61faae8f0ad4785de61eb52e0479047c18d8c51473b79f066790115aa2242c28",
+      "bytes": 2387,
+      "asset_key": "kenney_map_pack__png_maptile_114_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_114.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_115.png",
+      "sha256": "1e3e54c24bceca2aedc90d3c0df23821842c644d4ad2526bbeee628802811211",
+      "bytes": 3718,
+      "asset_key": "kenney_map_pack__png_maptile_115_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_115.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_116.png",
+      "sha256": "05fbcab243b8fd362adbb3a4b523f04ffd8ca2eca94bc4591232176a75e47edf",
+      "bytes": 4477,
+      "asset_key": "kenney_map_pack__png_maptile_116_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_116.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_117.png",
+      "sha256": "766b4bde440a36b636f6ade586c2f19f219f7f90b14800551bac0c1b929d6e02",
+      "bytes": 4338,
+      "asset_key": "kenney_map_pack__png_maptile_117_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_117.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_118.png",
+      "sha256": "66e37cf0cf2fe5fc875675adbe7c04c6b4c3944f34ac506a7d53ef21a21d15f2",
+      "bytes": 4527,
+      "asset_key": "kenney_map_pack__png_maptile_118_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_118.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_119.png",
+      "sha256": "ff589535b070ad8ebdbfc5c6adb2d8eb4825fe6d9357704d754aab41c6569765",
+      "bytes": 3538,
+      "asset_key": "kenney_map_pack__png_maptile_119_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_119.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_120.png",
+      "sha256": "9a8963fcedb17ecdb18d7245b2dc272cf42ec2a33c15434e158919be28d94c95",
+      "bytes": 3304,
+      "asset_key": "kenney_map_pack__png_maptile_120_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_120.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_121.png",
+      "sha256": "2e57ca6714f9e9553e760af1d55409cbd1ab35fb1edcdc6b78f04ed3c78185b1",
+      "bytes": 2634,
+      "asset_key": "kenney_map_pack__png_maptile_121_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_121.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_122.png",
+      "sha256": "82ef15b1690f8a7d1b6ac120d8c178bf8603de5754dbbe2169019e61ecf22aa2",
+      "bytes": 2749,
+      "asset_key": "kenney_map_pack__png_maptile_122_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_122.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_123.png",
+      "sha256": "7e43c2c12b560efe4a16f87d26143f1c1eb0ef117f5b82e1d1a830bd4fa05f52",
+      "bytes": 1263,
+      "asset_key": "kenney_map_pack__png_maptile_123_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_123.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_124.png",
+      "sha256": "ac7fe1d6db1b2c0880d58464dde3aff98922b0f1733d5fc702ef4a5974f36445",
+      "bytes": 1320,
+      "asset_key": "kenney_map_pack__png_maptile_124_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_124.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_125.png",
+      "sha256": "52a93226baa3407ea021839997feb2018fca61475627c71151dc9178222eb9b3",
+      "bytes": 1386,
+      "asset_key": "kenney_map_pack__png_maptile_125_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_125.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_126.png",
+      "sha256": "10d92c981dc30ab9df8ba3fe7b5cd1118f27ff48cd557a3c5f7c9b344fb3532f",
+      "bytes": 1192,
+      "asset_key": "kenney_map_pack__png_maptile_126_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_126.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_127.png",
+      "sha256": "45efba816e7e4a3ecda58f113969cf6a45771e903e488fbe15906bdf75afb1e5",
+      "bytes": 1165,
+      "asset_key": "kenney_map_pack__png_maptile_127_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_127.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_128.png",
+      "sha256": "1e9dec9ccc1328306ca380b6fe6323e6a7ca93b6ca2e85499e654a608770d86c",
+      "bytes": 1489,
+      "asset_key": "kenney_map_pack__png_maptile_128_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_128.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_129.png",
+      "sha256": "c716af94d8d1034bd00f5d1511008c886416620c6ab00057ca38a5eca9d573e6",
+      "bytes": 1690,
+      "asset_key": "kenney_map_pack__png_maptile_129_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_129.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_130.png",
+      "sha256": "9417cea4aa51afc6a3281ca13e42243d1efa3b2ec5aaa7fe856dafd99a8febc4",
+      "bytes": 1703,
+      "asset_key": "kenney_map_pack__png_maptile_130_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_130.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_131.png",
+      "sha256": "859b27b6a718ce045cfda4bac065ff6fec99b01e774726187323f3d7fcc728bb",
+      "bytes": 2007,
+      "asset_key": "kenney_map_pack__png_maptile_131_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_131.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_132.png",
+      "sha256": "243a965c9103ad6b636226fd8aaf85a8e26483f0691e682aeff2b6148015ee58",
+      "bytes": 2071,
+      "asset_key": "kenney_map_pack__png_maptile_132_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_132.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_133.png",
+      "sha256": "e97908d92d31abe99395c7a3ac22f67cb8ec62458d24dc44ad6c2927f72a0ab2",
+      "bytes": 2079,
+      "asset_key": "kenney_map_pack__png_maptile_133_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_133.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_134.png",
+      "sha256": "136c2cdf451499c62d617336a6efa200ae1728657c0295b8d3eb929adde5db67",
+      "bytes": 2025,
+      "asset_key": "kenney_map_pack__png_maptile_134_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_134.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_135.png",
+      "sha256": "870e5a3114b6d84b53a4a0de92d75f7a39e1849d2da73f51750f8f0d3e89d45f",
+      "bytes": 2094,
+      "asset_key": "kenney_map_pack__png_maptile_135_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_135.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_136.png",
+      "sha256": "72a0d89babc6e3d96cd1627c076d4071fc3bf5905304a05fb01e328d02be2d5e",
+      "bytes": 4150,
+      "asset_key": "kenney_map_pack__png_maptile_136_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_136.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_137.png",
+      "sha256": "1457977e987e8728ce2a20469f8f1604db36d0ef969a4ec83070ebb4e3217f0f",
+      "bytes": 4064,
+      "asset_key": "kenney_map_pack__png_maptile_137_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_137.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_138.png",
+      "sha256": "8d0621a1c214468012670eaf67288e1142dbc94765da16776e3225881f4a670a",
+      "bytes": 2624,
+      "asset_key": "kenney_map_pack__png_maptile_138_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_138.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_139.png",
+      "sha256": "15a5d306a6c04212e4875bd98b22f740a7f9785e8ccf60819d10bfa2bc113997",
+      "bytes": 2666,
+      "asset_key": "kenney_map_pack__png_maptile_139_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_139.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_140.png",
+      "sha256": "80b6bf78cce5fb27597305375b781e17ad2dff8a5b42ceb2b74c21d927d23ddb",
+      "bytes": 1299,
+      "asset_key": "kenney_map_pack__png_maptile_140_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_140.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_141.png",
+      "sha256": "c507ec79d6c2394f2107228fa4f91a1ffbc9b91305a8886995a35d8e0f0cb44c",
+      "bytes": 1316,
+      "asset_key": "kenney_map_pack__png_maptile_141_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_141.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_142.png",
+      "sha256": "2d943f95aedafeb90789ad482bb792ee19bba0720551ec83fd8ffd1c4ffb808b",
+      "bytes": 1345,
+      "asset_key": "kenney_map_pack__png_maptile_142_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_142.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_143.png",
+      "sha256": "a900c133d65d734d1771bc44c135200a30b3c84a9cdb696ae03cbf1bc06cf943",
+      "bytes": 1384,
+      "asset_key": "kenney_map_pack__png_maptile_143_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_143.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_144.png",
+      "sha256": "96d8aa36a7c87f68ae02a8af2845fe302bb169902291c8837ada707b2a84b67b",
+      "bytes": 1416,
+      "asset_key": "kenney_map_pack__png_maptile_144_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_144.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_145.png",
+      "sha256": "f8743cfd9cac58021b4eae7722362210f013c079849871d852ea1137b1194460",
+      "bytes": 1897,
+      "asset_key": "kenney_map_pack__png_maptile_145_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_145.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_146.png",
+      "sha256": "9a7f877ffe3e8fea75de1a9b2f7c72be3918c670fe3034338115a3a86712d483",
+      "bytes": 1584,
+      "asset_key": "kenney_map_pack__png_maptile_146_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_146.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_147.png",
+      "sha256": "f5db35d13b1fc4fd5c58b9eb02a3a5c42b1c49e0744843a79fc7dd9d684ab6ee",
+      "bytes": 1635,
+      "asset_key": "kenney_map_pack__png_maptile_147_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_147.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_148.png",
+      "sha256": "cc49e6c32b76d735b0b67707e672ece41c0b51a3e4d278b19b1259f211114045",
+      "bytes": 2082,
+      "asset_key": "kenney_map_pack__png_maptile_148_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_148.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_149.png",
+      "sha256": "8c9f67ae3f33ab0898215b8e9606c450d494b0dde6855d6faacfa9edc3ddb52d",
+      "bytes": 2044,
+      "asset_key": "kenney_map_pack__png_maptile_149_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_149.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_150.png",
+      "sha256": "d2be1810f5dad1dbece4d30ef7efa14b2ebdd8263b454dc3554afe5eda2aaff9",
+      "bytes": 2087,
+      "asset_key": "kenney_map_pack__png_maptile_150_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_150.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_151.png",
+      "sha256": "93cc53433c8b596fcc10df46229753d45d6be542704d6d9c2adadd870ab2e627",
+      "bytes": 2092,
+      "asset_key": "kenney_map_pack__png_maptile_151_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_151.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_152.png",
+      "sha256": "5708a7adac9d1552edf4ba920a34b7f22eefd1ce2910cde4b20b88c8a80b85da",
+      "bytes": 2129,
+      "asset_key": "kenney_map_pack__png_maptile_152_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_152.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_153.png",
+      "sha256": "782a876e1cfe67e24eaa44ea6a4316fb004b32ca798a918848a89afdc9082fb6",
+      "bytes": 4571,
+      "asset_key": "kenney_map_pack__png_maptile_153_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_153.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_154.png",
+      "sha256": "a4a10d17ad1354270462172d1b530a348e0a6a8def77bbe84d22b7e120708cc4",
+      "bytes": 3774,
+      "asset_key": "kenney_map_pack__png_maptile_154_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_154.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_155.png",
+      "sha256": "6b5fb1ab8a44c2aa493fba75f9c000f6fa21ab47ab03a101cb1ac28dcda2463d",
+      "bytes": 3368,
+      "asset_key": "kenney_map_pack__png_maptile_155_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_155.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_156.png",
+      "sha256": "62b1211998b62ac324ddd359d8ec9704cadc7f605c7ad505660364df8d4b6e4e",
+      "bytes": 3431,
+      "asset_key": "kenney_map_pack__png_maptile_156_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_156.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_157.png",
+      "sha256": "9e6fe842fcc19139258076f9d21cd07c7d681c2776ae42cd9fe2b7b8482be7b5",
+      "bytes": 2699,
+      "asset_key": "kenney_map_pack__png_maptile_157_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_157.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_158.png",
+      "sha256": "3ea0ff572036b98138fddac45c9855b5413a142655892fedbc18465a8bc6382e",
+      "bytes": 2781,
+      "asset_key": "kenney_map_pack__png_maptile_158_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_158.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_159.png",
+      "sha256": "52a06a2a87bd63e8232f5faf09108f0629150a7d21d0493e67267481e6925f86",
+      "bytes": 2654,
+      "asset_key": "kenney_map_pack__png_maptile_159_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_159.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_160.png",
+      "sha256": "8cb1673bb7b0753e45ea23d9bb607d4ffa607e10f7c066dfbebc440639a587b7",
+      "bytes": 2825,
+      "asset_key": "kenney_map_pack__png_maptile_160_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_160.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_161.png",
+      "sha256": "534c693d10c289f2a0f1c07510db0a29f8de328181e86a150302bd677bc94ccb",
+      "bytes": 2464,
+      "asset_key": "kenney_map_pack__png_maptile_161_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_161.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_162.png",
+      "sha256": "3b3e8a80b438797e4e3e1ba6571eeae425a59cbc66a8c75dcdbcb92193fe1547",
+      "bytes": 2725,
+      "asset_key": "kenney_map_pack__png_maptile_162_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_162.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_163.png",
+      "sha256": "497e547556eaafec43c87902c6b074d7adc27fb388ca36949b9deaaeeddd3324",
+      "bytes": 2700,
+      "asset_key": "kenney_map_pack__png_maptile_163_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_163.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_164.png",
+      "sha256": "f530c9db28dee34c3a5f875fc9379c3d8c3083c0f326a34a6567c2e273ccd51a",
+      "bytes": 2494,
+      "asset_key": "kenney_map_pack__png_maptile_164_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_164.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_165.png",
+      "sha256": "58e18e1d15933ab0c57dedcac0c138d7120cf07ee4bc45516adc74c6aff02ec6",
+      "bytes": 2069,
+      "asset_key": "kenney_map_pack__png_maptile_165_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_165.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_166.png",
+      "sha256": "22b581b53bc28a49a898d3c59ce26e06bf56298355443c7a92b9dc4bfe428b1e",
+      "bytes": 2147,
+      "asset_key": "kenney_map_pack__png_maptile_166_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_166.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_167.png",
+      "sha256": "3857865fcdd826841c8559d6ae1ed03732376a6f587a6014509981e029feab7c",
+      "bytes": 2128,
+      "asset_key": "kenney_map_pack__png_maptile_167_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_167.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_168.png",
+      "sha256": "d812ffb6f2dd89ce80ed7fa83b9ad5c619bf435c81a674b8691e8059a947eb71",
+      "bytes": 2100,
+      "asset_key": "kenney_map_pack__png_maptile_168_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_168.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_169.png",
+      "sha256": "0d26b9f35568ab7bc04f4e913123f8a2cd35ae23b8a4bac134f15e74dc7822d0",
+      "bytes": 2124,
+      "asset_key": "kenney_map_pack__png_maptile_169_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_169.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_170.png",
+      "sha256": "fe7da528f7511f73f234abc40d2959e3fe931ba4f8624473b4950728678d48d4",
+      "bytes": 4027,
+      "asset_key": "kenney_map_pack__png_maptile_170_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_170.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_171.png",
+      "sha256": "16ae4d585a0dc17844bbcc1e5ade29104f0ad26ad3a1ad09e65d7650781031d2",
+      "bytes": 2244,
+      "asset_key": "kenney_map_pack__png_maptile_171_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_171.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_172.png",
+      "sha256": "44fad51a7394ecf8533b13ad02aa2632a795b3c57fa36f78c50044cf8bd86709",
+      "bytes": 3251,
+      "asset_key": "kenney_map_pack__png_maptile_172_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_172.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_173.png",
+      "sha256": "35e916523d42fcdd8db78701295820ba0331501b4b26d0d987a8196364034cda",
+      "bytes": 3363,
+      "asset_key": "kenney_map_pack__png_maptile_173_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_173.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_174.png",
+      "sha256": "7bc21166ae7958e3ed3cd78cb2cbe5457fb86cfd321bb5b3e728c345f63abd08",
+      "bytes": 2637,
+      "asset_key": "kenney_map_pack__png_maptile_174_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_174.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_175.png",
+      "sha256": "66b7867bf7238d87116cb6c5aa884dd0a429f19c10c75c2b5eb69df27a4ec7e6",
+      "bytes": 2757,
+      "asset_key": "kenney_map_pack__png_maptile_175_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_175.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_176.png",
+      "sha256": "dd20a5b0f1d0e66636d9715a11733fb6195db84bca8f82dc463f88805549b28b",
+      "bytes": 2627,
+      "asset_key": "kenney_map_pack__png_maptile_176_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_176.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_177.png",
+      "sha256": "d48883357edf3bf394d57df82ef5f5ceb14c9c41e22d9d40a61195f8a94df209",
+      "bytes": 2766,
+      "asset_key": "kenney_map_pack__png_maptile_177_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_177.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_178.png",
+      "sha256": "8c200181cb9e92d4e7bf0168dc3c8de1ae83bba23b1f7978c51e5b13fd25a24d",
+      "bytes": 2842,
+      "asset_key": "kenney_map_pack__png_maptile_178_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_178.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_179.png",
+      "sha256": "c1544aeb6370a46a6166540073148b0d031d4a332c422a0a80476686cf30d272",
+      "bytes": 2372,
+      "asset_key": "kenney_map_pack__png_maptile_179_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_179.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_180.png",
+      "sha256": "e449837f6f94f9a40d6b101b4e7e8ae79214d468311224da92df109cb60adda1",
+      "bytes": 2620,
+      "asset_key": "kenney_map_pack__png_maptile_180_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_180.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_181.png",
+      "sha256": "399d00425ca5edf8a1d9ad9cb0c02f406f4d03e3751efb325be460e388de1db3",
+      "bytes": 2384,
+      "asset_key": "kenney_map_pack__png_maptile_181_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_181.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_182.png",
+      "sha256": "63d2e269e7449f8fa40f3da55886de1c5994741466cabeaf3a46dba845e59195",
+      "bytes": 2123,
+      "asset_key": "kenney_map_pack__png_maptile_182_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_182.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_183.png",
+      "sha256": "7e2f062ac2224c54238bf7b94b4860931efcd6719ae99d03b0dc6d96ae97d8f8",
+      "bytes": 2087,
+      "asset_key": "kenney_map_pack__png_maptile_183_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_183.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_184.png",
+      "sha256": "070248f35e255b9fe09fdddf5ddf6a09254733d2dfb31fb95b60cfa7df4a21b3",
+      "bytes": 2137,
+      "asset_key": "kenney_map_pack__png_maptile_184_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_184.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_185.png",
+      "sha256": "7fae4f127a1d1cf4b9af80e830f39a13e0eb8f98f880fba53f56bb11fd304a9f",
+      "bytes": 2124,
+      "asset_key": "kenney_map_pack__png_maptile_185_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_185.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_186.png",
+      "sha256": "928f91b1759470a0241b0ca2c12ea46791edc7522779d8b7ec2e4afb180c3b0b",
+      "bytes": 2199,
+      "asset_key": "kenney_map_pack__png_maptile_186_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_186.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_187.png",
+      "sha256": "aa0ffac185ebab594d10ea4516575617b4970b93e119c738f9030efcb1298e7b",
+      "bytes": 2408,
+      "asset_key": "kenney_map_pack__png_maptile_187_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_187.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "maps_world/kenney_map_pack/original/PNG/mapTile_188.png",
+      "sha256": "29fe9c94036a4f51997acce624e2397535c85ee4b2009525954276539d0f0a4a",
+      "bytes": 3126,
+      "asset_key": "kenney_map_pack__png_maptile_188_png",
+      "named_path": "maps_world/kenney_map_pack/named_png/kenney_map_pack__png_maptile_188.png",
+      "image_size": [
+        64,
+        64
+      ],
+      "image_mode": "RGB"
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "preview": "maps_world/kenney_map_pack/original/Preview.png",
+  "priority": "P2",
+  "decision_cn": "仅供参考",
+  "usage_cn": "常见大地图符号、地形与路线规划参考；没有可直接接入的锈港 TMJ 地图。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}

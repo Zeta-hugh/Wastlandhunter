@@ -1,0 +1,2175 @@
+{
+  "pack_id": "kenney_isometric_tiles_buildings",
+  "category": "buildings_isometric",
+  "author": "Kenney",
+  "source_url": "https://kenney.nl/assets/isometric-tiles-buildings",
+  "download_url": "https://kenney.nl/media/pages/assets/isometric-tiles-buildings/cfcdb066e1-1677694983/kenney_isometric-buildings.zip",
+  "license": "CC0-1.0",
+  "license_files": [
+    "buildings_isometric/kenney_isometric_tiles_buildings/original/License.txt"
+  ],
+  "downloaded_on": "2026-09-14",
+  "archive": "buildings_isometric/kenney_isometric_tiles_buildings/kenney_isometric_tiles_buildings.zip",
+  "archive_sha256": "0894214e3b604f3eef53b9fa633340ba4617e24053a6178fa81dab6bac3d6d5e",
+  "archive_bytes": 1706949,
+  "file_count": 136,
+  "extensions": {
+    ".txt": 1,
+    ".png": 132,
+    ".xml": 1,
+    ".url": 2
+  },
+  "decision": "REFERENCE_ONLY",
+  "usage": "Silhouette and assembly reference; whole-building images are not modular production facades",
+  "production_status": "NOT_IMPORTED",
+  "owner": "Production Art",
+  "reviewers": [
+    "Reference",
+    "Contract / QA",
+    "Runtime",
+    "Mobile",
+    "Integration"
+  ],
+  "files": [
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/License.txt",
+      "sha256": "17b7e0683015024b5ec06cd97773dd795ca8b9371f6ec1fabd74d7b3eb6f6397",
+      "bytes": 623,
+      "asset_key": "kenney_isometric_tiles_buildings__license_txt"
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/Preview.png",
+      "sha256": "1026da60a519ce5d28d819a2fd0be1b2b85ea040eea58fb2a77eb5b788a73540",
+      "bytes": 120271,
+      "asset_key": "kenney_isometric_tiles_buildings__preview_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/Sample.png",
+      "sha256": "c1d651697221362bb78cc0aa2f9cc95ec50ff009743278d4690f544eabe1e41c",
+      "bytes": 195448,
+      "asset_key": "kenney_isometric_tiles_buildings__sample_png",
+      "image_size": [
+        918,
+        515
+      ],
+      "image_mode": "RGB"
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_000.png",
+      "sha256": "d6f183657fb305a7bdce8d7741299b9711492c8c7441ecc806e32b3cd31a3c63",
+      "bytes": 5854,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_000_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_000.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_001.png",
+      "sha256": "be773ecc5ff13eb68c34e03d09b178a7dc3259c63bed25e41db62dea117b2639",
+      "bytes": 9892,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_001_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_001.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_002.png",
+      "sha256": "a0fed25cdf4803f0d9148047e616366861dbf10e010059532d8370a075756ec2",
+      "bytes": 10422,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_002_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_002.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_003.png",
+      "sha256": "dd590479b46c8eb793bfc170b9e26d778b81135695e01e8e182b6e55281f63ad",
+      "bytes": 9834,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_003_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_003.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_004.png",
+      "sha256": "3240446059481500975581d1d883928939de24ecdb323b07bb724c168c5f5db1",
+      "bytes": 8657,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_004_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_004.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_005.png",
+      "sha256": "18fab5e04679ef87b4dae8ce75fb308a359819b3ae8b87f01480444d2f4184c2",
+      "bytes": 2503,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_005_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_005.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_006.png",
+      "sha256": "c88d752b78df9a5b8aaa48d11c099345b845b9d821c9ac03fbfa1990492fa281",
+      "bytes": 2464,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_006_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_006.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_007.png",
+      "sha256": "a9e21d0dd2ead0bd607c6d372ab51c761005611afc7055637e9683333ce1303e",
+      "bytes": 5432,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_007_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_007.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_008.png",
+      "sha256": "c33b38e7777ab3f6852d352c19c592b883e7de1e64b20b9cc15ab1ad3f13180b",
+      "bytes": 5883,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_008_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_008.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_009.png",
+      "sha256": "67adb65a429f3e25464fec4b56fd1f5333eff2955698d9073e8c82f94df1b673",
+      "bytes": 10324,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_009_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_009.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_010.png",
+      "sha256": "50a2aa55586d62c6373ae56b5fa95001cbd2628cdfae4e5b3eca20e0e63d5861",
+      "bytes": 9802,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_010_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_010.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_011.png",
+      "sha256": "9230fda45d8c4e91005710bc6d38a2664410250f8462bd6ae05024e30477400a",
+      "bytes": 8004,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_011_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_011.png",
+      "image_size": [
+        132,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_012.png",
+      "sha256": "18f17ed4c175c9f25b11cb20821fb1e249e98563b5d5281808836b5d586cbcdf",
+      "bytes": 8795,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_012_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_012.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_013.png",
+      "sha256": "5af7c511caaf1a61a516f23cb9c3c307882fd7f9afe75acfe6396f8675e56896",
+      "bytes": 2480,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_013_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_013.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_014.png",
+      "sha256": "7031bb43358202bf0f3fefebbf1eec530b7bbc18b6c3026e39329bc55e85f5ab",
+      "bytes": 9252,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_014_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_014.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_015.png",
+      "sha256": "2f6a0d0f2f6ababe8ca9f2b224a299a93e6662ab32d42638d4ac5cc66a30f184",
+      "bytes": 5516,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_015_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_015.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_016.png",
+      "sha256": "cadc1906a686f5851dccd37708b5216c3aa977c10e1c07bde187d6939b00635e",
+      "bytes": 5772,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_016_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_016.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_017.png",
+      "sha256": "aecfdfee17ea2b6ae6df0fb430e92bdeedbbd25e0baee43913c0a8e4d67061c7",
+      "bytes": 9744,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_017_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_017.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_018.png",
+      "sha256": "6555b9e8c6fce9784d9863978f6a8a28e68c769c006763c74a8226dc60323572",
+      "bytes": 8464,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_018_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_018.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_019.png",
+      "sha256": "116f62261e135f0a85ebda709e598ae7930c0ced4c20f56d124c2206e2e927b8",
+      "bytes": 8003,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_019_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_019.png",
+      "image_size": [
+        132,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_020.png",
+      "sha256": "37d7d6f0f83c34bc98c5224f9ee9d9c2bde724f9caf288988b3f87ac684adcab",
+      "bytes": 8764,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_020_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_020.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_021.png",
+      "sha256": "a32c19d3a0fe7093ef449113c951283c6ce26abea73ea0fc25dae203d62c8502",
+      "bytes": 9234,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_021_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_021.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_022.png",
+      "sha256": "3b93e667e8b03a32d14c7a3967249a21294a4653d2bf82c560d8642553b2ab81",
+      "bytes": 9257,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_022_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_022.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_023.png",
+      "sha256": "3b12d088bfbf366a4dede5a25ffd79dde0b4865522bfc8c179cd949567beece3",
+      "bytes": 5499,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_023_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_023.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_024.png",
+      "sha256": "dc075c775dcd02d58849c1b119e36fdc8b11cca0e4fefba26f4af0e0b097d142",
+      "bytes": 5812,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_024_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_024.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_025.png",
+      "sha256": "c7267a6d69ca61dc318229a9c220d829dfcad484da838b70aba0109011b70e55",
+      "bytes": 7302,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_025_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_025.png",
+      "image_size": [
+        132,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_026.png",
+      "sha256": "bfd7e0d4135bfac6fdbe77be7aa25616b7d4cbc9fd51e6cd1a45b887c0362e84",
+      "bytes": 8652,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_026_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_026.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_027.png",
+      "sha256": "5c416793b56d14665d99432797f5d6173dadfe416a5af7f6ae7eec6fde72a999",
+      "bytes": 8017,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_027_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_027.png",
+      "image_size": [
+        132,
+        130
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_028.png",
+      "sha256": "7477adf9edc2e61cf36dd22b049f71ae4eb2fb84039fe5fbeda26b813a25375e",
+      "bytes": 8495,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_028_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_028.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_029.png",
+      "sha256": "acf4edd8f0ced644c862cf80dc9e41053caf72ddde5658d8c08fdd6999470aba",
+      "bytes": 9229,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_029_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_029.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_030.png",
+      "sha256": "72feea286adcd3b712ebbb1a929e5eb8a587502724f2237f745f552eea6ae1a1",
+      "bytes": 8990,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_030_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_030.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_031.png",
+      "sha256": "a33a6102843f44fc9358bab5a112b8fd5fe6a3b4a4deeb55defb5b81ee8058fb",
+      "bytes": 5444,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_031_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_031.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_032.png",
+      "sha256": "e5fbebf8701a3c368cb978bfe43eded585edf58eb0148a61acb227369b74c888",
+      "bytes": 5389,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_032_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_032.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_033.png",
+      "sha256": "2600ee2c9618d484c563910f509e89d9db28d404f934ccf42d119bfd9a2ffbd9",
+      "bytes": 7371,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_033_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_033.png",
+      "image_size": [
+        132,
+        128
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_034.png",
+      "sha256": "6e369eda7ee23bf8f92d62d70590588b0edbed551887ea955c1d5dc3ec3df04b",
+      "bytes": 8387,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_034_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_034.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_035.png",
+      "sha256": "adde8f6db3f9a81ab14b8b26b23d51fe317d9e3ba399fc260f4126fb5d9c3b6c",
+      "bytes": 7719,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_035_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_035.png",
+      "image_size": [
+        132,
+        130
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_036.png",
+      "sha256": "2db2f5b4fea339cdf68dc37807f66d07a659006de012caa7aade72e439ea7c64",
+      "bytes": 9028,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_036_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_036.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_037.png",
+      "sha256": "f29043fce5f9f57c170efedefa3cf3642156bc39bf4de2483b86d7c0bf4c9dcb",
+      "bytes": 8538,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_037_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_037.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_038.png",
+      "sha256": "dac195a788834a9d984f116b8ed626e891d6d76f0d2ac62f1f8cb21b59f8a1cc",
+      "bytes": 5377,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_038_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_038.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_039.png",
+      "sha256": "3fdfc46bdd2db69bf9839394cbb8f492a403c5a0332c509f1bd788111d66901c",
+      "bytes": 5402,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_039_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_039.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_040.png",
+      "sha256": "8ae090df937f2e553b0cb3b73676384152a482e9eb1556164257c2ef043a62cf",
+      "bytes": 7319,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_040_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_040.png",
+      "image_size": [
+        132,
+        130
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_041.png",
+      "sha256": "844113c0a76f2245cc36127a41059ca2497c0146e047d6e1a83258eabf5fc00f",
+      "bytes": 8341,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_041_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_041.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_042.png",
+      "sha256": "9d534fffc2944f7849f2ca994f5b3db1bae6ce898a71402657c8039448c4fda7",
+      "bytes": 8687,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_042_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_042.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_043.png",
+      "sha256": "463faba51512fb648df969fd5cf02cb8b396781211968c94804863ad9c9cc9f8",
+      "bytes": 5061,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_043_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_043.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_044.png",
+      "sha256": "a71cca698197f995486fe1d3a0497949bb6c991df50cab0abd3709f2963fe928",
+      "bytes": 5245,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_044_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_044.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_045.png",
+      "sha256": "3f85a37105b2ec9ba775d7087e0736afb66ebbcd87269af6bd8278480d638d56",
+      "bytes": 5311,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_045_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_045.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_046.png",
+      "sha256": "0dd3e58810ca687e0ef0e1cb915ea2b70cf5c80e2c1d8e9e75b8fd1e402bc4e2",
+      "bytes": 7105,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_046_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_046.png",
+      "image_size": [
+        132,
+        130
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_047.png",
+      "sha256": "483e338636d8a38f79bf799ffad219ca03a1f5d82596c37f01093fecdb2de629",
+      "bytes": 4968,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_047_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_047.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_048.png",
+      "sha256": "b089b8d554001f0c06fdff9245f9f2fe5012f154d9a8b7c2e7e4236e5adf175a",
+      "bytes": 5045,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_048_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_048.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_049.png",
+      "sha256": "ac4896a4e7c23b638b07e6c8294779b72dd6bf0db8e2a7ace4ceb19a7160cd8b",
+      "bytes": 5214,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_049_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_049.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_050.png",
+      "sha256": "a9c012241b8fab88fa3a8665a9c6a9add4145fa05203b28689ce487e9e643b7a",
+      "bytes": 5018,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_050_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_050.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_051.png",
+      "sha256": "56fbfcf35304f1aec8ed200251b5957e855f31bd0fd448d097fcb091f3b79a45",
+      "bytes": 4975,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_051_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_051.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_052.png",
+      "sha256": "8f9ea4e67e2100af0dbb1a03dde5c568a8c171aa8914dec23695100ca5c9b348",
+      "bytes": 4980,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_052_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_052.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_053.png",
+      "sha256": "3915ee7fd76f8785faf58422f9dfa5b6b39e77fc09c6bd7e512e955cd4604338",
+      "bytes": 4883,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_053_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_053.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_054.png",
+      "sha256": "fc31e2a0edba425d4d78a46c1030b6a1314e2908c9f2d666850fcde26efa4dbb",
+      "bytes": 4872,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_054_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_054.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_055.png",
+      "sha256": "22a4ac149964709ddbf7ee4598186db238fffecd5a5d880342d6e14ca050dc6b",
+      "bytes": 4665,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_055_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_055.png",
+      "image_size": [
+        99,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_056.png",
+      "sha256": "7b3e8d9e176c84d501f054095818aeb5e3b080da692c92a57ad54206f12470e0",
+      "bytes": 4635,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_056_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_056.png",
+      "image_size": [
+        100,
+        85
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_057.png",
+      "sha256": "7d65f6afda5ce4352b834cb352e880e6e0cfc19988a665dddc05a3a5b932302a",
+      "bytes": 1818,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_057_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_057.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_058.png",
+      "sha256": "1135b77f7edb9f3fef523e06f4d86b96a25ee94994026648236bd3ee48d496a6",
+      "bytes": 2386,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_058_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_058.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_059.png",
+      "sha256": "ba54f4498e030219898c844416c9cc89c1b40f556cc87ddb2d710d2779683c9c",
+      "bytes": 2006,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_059_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_059.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_060.png",
+      "sha256": "170236a60a9c71dfd6160bbe1133f748e41b826b42a004464091228592989d86",
+      "bytes": 1838,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_060_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_060.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_061.png",
+      "sha256": "65349a4327274a296983fe864c24dca047ae65ea0893da367416099a8cf5e651",
+      "bytes": 2192,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_061_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_061.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_062.png",
+      "sha256": "5ed7188d50e9dd55d3df0b7273d2b31f8c39e1187f4993bef3d3c9b378fae5c6",
+      "bytes": 2164,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_062_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_062.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_063.png",
+      "sha256": "21d012e32909d0243a92c51e9df937ffd59a8063cb7623b4bfada81e06fd9a2c",
+      "bytes": 2312,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_063_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_063.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_064.png",
+      "sha256": "a30b94fb872e9ac32bb0d1fc570067e7b1ee63111efdd99685a1ce8a3065f552",
+      "bytes": 1997,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_064_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_064.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_065.png",
+      "sha256": "f91f77794a0e4157aa4823f2da2294a0518348af8af60c08c0e3c81e4c38b5cd",
+      "bytes": 2457,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_065_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_065.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_066.png",
+      "sha256": "dd395c5e2fb144c05738449559894fbc6098e32416a703cb700308268b8c3182",
+      "bytes": 2203,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_066_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_066.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_067.png",
+      "sha256": "6c273ad8d231a2aded9e55f7308a3bb468ada12b1629cad56abf1fb488846684",
+      "bytes": 1881,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_067_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_067.png",
+      "image_size": [
+        100,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_068.png",
+      "sha256": "0c0e5839f394eeafff384238a3ca2d9a5065eb90b7fe0518823632906bb15b93",
+      "bytes": 2164,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_068_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_068.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_069.png",
+      "sha256": "2e7109e87ecd52078a9c19749772dbc38ab13d28c4e1581f26290d19dc98a533",
+      "bytes": 2188,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_069_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_069.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_070.png",
+      "sha256": "36a87ea7fe8d6b4105f003a38a45c5dc4217aed288fed19054fdd864b336653d",
+      "bytes": 2259,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_070_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_070.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_071.png",
+      "sha256": "023a454423ad97b1544adaae4257fd3cff2cc33077f9544b89259e40993f2e55",
+      "bytes": 1868,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_071_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_071.png",
+      "image_size": [
+        99,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_072.png",
+      "sha256": "d2358eaaeba07d2ce5d21bcaf2460e59bdda014c97348c03cc623e9761a6be7b",
+      "bytes": 2351,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_072_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_072.png",
+      "image_size": [
+        100,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_073.png",
+      "sha256": "4d79e2e7428a4e34a2391b4ddcf52aa091d10cc2d1c9b9dc2a26a9ca37127b96",
+      "bytes": 2046,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_073_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_073.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_074.png",
+      "sha256": "f1f8057021e3974fbc07a3c34fc1d704a506a1d10c6f3dd9c3ac2bad4ef6ba08",
+      "bytes": 2152,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_074_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_074.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_075.png",
+      "sha256": "f7fc8f8bd0e2aa060bbaccdd6aad4c12bbd6f3ea2be188d428827eb55a0165c0",
+      "bytes": 2207,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_075_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_075.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_076.png",
+      "sha256": "ea090b511dc6816a703d18e044b2972734e3afc52a55318678859c9b9673869f",
+      "bytes": 2428,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_076_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_076.png",
+      "image_size": [
+        99,
+        63
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_077.png",
+      "sha256": "a73137bc095f75e86847152220deb7212ae03a632eb3c38071e981db977438bf",
+      "bytes": 1971,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_077_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_077.png",
+      "image_size": [
+        99,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_078.png",
+      "sha256": "2150e32294288c4f0ef269c09022273c9b2c1c8371623cd87ab90067d4225d40",
+      "bytes": 226,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_078_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_078.png",
+      "image_size": [
+        13,
+        24
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        29
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_079.png",
+      "sha256": "d204c9224cf11b64843d7675fe1c34472bd44a8cba8daf024bafa7e699c0bb84",
+      "bytes": 2926,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_079_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_079.png",
+      "image_size": [
+        100,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_080.png",
+      "sha256": "d150cc972eab92f4cdcea34a3ce7fe512af34bf18330c7fbfdcdd7cc53b58fa3",
+      "bytes": 2196,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_080_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_080.png",
+      "image_size": [
+        100,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_081.png",
+      "sha256": "17c221064a106b99a2ad7b04b4b37602a4931c3939ff78b9fd817f2191ed776a",
+      "bytes": 2102,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_081_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_081.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_082.png",
+      "sha256": "b9e63f9bdba17b1f766f74ff41d4bd3570b5425f6b38cc45ef2ad73cc2332c1d",
+      "bytes": 2091,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_082_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_082.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_083.png",
+      "sha256": "31157df5314c90124edb5d642c5997eb54e587442a4442bdc9d17c83a9c8417b",
+      "bytes": 1842,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_083_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_083.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_084.png",
+      "sha256": "d9cc9fd8dff05a18efa76a24b0ec0e6b6f2d0903aedf3bebb6756b973ca2f771",
+      "bytes": 2397,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_084_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_084.png",
+      "image_size": [
+        99,
+        63
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_085.png",
+      "sha256": "6ebc126a29ccefa0554ec270894cba2259c5580534965092fc237946843d8d6b",
+      "bytes": 7573,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_085_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_085.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_086.png",
+      "sha256": "b36a034b12c5a33371405adbb4d0f3b7fd68618c0d0cfea60ca5cb9ec25ad59e",
+      "bytes": 1995,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_086_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_086.png",
+      "image_size": [
+        100,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_087.png",
+      "sha256": "a5d041fdec190194128140b8dafac5aa2f4ce19301a9cb00c6c8513233edee69",
+      "bytes": 2895,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_087_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_087.png",
+      "image_size": [
+        100,
+        62
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_088.png",
+      "sha256": "ea1e8d936bbaf1ed420b57f9f821d12dc5c256d3474a9cb91d5b8204a70bed90",
+      "bytes": 1822,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_088_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_088.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_089.png",
+      "sha256": "167b3c53484dbb91dbaf1906455dbd3b4e77d4b3c44ab54f39f2df88ce7edf65",
+      "bytes": 2094,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_089_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_089.png",
+      "image_size": [
+        99,
+        60
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_090.png",
+      "sha256": "b195bc87de420eb0158f9e3c085bf313f0521f252477ed8ba34c2c5ce917d36f",
+      "bytes": 2243,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_090_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_090.png",
+      "image_size": [
+        99,
+        63
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_091.png",
+      "sha256": "507b59f708802f50ef2ce928be7c0e2de2d2d9ac5e75a3211d0b0dc5d829ee8a",
+      "bytes": 1936,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_091_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_091.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_092.png",
+      "sha256": "060befc00467db143e445c3e338679d96dbe840b3d8f3244831e4b46a16a7cd0",
+      "bytes": 7324,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_092_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_092.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_093.png",
+      "sha256": "af14092fe0860414dce5bb2f0fa5d47666f170f276cdcc0ed27220a13892965e",
+      "bytes": 8234,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_093_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_093.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_094.png",
+      "sha256": "d3656be93b5b2eefcf4164905d38727d0c9a7883ac97b02b3eea1a962eda8347",
+      "bytes": 1962,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_094_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_094.png",
+      "image_size": [
+        100,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_095.png",
+      "sha256": "66f00da22aa45b501a0e4ce9247015b8f1c67ba238a7c1c19a9c42e70749b158",
+      "bytes": 3570,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_095_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_095.png",
+      "image_size": [
+        100,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_096.png",
+      "sha256": "6f4df540ccec17ea28376cb203b60dfc3b00bc2a7db672f69ad62c53c5091993",
+      "bytes": 1809,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_096_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_096.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_097.png",
+      "sha256": "3a5b8cc463f3f46be41c6763eddeadf44d40c8a4612b6a6d1c8607d18713d0d0",
+      "bytes": 1774,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_097_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_097.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_098.png",
+      "sha256": "4b0036f4246db35c269e1c05feaced37a3d4489e8455c8784a75cfe136109af6",
+      "bytes": 2174,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_098_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_098.png",
+      "image_size": [
+        99,
+        63
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_099.png",
+      "sha256": "4bf3855bf0b79fdfcd42f6ad6605474a7aa9119b170c8404f256e2d7b9b4e176",
+      "bytes": 8114,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_099_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_099.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_100.png",
+      "sha256": "4c5658717a11043de55b700089e8e3403cd78fe62f2a29205039ba7bae57137f",
+      "bytes": 9028,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_100_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_100.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_101.png",
+      "sha256": "63cdadf1329ed592535cbde8ae6ca1a517aa033cdf9da16e6f8d80178a777df4",
+      "bytes": 8239,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_101_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_101.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_102.png",
+      "sha256": "efb7ad0dc60b541eb6f8f9e83aa46057a63fcdc406806b026c9d22f5ea219bb5",
+      "bytes": 2701,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_102_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_102.png",
+      "image_size": [
+        100,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_103.png",
+      "sha256": "68189db873790eeee6983bd44b58a86de0079fe8ac7eb9f41ca0ea13cc31e97e",
+      "bytes": 3418,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_103_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_103.png",
+      "image_size": [
+        99,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_104.png",
+      "sha256": "0eff8bd56da751815ea98b96e3d81d1776a4843148bccb227fc9132dcb39685e",
+      "bytes": 1926,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_104_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_104.png",
+      "image_size": [
+        99,
+        63
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_105.png",
+      "sha256": "dc553c6a8f5c8934c5e6f414cc646bd441af1a3beea371a10d2a3fa4743f9f33",
+      "bytes": 1836,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_105_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_105.png",
+      "image_size": [
+        99,
+        61
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_106.png",
+      "sha256": "33f4624e8b4587aa052da252f37319bf7754ccc7858bfeaf20c814c8bbe81e40",
+      "bytes": 7419,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_106_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_106.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_107.png",
+      "sha256": "9a7336ae17a363fd9d298186d9b98b046eac92d70b3fe01ec667f9218714cec0",
+      "bytes": 8391,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_107_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_107.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_108.png",
+      "sha256": "d7e37dac1590cfd195461b59e028aac908f9b516f2558b5c9ec9e1c439fb26df",
+      "bytes": 8927,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_108_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_108.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_109.png",
+      "sha256": "b8626ccdf422160beeceffa9f490b7c9b64c015ec88c5b7f9f06a15a4e57ee07",
+      "bytes": 9749,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_109_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_109.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_110.png",
+      "sha256": "7b486fbce0317d1dbd0db8c94c4e76b6136991d42b6835e50ad59b55b990581e",
+      "bytes": 2766,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_110_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_110.png",
+      "image_size": [
+        100,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_111.png",
+      "sha256": "273cbb41995b9a92e532ebd94b0d76a3b789a887fbdb1e1f2f70fef6177ba6b2",
+      "bytes": 2644,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_111_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_111.png",
+      "image_size": [
+        99,
+        55
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_112.png",
+      "sha256": "410e2f7cf7990623ba547675edf0ecc75076a87ebc3f3f5951957ef35700cb8c",
+      "bytes": 1834,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_112_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_112.png",
+      "image_size": [
+        99,
+        63
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_113.png",
+      "sha256": "7e9de77b0de7004b310234d17b3b379eed2127bb5f1876422e8e8495a43a1d58",
+      "bytes": 7591,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_113_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_113.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_114.png",
+      "sha256": "ade2140fb13d43d38ce27e4c181ec6c26e97ef402a5e9f77e6fbb0d553835ec1",
+      "bytes": 7668,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_114_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_114.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_115.png",
+      "sha256": "f6a1bb4a0a4a174b456b2ea7295f15b06a8653f30d71cf970f75d599fa78d411",
+      "bytes": 8179,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_115_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_115.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_116.png",
+      "sha256": "0afdd17b563bb07a288d1d227e83082b7e3527726e4ef6954c2d9cba5fe3a259",
+      "bytes": 9914,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_116_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_116.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_117.png",
+      "sha256": "744b0e87fd6a88769349eb7bca29feb3fde977a707a52c37db27622a0bcbbf1b",
+      "bytes": 9957,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_117_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_117.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_118.png",
+      "sha256": "699ce69e2e70fa6904b693a718513579a15bf3a60fb89eb1c9ad8f823aadf93a",
+      "bytes": 2594,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_118_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_118.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_119.png",
+      "sha256": "c446fb5b061cd5b3baab9e5b4f075c57a0494ec5487af9995c8e56c261e1767c",
+      "bytes": 2641,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_119_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_119.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_120.png",
+      "sha256": "4f2619a87a5c7627bd60f5bb8596707ad16b311f339537b5ad934b178a6bcbf1",
+      "bytes": 2469,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_120_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_120.png",
+      "image_size": [
+        99,
+        56
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_121.png",
+      "sha256": "b0d941a04bd1ddf17e2ef1bee46c8db890a106557f49cc32ded31dca7af83bcf",
+      "bytes": 2225,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_121_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_121.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_122.png",
+      "sha256": "28cfaaf00ebb914bc67c1ed0410216275c4ab79be79ce57a411cc19cd9c1b144",
+      "bytes": 7746,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_122_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_122.png",
+      "image_size": [
+        133,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_123.png",
+      "sha256": "6c9f2141943e831059c723be2ef1da95eba24788cf97924a1f45ef3fa664021e",
+      "bytes": 9936,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_123_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_123.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_124.png",
+      "sha256": "fdeee628a8a257fa01a76feda8dbe55e19b74b4822ea374d1219e577f428f4ce",
+      "bytes": 10445,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_124_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_124.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_125.png",
+      "sha256": "fd551090c15130d890280384a04f1e8ef4bb612182dd7d631aafaa4d1bd55103",
+      "bytes": 9710,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_125_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_125.png",
+      "image_size": [
+        132,
+        127
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_126.png",
+      "sha256": "ef840e4dbd73e69c95bbaf93323a9bfd530f13598503b248671ebac17cfa5597",
+      "bytes": 2618,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_126_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_126.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_127.png",
+      "sha256": "17f4215e0b126a3eff91130c029ac7e99a4631110d7272d4cbba57d64d5b3e5c",
+      "bytes": 2467,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_127_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_127.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/PNG/buildingTiles_128.png",
+      "sha256": "4315a35499cb8afcc41531ef1c8f91761ca4ca0abae6f164db5127089be8fed0",
+      "bytes": 1809,
+      "asset_key": "kenney_isometric_tiles_buildings__png_buildingtiles_128_png",
+      "named_path": "buildings_isometric/kenney_isometric_tiles_buildings/named_png/kenney_isometric_tiles_buildings__png_buildingtiles_128.png",
+      "image_size": [
+        99,
+        54
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/Spritesheet/buildingTiles_sheet.png",
+      "sha256": "efa03bb70ffaeeadc0460a5d055f721aa45d0f6d73bf6e0efb85ad044d66c9c8",
+      "bytes": 711762,
+      "asset_key": "kenney_isometric_tiles_buildings__spritesheet_buildingtiles_sheet_png",
+      "image_size": [
+        1024,
+        2048
+      ],
+      "image_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/Spritesheet/buildingTiles_sheet.xml",
+      "sha256": "a4e04d570d1cf22a021b96b454154cc9da2fdfffa0131ec1cf1a46c306282a05",
+      "bytes": 10892,
+      "asset_key": "kenney_isometric_tiles_buildings__spritesheet_buildingtiles_sheet_xml"
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/Donate.url",
+      "sha256": "807d04cbe407d54709f54ac4cc971184f50502a343f5dbf537ff58b0c2f6f914",
+      "bytes": 48,
+      "asset_key": "kenney_isometric_tiles_buildings__donate_url"
+    },
+    {
+      "original_path": "buildings_isometric/kenney_isometric_tiles_buildings/original/Facebook.url",
+      "sha256": "54d02f3070d8205901d10c0f493b813bd14e7103ec981a72da4337644e00ac3c",
+      "bytes": 57,
+      "asset_key": "kenney_isometric_tiles_buildings__facebook_url"
+    }
+  ],
+  "intake_status": "FILES_VERIFIED",
+  "preview": "buildings_isometric/kenney_isometric_tiles_buildings/original/Preview.png",
+  "priority": "P2",
+  "decision_cn": "仅供参考",
+  "usage_cn": "房屋轮廓和组合关系参考；整栋 2D 立面不替代项目要求的独立墙、门、窗与屋顶。",
+  "visual_review": "AUTHOR_PREVIEW_REVIEWED_2026_09_14",
+  "selected_files": [],
+  "next_step_owner": "Production Art",
+  "acceptance_owners": {
+    "geometry_and_palette": "Production Art",
+    "source_and_license": "Contract / QA",
+    "manifest_and_runtime": "Runtime",
+    "mobile_readability": "Mobile / 2.5D",
+    "scope_and_canon": "Reference / Integration"
+  }
+}
