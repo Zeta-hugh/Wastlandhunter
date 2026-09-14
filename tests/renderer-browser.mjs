@@ -41,13 +41,14 @@ try{
    createRenderer(canvas,assets,{position:{x:640,y:360}},scene,definition,{hideIncompleteActors:true}).draw(state,0);
    const barrel=order.findIndex(path=>path.endsWith('/barrel_rust.png'));
    const chassis=order.findIndex(path=>path.endsWith('/rust_runner_chassis_s.png'));
-   outcomes.push({id,barrel,chassis});
+   outcomes.push({id,barrel,chassis,duplicateTracks:order.some(path=>/rust_runner_track_(left|right)\.png$/.test(path))});
   }
   return outcomes;
  });
  for(const row of result){
   assert.ok(row.barrel>=0&&row.chassis>=0);
   assert.equal(row.chassis<row.barrel,row.id==='behind');
+  assert.equal(row.duplicateTracks,false,'P0 chassis already contains track imagery');
  }
  assert.deepEqual(errors,[]);
  await page.screenshot({path:fileURLToPath(new URL('../qa/runtime_previews/production_depth_order.png',import.meta.url))});

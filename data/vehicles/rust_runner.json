@@ -2,8 +2,14 @@
   "vehicle_id": "rust_runner",
   "display_name_cn": "破风巡逻车",
   "status": "NEEDS_ART",
-  "runtime_canvas": [128, 128],
-  "pivot": [64, 96],
+  "runtime_canvas": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    96
+  ],
   "chassis": {
     "n": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_n.png",
     "ne": "assets/runtime/vehicles/rust_runner/chassis/rust_runner_chassis_ne.png",
@@ -19,22 +25,61 @@
     "right": "assets/runtime/vehicles/rust_runner/tracks/rust_runner_track_right.png"
   },
   "turret": {
-    "pivot": [64, 61],
+    "pivot": [
+      64,
+      61
+    ],
     "directions": 16,
     "path_pattern": "assets/runtime/vehicles/rust_runner/turret/rust_runner_turret_{index:02d}.png"
   },
   "mounts": {
-    "main_gun": [64, 60],
-    "sub_gun": [72, 63],
-    "se": [52, 58],
-    "antenna": [52, 46],
-    "light": [79, 55],
-    "rear_storage": [64, 80]
+    "main_gun": [
+      64,
+      60
+    ],
+    "sub_gun": [
+      72,
+      63
+    ],
+    "se": [
+      52,
+      58
+    ],
+    "antenna": [
+      52,
+      46
+    ],
+    "light": [
+      79,
+      55
+    ],
+    "rear_storage": [
+      64,
+      80
+    ]
   },
   "collision_box": {
     "x": 26,
     "y": 55,
     "w": 76,
     "h": 49
+  },
+  "assembly_preview": {
+    "status": "NEEDS_VISUAL_REVIEW",
+    "turret_mount": [
+      65,
+      53
+    ],
+    "turret_anchor": [
+      64,
+      72
+    ],
+    "main_gun_mount": [
+      52,
+      48
+    ],
+    "main_gun_rotation_degrees": 150,
+    "main_gun_scale": 0.55,
+    "tracks_baked_into_chassis": true
   }
 }

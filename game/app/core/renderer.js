@@ -44,15 +44,27 @@ export function createRenderer(canvas,assets,camera,scene={objects:[]},vehicleDe
    const vehicle=(ex,ey)=>{
     const point=projection.worldToScreen(ex,ey),sx=point.x,sy=point.y;
     const vehiclePivot=vehicleDefinition.pivot||assets.record('rust_runner_chassis_s').pivot;
-    const mainGunMount=vehicleDefinition.mounts?.main_gun||[64,60];
+    const assembly=vehicleDefinition.assembly_preview;
+    const mainGunMount=assembly?.main_gun_mount||vehicleDefinition.mounts?.main_gun||[64,60];
     const mountX=sx-vehiclePivot[0]+mainGunMount[0];
     const mountY=sy-vehiclePivot[1]+mainGunMount[1];
     ctx.fillStyle='rgba(0,0,0,.28)';ctx.beginPath();ctx.ellipse(sx,sy-3,42,10,0,0,Math.PI*2);ctx.fill();
-    drawAtPivot('rust_runner_track_left',sx,sy);
-    drawAtPivot('rust_runner_track_right',sx,sy);
+    if(!assembly?.tracks_baked_into_chassis){
+     drawAtPivot('rust_runner_track_left',sx,sy);
+     drawAtPivot('rust_runner_track_right',sx,sy);
+    }
     drawAtPivot('rust_runner_chassis_s',sx,sy);
-    drawAtPivot('rust_runner_turret_00',mountX,mountY);
-    drawAtPivot('cannon_75mm',mountX,mountY);
+    if(assembly){
+     const [tx,ty]=assembly.turret_mount,[ax,ay]=assembly.turret_anchor;
+     ctx.drawImage(assets.get('rust_runner_turret_00'),sx-vehiclePivot[0]+tx-ax,sy-vehiclePivot[1]+ty-ay);
+     ctx.save();ctx.translate(mountX,mountY);
+     ctx.rotate(assembly.main_gun_rotation_degrees*Math.PI/180);
+     ctx.scale(assembly.main_gun_scale,assembly.main_gun_scale);
+     drawAtPivot('cannon_75mm',0,0);ctx.restore();
+    }else{
+     drawAtPivot('rust_runner_turret_00',mountX,mountY);
+     drawAtPivot('cannon_75mm',mountX,mountY);
+    }
    };
    const entity=(ex,ey,w,h,fill,label)=>{
     const point=projection.worldToScreen(ex,ey),sx=point.x,sy=point.y;
