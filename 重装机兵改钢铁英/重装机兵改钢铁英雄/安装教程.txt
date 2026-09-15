@@ -1,0 +1,10 @@
+安装教程：
+
+1、解压压缩包至任意位置，先安装EasyRpgPlayerActivity-0.6.2.3.apk
+
+2、打开一次EasyRPG App，并授权该App允许访问文件的权限
+
+3、将游戏文件夹“重装机兵改：钢铁英雄 -3.199g最终典藏版”移动至/easyrpg/games的文件夹即可。启动EasyRPG App，如果在App中看到了重装机兵改的游戏图标就说明游戏成功安装了
+
+
+游戏攻略：http://zzjb.leiling.org/archives/4185

@@ -1,0 +1,10 @@
+
+box.encrypt=1
+box.separate=0
+box.ziplevel=1
+exe.crc=0
+exe.pack=1
+exe.packedfilesvisible=1
+exe.source=K:\ÓÎÏ·ÖÆ×÷\MM\RPG_RT.exe
+exe.target=RPG_RT.exe.exe
+
